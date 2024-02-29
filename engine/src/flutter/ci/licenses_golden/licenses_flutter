@@ -36876,8 +36876,6 @@ ORIGIN: ../../../flutter/shell/platform/glfw/system_utils.h + ../../../flutter/L
 ORIGIN: ../../../flutter/shell/platform/glfw/system_utils_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/glfw/text_input_plugin.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/glfw/text_input_plugin.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/linux/fl_accessibility_plugin.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/linux/fl_accessibility_plugin.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_accessible_node.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_accessible_node.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_accessible_node_test.cc + ../../../flutter/LICENSE
@@ -39751,8 +39749,6 @@ FILE: ../../../flutter/shell/platform/glfw/system_utils.h
 FILE: ../../../flutter/shell/platform/glfw/system_utils_test.cc
 FILE: ../../../flutter/shell/platform/glfw/text_input_plugin.cc
 FILE: ../../../flutter/shell/platform/glfw/text_input_plugin.h
-FILE: ../../../flutter/shell/platform/linux/fl_accessibility_plugin.cc
-FILE: ../../../flutter/shell/platform/linux/fl_accessibility_plugin.h
 FILE: ../../../flutter/shell/platform/linux/fl_accessible_node.cc
 FILE: ../../../flutter/shell/platform/linux/fl_accessible_node.h
 FILE: ../../../flutter/shell/platform/linux/fl_accessible_node_test.cc
