@@ -34705,6 +34705,7 @@ ORIGIN: ../../../flutter/fml/platform/posix/mapping_posix.cc + ../../../flutter/
 ORIGIN: ../../../flutter/fml/platform/posix/native_library_posix.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/posix/paths_posix.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/posix/posix_wrappers_posix.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/fml/platform/posix/process_posix.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/posix/shared_mutex_posix.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/posix/shared_mutex_posix.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/win/command_line_win.cc + ../../../flutter/LICENSE
@@ -34717,9 +34718,11 @@ ORIGIN: ../../../flutter/fml/platform/win/message_loop_win.h + ../../../flutter/
 ORIGIN: ../../../flutter/fml/platform/win/native_library_win.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/win/paths_win.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/win/posix_wrappers_win.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/fml/platform/win/process_win.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/win/wstring_conversion.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/win/wstring_conversion.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/posix_wrappers.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/fml/process.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/raster_thread_merger.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/raster_thread_merger.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/shared_thread_merger.cc + ../../../flutter/LICENSE
@@ -37546,6 +37549,7 @@ FILE: ../../../flutter/fml/platform/posix/mapping_posix.cc
 FILE: ../../../flutter/fml/platform/posix/native_library_posix.cc
 FILE: ../../../flutter/fml/platform/posix/paths_posix.cc
 FILE: ../../../flutter/fml/platform/posix/posix_wrappers_posix.cc
+FILE: ../../../flutter/fml/platform/posix/process_posix.cc
 FILE: ../../../flutter/fml/platform/posix/shared_mutex_posix.cc
 FILE: ../../../flutter/fml/platform/posix/shared_mutex_posix.h
 FILE: ../../../flutter/fml/platform/win/command_line_win.cc
@@ -37558,9 +37562,11 @@ FILE: ../../../flutter/fml/platform/win/message_loop_win.h
 FILE: ../../../flutter/fml/platform/win/native_library_win.cc
 FILE: ../../../flutter/fml/platform/win/paths_win.cc
 FILE: ../../../flutter/fml/platform/win/posix_wrappers_win.cc
+FILE: ../../../flutter/fml/platform/win/process_win.cc
 FILE: ../../../flutter/fml/platform/win/wstring_conversion.cc
 FILE: ../../../flutter/fml/platform/win/wstring_conversion.h
 FILE: ../../../flutter/fml/posix_wrappers.h
+FILE: ../../../flutter/fml/process.h
 FILE: ../../../flutter/fml/raster_thread_merger.cc
 FILE: ../../../flutter/fml/raster_thread_merger.h
 FILE: ../../../flutter/fml/shared_thread_merger.cc
