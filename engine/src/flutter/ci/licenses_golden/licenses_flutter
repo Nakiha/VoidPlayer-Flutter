@@ -34181,9 +34181,12 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 
 ====================================================================================================
 LIBRARY: vulkan-validation-layers
+LIBRARY: vulkan_memory_allocator
 ORIGIN: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vk_mem_alloc.h
+ORIGIN: ../../../flutter/third_party/vulkan_memory_allocator/include/vk_mem_alloc.h
 TYPE: LicenseType.mit
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vk_mem_alloc.h
+FILE: ../../../flutter/third_party/vulkan_memory_allocator/include/vk_mem_alloc.h
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2017-2022 Advanced Micro Devices, Inc. All rights reserved.
 
