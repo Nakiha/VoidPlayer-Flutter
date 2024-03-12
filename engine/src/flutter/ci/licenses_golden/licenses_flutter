@@ -39503,6 +39503,7 @@ ORIGIN: ../../../flutter/impeller/base/backend_cast.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/base/comparable.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/base/comparable.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/base/config.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/base/mask.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/base/promise.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/base/promise.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/base/strings.cc + ../../../flutter/LICENSE
@@ -42354,6 +42355,7 @@ FILE: ../../../flutter/impeller/base/backend_cast.h
 FILE: ../../../flutter/impeller/base/comparable.cc
 FILE: ../../../flutter/impeller/base/comparable.h
 FILE: ../../../flutter/impeller/base/config.h
+FILE: ../../../flutter/impeller/base/mask.h
 FILE: ../../../flutter/impeller/base/promise.cc
 FILE: ../../../flutter/impeller/base/promise.h
 FILE: ../../../flutter/impeller/base/strings.cc
