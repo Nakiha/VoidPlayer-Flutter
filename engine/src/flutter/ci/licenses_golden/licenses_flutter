@@ -39364,6 +39364,8 @@ ORIGIN: ../../../flutter/fml/platform/android/jni_weak_ref.cc + ../../../flutter
 ORIGIN: ../../../flutter/fml/platform/android/jni_weak_ref.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/android/message_loop_android.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/android/message_loop_android.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/fml/platform/android/ndk_helpers.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/fml/platform/android/ndk_helpers.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/android/paths_android.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/android/paths_android.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/android/scoped_java_ref.cc + ../../../flutter/LICENSE
@@ -40149,18 +40151,6 @@ ORIGIN: ../../../flutter/impeller/tessellator/c/tessellator.h + ../../../flutter
 ORIGIN: ../../../flutter/impeller/tessellator/dart/lib/tessellator.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/tessellator/tessellator.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/tessellator/tessellator.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/toolkit/android/choreographer.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/toolkit/android/choreographer.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/toolkit/android/hardware_buffer.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/toolkit/android/hardware_buffer.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/toolkit/android/native_window.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/toolkit/android/native_window.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/toolkit/android/proc_table.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/toolkit/android/proc_table.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/toolkit/android/surface_control.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/toolkit/android/surface_control.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/toolkit/android/surface_transaction.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/toolkit/android/surface_transaction.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/egl/config.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/egl/config.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/egl/context.cc + ../../../flutter/LICENSE
@@ -40884,7 +40874,6 @@ ORIGIN: ../../../flutter/shell/platform/android/flutter_main.h + ../../../flutte
 ORIGIN: ../../../flutter/shell/platform/android/image_external_texture.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/image_external_texture_gl.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/image_external_texture_gl.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/android/image_external_texture_vk.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/image_external_texture_vk.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/image_lru.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/image_lru.h + ../../../flutter/LICENSE
@@ -42231,6 +42220,8 @@ FILE: ../../../flutter/fml/platform/android/jni_weak_ref.cc
 FILE: ../../../flutter/fml/platform/android/jni_weak_ref.h
 FILE: ../../../flutter/fml/platform/android/message_loop_android.cc
 FILE: ../../../flutter/fml/platform/android/message_loop_android.h
+FILE: ../../../flutter/fml/platform/android/ndk_helpers.cc
+FILE: ../../../flutter/fml/platform/android/ndk_helpers.h
 FILE: ../../../flutter/fml/platform/android/paths_android.cc
 FILE: ../../../flutter/fml/platform/android/paths_android.h
 FILE: ../../../flutter/fml/platform/android/scoped_java_ref.cc
@@ -43017,18 +43008,6 @@ FILE: ../../../flutter/impeller/tessellator/c/tessellator.h
 FILE: ../../../flutter/impeller/tessellator/dart/lib/tessellator.dart
 FILE: ../../../flutter/impeller/tessellator/tessellator.cc
 FILE: ../../../flutter/impeller/tessellator/tessellator.h
-FILE: ../../../flutter/impeller/toolkit/android/choreographer.cc
-FILE: ../../../flutter/impeller/toolkit/android/choreographer.h
-FILE: ../../../flutter/impeller/toolkit/android/hardware_buffer.cc
-FILE: ../../../flutter/impeller/toolkit/android/hardware_buffer.h
-FILE: ../../../flutter/impeller/toolkit/android/native_window.cc
-FILE: ../../../flutter/impeller/toolkit/android/native_window.h
-FILE: ../../../flutter/impeller/toolkit/android/proc_table.cc
-FILE: ../../../flutter/impeller/toolkit/android/proc_table.h
-FILE: ../../../flutter/impeller/toolkit/android/surface_control.cc
-FILE: ../../../flutter/impeller/toolkit/android/surface_control.h
-FILE: ../../../flutter/impeller/toolkit/android/surface_transaction.cc
-FILE: ../../../flutter/impeller/toolkit/android/surface_transaction.h
 FILE: ../../../flutter/impeller/toolkit/egl/config.cc
 FILE: ../../../flutter/impeller/toolkit/egl/config.h
 FILE: ../../../flutter/impeller/toolkit/egl/context.cc
