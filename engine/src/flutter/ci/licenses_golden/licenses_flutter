@@ -39969,6 +39969,8 @@ ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/descriptor_pool_vk.h +
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/device_buffer_vk.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/device_buffer_vk.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/device_holder_vk.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/driver_info_vk.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/driver_info_vk.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/fence_waiter_vk.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/fence_waiter_vk.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/formats_vk.cc + ../../../flutter/LICENSE
@@ -42838,6 +42840,8 @@ FILE: ../../../flutter/impeller/renderer/backend/vulkan/descriptor_pool_vk.h
 FILE: ../../../flutter/impeller/renderer/backend/vulkan/device_buffer_vk.cc
 FILE: ../../../flutter/impeller/renderer/backend/vulkan/device_buffer_vk.h
 FILE: ../../../flutter/impeller/renderer/backend/vulkan/device_holder_vk.h
+FILE: ../../../flutter/impeller/renderer/backend/vulkan/driver_info_vk.cc
+FILE: ../../../flutter/impeller/renderer/backend/vulkan/driver_info_vk.h
 FILE: ../../../flutter/impeller/renderer/backend/vulkan/fence_waiter_vk.cc
 FILE: ../../../flutter/impeller/renderer/backend/vulkan/fence_waiter_vk.h
 FILE: ../../../flutter/impeller/renderer/backend/vulkan/formats_vk.cc
