@@ -40885,6 +40885,7 @@ ORIGIN: ../../../flutter/shell/platform/android/external_view_embedder/surface_p
 ORIGIN: ../../../flutter/shell/platform/android/external_view_embedder/surface_pool.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/flutter_main.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/flutter_main.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/image_external_texture.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/image_external_texture.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/image_external_texture_gl.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/image_external_texture_gl.h + ../../../flutter/LICENSE
@@ -41040,6 +41041,7 @@ ORIGIN: ../../../flutter/shell/platform/android/jni/jni_mock.h + ../../../flutte
 ORIGIN: ../../../flutter/shell/platform/android/jni/platform_view_android_jni.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/jni/platform_view_android_jni.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/library_loader.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/platform_message_handler_android.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/platform_message_handler_android.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/platform_message_response_android.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/platform_message_response_android.h + ../../../flutter/LICENSE
