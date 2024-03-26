@@ -39694,6 +39694,8 @@ ORIGIN: ../../../flutter/impeller/entity/entity.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/entity.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/entity_pass.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/entity_pass.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/entity_pass_clip_stack.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/entity_pass_clip_stack.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/entity_pass_delegate.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/entity_pass_delegate.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/entity_pass_target.cc + ../../../flutter/LICENSE
@@ -42567,6 +42569,8 @@ FILE: ../../../flutter/impeller/entity/entity.cc
 FILE: ../../../flutter/impeller/entity/entity.h
 FILE: ../../../flutter/impeller/entity/entity_pass.cc
 FILE: ../../../flutter/impeller/entity/entity_pass.h
+FILE: ../../../flutter/impeller/entity/entity_pass_clip_stack.cc
+FILE: ../../../flutter/impeller/entity/entity_pass_clip_stack.h
 FILE: ../../../flutter/impeller/entity/entity_pass_delegate.cc
 FILE: ../../../flutter/impeller/entity/entity_pass_delegate.h
 FILE: ../../../flutter/impeller/entity/entity_pass_target.cc
