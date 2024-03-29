@@ -41995,6 +41995,7 @@ ORIGIN: ../../../flutter/vulkan/vulkan_window.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/vulkan/vulkan_window.h + ../../../flutter/LICENSE
 TYPE: LicenseType.bsd
 FILE: ../../../flutter/.clangd
+FILE: ../../../flutter/.engine-release.version
 FILE: ../../../flutter/.pylintrc
 FILE: ../../../flutter/assets/asset_manager.cc
 FILE: ../../../flutter/assets/asset_manager.h
