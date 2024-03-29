@@ -35031,6 +35031,42 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: pkg
+ORIGIN: ../../../flutter/third_party/pkg/coverage/bin/format_coverage.dart + ../../../flutter/third_party/pkg/coverage/LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../flutter/third_party/pkg/coverage/bin/format_coverage.dart
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2013, the Dart project authors.  Please see the AUTHORS file
+for details. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of Google LLC nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: khronos
 ORIGIN: ../../../flutter/third_party/angle/src/third_party/khronos/GL/wglext.h
 TYPE: LicenseType.unknown
@@ -35448,6 +35484,54 @@ written authorization of the copyright holder.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: pkg
+ORIGIN: ../../../flutter/third_party/pkg/coverage/bin/collect_coverage.dart + ../../../flutter/third_party/pkg/coverage/LICENSE
+ORIGIN: ../../../flutter/third_party/pkg/coverage/lib/coverage.dart + ../../../flutter/third_party/pkg/coverage/LICENSE
+ORIGIN: ../../../flutter/third_party/pkg/coverage/lib/src/collect.dart + ../../../flutter/third_party/pkg/coverage/LICENSE
+ORIGIN: ../../../flutter/third_party/pkg/coverage/lib/src/formatter.dart + ../../../flutter/third_party/pkg/coverage/LICENSE
+ORIGIN: ../../../flutter/third_party/pkg/coverage/lib/src/hitmap.dart + ../../../flutter/third_party/pkg/coverage/LICENSE
+ORIGIN: ../../../flutter/third_party/pkg/coverage/lib/src/resolver.dart + ../../../flutter/third_party/pkg/coverage/LICENSE
+ORIGIN: ../../../flutter/third_party/pkg/coverage/lib/src/util.dart + ../../../flutter/third_party/pkg/coverage/LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../flutter/third_party/pkg/coverage/bin/collect_coverage.dart
+FILE: ../../../flutter/third_party/pkg/coverage/lib/coverage.dart
+FILE: ../../../flutter/third_party/pkg/coverage/lib/src/collect.dart
+FILE: ../../../flutter/third_party/pkg/coverage/lib/src/formatter.dart
+FILE: ../../../flutter/third_party/pkg/coverage/lib/src/hitmap.dart
+FILE: ../../../flutter/third_party/pkg/coverage/lib/src/resolver.dart
+FILE: ../../../flutter/third_party/pkg/coverage/lib/src/util.dart
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2014, the Dart project authors.  Please see the AUTHORS file
+for details. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of Google LLC nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: glslang
 ORIGIN: ../../../flutter/third_party/vulkan-deps/glslang/src/SPIRV/GLSL.ext.AMD.h
 ORIGIN: ../../../flutter/third_party/vulkan-deps/glslang/src/SPIRV/GLSL.ext.EXT.h
@@ -35622,6 +35706,64 @@ IN THE MATERIALS.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: pkg
+ORIGIN: ../../../flutter/third_party/pkg/node_preamble/LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../flutter/third_party/pkg/node_preamble/lib/preamble.dart
+FILE: ../../../flutter/third_party/pkg/node_preamble/lib/preamble.js
+FILE: ../../../flutter/third_party/pkg/node_preamble/lib/preamble.min.js
+FILE: ../../../flutter/third_party/pkg/node_preamble/tool/minify.js
+FILE: ../../../flutter/third_party/pkg/node_preamble/yarn.lock
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2015 Michael Bullington
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+
+Copyright 2012, the Dart project authors. All rights reserved.
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of Google Inc. nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: boringssl
 ORIGIN: ../../../flutter/third_party/boringssl/err_data.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bn_extra/bn_asn1.c
@@ -35723,6 +35865,42 @@ Except as contained in this notice, the name of a copyright holder
 shall not be used in advertising or otherwise to promote the sale,
 use or other dealings in these Data Files or Software without prior
 written authorization of the copyright holder.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: pkg
+ORIGIN: ../../../flutter/third_party/pkg/coverage/lib/src/run_and_collect.dart + ../../../flutter/third_party/pkg/coverage/LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../flutter/third_party/pkg/coverage/lib/src/run_and_collect.dart
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2015, the Dart project authors.  Please see the AUTHORS file
+for details. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of Google LLC nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
@@ -35976,6 +36154,42 @@ SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
 WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
 OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
 CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: pkg
+ORIGIN: ../../../flutter/third_party/pkg/coverage/bin/run_and_collect.dart + ../../../flutter/third_party/pkg/coverage/LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../flutter/third_party/pkg/coverage/bin/run_and_collect.dart
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2017, the Dart project authors.  Please see the AUTHORS file
+for details. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of Google LLC nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
@@ -36492,6 +36706,42 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: pkg
+ORIGIN: ../../../flutter/third_party/pkg/coverage/lib/src/chrome.dart + ../../../flutter/third_party/pkg/coverage/LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../flutter/third_party/pkg/coverage/lib/src/chrome.dart
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2020, the Dart project authors.  Please see the AUTHORS file
+for details. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of Google LLC nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: etc_decoder
 ORIGIN: ../../../flutter/third_party/angle/src/libANGLE/renderer/vulkan/shaders/src/third_party/etc_decoder/etc_decoder.h
 TYPE: LicenseType.mit
@@ -36789,6 +37039,46 @@ SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
 WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
 OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
 CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: pkg
+ORIGIN: ../../../flutter/third_party/pkg/coverage/benchmark/many_isolates.dart + ../../../flutter/third_party/pkg/coverage/LICENSE
+ORIGIN: ../../../flutter/third_party/pkg/coverage/benchmark/run_benchmarks.dart + ../../../flutter/third_party/pkg/coverage/LICENSE
+ORIGIN: ../../../flutter/third_party/pkg/coverage/bin/test_with_coverage.dart + ../../../flutter/third_party/pkg/coverage/LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../flutter/third_party/pkg/coverage/benchmark/many_isolates.dart
+FILE: ../../../flutter/third_party/pkg/coverage/benchmark/run_benchmarks.dart
+FILE: ../../../flutter/third_party/pkg/coverage/bin/test_with_coverage.dart
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2022, the Dart project authors.  Please see the AUTHORS file
+for details. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of Google LLC nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
@@ -47023,6 +47313,58 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: pkg
+ORIGIN: ../../../flutter/third_party/pkg/io/lib/ansi.dart + ../../../flutter/third_party/pkg/io/LICENSE
+ORIGIN: ../../../flutter/third_party/pkg/io/lib/io.dart + ../../../flutter/third_party/pkg/io/LICENSE
+ORIGIN: ../../../flutter/third_party/pkg/io/lib/src/ansi_code.dart + ../../../flutter/third_party/pkg/io/LICENSE
+ORIGIN: ../../../flutter/third_party/pkg/io/lib/src/copy_path.dart + ../../../flutter/third_party/pkg/io/LICENSE
+ORIGIN: ../../../flutter/third_party/pkg/io/lib/src/exit_code.dart + ../../../flutter/third_party/pkg/io/LICENSE
+ORIGIN: ../../../flutter/third_party/pkg/io/lib/src/permissions.dart + ../../../flutter/third_party/pkg/io/LICENSE
+ORIGIN: ../../../flutter/third_party/pkg/io/lib/src/process_manager.dart + ../../../flutter/third_party/pkg/io/LICENSE
+ORIGIN: ../../../flutter/third_party/pkg/io/lib/src/shared_stdin.dart + ../../../flutter/third_party/pkg/io/LICENSE
+ORIGIN: ../../../flutter/third_party/pkg/io/lib/src/shell_words.dart + ../../../flutter/third_party/pkg/io/LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../flutter/third_party/pkg/io/lib/ansi.dart
+FILE: ../../../flutter/third_party/pkg/io/lib/io.dart
+FILE: ../../../flutter/third_party/pkg/io/lib/src/ansi_code.dart
+FILE: ../../../flutter/third_party/pkg/io/lib/src/copy_path.dart
+FILE: ../../../flutter/third_party/pkg/io/lib/src/exit_code.dart
+FILE: ../../../flutter/third_party/pkg/io/lib/src/permissions.dart
+FILE: ../../../flutter/third_party/pkg/io/lib/src/process_manager.dart
+FILE: ../../../flutter/third_party/pkg/io/lib/src/shared_stdin.dart
+FILE: ../../../flutter/third_party/pkg/io/lib/src/shell_words.dart
+----------------------------------------------------------------------------------------------------
+Copyright 2017, the Dart project authors.  Please see the AUTHORS file
+for details. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of Google LLC nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: libwebp
 ORIGIN: ../../../flutter/third_party/libwebp/src/dsp/cost_neon.c + ../../../flutter/third_party/libwebp/COPYING
 ORIGIN: ../../../flutter/third_party/libwebp/src/dsp/quant.h + ../../../flutter/third_party/libwebp/COPYING
@@ -49653,6 +49995,42 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
 ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: pkg
+ORIGIN: ../../../flutter/third_party/pkg/io/lib/src/charcodes.dart + ../../../flutter/third_party/pkg/io/LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../flutter/third_party/pkg/io/lib/src/charcodes.dart
+----------------------------------------------------------------------------------------------------
+Copyright 2021, the Dart project authors.  Please see the AUTHORS file
+for details. All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above
+      copyright notice, this list of conditions and the following
+      disclaimer in the documentation and/or other materials provided
+      with the distribution.
+    * Neither the name of Google LLC nor the names of its
+      contributors may be used to endorse or promote products derived
+      from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
@@ -67154,4 +67532,4 @@ Disclaimer and license
     similar terms.
 ====================================================================================================
 
-Total license count: 879
+Total license count: 888
