@@ -55600,15 +55600,14 @@ FILE: ../../../flutter/third_party/icu/patches/data_symb.patch
 FILE: ../../../flutter/third_party/icu/patches/fuchsia.patch
 FILE: ../../../flutter/third_party/icu/patches/gb_table.patch
 FILE: ../../../flutter/third_party/icu/patches/gmt24.patch
-FILE: ../../../flutter/third_party/icu/patches/include-utility.patch
 FILE: ../../../flutter/third_party/icu/patches/iso2022jp.patch
-FILE: ../../../flutter/third_party/icu/patches/isvalidenum.patch
 FILE: ../../../flutter/third_party/icu/patches/khmer-dictbe.patch
 FILE: ../../../flutter/third_party/icu/patches/locale1.patch
 FILE: ../../../flutter/third_party/icu/patches/locale_google.patch
 FILE: ../../../flutter/third_party/icu/patches/name_5_langs.patch
 FILE: ../../../flutter/third_party/icu/patches/restrace.patch
 FILE: ../../../flutter/third_party/icu/patches/revert_realpath.patch
+FILE: ../../../flutter/third_party/icu/patches/uloc_tag_buffer_overflow.patch
 FILE: ../../../flutter/third_party/icu/patches/ultag_parse-double-free.patch
 FILE: ../../../flutter/third_party/icu/patches/wordbrk.patch
 FILE: ../../../flutter/third_party/icu/source/data/in/coll/ucadata-implicithan-icu4x.icu
