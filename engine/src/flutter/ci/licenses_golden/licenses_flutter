@@ -40110,6 +40110,8 @@ ORIGIN: ../../../flutter/impeller/geometry/type_traits.cc + ../../../flutter/LIC
 ORIGIN: ../../../flutter/impeller/geometry/type_traits.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/vector.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/vector.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/geometry/wangs_formula.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/geometry/wangs_formula.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/golden_tests/golden_digest.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/golden_tests/golden_digest.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/golden_tests/golden_playground_test.h + ../../../flutter/LICENSE
@@ -42988,6 +42990,8 @@ FILE: ../../../flutter/impeller/geometry/type_traits.cc
 FILE: ../../../flutter/impeller/geometry/type_traits.h
 FILE: ../../../flutter/impeller/geometry/vector.cc
 FILE: ../../../flutter/impeller/geometry/vector.h
+FILE: ../../../flutter/impeller/geometry/wangs_formula.cc
+FILE: ../../../flutter/impeller/geometry/wangs_formula.h
 FILE: ../../../flutter/impeller/golden_tests/golden_digest.cc
 FILE: ../../../flutter/impeller/golden_tests/golden_digest.h
 FILE: ../../../flutter/impeller/golden_tests/golden_playground_test.h
