@@ -40715,6 +40715,7 @@ ORIGIN: ../../../flutter/impeller/renderer/shader_key.cc + ../../../flutter/LICE
 ORIGIN: ../../../flutter/impeller/renderer/shader_key.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/shader_library.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/shader_library.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/shader_stage_compatibility_checker.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/snapshot.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/snapshot.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/stroke.comp + ../../../flutter/LICENSE
@@ -43596,6 +43597,7 @@ FILE: ../../../flutter/impeller/renderer/shader_key.cc
 FILE: ../../../flutter/impeller/renderer/shader_key.h
 FILE: ../../../flutter/impeller/renderer/shader_library.cc
 FILE: ../../../flutter/impeller/renderer/shader_library.h
+FILE: ../../../flutter/impeller/renderer/shader_stage_compatibility_checker.h
 FILE: ../../../flutter/impeller/renderer/snapshot.cc
 FILE: ../../../flutter/impeller/renderer/snapshot.h
 FILE: ../../../flutter/impeller/renderer/stroke.comp
