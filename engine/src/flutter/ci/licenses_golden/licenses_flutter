@@ -40377,6 +40377,8 @@ ORIGIN: ../../../flutter/impeller/entity/shaders/blending/framebuffer_blend.frag
 ORIGIN: ../../../flutter/impeller/entity/shaders/blending/framebuffer_blend.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/blending/porter_duff_blend.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/blending/porter_duff_blend.vert + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/blending/vertices_uber.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/blending/vertices_uber.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/border_mask_blur.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/border_mask_blur.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/clip.frag + ../../../flutter/LICENSE
@@ -43257,6 +43259,8 @@ FILE: ../../../flutter/impeller/entity/shaders/blending/framebuffer_blend.frag
 FILE: ../../../flutter/impeller/entity/shaders/blending/framebuffer_blend.vert
 FILE: ../../../flutter/impeller/entity/shaders/blending/porter_duff_blend.frag
 FILE: ../../../flutter/impeller/entity/shaders/blending/porter_duff_blend.vert
+FILE: ../../../flutter/impeller/entity/shaders/blending/vertices_uber.frag
+FILE: ../../../flutter/impeller/entity/shaders/blending/vertices_uber.vert
 FILE: ../../../flutter/impeller/entity/shaders/border_mask_blur.frag
 FILE: ../../../flutter/impeller/entity/shaders/border_mask_blur.vert
 FILE: ../../../flutter/impeller/entity/shaders/clip.frag
