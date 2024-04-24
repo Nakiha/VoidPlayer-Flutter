@@ -40789,6 +40789,8 @@ ORIGIN: ../../../flutter/impeller/tessellator/c/tessellator.h + ../../../flutter
 ORIGIN: ../../../flutter/impeller/tessellator/dart/lib/tessellator.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/tessellator/tessellator.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/tessellator/tessellator.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/tessellator/tessellator_libtess.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/tessellator/tessellator_libtess.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/android/choreographer.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/android/choreographer.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/android/hardware_buffer.cc + ../../../flutter/LICENSE
@@ -43666,6 +43668,8 @@ FILE: ../../../flutter/impeller/tessellator/c/tessellator.h
 FILE: ../../../flutter/impeller/tessellator/dart/lib/tessellator.dart
 FILE: ../../../flutter/impeller/tessellator/tessellator.cc
 FILE: ../../../flutter/impeller/tessellator/tessellator.h
+FILE: ../../../flutter/impeller/tessellator/tessellator_libtess.cc
+FILE: ../../../flutter/impeller/tessellator/tessellator_libtess.h
 FILE: ../../../flutter/impeller/toolkit/android/choreographer.cc
 FILE: ../../../flutter/impeller/toolkit/android/choreographer.h
 FILE: ../../../flutter/impeller/toolkit/android/hardware_buffer.cc
