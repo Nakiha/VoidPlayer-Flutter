@@ -40396,7 +40396,6 @@ ORIGIN: ../../../flutter/impeller/entity/shaders/gaussian_blur/kernel.glsl + ../
 ORIGIN: ../../../flutter/impeller/entity/shaders/gaussian_blur/kernel.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gaussian_blur/kernel_decal.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gaussian_blur/kernel_nodecal.frag + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/entity/shaders/geometry/points.comp + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/glyph_atlas.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/glyph_atlas.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/glyph_atlas_color.frag + ../../../flutter/LICENSE
@@ -43278,7 +43277,6 @@ FILE: ../../../flutter/impeller/entity/shaders/gaussian_blur/kernel.glsl
 FILE: ../../../flutter/impeller/entity/shaders/gaussian_blur/kernel.vert
 FILE: ../../../flutter/impeller/entity/shaders/gaussian_blur/kernel_decal.frag
 FILE: ../../../flutter/impeller/entity/shaders/gaussian_blur/kernel_nodecal.frag
-FILE: ../../../flutter/impeller/entity/shaders/geometry/points.comp
 FILE: ../../../flutter/impeller/entity/shaders/glyph_atlas.frag
 FILE: ../../../flutter/impeller/entity/shaders/glyph_atlas.vert
 FILE: ../../../flutter/impeller/entity/shaders/glyph_atlas_color.frag
