@@ -10258,6 +10258,59 @@ freely, subject to the following restrictions:
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: zlib
+ORIGIN: ../../../flutter/third_party/zlib/zlib.h
+TYPE: LicenseType.zlib
+FILE: ../../../flutter/third_party/zlib/adler32.c
+FILE: ../../../flutter/third_party/zlib/compress.c
+FILE: ../../../flutter/third_party/zlib/contrib/optimizations/inffast_chunk.c
+FILE: ../../../flutter/third_party/zlib/contrib/optimizations/inffast_chunk.h
+FILE: ../../../flutter/third_party/zlib/contrib/optimizations/inflate.c
+FILE: ../../../flutter/third_party/zlib/crc32.c
+FILE: ../../../flutter/third_party/zlib/crc_folding.c
+FILE: ../../../flutter/third_party/zlib/deflate.c
+FILE: ../../../flutter/third_party/zlib/deflate.h
+FILE: ../../../flutter/third_party/zlib/gzclose.c
+FILE: ../../../flutter/third_party/zlib/gzguts.h
+FILE: ../../../flutter/third_party/zlib/gzlib.c
+FILE: ../../../flutter/third_party/zlib/gzread.c
+FILE: ../../../flutter/third_party/zlib/gzwrite.c
+FILE: ../../../flutter/third_party/zlib/infback.c
+FILE: ../../../flutter/third_party/zlib/inffast.c
+FILE: ../../../flutter/third_party/zlib/inffast.h
+FILE: ../../../flutter/third_party/zlib/inflate.c
+FILE: ../../../flutter/third_party/zlib/inflate.h
+FILE: ../../../flutter/third_party/zlib/inftrees.c
+FILE: ../../../flutter/third_party/zlib/inftrees.h
+FILE: ../../../flutter/third_party/zlib/trees.c
+FILE: ../../../flutter/third_party/zlib/uncompr.c
+FILE: ../../../flutter/third_party/zlib/zconf.h
+FILE: ../../../flutter/third_party/zlib/zconf.h.cmakein
+FILE: ../../../flutter/third_party/zlib/zconf.h.in
+FILE: ../../../flutter/third_party/zlib/zlib.h
+FILE: ../../../flutter/third_party/zlib/zutil.c
+FILE: ../../../flutter/third_party/zlib/zutil.h
+----------------------------------------------------------------------------------------------------
+Copyright (C) 1995-2023 Jean-loup Gailly and Mark Adler
+
+This software is provided 'as-is', without any express or implied
+warranty.  In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+   claim that you wrote the original software. If you use this software
+   in a product, an acknowledgment in the product documentation would be
+   appreciated but is not required.
+2. Altered source versions must be plainly marked as such, and must not be
+   misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: icu
 ORIGIN: ../../../flutter/third_party/icu/source/i18n/astro.h + ../../../flutter/third_party/icu/LICENSE
 TYPE: LicenseType.bsd
@@ -12141,6 +12194,15 @@ Except as contained in this notice, the name of a copyright holder
 shall not be used in advertising or otherwise to promote the sale,
 use or other dealings in these Data Files or Software without prior
 written authorization of the copyright holder.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: zlib
+ORIGIN: ../../../flutter/third_party/zlib/contrib/minizip/crypt.h
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/zlib/contrib/minizip/crypt.h
+----------------------------------------------------------------------------------------------------
+Copyright (C) 1998-2005 Gilles Vollant
 ====================================================================================================
 
 ====================================================================================================
@@ -27879,6 +27941,42 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
 ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: zlib
+ORIGIN: ../../../flutter/third_party/zlib/contrib/optimizations/chunkcopy.h + ../../../LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../flutter/third_party/zlib/contrib/optimizations/chunkcopy.h
+----------------------------------------------------------------------------------------------------
+Copyright (C) 2017 ARM, Inc.
+Copyright 2017 The Chromium Authors
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
@@ -47538,6 +47636,47 @@ POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: zlib
+ORIGIN: ../../../flutter/third_party/zlib/adler32_simd.c + ../../../LICENSE
+ORIGIN: ../../../flutter/third_party/zlib/adler32_simd.h + ../../../LICENSE
+ORIGIN: ../../../flutter/third_party/zlib/crc32_simd.c + ../../../LICENSE
+ORIGIN: ../../../flutter/third_party/zlib/crc32_simd.h + ../../../LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../flutter/third_party/zlib/adler32_simd.c
+FILE: ../../../flutter/third_party/zlib/adler32_simd.h
+FILE: ../../../flutter/third_party/zlib/crc32_simd.c
+FILE: ../../../flutter/third_party/zlib/crc32_simd.h
+----------------------------------------------------------------------------------------------------
+Copyright 2017 The Chromium Authors
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: boringssl
 ORIGIN: ../../../flutter/third_party/boringssl/src/pki/common_cert_errors.cc (with ../../../flutter/third_party/boringssl/src/LICENSE)
 ORIGIN: ../../../flutter/third_party/boringssl/src/pki/common_cert_errors.h (with ../../../flutter/third_party/boringssl/src/LICENSE)
@@ -48569,6 +48708,45 @@ POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: zlib
+ORIGIN: ../../../flutter/third_party/zlib/contrib/bench/zlib_bench.cc + ../../../LICENSE
+ORIGIN: ../../../flutter/third_party/zlib/cpu_features.c + ../../../LICENSE
+ORIGIN: ../../../flutter/third_party/zlib/cpu_features.h + ../../../LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../flutter/third_party/zlib/contrib/bench/zlib_bench.cc
+FILE: ../../../flutter/third_party/zlib/cpu_features.c
+FILE: ../../../flutter/third_party/zlib/cpu_features.h
+----------------------------------------------------------------------------------------------------
+Copyright 2018 The Chromium Authors
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: accessibility
 LIBRARY: angle
 ORIGIN: ../../../flutter/third_party/accessibility/ax/ax_enum_util.cc + ../../../flutter/third_party/accessibility/LICENSE
@@ -49095,6 +49273,45 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
 ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: zlib
+ORIGIN: ../../../flutter/third_party/zlib/contrib/optimizations/insert_string.h + ../../../LICENSE
+ORIGIN: ../../../flutter/third_party/zlib/google/compression_utils_portable.cc + ../../../LICENSE
+ORIGIN: ../../../flutter/third_party/zlib/google/compression_utils_portable.h + ../../../LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../flutter/third_party/zlib/contrib/optimizations/insert_string.h
+FILE: ../../../flutter/third_party/zlib/google/compression_utils_portable.cc
+FILE: ../../../flutter/third_party/zlib/google/compression_utils_portable.h
+----------------------------------------------------------------------------------------------------
+Copyright 2019 The Chromium Authors
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
@@ -50682,6 +50899,41 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
 ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: zlib
+ORIGIN: ../../../flutter/third_party/zlib/slide_hash_simd.h + ../../../LICENSE
+TYPE: LicenseType.bsd
+FILE: ../../../flutter/third_party/zlib/slide_hash_simd.h
+----------------------------------------------------------------------------------------------------
+Copyright 2022 The Chromium Authors
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+   * Redistributions of source code must retain the above copyright
+notice, this list of conditions and the following disclaimer.
+   * Redistributions in binary form must reproduce the above
+copyright notice, this list of conditions and the following disclaimer
+in the documentation and/or other materials provided with the
+distribution.
+   * Neither the name of Google Inc. nor the names of its
+contributors may be used to endorse or promote products derived from
+this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
@@ -55881,6 +56133,31 @@ offers a blessing:
 May you do good and not evil
 May you find forgiveness for yourself and forgive others
 May you share freely, never taking more than you give.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: zlib
+ORIGIN: ../../../flutter/third_party/zlib/contrib/minizip/unzip.h
+ORIGIN: ../../../flutter/third_party/zlib/contrib/minizip/zip.h
+TYPE: LicenseType.zlib
+FILE: ../../../flutter/third_party/zlib/contrib/minizip/unzip.h
+FILE: ../../../flutter/third_party/zlib/contrib/minizip/zip.h
+----------------------------------------------------------------------------------------------------
+This software is provided 'as-is', without any express or implied
+warranty.  In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+   claim that you wrote the original software. If you use this software
+   in a product, an acknowledgment in the product documentation would be
+   appreciated but is not required.
+2. Altered source versions must be plainly marked as such, and must not be
+   misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
 ====================================================================================================
@@ -67879,4 +68156,77 @@ Disclaimer and license
     similar terms.
 ====================================================================================================
 
-Total license count: 890
+====================================================================================================
+LIBRARY: zlib
+ORIGIN: ../../../flutter/third_party/zlib/LICENSE
+TYPE: LicenseType.zlib
+FILE: ../../../flutter/third_party/zlib/chromeconf.h
+FILE: ../../../flutter/third_party/zlib/contrib/minizip/ChangeLogUnzip
+FILE: ../../../flutter/third_party/zlib/contrib/minizip/ioapi.c
+FILE: ../../../flutter/third_party/zlib/contrib/minizip/ioapi.h
+FILE: ../../../flutter/third_party/zlib/contrib/minizip/iowin32.c
+FILE: ../../../flutter/third_party/zlib/contrib/minizip/iowin32.h
+FILE: ../../../flutter/third_party/zlib/contrib/minizip/mztools.c
+FILE: ../../../flutter/third_party/zlib/contrib/minizip/mztools.h
+FILE: ../../../flutter/third_party/zlib/contrib/minizip/unzip.c
+FILE: ../../../flutter/third_party/zlib/contrib/minizip/unzip.h
+FILE: ../../../flutter/third_party/zlib/contrib/minizip/zip.c
+FILE: ../../../flutter/third_party/zlib/contrib/minizip/zip.h
+FILE: ../../../flutter/third_party/zlib/crc32.h
+FILE: ../../../flutter/third_party/zlib/google/compression_utils.cc
+FILE: ../../../flutter/third_party/zlib/google/compression_utils.h
+FILE: ../../../flutter/third_party/zlib/google/redact.h
+FILE: ../../../flutter/third_party/zlib/google/test_data.filelist
+FILE: ../../../flutter/third_party/zlib/google/test_data.globlist
+FILE: ../../../flutter/third_party/zlib/google/zip.cc
+FILE: ../../../flutter/third_party/zlib/google/zip.h
+FILE: ../../../flutter/third_party/zlib/google/zip_internal.cc
+FILE: ../../../flutter/third_party/zlib/google/zip_internal.h
+FILE: ../../../flutter/third_party/zlib/google/zip_reader.cc
+FILE: ../../../flutter/third_party/zlib/google/zip_reader.h
+FILE: ../../../flutter/third_party/zlib/google/zip_writer.cc
+FILE: ../../../flutter/third_party/zlib/google/zip_writer.h
+FILE: ../../../flutter/third_party/zlib/inffixed.h
+FILE: ../../../flutter/third_party/zlib/patches/0000-build.patch
+FILE: ../../../flutter/third_party/zlib/patches/0001-simd.patch
+FILE: ../../../flutter/third_party/zlib/patches/0002-uninitializedcheck.patch
+FILE: ../../../flutter/third_party/zlib/patches/0003-uninitializedjump.patch
+FILE: ../../../flutter/third_party/zlib/patches/0004-fix-uwp.patch
+FILE: ../../../flutter/third_party/zlib/patches/0005-infcover-gtest.patch
+FILE: ../../../flutter/third_party/zlib/patches/0006-fix-check_match.patch
+FILE: ../../../flutter/third_party/zlib/patches/0007-zero-init-deflate-window.patch
+FILE: ../../../flutter/third_party/zlib/patches/0008-minizip-zip-unzip-tools.patch
+FILE: ../../../flutter/third_party/zlib/patches/0009-infcover-oob.patch
+FILE: ../../../flutter/third_party/zlib/patches/0010-cmake-enable-simd.patch
+FILE: ../../../flutter/third_party/zlib/patches/0011-avx512.patch
+FILE: ../../../flutter/third_party/zlib/patches/0012-lfs-open64.patch
+FILE: ../../../flutter/third_party/zlib/patches/0013-cpu-feature-detection-for-arm.patch
+FILE: ../../../flutter/third_party/zlib/patches/0014-minizip-unzip-with-incorrect-size.patch
+FILE: ../../../flutter/third_party/zlib/patches/0015-minizip-unzip-enable-decryption.patch
+FILE: ../../../flutter/third_party/zlib/patches/0016-minizip-parse-unicode-path-extra-field.patch
+FILE: ../../../flutter/third_party/zlib/trees.h
+FILE: ../../../flutter/third_party/zlib/zlib.map
+FILE: ../../../flutter/third_party/zlib/zlib.pc.cmakein
+----------------------------------------------------------------------------------------------------
+version 1.2.12, March 27th, 2022
+
+Copyright (C) 1995-2022 Jean-loup Gailly and Mark Adler
+
+This software is provided 'as-is', without any express or implied
+warranty.  In no event will the authors be held liable for any damages
+arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose,
+including commercial applications, and to alter it and redistribute it
+freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must not
+   claim that you wrote the original software. If you use this software
+   in a product, an acknowledgment in the product documentation would be
+   appreciated but is not required.
+2. Altered source versions must be plainly marked as such, and must not be
+   misrepresented as being the original software.
+3. This notice may not be removed or altered from any source distribution.
+====================================================================================================
+
+Total license count: 899
