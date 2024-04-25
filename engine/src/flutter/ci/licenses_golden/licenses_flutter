@@ -40491,7 +40491,6 @@ ORIGIN: ../../../flutter/impeller/entity/shaders/filters/srgb_to_linear_filter.f
 ORIGIN: ../../../flutter/impeller/entity/shaders/filters/yuv_to_rgb_filter.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/glyph_atlas.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/glyph_atlas.vert + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/entity/shaders/glyph_atlas_color.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_fill.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_ssbo_fill.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/gradient_fill.vert + ../../../flutter/LICENSE
@@ -43367,7 +43366,6 @@ FILE: ../../../flutter/impeller/entity/shaders/filters/srgb_to_linear_filter.fra
 FILE: ../../../flutter/impeller/entity/shaders/filters/yuv_to_rgb_filter.frag
 FILE: ../../../flutter/impeller/entity/shaders/glyph_atlas.frag
 FILE: ../../../flutter/impeller/entity/shaders/glyph_atlas.vert
-FILE: ../../../flutter/impeller/entity/shaders/glyph_atlas_color.frag
 FILE: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_fill.frag
 FILE: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_ssbo_fill.frag
 FILE: ../../../flutter/impeller/entity/shaders/gradients/gradient_fill.vert
