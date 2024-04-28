@@ -42442,6 +42442,8 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_settings_plugin_test.cc + ../..
 ORIGIN: ../../../flutter/shell/platform/linux/fl_settings_portal.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_settings_portal.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_settings_portal_test.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_socket_accessible.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_socket_accessible.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_standard_message_codec.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_standard_message_codec_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_standard_method_codec.cc + ../../../flutter/LICENSE
@@ -45348,6 +45350,8 @@ FILE: ../../../flutter/shell/platform/linux/fl_settings_plugin_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_settings_portal.cc
 FILE: ../../../flutter/shell/platform/linux/fl_settings_portal.h
 FILE: ../../../flutter/shell/platform/linux/fl_settings_portal_test.cc
+FILE: ../../../flutter/shell/platform/linux/fl_socket_accessible.cc
+FILE: ../../../flutter/shell/platform/linux/fl_socket_accessible.h
 FILE: ../../../flutter/shell/platform/linux/fl_standard_message_codec.cc
 FILE: ../../../flutter/shell/platform/linux/fl_standard_message_codec_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_standard_method_codec.cc
