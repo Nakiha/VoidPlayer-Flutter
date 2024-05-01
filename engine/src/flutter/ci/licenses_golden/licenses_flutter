@@ -40731,6 +40731,15 @@ ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/shared_object_vk.cc + 
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/shared_object_vk.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/surface_context_vk.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/surface_context_vk.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/ahb/ahb_formats.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/ahb/ahb_swapchain_impl_vk.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/ahb/ahb_swapchain_impl_vk.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/ahb/ahb_swapchain_vk.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/ahb/ahb_swapchain_vk.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/ahb/ahb_texture_pool_vk.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/ahb/ahb_texture_pool_vk.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/ahb/external_fence_vk.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/ahb/external_fence_vk.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_image_vk.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_image_vk.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc + ../../../flutter/LICENSE
@@ -43609,6 +43618,15 @@ FILE: ../../../flutter/impeller/renderer/backend/vulkan/shared_object_vk.cc
 FILE: ../../../flutter/impeller/renderer/backend/vulkan/shared_object_vk.h
 FILE: ../../../flutter/impeller/renderer/backend/vulkan/surface_context_vk.cc
 FILE: ../../../flutter/impeller/renderer/backend/vulkan/surface_context_vk.h
+FILE: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/ahb/ahb_formats.h
+FILE: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/ahb/ahb_swapchain_impl_vk.cc
+FILE: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/ahb/ahb_swapchain_impl_vk.h
+FILE: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/ahb/ahb_swapchain_vk.cc
+FILE: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/ahb/ahb_swapchain_vk.h
+FILE: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/ahb/ahb_texture_pool_vk.cc
+FILE: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/ahb/ahb_texture_pool_vk.h
+FILE: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/ahb/external_fence_vk.cc
+FILE: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/ahb/external_fence_vk.h
 FILE: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_image_vk.cc
 FILE: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_image_vk.h
 FILE: ../../../flutter/impeller/renderer/backend/vulkan/swapchain/khr/khr_swapchain_impl_vk.cc
