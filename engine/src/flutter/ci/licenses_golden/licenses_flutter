@@ -40358,8 +40358,6 @@ ORIGIN: ../../../flutter/impeller/entity/contents/anonymous_contents.cc + ../../
 ORIGIN: ../../../flutter/impeller/entity/contents/anonymous_contents.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/atlas_contents.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/atlas_contents.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/entity/contents/checkerboard_contents.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/entity/contents/checkerboard_contents.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/clip_contents.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/clip_contents.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/color_source_contents.cc + ../../../flutter/LICENSE
@@ -40478,8 +40476,6 @@ ORIGIN: ../../../flutter/impeller/entity/shaders/blending/porter_duff_blend.vert
 ORIGIN: ../../../flutter/impeller/entity/shaders/blending/vertices_uber.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/clip.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/clip.vert + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/entity/shaders/debug/checkerboard.frag + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/entity/shaders/debug/checkerboard.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/filters/border_mask_blur.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/filters/color_matrix_color_filter.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/filters/filter_position.vert + ../../../flutter/LICENSE
@@ -43245,8 +43241,6 @@ FILE: ../../../flutter/impeller/entity/contents/anonymous_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/anonymous_contents.h
 FILE: ../../../flutter/impeller/entity/contents/atlas_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/atlas_contents.h
-FILE: ../../../flutter/impeller/entity/contents/checkerboard_contents.cc
-FILE: ../../../flutter/impeller/entity/contents/checkerboard_contents.h
 FILE: ../../../flutter/impeller/entity/contents/clip_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/clip_contents.h
 FILE: ../../../flutter/impeller/entity/contents/color_source_contents.cc
@@ -43365,8 +43359,6 @@ FILE: ../../../flutter/impeller/entity/shaders/blending/porter_duff_blend.vert
 FILE: ../../../flutter/impeller/entity/shaders/blending/vertices_uber.frag
 FILE: ../../../flutter/impeller/entity/shaders/clip.frag
 FILE: ../../../flutter/impeller/entity/shaders/clip.vert
-FILE: ../../../flutter/impeller/entity/shaders/debug/checkerboard.frag
-FILE: ../../../flutter/impeller/entity/shaders/debug/checkerboard.vert
 FILE: ../../../flutter/impeller/entity/shaders/filters/border_mask_blur.frag
 FILE: ../../../flutter/impeller/entity/shaders/filters/color_matrix_color_filter.frag
 FILE: ../../../flutter/impeller/entity/shaders/filters/filter_position.vert
