@@ -40895,6 +40895,8 @@ ORIGIN: ../../../flutter/impeller/toolkit/android/surface_control.cc + ../../../
 ORIGIN: ../../../flutter/impeller/toolkit/android/surface_control.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/android/surface_transaction.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/android/surface_transaction.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/android/surface_transaction_stats.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/android/surface_transaction_stats.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/egl/config.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/egl/config.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/egl/context.cc + ../../../flutter/LICENSE
@@ -43771,6 +43773,8 @@ FILE: ../../../flutter/impeller/toolkit/android/surface_control.cc
 FILE: ../../../flutter/impeller/toolkit/android/surface_control.h
 FILE: ../../../flutter/impeller/toolkit/android/surface_transaction.cc
 FILE: ../../../flutter/impeller/toolkit/android/surface_transaction.h
+FILE: ../../../flutter/impeller/toolkit/android/surface_transaction_stats.cc
+FILE: ../../../flutter/impeller/toolkit/android/surface_transaction_stats.h
 FILE: ../../../flutter/impeller/toolkit/egl/config.cc
 FILE: ../../../flutter/impeller/toolkit/egl/config.h
 FILE: ../../../flutter/impeller/toolkit/egl/context.cc
