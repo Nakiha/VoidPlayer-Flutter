@@ -39927,6 +39927,7 @@ ORIGIN: ../../../flutter/display_list/effects/dl_path_effect.cc + ../../../flutt
 ORIGIN: ../../../flutter/display_list/effects/dl_path_effect.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/dl_runtime_effect.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/dl_runtime_effect.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/geometry/dl_geometry_types.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/geometry/dl_region.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/geometry/dl_region.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/geometry/dl_rtree.cc + ../../../flutter/LICENSE
@@ -39944,8 +39945,8 @@ ORIGIN: ../../../flutter/display_list/skia/dl_sk_dispatcher.h + ../../../flutter
 ORIGIN: ../../../flutter/display_list/skia/dl_sk_paint_dispatcher.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/skia/dl_sk_paint_dispatcher.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/skia/dl_sk_types.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/display_list/utils/dl_bounds_accumulator.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/display_list/utils/dl_bounds_accumulator.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/utils/dl_accumulation_rect.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/utils/dl_accumulation_rect.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/utils/dl_comparable.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/utils/dl_matrix_clip_tracker.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/utils/dl_matrix_clip_tracker.h + ../../../flutter/LICENSE
@@ -42804,6 +42805,7 @@ FILE: ../../../flutter/display_list/effects/dl_path_effect.cc
 FILE: ../../../flutter/display_list/effects/dl_path_effect.h
 FILE: ../../../flutter/display_list/effects/dl_runtime_effect.cc
 FILE: ../../../flutter/display_list/effects/dl_runtime_effect.h
+FILE: ../../../flutter/display_list/geometry/dl_geometry_types.h
 FILE: ../../../flutter/display_list/geometry/dl_region.cc
 FILE: ../../../flutter/display_list/geometry/dl_region.h
 FILE: ../../../flutter/display_list/geometry/dl_rtree.cc
@@ -42821,8 +42823,8 @@ FILE: ../../../flutter/display_list/skia/dl_sk_dispatcher.h
 FILE: ../../../flutter/display_list/skia/dl_sk_paint_dispatcher.cc
 FILE: ../../../flutter/display_list/skia/dl_sk_paint_dispatcher.h
 FILE: ../../../flutter/display_list/skia/dl_sk_types.h
-FILE: ../../../flutter/display_list/utils/dl_bounds_accumulator.cc
-FILE: ../../../flutter/display_list/utils/dl_bounds_accumulator.h
+FILE: ../../../flutter/display_list/utils/dl_accumulation_rect.cc
+FILE: ../../../flutter/display_list/utils/dl_accumulation_rect.h
 FILE: ../../../flutter/display_list/utils/dl_comparable.h
 FILE: ../../../flutter/display_list/utils/dl_matrix_clip_tracker.cc
 FILE: ../../../flutter/display_list/utils/dl_matrix_clip_tracker.h
