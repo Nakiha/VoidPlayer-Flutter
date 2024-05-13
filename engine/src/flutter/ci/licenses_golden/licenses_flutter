@@ -39877,6 +39877,7 @@ ORIGIN: ../../../flutter/common/graphics/persistent_cache.cc + ../../../flutter/
 ORIGIN: ../../../flutter/common/graphics/persistent_cache.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/common/graphics/texture.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/common/graphics/texture.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/common/macros.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/common/settings.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/common/settings.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/common/task_runners.cc + ../../../flutter/LICENSE
@@ -42752,6 +42753,7 @@ FILE: ../../../flutter/common/graphics/persistent_cache.cc
 FILE: ../../../flutter/common/graphics/persistent_cache.h
 FILE: ../../../flutter/common/graphics/texture.cc
 FILE: ../../../flutter/common/graphics/texture.h
+FILE: ../../../flutter/common/macros.h
 FILE: ../../../flutter/common/settings.cc
 FILE: ../../../flutter/common/settings.h
 FILE: ../../../flutter/common/task_runners.cc
