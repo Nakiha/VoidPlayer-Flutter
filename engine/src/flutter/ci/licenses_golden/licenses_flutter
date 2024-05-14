@@ -42656,6 +42656,8 @@ ORIGIN: ../../../flutter/impeller/renderer/backend/gles/texture_gles.cc + ../../
 ORIGIN: ../../../flutter/impeller/renderer/backend/gles/texture_gles.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/metal/allocator_mtl.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/metal/allocator_mtl.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/backend/metal/blit_command_mtl.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/backend/metal/blit_command_mtl.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/metal/blit_pass_mtl.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/metal/blit_pass_mtl.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/metal/command_buffer_mtl.h + ../../../flutter/LICENSE
@@ -45529,6 +45531,8 @@ FILE: ../../../flutter/impeller/renderer/backend/gles/texture_gles.cc
 FILE: ../../../flutter/impeller/renderer/backend/gles/texture_gles.h
 FILE: ../../../flutter/impeller/renderer/backend/metal/allocator_mtl.h
 FILE: ../../../flutter/impeller/renderer/backend/metal/allocator_mtl.mm
+FILE: ../../../flutter/impeller/renderer/backend/metal/blit_command_mtl.h
+FILE: ../../../flutter/impeller/renderer/backend/metal/blit_command_mtl.mm
 FILE: ../../../flutter/impeller/renderer/backend/metal/blit_pass_mtl.h
 FILE: ../../../flutter/impeller/renderer/backend/metal/blit_pass_mtl.mm
 FILE: ../../../flutter/impeller/renderer/backend/metal/command_buffer_mtl.h
