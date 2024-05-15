@@ -44027,6 +44027,8 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObj
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObject.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObjectTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObjectTestMocks.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/TextInputSemanticsObject.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/TextInputSemanticsObject.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/UIViewController+FlutterScreenAndSceneIfLoaded.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/UIViewController+FlutterScreenAndSceneIfLoaded.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/UIViewController_FlutterScreenAndSceneIfLoadedTest.mm + ../../../flutter/LICENSE
@@ -44035,8 +44037,6 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/accessibilit
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/accessibility_bridge.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/accessibility_bridge_ios.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/accessibility_bridge_test.mm + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/accessibility_text_entry.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/accessibility_text_entry.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/availability_version_check_test.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/connection_collection.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/connection_collection.mm + ../../../flutter/LICENSE
@@ -46917,6 +46917,8 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObjec
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObject.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObjectTest.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObjectTestMocks.h
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/TextInputSemanticsObject.h
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/TextInputSemanticsObject.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/UIViewController+FlutterScreenAndSceneIfLoaded.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/UIViewController+FlutterScreenAndSceneIfLoaded.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/UIViewController_FlutterScreenAndSceneIfLoadedTest.mm
@@ -46925,8 +46927,6 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/accessibility_
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/accessibility_bridge.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/accessibility_bridge_ios.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/accessibility_bridge_test.mm
-FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/accessibility_text_entry.h
-FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/accessibility_text_entry.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/availability_version_check_test.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/connection_collection.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/connection_collection.mm
