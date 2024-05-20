@@ -43279,6 +43279,7 @@ ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/html/clip.dart + ../../../flu
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/html/color_filter.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/html/debug_canvas_reuse_overlay.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/html/dom_canvas.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/html/image.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/html/image_filter.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/html/offset.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/html/opacity.dart + ../../../flutter/LICENSE
@@ -43311,7 +43312,7 @@ ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/html/shaders/vertex_shaders.d
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/html/surface.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/html/surface_stats.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/html/transform.dart + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/html_image_codec.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/html_image_element_codec.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/image_decoder.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/initialization.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/js_interop/js_app.dart + ../../../flutter/LICENSE
@@ -43328,7 +43329,6 @@ ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/navigation/history.dart + ../
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/noto_font.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/noto_font_encoding.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/onscreen_logging.dart + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/picture.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/platform_dispatcher.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/platform_dispatcher/app_lifecycle_state.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/platform_dispatcher/view_focus_binding.dart + ../../../flutter/LICENSE
@@ -46156,6 +46156,7 @@ FILE: ../../../flutter/lib/web_ui/lib/src/engine/html/clip.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/html/color_filter.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/html/debug_canvas_reuse_overlay.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/html/dom_canvas.dart
+FILE: ../../../flutter/lib/web_ui/lib/src/engine/html/image.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/html/image_filter.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/html/offset.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/html/opacity.dart
@@ -46188,7 +46189,7 @@ FILE: ../../../flutter/lib/web_ui/lib/src/engine/html/shaders/vertex_shaders.dar
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/html/surface.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/html/surface_stats.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/html/transform.dart
-FILE: ../../../flutter/lib/web_ui/lib/src/engine/html_image_codec.dart
+FILE: ../../../flutter/lib/web_ui/lib/src/engine/html_image_element_codec.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/image_decoder.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/initialization.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/js_interop/js_app.dart
@@ -46205,7 +46206,6 @@ FILE: ../../../flutter/lib/web_ui/lib/src/engine/navigation/history.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/noto_font.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/noto_font_encoding.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/onscreen_logging.dart
-FILE: ../../../flutter/lib/web_ui/lib/src/engine/picture.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/platform_dispatcher.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/platform_dispatcher/app_lifecycle_state.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/platform_dispatcher/view_focus_binding.dart
