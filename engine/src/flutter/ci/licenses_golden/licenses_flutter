@@ -41853,6 +41853,8 @@ ORIGIN: ../../../flutter/impeller/aiks/picture_recorder.cc + ../../../flutter/LI
 ORIGIN: ../../../flutter/impeller/aiks/picture_recorder.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/base/allocation.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/base/allocation.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/base/allocation_size.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/base/allocation_size.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/base/backend_cast.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/base/comparable.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/base/comparable.h + ../../../flutter/LICENSE
@@ -44717,6 +44719,8 @@ FILE: ../../../flutter/impeller/aiks/picture_recorder.cc
 FILE: ../../../flutter/impeller/aiks/picture_recorder.h
 FILE: ../../../flutter/impeller/base/allocation.cc
 FILE: ../../../flutter/impeller/base/allocation.h
+FILE: ../../../flutter/impeller/base/allocation_size.cc
+FILE: ../../../flutter/impeller/base/allocation_size.h
 FILE: ../../../flutter/impeller/base/backend_cast.h
 FILE: ../../../flutter/impeller/base/comparable.cc
 FILE: ../../../flutter/impeller/base/comparable.h
