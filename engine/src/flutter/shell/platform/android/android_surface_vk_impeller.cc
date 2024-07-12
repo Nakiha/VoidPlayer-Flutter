@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/android_surface_vulkan_impeller.h"
+#include "flutter/shell/platform/android/android_surface_vk_impeller.h"
 
 #include <memory>
 #include <utility>
@@ -17,8 +17,8 @@
 
 namespace flutter {
 
-AndroidSurfaceVulkanImpeller::AndroidSurfaceVulkanImpeller(
-    const std::shared_ptr<AndroidContextVulkanImpeller>& android_context) {
+AndroidSurfaceVKImpeller::AndroidSurfaceVKImpeller(
+    const std::shared_ptr<AndroidContextVKImpeller>& android_context) {
   is_valid_ = android_context->IsValid();
 
   auto& context_vk =
@@ -28,17 +28,17 @@ AndroidSurfaceVulkanImpeller::AndroidSurfaceVulkanImpeller(
       std::make_unique<GPUSurfaceVulkanImpeller>(surface_context_vk_);
 }
 
-AndroidSurfaceVulkanImpeller::~AndroidSurfaceVulkanImpeller() = default;
+AndroidSurfaceVKImpeller::~AndroidSurfaceVKImpeller() = default;
 
-bool AndroidSurfaceVulkanImpeller::IsValid() const {
+bool AndroidSurfaceVKImpeller::IsValid() const {
   return is_valid_;
 }
 
-void AndroidSurfaceVulkanImpeller::TeardownOnScreenContext() {
+void AndroidSurfaceVKImpeller::TeardownOnScreenContext() {
   // Nothing to do.
 }
 
-std::unique_ptr<Surface> AndroidSurfaceVulkanImpeller::CreateGPUSurface(
+std::unique_ptr<Surface> AndroidSurfaceVKImpeller::CreateGPUSurface(
     GrDirectContext* gr_context) {
   if (!IsValid()) {
     return nullptr;
@@ -66,21 +66,21 @@ std::unique_ptr<Surface> AndroidSurfaceVulkanImpeller::CreateGPUSurface(
   return gpu_surface;
 }
 
-bool AndroidSurfaceVulkanImpeller::OnScreenSurfaceResize(const SkISize& size) {
+bool AndroidSurfaceVKImpeller::OnScreenSurfaceResize(const SkISize& size) {
   surface_context_vk_->UpdateSurfaceSize(
       impeller::ISize{size.width(), size.height()});
   return true;
 }
 
-bool AndroidSurfaceVulkanImpeller::ResourceContextMakeCurrent() {
+bool AndroidSurfaceVKImpeller::ResourceContextMakeCurrent() {
   return true;
 }
 
-bool AndroidSurfaceVulkanImpeller::ResourceContextClearCurrent() {
+bool AndroidSurfaceVKImpeller::ResourceContextClearCurrent() {
   return true;
 }
 
-bool AndroidSurfaceVulkanImpeller::SetNativeWindow(
+bool AndroidSurfaceVKImpeller::SetNativeWindow(
     fml::RefPtr<AndroidNativeWindow> window) {
   if (window && (native_window_ == window)) {
     return OnScreenSurfaceResize(window->GetSize());
@@ -106,7 +106,7 @@ bool AndroidSurfaceVulkanImpeller::SetNativeWindow(
 }
 
 std::shared_ptr<impeller::Context>
-AndroidSurfaceVulkanImpeller::GetImpellerContext() {
+AndroidSurfaceVKImpeller::GetImpellerContext() {
   return surface_context_vk_;
 }
 

@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/image_external_texture_vk.h"
+#include "flutter/shell/platform/android/image_external_texture_vk_impeller.h"
 
 #include <cstdint>
 
@@ -17,7 +17,7 @@
 
 namespace flutter {
 
-ImageExternalTextureVK::ImageExternalTextureVK(
+ImageExternalTextureVKImpeller::ImageExternalTextureVKImpeller(
     const std::shared_ptr<impeller::ContextVK>& impeller_context,
     int64_t id,
     const fml::jni::ScopedJavaGlobalRef<jobject>& image_texture_entry,
@@ -25,19 +25,19 @@ ImageExternalTextureVK::ImageExternalTextureVK(
     : ImageExternalTexture(id, image_texture_entry, jni_facade),
       impeller_context_(impeller_context) {}
 
-ImageExternalTextureVK::~ImageExternalTextureVK() {}
+ImageExternalTextureVKImpeller::~ImageExternalTextureVKImpeller() {}
 
-void ImageExternalTextureVK::Attach(PaintContext& context) {
+void ImageExternalTextureVKImpeller::Attach(PaintContext& context) {
   if (state_ == AttachmentState::kUninitialized) {
     // First processed frame we are attached.
     state_ = AttachmentState::kAttached;
   }
 }
 
-void ImageExternalTextureVK::Detach() {}
+void ImageExternalTextureVKImpeller::Detach() {}
 
-void ImageExternalTextureVK::ProcessFrame(PaintContext& context,
-                                          const SkRect& bounds) {
+void ImageExternalTextureVKImpeller::ProcessFrame(PaintContext& context,
+                                                  const SkRect& bounds) {
   JavaLocalRef image = AcquireLatestImage();
   if (image.is_null()) {
     return;

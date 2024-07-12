@@ -2,25 +2,25 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#ifndef FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_SURFACE_VULKAN_IMPELLER_H_
-#define FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_SURFACE_VULKAN_IMPELLER_H_
+#ifndef FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_SURFACE_VK_IMPELLER_H_
+#define FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_SURFACE_VK_IMPELLER_H_
 
 #include "flutter/fml/concurrent_message_loop.h"
 #include "flutter/fml/macros.h"
 #include "flutter/impeller/renderer/backend/vulkan/surface_context_vk.h"
-#include "flutter/shell/platform/android/android_context_vulkan_impeller.h"
+#include "flutter/shell/platform/android/android_context_vk_impeller.h"
 #include "flutter/shell/platform/android/surface/android_native_window.h"
 #include "flutter/shell/platform/android/surface/android_surface.h"
 #include "shell/gpu/gpu_surface_vulkan_impeller.h"
 
 namespace flutter {
 
-class AndroidSurfaceVulkanImpeller : public AndroidSurface {
+class AndroidSurfaceVKImpeller : public AndroidSurface {
  public:
-  explicit AndroidSurfaceVulkanImpeller(
-      const std::shared_ptr<AndroidContextVulkanImpeller>& android_context);
+  explicit AndroidSurfaceVKImpeller(
+      const std::shared_ptr<AndroidContextVKImpeller>& android_context);
 
-  ~AndroidSurfaceVulkanImpeller() override;
+  ~AndroidSurfaceVKImpeller() override;
 
   // |AndroidSurface|
   bool IsValid() const override;
@@ -57,9 +57,9 @@ class AndroidSurfaceVulkanImpeller : public AndroidSurface {
 
   bool is_valid_ = false;
 
-  FML_DISALLOW_COPY_AND_ASSIGN(AndroidSurfaceVulkanImpeller);
+  FML_DISALLOW_COPY_AND_ASSIGN(AndroidSurfaceVKImpeller);
 };
 
 }  // namespace flutter
 
-#endif  // FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_SURFACE_VULKAN_IMPELLER_H_
+#endif  // FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_SURFACE_VK_IMPELLER_H_

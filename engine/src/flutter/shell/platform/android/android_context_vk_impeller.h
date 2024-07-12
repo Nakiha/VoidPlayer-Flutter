@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#ifndef FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_CONTEXT_VULKAN_IMPELLER_H_
-#define FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_CONTEXT_VULKAN_IMPELLER_H_
+#ifndef FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_CONTEXT_VK_IMPELLER_H_
+#define FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_CONTEXT_VK_IMPELLER_H_
 
 #include "flutter/fml/concurrent_message_loop.h"
 #include "flutter/fml/macros.h"
@@ -12,13 +12,13 @@
 
 namespace flutter {
 
-class AndroidContextVulkanImpeller : public AndroidContext {
+class AndroidContextVKImpeller : public AndroidContext {
  public:
-  AndroidContextVulkanImpeller(bool enable_validation,
-                               bool enable_gpu_tracing,
-                               bool quiet = false);
+  AndroidContextVKImpeller(bool enable_validation,
+                           bool enable_gpu_tracing,
+                           bool quiet = false);
 
-  ~AndroidContextVulkanImpeller();
+  ~AndroidContextVKImpeller();
 
   // |AndroidContext|
   bool IsValid() const override;
@@ -27,9 +27,9 @@ class AndroidContextVulkanImpeller : public AndroidContext {
   fml::RefPtr<fml::NativeLibrary> vulkan_dylib_;
   bool is_valid_ = false;
 
-  FML_DISALLOW_COPY_AND_ASSIGN(AndroidContextVulkanImpeller);
+  FML_DISALLOW_COPY_AND_ASSIGN(AndroidContextVKImpeller);
 };
 
 }  // namespace flutter
 
-#endif  // FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_CONTEXT_VULKAN_IMPELLER_H_
+#endif  // FLUTTER_SHELL_PLATFORM_ANDROID_ANDROID_CONTEXT_VK_IMPELLER_H_

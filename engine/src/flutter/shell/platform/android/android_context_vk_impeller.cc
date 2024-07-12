@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#include "flutter/shell/platform/android/android_context_vulkan_impeller.h"
+#include "flutter/shell/platform/android/android_context_vk_impeller.h"
 
 #include "flutter/fml/paths.h"
 #include "flutter/impeller/entity/vk/entity_shaders_vk.h"
@@ -71,10 +71,9 @@ static std::shared_ptr<impeller::Context> CreateImpellerContext(
   return context;
 }
 
-AndroidContextVulkanImpeller::AndroidContextVulkanImpeller(
-    bool enable_validation,
-    bool enable_gpu_tracing,
-    bool quiet)
+AndroidContextVKImpeller::AndroidContextVKImpeller(bool enable_validation,
+                                                   bool enable_gpu_tracing,
+                                                   bool quiet)
     : AndroidContext(AndroidRenderingAPI::kImpellerVulkan),
       vulkan_dylib_(fml::NativeLibrary::Create("libvulkan.so")) {
   auto impeller_context = CreateImpellerContext(
@@ -83,9 +82,9 @@ AndroidContextVulkanImpeller::AndroidContextVulkanImpeller(
   is_valid_ = !!impeller_context;
 }
 
-AndroidContextVulkanImpeller::~AndroidContextVulkanImpeller() = default;
+AndroidContextVKImpeller::~AndroidContextVKImpeller() = default;
 
-bool AndroidContextVulkanImpeller::IsValid() const {
+bool AndroidContextVKImpeller::IsValid() const {
   return is_valid_;
 }
 
