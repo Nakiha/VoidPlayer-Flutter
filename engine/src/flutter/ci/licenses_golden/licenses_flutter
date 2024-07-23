@@ -42612,6 +42612,10 @@ ORIGIN: ../../../flutter/impeller/toolkit/egl/surface.cc + ../../../flutter/LICE
 ORIGIN: ../../../flutter/impeller/toolkit/egl/surface.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/gles/gles.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/gles/texture.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/glvk/proc_table.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/glvk/proc_table.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/glvk/trampoline.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/glvk/trampoline.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/typographer/backends/skia/text_frame_skia.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/typographer/backends/skia/text_frame_skia.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/typographer/backends/skia/typeface_skia.cc + ../../../flutter/LICENSE
@@ -43502,6 +43506,8 @@ ORIGIN: ../../../flutter/shell/platform/android/surface_texture_external_texture
 ORIGIN: ../../../flutter/shell/platform/android/surface_texture_external_texture_gl_impeller.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/surface_texture_external_texture_gl_skia.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/surface_texture_external_texture_gl_skia.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/surface_texture_external_texture_vk_impeller.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/surface_texture_external_texture_vk_impeller.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/vsync_waiter_android.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/vsync_waiter_android.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/common/accessibility_bridge.cc + ../../../flutter/LICENSE
@@ -45491,6 +45497,10 @@ FILE: ../../../flutter/impeller/toolkit/egl/surface.h
 FILE: ../../../flutter/impeller/toolkit/gles/gles.h
 FILE: ../../../flutter/impeller/toolkit/gles/texture.cc
 FILE: ../../../flutter/impeller/toolkit/gles/texture.h
+FILE: ../../../flutter/impeller/toolkit/glvk/proc_table.cc
+FILE: ../../../flutter/impeller/toolkit/glvk/proc_table.h
+FILE: ../../../flutter/impeller/toolkit/glvk/trampoline.cc
+FILE: ../../../flutter/impeller/toolkit/glvk/trampoline.h
 FILE: ../../../flutter/impeller/tools/malioc.json
 FILE: ../../../flutter/impeller/typographer/backends/skia/text_frame_skia.cc
 FILE: ../../../flutter/impeller/typographer/backends/skia/text_frame_skia.h
@@ -46395,6 +46405,8 @@ FILE: ../../../flutter/shell/platform/android/surface_texture_external_texture_g
 FILE: ../../../flutter/shell/platform/android/surface_texture_external_texture_gl_impeller.h
 FILE: ../../../flutter/shell/platform/android/surface_texture_external_texture_gl_skia.cc
 FILE: ../../../flutter/shell/platform/android/surface_texture_external_texture_gl_skia.h
+FILE: ../../../flutter/shell/platform/android/surface_texture_external_texture_vk_impeller.cc
+FILE: ../../../flutter/shell/platform/android/surface_texture_external_texture_vk_impeller.h
 FILE: ../../../flutter/shell/platform/android/vsync_waiter_android.cc
 FILE: ../../../flutter/shell/platform/android/vsync_waiter_android.h
 FILE: ../../../flutter/shell/platform/common/accessibility_bridge.cc
