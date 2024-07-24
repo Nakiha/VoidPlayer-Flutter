@@ -41734,6 +41734,8 @@ ORIGIN: ../../../flutter/flow/surface.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/flow/surface.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/flow/surface_frame.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/flow/surface_frame.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/flow/view_slicer.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/flow/view_slicer.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/flutter_vma/flutter_skia_vma.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/flutter_vma/flutter_skia_vma.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/flutter_vma/flutter_vma.cc + ../../../flutter/LICENSE
@@ -44616,6 +44618,8 @@ FILE: ../../../flutter/flow/surface.cc
 FILE: ../../../flutter/flow/surface.h
 FILE: ../../../flutter/flow/surface_frame.cc
 FILE: ../../../flutter/flow/surface_frame.h
+FILE: ../../../flutter/flow/view_slicer.cc
+FILE: ../../../flutter/flow/view_slicer.h
 FILE: ../../../flutter/flutter_vma/flutter_skia_vma.cc
 FILE: ../../../flutter/flutter_vma/flutter_skia_vma.h
 FILE: ../../../flutter/flutter_vma/flutter_vma.cc
