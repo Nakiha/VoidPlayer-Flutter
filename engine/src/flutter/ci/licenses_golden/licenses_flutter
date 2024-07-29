@@ -42499,8 +42499,6 @@ ORIGIN: ../../../flutter/impeller/renderer/render_pass.cc + ../../../flutter/LIC
 ORIGIN: ../../../flutter/impeller/renderer/render_pass.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/render_target.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/render_target.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/renderer/renderer.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/renderer/renderer.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/sampler_library.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/sampler_library.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/shader_function.cc + ../../../flutter/LICENSE
@@ -45382,8 +45380,6 @@ FILE: ../../../flutter/impeller/renderer/render_pass.cc
 FILE: ../../../flutter/impeller/renderer/render_pass.h
 FILE: ../../../flutter/impeller/renderer/render_target.cc
 FILE: ../../../flutter/impeller/renderer/render_target.h
-FILE: ../../../flutter/impeller/renderer/renderer.cc
-FILE: ../../../flutter/impeller/renderer/renderer.h
 FILE: ../../../flutter/impeller/renderer/sampler_library.cc
 FILE: ../../../flutter/impeller/renderer/sampler_library.h
 FILE: ../../../flutter/impeller/renderer/shader_function.cc
