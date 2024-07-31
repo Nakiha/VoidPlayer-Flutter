@@ -42128,8 +42128,6 @@ ORIGIN: ../../../flutter/impeller/entity/contents/tiled_texture_contents.cc + ..
 ORIGIN: ../../../flutter/impeller/entity/contents/tiled_texture_contents.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/vertices_contents.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/vertices_contents.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/entity/draw_order_resolver.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/entity/draw_order_resolver.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/entity.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/entity.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/entity_pass.cc + ../../../flutter/LICENSE
@@ -45011,8 +45009,6 @@ FILE: ../../../flutter/impeller/entity/contents/tiled_texture_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/tiled_texture_contents.h
 FILE: ../../../flutter/impeller/entity/contents/vertices_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/vertices_contents.h
-FILE: ../../../flutter/impeller/entity/draw_order_resolver.cc
-FILE: ../../../flutter/impeller/entity/draw_order_resolver.h
 FILE: ../../../flutter/impeller/entity/entity.cc
 FILE: ../../../flutter/impeller/entity/entity.h
 FILE: ../../../flutter/impeller/entity/entity_pass.cc
