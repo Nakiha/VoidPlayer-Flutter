@@ -43652,7 +43652,6 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterOverl
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformPlugin.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformPlugin.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformPluginTest.mm + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViews.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViewsTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViews_Internal.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViews_Internal.mm + ../../../flutter/LICENSE
@@ -43710,8 +43709,12 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/availability
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/connection_collection.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/connection_collection.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/connection_collection_test.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/overlay_layer_pool.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/overlay_layer_pool.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/platform_message_response_darwin.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/platform_message_response_darwin.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/platform_views_controller.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/platform_views_controller.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/profiler_metrics_ios.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/profiler_metrics_ios.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/vsync_waiter_ios.h + ../../../flutter/LICENSE
@@ -46553,7 +46556,6 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterOverlay
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformPlugin.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformPlugin.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformPluginTest.mm
-FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViews.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViewsTest.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViews_Internal.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViews_Internal.mm
@@ -46611,8 +46613,12 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/availability_v
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/connection_collection.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/connection_collection.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/connection_collection_test.mm
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/overlay_layer_pool.h
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/overlay_layer_pool.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/platform_message_response_darwin.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/platform_message_response_darwin.mm
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/platform_views_controller.h
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/platform_views_controller.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/profiler_metrics_ios.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/profiler_metrics_ios.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/vsync_waiter_ios.h
