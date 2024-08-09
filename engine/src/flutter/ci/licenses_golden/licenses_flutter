@@ -42563,8 +42563,6 @@ ORIGIN: ../../../flutter/fml/platform/posix/native_library_posix.cc + ../../../f
 ORIGIN: ../../../flutter/fml/platform/posix/paths_posix.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/posix/posix_wrappers_posix.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/posix/process_posix.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/fml/platform/posix/shared_mutex_posix.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/fml/platform/posix/shared_mutex_posix.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/win/command_line_win.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/win/errors_win.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/win/errors_win.h + ../../../flutter/LICENSE
@@ -42593,9 +42591,6 @@ ORIGIN: ../../../flutter/fml/synchronization/count_down_latch.cc + ../../../flut
 ORIGIN: ../../../flutter/fml/synchronization/count_down_latch.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/synchronization/semaphore.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/synchronization/semaphore.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/fml/synchronization/shared_mutex.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/fml/synchronization/shared_mutex_std.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/fml/synchronization/shared_mutex_std.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/synchronization/sync_switch.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/synchronization/sync_switch.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/synchronization/waitable_event.cc + ../../../flutter/LICENSE
@@ -45400,8 +45395,6 @@ FILE: ../../../flutter/fml/platform/posix/native_library_posix.cc
 FILE: ../../../flutter/fml/platform/posix/paths_posix.cc
 FILE: ../../../flutter/fml/platform/posix/posix_wrappers_posix.cc
 FILE: ../../../flutter/fml/platform/posix/process_posix.cc
-FILE: ../../../flutter/fml/platform/posix/shared_mutex_posix.cc
-FILE: ../../../flutter/fml/platform/posix/shared_mutex_posix.h
 FILE: ../../../flutter/fml/platform/win/command_line_win.cc
 FILE: ../../../flutter/fml/platform/win/errors_win.cc
 FILE: ../../../flutter/fml/platform/win/errors_win.h
@@ -45430,9 +45423,6 @@ FILE: ../../../flutter/fml/synchronization/count_down_latch.cc
 FILE: ../../../flutter/fml/synchronization/count_down_latch.h
 FILE: ../../../flutter/fml/synchronization/semaphore.cc
 FILE: ../../../flutter/fml/synchronization/semaphore.h
-FILE: ../../../flutter/fml/synchronization/shared_mutex.h
-FILE: ../../../flutter/fml/synchronization/shared_mutex_std.cc
-FILE: ../../../flutter/fml/synchronization/shared_mutex_std.h
 FILE: ../../../flutter/fml/synchronization/sync_switch.cc
 FILE: ../../../flutter/fml/synchronization/sync_switch.h
 FILE: ../../../flutter/fml/synchronization/waitable_event.cc
