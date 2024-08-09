@@ -756,6 +756,7 @@ LIBRARY: glslang
 LIBRARY: perfetto
 LIBRARY: shaderc
 LIBRARY: spirv-cross
+LIBRARY: swiftshader
 LIBRARY: txt
 LIBRARY: vulkan-headers
 LIBRARY: vulkan-utility-libraries
@@ -765,7 +766,23 @@ ORIGIN: ../../../flutter/third_party/angle/src/libANGLE/overlay/LICENSE.txt
 ORIGIN: ../../../flutter/third_party/flatbuffers/LICENSE.txt
 ORIGIN: ../../../flutter/third_party/flatbuffers/swift/LICENSE
 ORIGIN: ../../../flutter/third_party/shaderc/LICENSE
+ORIGIN: ../../../flutter/third_party/swiftshader/LICENSE.txt
 ORIGIN: ../../../flutter/third_party/vulkan-deps/spirv-cross/src/LICENSE
+ORIGIN: Apache-2.0 OR MIT referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan.cppm
+ORIGIN: Apache-2.0 OR MIT referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan.hpp
+ORIGIN: Apache-2.0 OR MIT referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_enums.hpp
+ORIGIN: Apache-2.0 OR MIT referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_extension_inspection.hpp
+ORIGIN: Apache-2.0 OR MIT referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_format_traits.hpp
+ORIGIN: Apache-2.0 OR MIT referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_funcs.hpp
+ORIGIN: Apache-2.0 OR MIT referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_handles.hpp
+ORIGIN: Apache-2.0 OR MIT referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_hash.hpp
+ORIGIN: Apache-2.0 OR MIT referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_hpp_macros.hpp
+ORIGIN: Apache-2.0 OR MIT referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_raii.hpp
+ORIGIN: Apache-2.0 OR MIT referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_shared.hpp
+ORIGIN: Apache-2.0 OR MIT referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_static_assertions.hpp
+ORIGIN: Apache-2.0 OR MIT referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_structs.hpp
+ORIGIN: Apache-2.0 OR MIT referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_to_string.hpp
+ORIGIN: Apache-2.0 OR MIT referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_video.hpp
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../flutter/third_party/vulkan-deps/spirv-cross/src/main.cpp
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../flutter/third_party/vulkan-deps/spirv-cross/src/spirv_cfg.cpp
 ORIGIN: Apache-2.0 OR MIT referenced by ../../../flutter/third_party/vulkan-deps/spirv-cross/src/spirv_cfg.hpp
@@ -813,6 +830,33 @@ ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/angle/include/EGL/
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/angle/include/EGL/eglplatform.h
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/angle/include/GLES2/gl2platform.h
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/angle/include/GLES3/gl3platform.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vk_video/vulkan_video_codec_h264std.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vk_video/vulkan_video_codec_h264std_decode.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vk_video/vulkan_video_codec_h264std_encode.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vk_video/vulkan_video_codec_h265std.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vk_video/vulkan_video_codec_h265std_decode.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vk_video/vulkan_video_codec_h265std_encode.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vk_video/vulkan_video_codecs_common.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vk_icd.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vk_layer.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vk_platform.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_android.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_beta.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_core.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_directfb.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_fuchsia.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_ggp.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_ios.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_macos.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_metal.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_screen.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_vi.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_wayland.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_win32.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_xcb.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_xlib.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_xlib_xrandr.h
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/spirv-cross/src/Package.swift
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/spirv-cross/src/include/spirv_cross/barrier.hpp
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/spirv-cross/src/include/spirv_cross/external_interface.h
@@ -1794,6 +1838,272 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutte
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/shaderc/libshaderc_util/src/string_piece_test.cc
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/shaderc/libshaderc_util/src/version_profile.cc
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/shaderc/libshaderc_util/src/version_profile_test.cc
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/Android.bp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/build/strip_unneeded.go
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/include/Android/android/sync.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/include/Android/cutils/native_handle.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/include/Android/hardware/gralloc.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/include/Android/hardware/gralloc1.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/include/Android/hardware/hardware.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/include/Android/nativebase/nativebase.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/include/Android/sync/sync.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/include/Android/system/graphics.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/include/Android/vndk/window.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/include/vulkan/vk_sdk_platform.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Android.bp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/ASTC_Decoder.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/ASTC_Decoder.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/BC_Decoder.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/BC_Decoder.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/Blitter.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/Blitter.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/Clipper.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/Clipper.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/Config.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/Context.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/Context.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/ETC_Decoder.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/ETC_Decoder.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/Memset.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/PixelProcessor.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/PixelProcessor.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/Polygon.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/Primitive.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/QuadRasterizer.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/QuadRasterizer.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/Rasterizer.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/Renderer.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/Renderer.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/RoutineCache.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/Sampler.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/SetupProcessor.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/SetupProcessor.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/Stream.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/Vertex.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/VertexProcessor.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Device/VertexProcessor.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/ComputeProgram.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/ComputeProgram.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/Constants.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/Constants.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/PixelProgram.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/PixelProgram.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/PixelRoutine.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/PixelRoutine.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SamplerCore.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SamplerCore.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SetupRoutine.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SetupRoutine.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/ShaderCore.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/ShaderCore.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvBinary.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvBinary.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvID.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvProfiler.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvProfiler.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShader.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShader.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderArithmetic.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderControlFlow.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderDebug.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderDebugger.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderGLSLstd450.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderGroup.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderImage.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderInstructions.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderMemory.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderSampling.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderSpec.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/VertexProgram.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/VertexProgram.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/VertexRoutine.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Pipeline/VertexRoutine.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/Assert.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/Assert.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/CPUID.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/CPUID.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/Coroutine.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/Debug.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/Debug.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/ExecutableMemory.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/ExecutableMemory.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/LLVMAsm.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/LLVMAsm.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/LLVMJIT.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/LLVMReactor.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/LLVMReactor.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/LLVMReactorDebugInfo.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/LLVMReactorDebugInfo.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/Nucleus.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/Optimizer.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/Optimizer.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/Pragma.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/Pragma.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/PragmaInternals.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/Print.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/Reactor.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/Reactor.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/ReactorDebugInfo.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/ReactorDebugInfo.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/Routine.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/SIMD.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/SIMD.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/SubzeroReactor.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/Swizzle.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/Traits.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/Traits.inl
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Reactor/x86.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Build.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Build.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/CPUID.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/CPUID.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Configurator.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Configurator.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Debug.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Debug.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Half.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Half.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/LRUCache.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Linux/MemFd.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Linux/MemFd.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Math.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Math.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Memory.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Memory.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/SharedLibrary.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Socket.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Socket.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/SwiftConfig.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/SwiftConfig.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Synchronization.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Timer.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Timer.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/System/Types.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Context.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Context.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Debug.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/EventListener.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/EventListener.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/File.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/File.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/ID.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Location.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Server.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Server.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Thread.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Thread.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/TypeOf.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/TypeOf.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Value.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Value.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Variable.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Variable.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/WeakMap.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/Version.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkBuffer.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkBuffer.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkBufferView.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkBufferView.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkCommandBuffer.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkCommandBuffer.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkCommandPool.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkCommandPool.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkConfig.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDebugUtilsMessenger.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDebugUtilsMessenger.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDescriptorPool.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDescriptorPool.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDescriptorSet.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDescriptorSet.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDescriptorSetLayout.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDescriptorSetLayout.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDescriptorUpdateTemplate.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDescriptorUpdateTemplate.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDestroy.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDevice.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDevice.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDeviceMemory.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDeviceMemory.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDeviceMemoryExternalAndroid.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDeviceMemoryExternalAndroid.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDeviceMemoryExternalFuchsia.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDeviceMemoryExternalHost.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDeviceMemoryExternalHost.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDeviceMemoryExternalLinux.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkDeviceMemoryExternalMac.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkEvent.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkFence.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkFormat.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkFormat.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkFramebuffer.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkFramebuffer.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkGetProcAddress.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkGetProcAddress.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkImage.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkImage.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkImageView.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkImageView.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkInstance.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkInstance.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkMemory.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkMemory.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkObject.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkPhysicalDevice.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkPhysicalDevice.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkPipeline.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkPipeline.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkPipelineCache.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkPipelineCache.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkPipelineLayout.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkPipelineLayout.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkPrivateData.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkPromotedExtensions.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkQueryPool.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkQueryPool.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkQueue.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkQueue.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkRenderPass.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkRenderPass.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkSampler.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkSampler.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkSemaphore.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkSemaphore.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkSemaphoreExternalFuchsia.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkSemaphoreExternalLinux.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkShaderModule.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkShaderModule.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkSpecializationInfo.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkSpecializationInfo.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkStringify.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkStringify.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkStructConversion.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkTimelineSemaphore.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VkTimelineSemaphore.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/VulkanPlatform.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/libVulkan.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/Vulkan/main.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/DirectFBSurfaceEXT.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/DirectFBSurfaceEXT.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/DisplaySurfaceKHR.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/DisplaySurfaceKHR.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/HeadlessSurfaceKHR.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/HeadlessSurfaceKHR.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/MetalSurface.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/MetalSurface.mm
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/VkSurfaceKHR.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/VkSurfaceKHR.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/VkSwapchainKHR.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/VkSwapchainKHR.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/WaylandSurfaceKHR.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/WaylandSurfaceKHR.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/Win32SurfaceKHR.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/Win32SurfaceKHR.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/XcbSurfaceKHR.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/XcbSurfaceKHR.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/libWaylandClient.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/libWaylandClient.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/libXCB.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/libXCB.hpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/benchmarks/skparagraph_benchmarks.cc
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/benchmarks/txt_run_all_benchmarks.cc
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/skia/paragraph_builder_skia.cc
@@ -4356,6 +4666,347 @@ FILE: ../../../flutter/third_party/shaderc/libshaderc_util/src/spirv_tools_wrapp
 FILE: ../../../flutter/third_party/shaderc/libshaderc_util/src/string_piece_test.cc
 FILE: ../../../flutter/third_party/shaderc/libshaderc_util/src/version_profile.cc
 FILE: ../../../flutter/third_party/shaderc/libshaderc_util/src/version_profile_test.cc
+FILE: ../../../flutter/third_party/swiftshader/.dir-locals.el
+FILE: ../../../flutter/third_party/swiftshader/AUTHORS.txt
+FILE: ../../../flutter/third_party/swiftshader/Android.bp
+FILE: ../../../flutter/third_party/swiftshader/CMakeSettings.json
+FILE: ../../../flutter/third_party/swiftshader/CONTRIBUTORS.txt
+FILE: ../../../flutter/third_party/swiftshader/build/strip_unneeded.go
+FILE: ../../../flutter/third_party/swiftshader/docs/ArchitectureLayers.png
+FILE: ../../../flutter/third_party/swiftshader/docs/Exp-Log-Optimization.pdf
+FILE: ../../../flutter/third_party/swiftshader/docs/Index.md
+FILE: ../../../flutter/third_party/swiftshader/docs/LLVM.md
+FILE: ../../../flutter/third_party/swiftshader/docs/Reactor.md
+FILE: ../../../flutter/third_party/swiftshader/docs/ReactorDebugInfo.md
+FILE: ../../../flutter/third_party/swiftshader/docs/Regres.md
+FILE: ../../../flutter/third_party/swiftshader/docs/RuntimeConfiguration.md
+FILE: ../../../flutter/third_party/swiftshader/docs/SamplingRoutines.md
+FILE: ../../../flutter/third_party/swiftshader/docs/Sin-Cos-Optimization.pdf
+FILE: ../../../flutter/third_party/swiftshader/docs/Subzero.md
+FILE: ../../../flutter/third_party/swiftshader/docs/TimelineSemaphores.md
+FILE: ../../../flutter/third_party/swiftshader/docs/VulkanShaderDebugging.md
+FILE: ../../../flutter/third_party/swiftshader/docs/dEQP.md
+FILE: ../../../flutter/third_party/swiftshader/include/Android/android/sync.h
+FILE: ../../../flutter/third_party/swiftshader/include/Android/cutils/native_handle.h
+FILE: ../../../flutter/third_party/swiftshader/include/Android/hardware/gralloc.h
+FILE: ../../../flutter/third_party/swiftshader/include/Android/hardware/gralloc1.h
+FILE: ../../../flutter/third_party/swiftshader/include/Android/hardware/hardware.h
+FILE: ../../../flutter/third_party/swiftshader/include/Android/nativebase/nativebase.h
+FILE: ../../../flutter/third_party/swiftshader/include/Android/sync/sync.h
+FILE: ../../../flutter/third_party/swiftshader/include/Android/system/graphics.h
+FILE: ../../../flutter/third_party/swiftshader/include/Android/vndk/window.h
+FILE: ../../../flutter/third_party/swiftshader/include/vk_video/vulkan_video_codec_h264std.h
+FILE: ../../../flutter/third_party/swiftshader/include/vk_video/vulkan_video_codec_h264std_decode.h
+FILE: ../../../flutter/third_party/swiftshader/include/vk_video/vulkan_video_codec_h264std_encode.h
+FILE: ../../../flutter/third_party/swiftshader/include/vk_video/vulkan_video_codec_h265std.h
+FILE: ../../../flutter/third_party/swiftshader/include/vk_video/vulkan_video_codec_h265std_decode.h
+FILE: ../../../flutter/third_party/swiftshader/include/vk_video/vulkan_video_codec_h265std_encode.h
+FILE: ../../../flutter/third_party/swiftshader/include/vk_video/vulkan_video_codecs_common.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vk_icd.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vk_layer.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vk_platform.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vk_sdk_platform.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan.cppm
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan.hpp
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_android.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_beta.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_core.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_directfb.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_enums.hpp
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_extension_inspection.hpp
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_format_traits.hpp
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_fuchsia.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_funcs.hpp
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_ggp.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_handles.hpp
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_hash.hpp
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_hpp_macros.hpp
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_ios.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_macos.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_metal.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_raii.hpp
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_screen.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_shared.hpp
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_static_assertions.hpp
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_structs.hpp
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_to_string.hpp
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_vi.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_video.hpp
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_wayland.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_win32.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_xcb.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_xlib.h
+FILE: ../../../flutter/third_party/swiftshader/include/vulkan/vulkan_xlib_xrandr.h
+FILE: ../../../flutter/third_party/swiftshader/include/xcb/shm.h
+FILE: ../../../flutter/third_party/swiftshader/include/xcb/xproto.h
+FILE: ../../../flutter/third_party/swiftshader/infra/config/generated/commit-queue.cfg
+FILE: ../../../flutter/third_party/swiftshader/infra/config/generated/project.cfg
+FILE: ../../../flutter/third_party/swiftshader/infra/config/generated/realms.cfg
+FILE: ../../../flutter/third_party/swiftshader/src/Android.bp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/ASTC_Decoder.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/ASTC_Decoder.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/BC_Decoder.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/BC_Decoder.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/Blitter.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/Blitter.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/Clipper.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/Clipper.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/Config.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/Context.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/Context.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/ETC_Decoder.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/ETC_Decoder.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/Memset.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/PixelProcessor.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/PixelProcessor.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/Polygon.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/Primitive.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/QuadRasterizer.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/QuadRasterizer.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/Rasterizer.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/Renderer.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/Renderer.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/RoutineCache.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/Sampler.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/SetupProcessor.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/SetupProcessor.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/Stream.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/Vertex.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/VertexProcessor.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Device/VertexProcessor.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/ComputeProgram.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/ComputeProgram.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/Constants.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/Constants.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/PixelProgram.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/PixelProgram.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/PixelRoutine.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/PixelRoutine.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SamplerCore.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SamplerCore.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SetupRoutine.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SetupRoutine.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/ShaderCore.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/ShaderCore.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvBinary.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvBinary.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvID.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvProfiler.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvProfiler.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShader.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShader.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderArithmetic.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderControlFlow.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderDebug.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderDebugger.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderGLSLstd450.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderGroup.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderImage.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderInstructions.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderMemory.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderSampling.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/SpirvShaderSpec.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/VertexProgram.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/VertexProgram.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/VertexRoutine.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Pipeline/VertexRoutine.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/Assert.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/Assert.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/CPUID.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/CPUID.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/Coroutine.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/Debug.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/Debug.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/ExecutableMemory.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/ExecutableMemory.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/LLVMAsm.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/LLVMAsm.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/LLVMJIT.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/LLVMReactor.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/LLVMReactor.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/LLVMReactorDebugInfo.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/LLVMReactorDebugInfo.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/Nucleus.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/Optimizer.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/Optimizer.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/Pragma.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/Pragma.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/PragmaInternals.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/Print.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/Reactor.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/Reactor.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/ReactorDebugInfo.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/ReactorDebugInfo.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/Routine.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/SIMD.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/SIMD.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/SubzeroReactor.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/Swizzle.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/Traits.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/Traits.inl
+FILE: ../../../flutter/third_party/swiftshader/src/Reactor/x86.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Build.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Build.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/CPUID.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/CPUID.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Configurator.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Configurator.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Debug.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Debug.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Half.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Half.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/LRUCache.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Linux/MemFd.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Linux/MemFd.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Math.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Math.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Memory.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Memory.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/SharedLibrary.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Socket.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Socket.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/SwiftConfig.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/SwiftConfig.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Synchronization.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Timer.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Timer.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/System/Types.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Context.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Context.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Debug.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/EventListener.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/EventListener.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/File.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/File.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/ID.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Location.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Server.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Server.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Thread.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Thread.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/TypeOf.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/TypeOf.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Value.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Value.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Variable.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/Variable.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Debug/WeakMap.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Version.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkBuffer.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkBuffer.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkBufferView.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkBufferView.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkCommandBuffer.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkCommandBuffer.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkCommandPool.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkCommandPool.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkConfig.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDebugUtilsMessenger.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDebugUtilsMessenger.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDescriptorPool.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDescriptorPool.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDescriptorSet.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDescriptorSet.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDescriptorSetLayout.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDescriptorSetLayout.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDescriptorUpdateTemplate.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDescriptorUpdateTemplate.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDestroy.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDevice.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDevice.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDeviceMemory.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDeviceMemory.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDeviceMemoryExternalAndroid.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDeviceMemoryExternalAndroid.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDeviceMemoryExternalFuchsia.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDeviceMemoryExternalHost.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDeviceMemoryExternalHost.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDeviceMemoryExternalLinux.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkDeviceMemoryExternalMac.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkEvent.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkFence.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkFormat.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkFormat.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkFramebuffer.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkFramebuffer.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkGetProcAddress.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkGetProcAddress.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkImage.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkImage.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkImageView.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkImageView.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkInstance.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkInstance.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkMemory.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkMemory.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkObject.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkPhysicalDevice.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkPhysicalDevice.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkPipeline.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkPipeline.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkPipelineCache.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkPipelineCache.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkPipelineLayout.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkPipelineLayout.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkPrivateData.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkPromotedExtensions.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkQueryPool.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkQueryPool.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkQueue.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkQueue.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkRenderPass.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkRenderPass.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkSampler.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkSampler.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkSemaphore.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkSemaphore.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkSemaphoreExternalFuchsia.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkSemaphoreExternalLinux.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkShaderModule.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkShaderModule.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkSpecializationInfo.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkSpecializationInfo.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkStringify.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkStringify.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkStructConversion.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkTimelineSemaphore.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VkTimelineSemaphore.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/Vulkan.rc
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/VulkanPlatform.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/android_host_vk_swiftshader.lds
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/android_vk_swiftshader.lds
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/fuchsia_vk_swiftshader.lds
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/libVulkan.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/main.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/resource.h
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/vk_swiftshader.def
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/vk_swiftshader.exports
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/vk_swiftshader.lds
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/vk_swiftshader_icd.json
+FILE: ../../../flutter/third_party/swiftshader/src/Vulkan/vk_swiftshader_icd.json.tmpl
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/DirectFBSurfaceEXT.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/DirectFBSurfaceEXT.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/DisplaySurfaceKHR.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/DisplaySurfaceKHR.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/HeadlessSurfaceKHR.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/HeadlessSurfaceKHR.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/MetalSurface.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/MetalSurface.mm
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/VkSurfaceKHR.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/VkSurfaceKHR.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/VkSwapchainKHR.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/VkSwapchainKHR.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/WaylandSurfaceKHR.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/WaylandSurfaceKHR.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/Win32SurfaceKHR.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/Win32SurfaceKHR.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/XcbSurfaceKHR.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/XcbSurfaceKHR.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/libWaylandClient.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/libWaylandClient.hpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/libXCB.cpp
+FILE: ../../../flutter/third_party/swiftshader/src/WSI/libXCB.hpp
 FILE: ../../../flutter/third_party/txt/benchmarks/skparagraph_benchmarks.cc
 FILE: ../../../flutter/third_party/txt/benchmarks/txt_run_all_benchmarks.cc
 FILE: ../../../flutter/third_party/txt/src/skia/paragraph_builder_skia.cc
@@ -16875,6 +17526,33 @@ authorization of the copyright holder.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: swiftshader
+ORIGIN: ../../../flutter/third_party/swiftshader/include/xcb/xcb.h
+TYPE: LicenseType.mit
+FILE: ../../../flutter/third_party/swiftshader/include/xcb/xcb.h
+----------------------------------------------------------------------------------------------------
+Copyright (C) 2001-2006 Bart Massey, Jamey Sharp, and Josh Triplett.
+All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: icu
 ORIGIN: ../../../flutter/third_party/icu/source/common/ustrfmt.cpp + ../../../flutter/third_party/icu/LICENSE
 ORIGIN: ../../../flutter/third_party/icu/source/common/ustrfmt.h + ../../../flutter/third_party/icu/LICENSE
@@ -23062,6 +23740,39 @@ Except as contained in this notice, the name of a copyright holder shall
 not be used in advertising or otherwise to promote the sale, use or other
 dealings in these Data Files or Software without prior written
 authorization of the copyright holder.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: swiftshader
+ORIGIN: ../../../flutter/third_party/swiftshader/include/Android/android/api-level.h
+TYPE: LicenseType.bsd
+FILE: ../../../flutter/third_party/swiftshader/include/Android/android/api-level.h
+----------------------------------------------------------------------------------------------------
+Copyright (C) 2008 The Android Open Source Project
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+* Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in
+   the documentation and/or other materials provided with the
+   distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
+AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
@@ -53435,6 +54146,72 @@ PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: swiftshader
+ORIGIN: ../../../flutter/third_party/swiftshader/include/Wayland/wayland-client-core.h
+ORIGIN: ../../../flutter/third_party/swiftshader/include/Wayland/wayland-client.h
+ORIGIN: ../../../flutter/third_party/swiftshader/include/Wayland/wayland-util.h
+TYPE: LicenseType.mit
+FILE: ../../../flutter/third_party/swiftshader/include/Wayland/wayland-client-core.h
+FILE: ../../../flutter/third_party/swiftshader/include/Wayland/wayland-client.h
+FILE: ../../../flutter/third_party/swiftshader/include/Wayland/wayland-util.h
+----------------------------------------------------------------------------------------------------
+Copyright © 2008 Kristian Høgsberg
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice (including the
+next paragraph) shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: swiftshader
+ORIGIN: ../../../flutter/third_party/swiftshader/include/Wayland/wayland-client-protocol.h
+TYPE: LicenseType.mit
+FILE: ../../../flutter/third_party/swiftshader/include/Wayland/wayland-client-protocol.h
+----------------------------------------------------------------------------------------------------
+Copyright © 2008-2011 Kristian Høgsberg
+Copyright © 2010-2011 Intel Corporation
+Copyright © 2012-2013 Collabora, Ltd.
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation files
+(the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of the Software,
+and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice (including the
+next paragraph) shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: harfbuzz
 ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-blob.h
 ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-face.h
@@ -54462,6 +55239,36 @@ BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
 FITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE PROVIDED HEREUNDER IS
 ON AN "AS IS" BASIS, AND THE COPYRIGHT HOLDER HAS NO OBLIGATION TO
 PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: swiftshader
+ORIGIN: ../../../flutter/third_party/swiftshader/include/Wayland/wayland-version.h
+TYPE: LicenseType.mit
+FILE: ../../../flutter/third_party/swiftshader/include/Wayland/wayland-version.h
+----------------------------------------------------------------------------------------------------
+Copyright © 2012 Intel Corporation
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice (including the
+next paragraph) shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT.  IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
@@ -70228,4 +71035,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
-Total license count: 904
+Total license count: 909
