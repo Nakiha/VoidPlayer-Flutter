@@ -42638,8 +42638,6 @@ ORIGIN: ../../../flutter/impeller/aiks/paint_pass_delegate.cc + ../../../flutter
 ORIGIN: ../../../flutter/impeller/aiks/paint_pass_delegate.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/aiks/picture.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/aiks/picture.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/aiks/picture_recorder.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/aiks/picture_recorder.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/base/allocation.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/base/allocation.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/base/allocation_size.cc + ../../../flutter/LICENSE
@@ -45470,8 +45468,6 @@ FILE: ../../../flutter/impeller/aiks/paint_pass_delegate.cc
 FILE: ../../../flutter/impeller/aiks/paint_pass_delegate.h
 FILE: ../../../flutter/impeller/aiks/picture.cc
 FILE: ../../../flutter/impeller/aiks/picture.h
-FILE: ../../../flutter/impeller/aiks/picture_recorder.cc
-FILE: ../../../flutter/impeller/aiks/picture_recorder.h
 FILE: ../../../flutter/impeller/base/allocation.cc
 FILE: ../../../flutter/impeller/base/allocation.h
 FILE: ../../../flutter/impeller/base/allocation_size.cc
