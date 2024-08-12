@@ -42814,6 +42814,8 @@ ORIGIN: ../../../flutter/impeller/entity/contents/radial_gradient_contents.cc + 
 ORIGIN: ../../../flutter/impeller/entity/contents/radial_gradient_contents.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/runtime_effect_contents.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/runtime_effect_contents.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/contents/scene_contents.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/contents/scene_contents.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/solid_color_contents.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/solid_color_contents.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/solid_rrect_blur_contents.cc + ../../../flutter/LICENSE
@@ -43226,6 +43228,48 @@ ORIGIN: ../../../flutter/impeller/runtime_stage/runtime_stage.h + ../../../flutt
 ORIGIN: ../../../flutter/impeller/runtime_stage/runtime_stage_playground.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/runtime_stage/runtime_stage_playground.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/runtime_stage/runtime_stage_types.fbs + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/animation/animation.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/animation/animation.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/animation/animation_clip.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/animation/animation_clip.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/animation/animation_player.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/animation/animation_player.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/animation/animation_transforms.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/animation/property_resolver.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/animation/property_resolver.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/camera.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/camera.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/geometry.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/geometry.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/importer/conversions.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/importer/conversions.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/importer/importer.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/importer/importer_gltf.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/importer/scene.fbs + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/importer/scenec_main.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/importer/switches.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/importer/switches.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/importer/types.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/importer/vertices_builder.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/importer/vertices_builder.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/material.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/material.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/mesh.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/mesh.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/node.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/node.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/pipeline_key.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/scene.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/scene.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/scene_context.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/scene_context.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/scene_encoder.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/scene_encoder.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/shaders/skinned.vert + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/shaders/unlit.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/shaders/unskinned.vert + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/skin.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/scene/skin.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/shader_archive/shader_archive.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/shader_archive/shader_archive.fbs + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/shader_archive/shader_archive.h + ../../../flutter/LICENSE
@@ -43358,6 +43402,9 @@ ORIGIN: ../../../flutter/lib/ui/dart_runtime_hooks.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/dart_ui.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/dart_ui.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/dart_wrapper.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/ui/experiments/scene.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/ui/experiments/setup_hooks.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/ui/experiments/ui.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/floating_point.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/geometry.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/hooks.dart + ../../../flutter/LICENSE
@@ -45644,6 +45691,8 @@ FILE: ../../../flutter/impeller/entity/contents/radial_gradient_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/radial_gradient_contents.h
 FILE: ../../../flutter/impeller/entity/contents/runtime_effect_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/runtime_effect_contents.h
+FILE: ../../../flutter/impeller/entity/contents/scene_contents.cc
+FILE: ../../../flutter/impeller/entity/contents/scene_contents.h
 FILE: ../../../flutter/impeller/entity/contents/solid_color_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/solid_color_contents.h
 FILE: ../../../flutter/impeller/entity/contents/solid_rrect_blur_contents.cc
@@ -46057,6 +46106,48 @@ FILE: ../../../flutter/impeller/runtime_stage/runtime_stage.h
 FILE: ../../../flutter/impeller/runtime_stage/runtime_stage_playground.cc
 FILE: ../../../flutter/impeller/runtime_stage/runtime_stage_playground.h
 FILE: ../../../flutter/impeller/runtime_stage/runtime_stage_types.fbs
+FILE: ../../../flutter/impeller/scene/animation/animation.cc
+FILE: ../../../flutter/impeller/scene/animation/animation.h
+FILE: ../../../flutter/impeller/scene/animation/animation_clip.cc
+FILE: ../../../flutter/impeller/scene/animation/animation_clip.h
+FILE: ../../../flutter/impeller/scene/animation/animation_player.cc
+FILE: ../../../flutter/impeller/scene/animation/animation_player.h
+FILE: ../../../flutter/impeller/scene/animation/animation_transforms.h
+FILE: ../../../flutter/impeller/scene/animation/property_resolver.cc
+FILE: ../../../flutter/impeller/scene/animation/property_resolver.h
+FILE: ../../../flutter/impeller/scene/camera.cc
+FILE: ../../../flutter/impeller/scene/camera.h
+FILE: ../../../flutter/impeller/scene/geometry.cc
+FILE: ../../../flutter/impeller/scene/geometry.h
+FILE: ../../../flutter/impeller/scene/importer/conversions.cc
+FILE: ../../../flutter/impeller/scene/importer/conversions.h
+FILE: ../../../flutter/impeller/scene/importer/importer.h
+FILE: ../../../flutter/impeller/scene/importer/importer_gltf.cc
+FILE: ../../../flutter/impeller/scene/importer/scene.fbs
+FILE: ../../../flutter/impeller/scene/importer/scenec_main.cc
+FILE: ../../../flutter/impeller/scene/importer/switches.cc
+FILE: ../../../flutter/impeller/scene/importer/switches.h
+FILE: ../../../flutter/impeller/scene/importer/types.h
+FILE: ../../../flutter/impeller/scene/importer/vertices_builder.cc
+FILE: ../../../flutter/impeller/scene/importer/vertices_builder.h
+FILE: ../../../flutter/impeller/scene/material.cc
+FILE: ../../../flutter/impeller/scene/material.h
+FILE: ../../../flutter/impeller/scene/mesh.cc
+FILE: ../../../flutter/impeller/scene/mesh.h
+FILE: ../../../flutter/impeller/scene/node.cc
+FILE: ../../../flutter/impeller/scene/node.h
+FILE: ../../../flutter/impeller/scene/pipeline_key.h
+FILE: ../../../flutter/impeller/scene/scene.cc
+FILE: ../../../flutter/impeller/scene/scene.h
+FILE: ../../../flutter/impeller/scene/scene_context.cc
+FILE: ../../../flutter/impeller/scene/scene_context.h
+FILE: ../../../flutter/impeller/scene/scene_encoder.cc
+FILE: ../../../flutter/impeller/scene/scene_encoder.h
+FILE: ../../../flutter/impeller/scene/shaders/skinned.vert
+FILE: ../../../flutter/impeller/scene/shaders/unlit.frag
+FILE: ../../../flutter/impeller/scene/shaders/unskinned.vert
+FILE: ../../../flutter/impeller/scene/skin.cc
+FILE: ../../../flutter/impeller/scene/skin.h
 FILE: ../../../flutter/impeller/shader_archive/shader_archive.cc
 FILE: ../../../flutter/impeller/shader_archive/shader_archive.fbs
 FILE: ../../../flutter/impeller/shader_archive/shader_archive.h
@@ -46179,6 +46270,7 @@ FILE: ../../../flutter/lib/gpu/texture.cc
 FILE: ../../../flutter/lib/gpu/texture.h
 FILE: ../../../flutter/lib/io/dart_io.cc
 FILE: ../../../flutter/lib/io/dart_io.h
+FILE: ../../../flutter/lib/snapshot/libraries_experimental.json
 FILE: ../../../flutter/lib/snapshot/snapshot.h
 FILE: ../../../flutter/lib/ui/annotations.dart
 FILE: ../../../flutter/lib/ui/channel_buffers.dart
@@ -46192,6 +46284,9 @@ FILE: ../../../flutter/lib/ui/dart_runtime_hooks.h
 FILE: ../../../flutter/lib/ui/dart_ui.cc
 FILE: ../../../flutter/lib/ui/dart_ui.h
 FILE: ../../../flutter/lib/ui/dart_wrapper.h
+FILE: ../../../flutter/lib/ui/experiments/scene.dart
+FILE: ../../../flutter/lib/ui/experiments/setup_hooks.dart
+FILE: ../../../flutter/lib/ui/experiments/ui.dart
 FILE: ../../../flutter/lib/ui/floating_point.h
 FILE: ../../../flutter/lib/ui/geometry.dart
 FILE: ../../../flutter/lib/ui/hooks.dart
