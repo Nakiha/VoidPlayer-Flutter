@@ -42862,6 +42862,8 @@ ORIGIN: ../../../flutter/impeller/entity/geometry/round_rect_geometry.cc + ../..
 ORIGIN: ../../../flutter/impeller/entity/geometry/round_rect_geometry.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/geometry/stroke_path_geometry.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/geometry/stroke_path_geometry.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/geometry/superellipse_geometry.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/geometry/superellipse_geometry.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/geometry/vertices_geometry.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/geometry/vertices_geometry.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/inline_pass_context.cc + ../../../flutter/LICENSE
@@ -45739,6 +45741,8 @@ FILE: ../../../flutter/impeller/entity/geometry/round_rect_geometry.cc
 FILE: ../../../flutter/impeller/entity/geometry/round_rect_geometry.h
 FILE: ../../../flutter/impeller/entity/geometry/stroke_path_geometry.cc
 FILE: ../../../flutter/impeller/entity/geometry/stroke_path_geometry.h
+FILE: ../../../flutter/impeller/entity/geometry/superellipse_geometry.cc
+FILE: ../../../flutter/impeller/entity/geometry/superellipse_geometry.h
 FILE: ../../../flutter/impeller/entity/geometry/vertices_geometry.cc
 FILE: ../../../flutter/impeller/entity/geometry/vertices_geometry.h
 FILE: ../../../flutter/impeller/entity/inline_pass_context.cc
