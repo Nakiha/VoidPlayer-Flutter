@@ -42320,6 +42320,7 @@ ORIGIN: ../../../flutter/display_list/dl_builder.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/dl_builder.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/dl_canvas.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/dl_canvas.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/dl_color.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/dl_color.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/dl_op_flags.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/dl_op_flags.h + ../../../flutter/LICENSE
@@ -45199,6 +45200,7 @@ FILE: ../../../flutter/display_list/dl_builder.cc
 FILE: ../../../flutter/display_list/dl_builder.h
 FILE: ../../../flutter/display_list/dl_canvas.cc
 FILE: ../../../flutter/display_list/dl_canvas.h
+FILE: ../../../flutter/display_list/dl_color.cc
 FILE: ../../../flutter/display_list/dl_color.h
 FILE: ../../../flutter/display_list/dl_op_flags.cc
 FILE: ../../../flutter/display_list/dl_op_flags.h
