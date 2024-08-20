@@ -44060,6 +44060,7 @@ ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/Flu
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/FlutterSurfaceView.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/FlutterTextureView.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/FlutterView.java + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/FlutterViewDelegate.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/KeyChannelResponder.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/KeyData.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/KeyEmbedderResponder.java + ../../../flutter/LICENSE
@@ -46946,6 +46947,7 @@ FILE: ../../../flutter/shell/platform/android/io/flutter/embedding/android/Flutt
 FILE: ../../../flutter/shell/platform/android/io/flutter/embedding/android/FlutterSurfaceView.java
 FILE: ../../../flutter/shell/platform/android/io/flutter/embedding/android/FlutterTextureView.java
 FILE: ../../../flutter/shell/platform/android/io/flutter/embedding/android/FlutterView.java
+FILE: ../../../flutter/shell/platform/android/io/flutter/embedding/android/FlutterViewDelegate.java
 FILE: ../../../flutter/shell/platform/android/io/flutter/embedding/android/KeyChannelResponder.java
 FILE: ../../../flutter/shell/platform/android/io/flutter/embedding/android/KeyData.java
 FILE: ../../../flutter/shell/platform/android/io/flutter/embedding/android/KeyEmbedderResponder.java
