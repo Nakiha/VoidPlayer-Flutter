@@ -43983,6 +43983,8 @@ ORIGIN: ../../../flutter/shell/gpu/gpu_surface_metal_impeller.h + ../../../flutt
 ORIGIN: ../../../flutter/shell/gpu/gpu_surface_metal_impeller.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/gpu/gpu_surface_metal_skia.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/gpu/gpu_surface_metal_skia.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/gpu/gpu_surface_noop.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/gpu/gpu_surface_noop.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/gpu/gpu_surface_software.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/gpu/gpu_surface_software.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/gpu/gpu_surface_software_delegate.cc + ../../../flutter/LICENSE
@@ -44448,6 +44450,8 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_surface_metal_impeller.h 
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_surface_metal_impeller.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_surface_metal_skia.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_surface_metal_skia.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_surface_noop.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_surface_noop.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_surface_software.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_surface_software.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/platform_message_handler_ios.h + ../../../flutter/LICENSE
@@ -46874,6 +46878,8 @@ FILE: ../../../flutter/shell/gpu/gpu_surface_metal_impeller.h
 FILE: ../../../flutter/shell/gpu/gpu_surface_metal_impeller.mm
 FILE: ../../../flutter/shell/gpu/gpu_surface_metal_skia.h
 FILE: ../../../flutter/shell/gpu/gpu_surface_metal_skia.mm
+FILE: ../../../flutter/shell/gpu/gpu_surface_noop.h
+FILE: ../../../flutter/shell/gpu/gpu_surface_noop.mm
 FILE: ../../../flutter/shell/gpu/gpu_surface_software.cc
 FILE: ../../../flutter/shell/gpu/gpu_surface_software.h
 FILE: ../../../flutter/shell/gpu/gpu_surface_software_delegate.cc
@@ -47353,6 +47359,8 @@ FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_metal_impeller.h
 FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_metal_impeller.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_metal_skia.h
 FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_metal_skia.mm
+FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_noop.h
+FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_noop.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_software.h
 FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_software.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/platform_message_handler_ios.h
