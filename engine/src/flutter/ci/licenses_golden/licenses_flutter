@@ -42629,8 +42629,6 @@ ORIGIN: ../../../flutter/impeller/aiks/color_source.cc + ../../../flutter/LICENS
 ORIGIN: ../../../flutter/impeller/aiks/color_source.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/aiks/experimental_canvas.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/aiks/experimental_canvas.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/aiks/image.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/aiks/image.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/aiks/image_filter.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/aiks/image_filter.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/aiks/paint.cc + ../../../flutter/LICENSE
@@ -45518,8 +45516,6 @@ FILE: ../../../flutter/impeller/aiks/color_source.cc
 FILE: ../../../flutter/impeller/aiks/color_source.h
 FILE: ../../../flutter/impeller/aiks/experimental_canvas.cc
 FILE: ../../../flutter/impeller/aiks/experimental_canvas.h
-FILE: ../../../flutter/impeller/aiks/image.cc
-FILE: ../../../flutter/impeller/aiks/image.h
 FILE: ../../../flutter/impeller/aiks/image_filter.cc
 FILE: ../../../flutter/impeller/aiks/image_filter.h
 FILE: ../../../flutter/impeller/aiks/paint.cc
