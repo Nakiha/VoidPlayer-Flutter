@@ -43298,6 +43298,8 @@ ORIGIN: ../../../flutter/impeller/toolkit/android/native_window.cc + ../../../fl
 ORIGIN: ../../../flutter/impeller/toolkit/android/native_window.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/android/proc_table.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/android/proc_table.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/android/shadow_realm.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/android/shadow_realm.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/android/surface_control.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/android/surface_control.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/android/surface_transaction.cc + ../../../flutter/LICENSE
@@ -46187,6 +46189,8 @@ FILE: ../../../flutter/impeller/toolkit/android/native_window.cc
 FILE: ../../../flutter/impeller/toolkit/android/native_window.h
 FILE: ../../../flutter/impeller/toolkit/android/proc_table.cc
 FILE: ../../../flutter/impeller/toolkit/android/proc_table.h
+FILE: ../../../flutter/impeller/toolkit/android/shadow_realm.cc
+FILE: ../../../flutter/impeller/toolkit/android/shadow_realm.h
 FILE: ../../../flutter/impeller/toolkit/android/surface_control.cc
 FILE: ../../../flutter/impeller/toolkit/android/surface_control.h
 FILE: ../../../flutter/impeller/toolkit/android/surface_transaction.cc
