@@ -42871,6 +42871,8 @@ ORIGIN: ../../../flutter/impeller/entity/inline_pass_context.cc + ../../../flutt
 ORIGIN: ../../../flutter/impeller/entity/inline_pass_context.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/render_target_cache.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/render_target_cache.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/save_layer_utils.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/save_layer_utils.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/blending/advanced_blend.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/blending/advanced_blend.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/blending/blend_select.glsl + ../../../flutter/LICENSE
@@ -45761,6 +45763,8 @@ FILE: ../../../flutter/impeller/entity/inline_pass_context.cc
 FILE: ../../../flutter/impeller/entity/inline_pass_context.h
 FILE: ../../../flutter/impeller/entity/render_target_cache.cc
 FILE: ../../../flutter/impeller/entity/render_target_cache.h
+FILE: ../../../flutter/impeller/entity/save_layer_utils.cc
+FILE: ../../../flutter/impeller/entity/save_layer_utils.h
 FILE: ../../../flutter/impeller/entity/shaders/blending/advanced_blend.frag
 FILE: ../../../flutter/impeller/entity/shaders/blending/advanced_blend.vert
 FILE: ../../../flutter/impeller/entity/shaders/blending/blend_select.glsl
