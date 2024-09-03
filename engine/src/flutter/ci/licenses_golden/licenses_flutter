@@ -44789,6 +44789,8 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_accessible_node_test.cc + ../..
 ORIGIN: ../../../flutter/shell/platform/linux/fl_accessible_text_field.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_accessible_text_field.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_accessible_text_field_test.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_application.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_application_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_basic_message_channel.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_basic_message_channel_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_binary_codec.cc + ../../../flutter/LICENSE
@@ -44910,6 +44912,7 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_window_state_monitor_test.cc + 
 ORIGIN: ../../../flutter/shell/platform/linux/key_mapping.g.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/key_mapping.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/key_mapping_test.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/public/flutter_linux/fl_application.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/public/flutter_linux/fl_basic_message_channel.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/public/flutter_linux/fl_binary_codec.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/public/flutter_linux/fl_binary_messenger.h + ../../../flutter/LICENSE
@@ -47712,6 +47715,8 @@ FILE: ../../../flutter/shell/platform/linux/fl_accessible_node_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_accessible_text_field.cc
 FILE: ../../../flutter/shell/platform/linux/fl_accessible_text_field.h
 FILE: ../../../flutter/shell/platform/linux/fl_accessible_text_field_test.cc
+FILE: ../../../flutter/shell/platform/linux/fl_application.cc
+FILE: ../../../flutter/shell/platform/linux/fl_application_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_basic_message_channel.cc
 FILE: ../../../flutter/shell/platform/linux/fl_basic_message_channel_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_binary_codec.cc
@@ -47833,6 +47838,7 @@ FILE: ../../../flutter/shell/platform/linux/fl_window_state_monitor_test.cc
 FILE: ../../../flutter/shell/platform/linux/key_mapping.g.cc
 FILE: ../../../flutter/shell/platform/linux/key_mapping.h
 FILE: ../../../flutter/shell/platform/linux/key_mapping_test.cc
+FILE: ../../../flutter/shell/platform/linux/public/flutter_linux/fl_application.h
 FILE: ../../../flutter/shell/platform/linux/public/flutter_linux/fl_basic_message_channel.h
 FILE: ../../../flutter/shell/platform/linux/public/flutter_linux/fl_binary_codec.h
 FILE: ../../../flutter/shell/platform/linux/public/flutter_linux/fl_binary_messenger.h
