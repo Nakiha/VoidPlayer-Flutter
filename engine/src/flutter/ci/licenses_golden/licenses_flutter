@@ -42345,6 +42345,8 @@ ORIGIN: ../../../flutter/display_list/effects/dl_mask_filter.h + ../../../flutte
 ORIGIN: ../../../flutter/display_list/effects/dl_runtime_effect.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/dl_runtime_effect.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/geometry/dl_geometry_types.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/geometry/dl_path.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/geometry/dl_path.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/geometry/dl_region.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/geometry/dl_region.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/geometry/dl_rtree.cc + ../../../flutter/LICENSE
@@ -45240,6 +45242,8 @@ FILE: ../../../flutter/display_list/effects/dl_mask_filter.h
 FILE: ../../../flutter/display_list/effects/dl_runtime_effect.cc
 FILE: ../../../flutter/display_list/effects/dl_runtime_effect.h
 FILE: ../../../flutter/display_list/geometry/dl_geometry_types.h
+FILE: ../../../flutter/display_list/geometry/dl_path.cc
+FILE: ../../../flutter/display_list/geometry/dl_path.h
 FILE: ../../../flutter/display_list/geometry/dl_region.cc
 FILE: ../../../flutter/display_list/geometry/dl_region.h
 FILE: ../../../flutter/display_list/geometry/dl_rtree.cc
