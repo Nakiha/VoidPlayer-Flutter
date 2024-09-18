@@ -43283,6 +43283,40 @@ ORIGIN: ../../../flutter/impeller/toolkit/glvk/proc_table.cc + ../../../flutter/
 ORIGIN: ../../../flutter/impeller/toolkit/glvk/proc_table.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/glvk/trampoline.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/glvk/trampoline.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/color_filter.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/color_filter.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/color_source.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/color_source.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/context.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/context.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/dl.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/dl.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/dl_builder.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/dl_builder.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/example.c + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/formats.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/formats.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/image_filter.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/image_filter.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/impeller.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/impeller.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/impeller_c.c + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/mask_filter.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/mask_filter.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/object.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/object.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/paint.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/paint.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/path.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/path.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/path_builder.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/path_builder.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/playground_test.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/playground_test.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/surface.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/surface.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/texture.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/texture.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/typographer/backends/skia/text_frame_skia.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/typographer/backends/skia/text_frame_skia.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/typographer/backends/skia/typeface_skia.cc + ../../../flutter/LICENSE
@@ -46127,6 +46161,40 @@ FILE: ../../../flutter/impeller/toolkit/glvk/proc_table.cc
 FILE: ../../../flutter/impeller/toolkit/glvk/proc_table.h
 FILE: ../../../flutter/impeller/toolkit/glvk/trampoline.cc
 FILE: ../../../flutter/impeller/toolkit/glvk/trampoline.h
+FILE: ../../../flutter/impeller/toolkit/interop/color_filter.cc
+FILE: ../../../flutter/impeller/toolkit/interop/color_filter.h
+FILE: ../../../flutter/impeller/toolkit/interop/color_source.cc
+FILE: ../../../flutter/impeller/toolkit/interop/color_source.h
+FILE: ../../../flutter/impeller/toolkit/interop/context.cc
+FILE: ../../../flutter/impeller/toolkit/interop/context.h
+FILE: ../../../flutter/impeller/toolkit/interop/dl.cc
+FILE: ../../../flutter/impeller/toolkit/interop/dl.h
+FILE: ../../../flutter/impeller/toolkit/interop/dl_builder.cc
+FILE: ../../../flutter/impeller/toolkit/interop/dl_builder.h
+FILE: ../../../flutter/impeller/toolkit/interop/example.c
+FILE: ../../../flutter/impeller/toolkit/interop/formats.cc
+FILE: ../../../flutter/impeller/toolkit/interop/formats.h
+FILE: ../../../flutter/impeller/toolkit/interop/image_filter.cc
+FILE: ../../../flutter/impeller/toolkit/interop/image_filter.h
+FILE: ../../../flutter/impeller/toolkit/interop/impeller.cc
+FILE: ../../../flutter/impeller/toolkit/interop/impeller.h
+FILE: ../../../flutter/impeller/toolkit/interop/impeller_c.c
+FILE: ../../../flutter/impeller/toolkit/interop/mask_filter.cc
+FILE: ../../../flutter/impeller/toolkit/interop/mask_filter.h
+FILE: ../../../flutter/impeller/toolkit/interop/object.cc
+FILE: ../../../flutter/impeller/toolkit/interop/object.h
+FILE: ../../../flutter/impeller/toolkit/interop/paint.cc
+FILE: ../../../flutter/impeller/toolkit/interop/paint.h
+FILE: ../../../flutter/impeller/toolkit/interop/path.cc
+FILE: ../../../flutter/impeller/toolkit/interop/path.h
+FILE: ../../../flutter/impeller/toolkit/interop/path_builder.cc
+FILE: ../../../flutter/impeller/toolkit/interop/path_builder.h
+FILE: ../../../flutter/impeller/toolkit/interop/playground_test.cc
+FILE: ../../../flutter/impeller/toolkit/interop/playground_test.h
+FILE: ../../../flutter/impeller/toolkit/interop/surface.cc
+FILE: ../../../flutter/impeller/toolkit/interop/surface.h
+FILE: ../../../flutter/impeller/toolkit/interop/texture.cc
+FILE: ../../../flutter/impeller/toolkit/interop/texture.h
 FILE: ../../../flutter/impeller/tools/malioc.json
 FILE: ../../../flutter/impeller/typographer/backends/skia/text_frame_skia.cc
 FILE: ../../../flutter/impeller/typographer/backends/skia/text_frame_skia.h
