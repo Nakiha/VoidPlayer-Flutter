@@ -42624,21 +42624,14 @@ ORIGIN: ../../../flutter/impeller/aiks/aiks_playground.cc + ../../../flutter/LIC
 ORIGIN: ../../../flutter/impeller/aiks/aiks_playground.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/aiks/canvas.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/aiks/canvas.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/aiks/canvas_benchmarks.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/aiks/color_filter.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/aiks/color_filter.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/aiks/color_source.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/aiks/color_source.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/aiks/experimental_canvas.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/aiks/experimental_canvas.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/aiks/image_filter.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/aiks/image_filter.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/aiks/paint.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/aiks/paint.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/aiks/paint_pass_delegate.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/aiks/paint_pass_delegate.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/aiks/picture.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/aiks/picture.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/base/allocation.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/base/allocation.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/base/allocation_size.cc + ../../../flutter/LICENSE
@@ -42833,12 +42826,8 @@ ORIGIN: ../../../flutter/impeller/entity/draw_order_resolver.cc + ../../../flutt
 ORIGIN: ../../../flutter/impeller/entity/draw_order_resolver.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/entity.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/entity.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/entity/entity_pass.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/entity/entity_pass.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/entity_pass_clip_stack.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/entity_pass_clip_stack.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/entity/entity_pass_delegate.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/entity/entity_pass_delegate.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/entity_pass_target.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/entity_pass_target.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/entity_playground.cc + ../../../flutter/LICENSE
@@ -45499,21 +45488,14 @@ FILE: ../../../flutter/impeller/aiks/aiks_playground.cc
 FILE: ../../../flutter/impeller/aiks/aiks_playground.h
 FILE: ../../../flutter/impeller/aiks/canvas.cc
 FILE: ../../../flutter/impeller/aiks/canvas.h
-FILE: ../../../flutter/impeller/aiks/canvas_benchmarks.cc
 FILE: ../../../flutter/impeller/aiks/color_filter.cc
 FILE: ../../../flutter/impeller/aiks/color_filter.h
 FILE: ../../../flutter/impeller/aiks/color_source.cc
 FILE: ../../../flutter/impeller/aiks/color_source.h
-FILE: ../../../flutter/impeller/aiks/experimental_canvas.cc
-FILE: ../../../flutter/impeller/aiks/experimental_canvas.h
 FILE: ../../../flutter/impeller/aiks/image_filter.cc
 FILE: ../../../flutter/impeller/aiks/image_filter.h
 FILE: ../../../flutter/impeller/aiks/paint.cc
 FILE: ../../../flutter/impeller/aiks/paint.h
-FILE: ../../../flutter/impeller/aiks/paint_pass_delegate.cc
-FILE: ../../../flutter/impeller/aiks/paint_pass_delegate.h
-FILE: ../../../flutter/impeller/aiks/picture.cc
-FILE: ../../../flutter/impeller/aiks/picture.h
 FILE: ../../../flutter/impeller/base/allocation.cc
 FILE: ../../../flutter/impeller/base/allocation.h
 FILE: ../../../flutter/impeller/base/allocation_size.cc
@@ -45708,12 +45690,8 @@ FILE: ../../../flutter/impeller/entity/draw_order_resolver.cc
 FILE: ../../../flutter/impeller/entity/draw_order_resolver.h
 FILE: ../../../flutter/impeller/entity/entity.cc
 FILE: ../../../flutter/impeller/entity/entity.h
-FILE: ../../../flutter/impeller/entity/entity_pass.cc
-FILE: ../../../flutter/impeller/entity/entity_pass.h
 FILE: ../../../flutter/impeller/entity/entity_pass_clip_stack.cc
 FILE: ../../../flutter/impeller/entity/entity_pass_clip_stack.h
-FILE: ../../../flutter/impeller/entity/entity_pass_delegate.cc
-FILE: ../../../flutter/impeller/entity/entity_pass_delegate.h
 FILE: ../../../flutter/impeller/entity/entity_pass_target.cc
 FILE: ../../../flutter/impeller/entity/entity_pass_target.h
 FILE: ../../../flutter/impeller/entity/entity_playground.cc
