@@ -43578,6 +43578,7 @@ ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/image_web_codecs.da
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/layer.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/layer_scene_builder.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/layer_tree.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/layer_visitor.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/mask_filter.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/multi_surface_rasterizer.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/n_way_canvas.dart + ../../../flutter/LICENSE
@@ -46447,6 +46448,7 @@ FILE: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/image_web_codecs.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/layer.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/layer_scene_builder.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/layer_tree.dart
+FILE: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/layer_visitor.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/mask_filter.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/multi_surface_rasterizer.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/n_way_canvas.dart
