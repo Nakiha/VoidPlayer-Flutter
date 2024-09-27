@@ -42738,6 +42738,8 @@ ORIGIN: ../../../flutter/impeller/core/texture_descriptor.cc + ../../../flutter/
 ORIGIN: ../../../flutter/impeller/core/texture_descriptor.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/core/vertex_buffer.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/core/vertex_buffer.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/display_list/dl_atlas_geometry.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/display_list/dl_atlas_geometry.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/display_list/dl_dispatcher.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/display_list/dl_dispatcher.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/display_list/dl_image_impeller.cc + ../../../flutter/LICENSE
@@ -45603,6 +45605,8 @@ FILE: ../../../flutter/impeller/core/texture_descriptor.cc
 FILE: ../../../flutter/impeller/core/texture_descriptor.h
 FILE: ../../../flutter/impeller/core/vertex_buffer.cc
 FILE: ../../../flutter/impeller/core/vertex_buffer.h
+FILE: ../../../flutter/impeller/display_list/dl_atlas_geometry.cc
+FILE: ../../../flutter/impeller/display_list/dl_atlas_geometry.h
 FILE: ../../../flutter/impeller/display_list/dl_dispatcher.cc
 FILE: ../../../flutter/impeller/display_list/dl_dispatcher.h
 FILE: ../../../flutter/impeller/display_list/dl_image_impeller.cc
