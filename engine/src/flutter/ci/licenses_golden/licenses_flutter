@@ -43298,6 +43298,12 @@ ORIGIN: ../../../flutter/impeller/toolkit/interop/object.cc + ../../../flutter/L
 ORIGIN: ../../../flutter/impeller/toolkit/interop/object.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/interop/paint.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/interop/paint.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/paragraph.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/paragraph.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/paragraph_builder.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/paragraph_builder.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/paragraph_style.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/paragraph_style.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/interop/path.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/interop/path.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/interop/path_builder.cc + ../../../flutter/LICENSE
@@ -43308,6 +43314,8 @@ ORIGIN: ../../../flutter/impeller/toolkit/interop/surface.cc + ../../../flutter/
 ORIGIN: ../../../flutter/impeller/toolkit/interop/surface.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/interop/texture.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/interop/texture.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/typography_context.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/typography_context.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/typographer/backends/skia/text_frame_skia.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/typographer/backends/skia/text_frame_skia.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/typographer/backends/skia/typeface_skia.cc + ../../../flutter/LICENSE
@@ -46168,6 +46176,12 @@ FILE: ../../../flutter/impeller/toolkit/interop/object.cc
 FILE: ../../../flutter/impeller/toolkit/interop/object.h
 FILE: ../../../flutter/impeller/toolkit/interop/paint.cc
 FILE: ../../../flutter/impeller/toolkit/interop/paint.h
+FILE: ../../../flutter/impeller/toolkit/interop/paragraph.cc
+FILE: ../../../flutter/impeller/toolkit/interop/paragraph.h
+FILE: ../../../flutter/impeller/toolkit/interop/paragraph_builder.cc
+FILE: ../../../flutter/impeller/toolkit/interop/paragraph_builder.h
+FILE: ../../../flutter/impeller/toolkit/interop/paragraph_style.cc
+FILE: ../../../flutter/impeller/toolkit/interop/paragraph_style.h
 FILE: ../../../flutter/impeller/toolkit/interop/path.cc
 FILE: ../../../flutter/impeller/toolkit/interop/path.h
 FILE: ../../../flutter/impeller/toolkit/interop/path_builder.cc
@@ -46178,6 +46192,8 @@ FILE: ../../../flutter/impeller/toolkit/interop/surface.cc
 FILE: ../../../flutter/impeller/toolkit/interop/surface.h
 FILE: ../../../flutter/impeller/toolkit/interop/texture.cc
 FILE: ../../../flutter/impeller/toolkit/interop/texture.h
+FILE: ../../../flutter/impeller/toolkit/interop/typography_context.cc
+FILE: ../../../flutter/impeller/toolkit/interop/typography_context.h
 FILE: ../../../flutter/impeller/tools/malioc.json
 FILE: ../../../flutter/impeller/typographer/backends/skia/text_frame_skia.cc
 FILE: ../../../flutter/impeller/typographer/backends/skia/text_frame_skia.h
