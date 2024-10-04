@@ -42732,8 +42732,6 @@ ORIGIN: ../../../flutter/impeller/display_list/canvas.cc + ../../../flutter/LICE
 ORIGIN: ../../../flutter/impeller/display_list/canvas.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/display_list/color_filter.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/display_list/color_filter.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/display_list/color_source.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/display_list/color_source.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/display_list/dl_atlas_geometry.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/display_list/dl_atlas_geometry.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/display_list/dl_dispatcher.cc + ../../../flutter/LICENSE
@@ -45609,8 +45607,6 @@ FILE: ../../../flutter/impeller/display_list/canvas.cc
 FILE: ../../../flutter/impeller/display_list/canvas.h
 FILE: ../../../flutter/impeller/display_list/color_filter.cc
 FILE: ../../../flutter/impeller/display_list/color_filter.h
-FILE: ../../../flutter/impeller/display_list/color_source.cc
-FILE: ../../../flutter/impeller/display_list/color_source.h
 FILE: ../../../flutter/impeller/display_list/dl_atlas_geometry.cc
 FILE: ../../../flutter/impeller/display_list/dl_atlas_geometry.h
 FILE: ../../../flutter/impeller/display_list/dl_dispatcher.cc
