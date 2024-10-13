@@ -44834,6 +44834,8 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_plugin_registrar.cc + ../../../
 ORIGIN: ../../../flutter/shell/platform/linux/fl_plugin_registrar_private.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_plugin_registrar_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_plugin_registry.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_renderable.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_renderable.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_renderer.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_renderer.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_renderer_gdk.cc + ../../../flutter/LICENSE
@@ -47739,6 +47741,8 @@ FILE: ../../../flutter/shell/platform/linux/fl_plugin_registrar.cc
 FILE: ../../../flutter/shell/platform/linux/fl_plugin_registrar_private.h
 FILE: ../../../flutter/shell/platform/linux/fl_plugin_registrar_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_plugin_registry.cc
+FILE: ../../../flutter/shell/platform/linux/fl_renderable.cc
+FILE: ../../../flutter/shell/platform/linux/fl_renderable.h
 FILE: ../../../flutter/shell/platform/linux/fl_renderer.cc
 FILE: ../../../flutter/shell/platform/linux/fl_renderer.h
 FILE: ../../../flutter/shell/platform/linux/fl_renderer_gdk.cc
