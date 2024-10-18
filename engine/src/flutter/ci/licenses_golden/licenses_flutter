@@ -44791,8 +44791,6 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_key_embedder_responder_private.
 ORIGIN: ../../../flutter/shell/platform/linux/fl_key_embedder_responder_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_key_event.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_key_event.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/linux/fl_key_responder.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/linux/fl_key_responder.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_keyboard_handler.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_keyboard_handler.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_keyboard_handler_test.cc + ../../../flutter/LICENSE
@@ -47694,8 +47692,6 @@ FILE: ../../../flutter/shell/platform/linux/fl_key_embedder_responder_private.h
 FILE: ../../../flutter/shell/platform/linux/fl_key_embedder_responder_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_key_event.cc
 FILE: ../../../flutter/shell/platform/linux/fl_key_event.h
-FILE: ../../../flutter/shell/platform/linux/fl_key_responder.cc
-FILE: ../../../flutter/shell/platform/linux/fl_key_responder.h
 FILE: ../../../flutter/shell/platform/linux/fl_keyboard_handler.cc
 FILE: ../../../flutter/shell/platform/linux/fl_keyboard_handler.h
 FILE: ../../../flutter/shell/platform/linux/fl_keyboard_handler_test.cc
