@@ -36834,6 +36834,42 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: brotli
+ORIGIN: ../../../flutter/third_party/brotli/LICENSE
+TYPE: LicenseType.mit
+FILE: ../../../flutter/third_party/brotli/.bazelignore
+FILE: ../../../flutter/third_party/brotli/c/common/context.c
+FILE: ../../../flutter/third_party/brotli/c/common/dictionary.bin
+FILE: ../../../flutter/third_party/brotli/c/common/dictionary.bin.br
+FILE: ../../../flutter/third_party/brotli/c/common/transform.h
+FILE: ../../../flutter/third_party/brotli/c/enc/matching_tag_mask.h
+FILE: ../../../flutter/third_party/brotli/c/tools/brotli.md
+FILE: ../../../flutter/third_party/brotli/fetch-spec/shared-brotli-fetch-spec.txt
+FILE: ../../../flutter/third_party/brotli/pyproject.toml
+FILE: ../../../flutter/third_party/brotli/setup.cfg
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2009, 2010, 2013-2016 by the Brotli Authors.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: icu
 ORIGIN: ../../../flutter/third_party/icu/source/data/sprep/rfc3491.txt + ../../../flutter/third_party/icu/LICENSE
 ORIGIN: ../../../flutter/third_party/icu/source/data/sprep/rfc3530cs.txt + ../../../flutter/third_party/icu/LICENSE
@@ -41301,6 +41337,51 @@ freely, subject to the following restrictions:
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: brotli
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/entropy_encode.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/entropy_encode.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/find_match_length.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/hash.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/hash_longest_match64_inc.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/hash_longest_match64_simd_inc.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/hash_longest_match_inc.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/hash_longest_match_quickly_inc.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/hash_longest_match_simd_inc.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/write_bits.h + ../../../flutter/third_party/brotli/LICENSE
+TYPE: LicenseType.mit
+FILE: ../../../flutter/third_party/brotli/c/enc/entropy_encode.c
+FILE: ../../../flutter/third_party/brotli/c/enc/entropy_encode.h
+FILE: ../../../flutter/third_party/brotli/c/enc/find_match_length.h
+FILE: ../../../flutter/third_party/brotli/c/enc/hash.h
+FILE: ../../../flutter/third_party/brotli/c/enc/hash_longest_match64_inc.h
+FILE: ../../../flutter/third_party/brotli/c/enc/hash_longest_match64_simd_inc.h
+FILE: ../../../flutter/third_party/brotli/c/enc/hash_longest_match_inc.h
+FILE: ../../../flutter/third_party/brotli/c/enc/hash_longest_match_quickly_inc.h
+FILE: ../../../flutter/third_party/brotli/c/enc/hash_longest_match_simd_inc.h
+FILE: ../../../flutter/third_party/brotli/c/enc/write_bits.h
+----------------------------------------------------------------------------------------------------
+Copyright 2010 Google Inc. All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: libwebp
 ORIGIN: ../../../flutter/third_party/libwebp/src/dec/frame_dec.c + ../../../flutter/third_party/libwebp/COPYING
 ORIGIN: ../../../flutter/third_party/libwebp/src/dec/quant_dec.c + ../../../flutter/third_party/libwebp/COPYING
@@ -42010,6 +42091,119 @@ Licensed under the OpenSSL license (the "License").  You may not use
 this file except in compliance with the License.  You can obtain a copy
 in the file LICENSE in the source distribution or at
 https://www.openssl.org/source/license.html
+====================================================================================================
+
+====================================================================================================
+LIBRARY: brotli
+ORIGIN: ../../../flutter/third_party/brotli/c/common/constants.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/common/context.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/common/dictionary.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/common/dictionary.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/common/transform.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/dec/bit_reader.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/dec/bit_reader.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/dec/decode.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/dec/huffman.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/dec/huffman.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/dec/prefix.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/backward_references.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/backward_references.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/backward_references_hq.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/backward_references_hq.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/backward_references_inc.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/bit_cost.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/bit_cost.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/bit_cost_inc.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/block_splitter.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/block_splitter.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/block_splitter_inc.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/cluster.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/cluster.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/cluster_inc.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/command.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/command.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/encode.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/fast_log.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/fast_log.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/histogram.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/histogram.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/histogram_inc.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/literal_cost.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/literal_cost.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/prefix.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/ringbuffer.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/static_dict.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/static_dict.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/utf8_util.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/utf8_util.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/include/brotli/decode.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/include/brotli/encode.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/include/brotli/types.h + ../../../flutter/third_party/brotli/LICENSE
+TYPE: LicenseType.mit
+FILE: ../../../flutter/third_party/brotli/c/common/constants.c
+FILE: ../../../flutter/third_party/brotli/c/common/context.h
+FILE: ../../../flutter/third_party/brotli/c/common/dictionary.c
+FILE: ../../../flutter/third_party/brotli/c/common/dictionary.h
+FILE: ../../../flutter/third_party/brotli/c/common/transform.c
+FILE: ../../../flutter/third_party/brotli/c/dec/bit_reader.c
+FILE: ../../../flutter/third_party/brotli/c/dec/bit_reader.h
+FILE: ../../../flutter/third_party/brotli/c/dec/decode.c
+FILE: ../../../flutter/third_party/brotli/c/dec/huffman.c
+FILE: ../../../flutter/third_party/brotli/c/dec/huffman.h
+FILE: ../../../flutter/third_party/brotli/c/dec/prefix.h
+FILE: ../../../flutter/third_party/brotli/c/enc/backward_references.c
+FILE: ../../../flutter/third_party/brotli/c/enc/backward_references.h
+FILE: ../../../flutter/third_party/brotli/c/enc/backward_references_hq.c
+FILE: ../../../flutter/third_party/brotli/c/enc/backward_references_hq.h
+FILE: ../../../flutter/third_party/brotli/c/enc/backward_references_inc.h
+FILE: ../../../flutter/third_party/brotli/c/enc/bit_cost.c
+FILE: ../../../flutter/third_party/brotli/c/enc/bit_cost.h
+FILE: ../../../flutter/third_party/brotli/c/enc/bit_cost_inc.h
+FILE: ../../../flutter/third_party/brotli/c/enc/block_splitter.c
+FILE: ../../../flutter/third_party/brotli/c/enc/block_splitter.h
+FILE: ../../../flutter/third_party/brotli/c/enc/block_splitter_inc.h
+FILE: ../../../flutter/third_party/brotli/c/enc/cluster.c
+FILE: ../../../flutter/third_party/brotli/c/enc/cluster.h
+FILE: ../../../flutter/third_party/brotli/c/enc/cluster_inc.h
+FILE: ../../../flutter/third_party/brotli/c/enc/command.c
+FILE: ../../../flutter/third_party/brotli/c/enc/command.h
+FILE: ../../../flutter/third_party/brotli/c/enc/encode.c
+FILE: ../../../flutter/third_party/brotli/c/enc/fast_log.c
+FILE: ../../../flutter/third_party/brotli/c/enc/fast_log.h
+FILE: ../../../flutter/third_party/brotli/c/enc/histogram.c
+FILE: ../../../flutter/third_party/brotli/c/enc/histogram.h
+FILE: ../../../flutter/third_party/brotli/c/enc/histogram_inc.h
+FILE: ../../../flutter/third_party/brotli/c/enc/literal_cost.c
+FILE: ../../../flutter/third_party/brotli/c/enc/literal_cost.h
+FILE: ../../../flutter/third_party/brotli/c/enc/prefix.h
+FILE: ../../../flutter/third_party/brotli/c/enc/ringbuffer.h
+FILE: ../../../flutter/third_party/brotli/c/enc/static_dict.c
+FILE: ../../../flutter/third_party/brotli/c/enc/static_dict.h
+FILE: ../../../flutter/third_party/brotli/c/enc/utf8_util.c
+FILE: ../../../flutter/third_party/brotli/c/enc/utf8_util.h
+FILE: ../../../flutter/third_party/brotli/c/include/brotli/decode.h
+FILE: ../../../flutter/third_party/brotli/c/include/brotli/encode.h
+FILE: ../../../flutter/third_party/brotli/c/include/brotli/types.h
+----------------------------------------------------------------------------------------------------
+Copyright 2013 Google Inc. All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
@@ -48117,6 +48311,39 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: brotli
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/block_encoder_inc.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/brotli_bit_stream.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/brotli_bit_stream.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/tools/brotli.c + ../../../flutter/third_party/brotli/LICENSE
+TYPE: LicenseType.mit
+FILE: ../../../flutter/third_party/brotli/c/enc/block_encoder_inc.h
+FILE: ../../../flutter/third_party/brotli/c/enc/brotli_bit_stream.c
+FILE: ../../../flutter/third_party/brotli/c/enc/brotli_bit_stream.h
+FILE: ../../../flutter/third_party/brotli/c/tools/brotli.c
+----------------------------------------------------------------------------------------------------
+Copyright 2014 Google Inc. All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: libwebp
 ORIGIN: ../../../flutter/third_party/libwebp/imageio/webpdec.c + ../../../flutter/third_party/libwebp/COPYING
 ORIGIN: ../../../flutter/third_party/libwebp/imageio/webpdec.h + ../../../flutter/third_party/libwebp/COPYING
@@ -48613,6 +48840,59 @@ https://www.openssl.org/source/license.html
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: brotli
+ORIGIN: ../../../flutter/third_party/brotli/c/dec/state.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/dec/state.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/compress_fragment.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/compress_fragment.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/compress_fragment_two_pass.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/compress_fragment_two_pass.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/dictionary_hash.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/dictionary_hash.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/entropy_encode_static.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/memory.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/metablock.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/metablock.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/metablock_inc.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/static_dict_lut.h + ../../../flutter/third_party/brotli/LICENSE
+TYPE: LicenseType.mit
+FILE: ../../../flutter/third_party/brotli/c/dec/state.c
+FILE: ../../../flutter/third_party/brotli/c/dec/state.h
+FILE: ../../../flutter/third_party/brotli/c/enc/compress_fragment.c
+FILE: ../../../flutter/third_party/brotli/c/enc/compress_fragment.h
+FILE: ../../../flutter/third_party/brotli/c/enc/compress_fragment_two_pass.c
+FILE: ../../../flutter/third_party/brotli/c/enc/compress_fragment_two_pass.h
+FILE: ../../../flutter/third_party/brotli/c/enc/dictionary_hash.c
+FILE: ../../../flutter/third_party/brotli/c/enc/dictionary_hash.h
+FILE: ../../../flutter/third_party/brotli/c/enc/entropy_encode_static.h
+FILE: ../../../flutter/third_party/brotli/c/enc/memory.c
+FILE: ../../../flutter/third_party/brotli/c/enc/metablock.c
+FILE: ../../../flutter/third_party/brotli/c/enc/metablock.h
+FILE: ../../../flutter/third_party/brotli/c/enc/metablock_inc.h
+FILE: ../../../flutter/third_party/brotli/c/enc/static_dict_lut.h
+----------------------------------------------------------------------------------------------------
+Copyright 2015 Google Inc. All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: libwebp
 ORIGIN: ../../../flutter/third_party/libwebp/extras/extras.c + ../../../flutter/third_party/libwebp/COPYING
 ORIGIN: ../../../flutter/third_party/libwebp/extras/extras.h + ../../../flutter/third_party/libwebp/COPYING
@@ -49047,12 +49327,14 @@ found in the LICENSE file
 
 ====================================================================================================
 LIBRARY: accessibility
+LIBRARY: brotli
 ORIGIN: ../../../flutter/third_party/accessibility/ax/ax_tree_data.cc + ../../../flutter/third_party/accessibility/LICENSE
 ORIGIN: ../../../flutter/third_party/accessibility/ax/ax_tree_data.h + ../../../flutter/third_party/accessibility/LICENSE
 ORIGIN: ../../../flutter/third_party/accessibility/ax/platform/ax_platform_node_win.cc + ../../../flutter/third_party/accessibility/LICENSE
 ORIGIN: ../../../flutter/third_party/accessibility/ax/platform/ax_platform_node_win.h + ../../../flutter/third_party/accessibility/LICENSE
 ORIGIN: ../../../flutter/third_party/accessibility/ax/platform/test_ax_node_wrapper.cc + ../../../flutter/third_party/accessibility/LICENSE
 ORIGIN: ../../../flutter/third_party/accessibility/ax/platform/test_ax_node_wrapper.h + ../../../flutter/third_party/accessibility/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/fuzz/decode_fuzzer.c + ../../../LICENSE
 TYPE: LicenseType.bsd
 FILE: ../../../flutter/third_party/accessibility/ax/ax_tree_data.cc
 FILE: ../../../flutter/third_party/accessibility/ax/ax_tree_data.h
@@ -49060,6 +49342,7 @@ FILE: ../../../flutter/third_party/accessibility/ax/platform/ax_platform_node_wi
 FILE: ../../../flutter/third_party/accessibility/ax/platform/ax_platform_node_win.h
 FILE: ../../../flutter/third_party/accessibility/ax/platform/test_ax_node_wrapper.cc
 FILE: ../../../flutter/third_party/accessibility/ax/platform/test_ax_node_wrapper.h
+FILE: ../../../flutter/third_party/brotli/c/fuzz/decode_fuzzer.c
 ----------------------------------------------------------------------------------------------------
 Copyright 2015 The Chromium Authors. All rights reserved.
 
@@ -49123,6 +49406,51 @@ SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
 WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
 OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
 CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: brotli
+ORIGIN: ../../../flutter/third_party/brotli/c/common/constants.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/common/platform.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/common/platform.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/common/version.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/hash_forgetful_chain_inc.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/hash_to_binary_tree_inc.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/memory.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/quality.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/fuzz/run_decode_fuzzer.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/include/brotli/port.h + ../../../flutter/third_party/brotli/LICENSE
+TYPE: LicenseType.mit
+FILE: ../../../flutter/third_party/brotli/c/common/constants.h
+FILE: ../../../flutter/third_party/brotli/c/common/platform.c
+FILE: ../../../flutter/third_party/brotli/c/common/platform.h
+FILE: ../../../flutter/third_party/brotli/c/common/version.h
+FILE: ../../../flutter/third_party/brotli/c/enc/hash_forgetful_chain_inc.h
+FILE: ../../../flutter/third_party/brotli/c/enc/hash_to_binary_tree_inc.h
+FILE: ../../../flutter/third_party/brotli/c/enc/memory.h
+FILE: ../../../flutter/third_party/brotli/c/enc/quality.h
+FILE: ../../../flutter/third_party/brotli/c/fuzz/run_decode_fuzzer.c
+FILE: ../../../flutter/third_party/brotli/c/include/brotli/port.h
+----------------------------------------------------------------------------------------------------
+Copyright 2016 Google Inc. All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
@@ -49740,6 +50068,47 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: brotli
+ORIGIN: ../../../flutter/third_party/brotli/c/common/shared_dictionary.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/common/shared_dictionary_internal.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/compound_dictionary.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/compound_dictionary.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/encoder_dict.c + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/encoder_dict.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/params.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/include/brotli/shared_dictionary.h + ../../../flutter/third_party/brotli/LICENSE
+TYPE: LicenseType.mit
+FILE: ../../../flutter/third_party/brotli/c/common/shared_dictionary.c
+FILE: ../../../flutter/third_party/brotli/c/common/shared_dictionary_internal.h
+FILE: ../../../flutter/third_party/brotli/c/enc/compound_dictionary.c
+FILE: ../../../flutter/third_party/brotli/c/enc/compound_dictionary.h
+FILE: ../../../flutter/third_party/brotli/c/enc/encoder_dict.c
+FILE: ../../../flutter/third_party/brotli/c/enc/encoder_dict.h
+FILE: ../../../flutter/third_party/brotli/c/enc/params.h
+FILE: ../../../flutter/third_party/brotli/c/include/brotli/shared_dictionary.h
+----------------------------------------------------------------------------------------------------
+Copyright 2017 Google Inc. All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: libwebp
 ORIGIN: ../../../flutter/third_party/libwebp/extras/vwebp_sdl.c + ../../../flutter/third_party/libwebp/COPYING
 ORIGIN: ../../../flutter/third_party/libwebp/extras/webp_to_sdl.c + ../../../flutter/third_party/libwebp/COPYING
@@ -50223,6 +50592,35 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: brotli
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/hash_composite_inc.h + ../../../flutter/third_party/brotli/LICENSE
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/hash_rolling_inc.h + ../../../flutter/third_party/brotli/LICENSE
+TYPE: LicenseType.mit
+FILE: ../../../flutter/third_party/brotli/c/enc/hash_composite_inc.h
+FILE: ../../../flutter/third_party/brotli/c/enc/hash_rolling_inc.h
+----------------------------------------------------------------------------------------------------
+Copyright 2018 Google Inc. All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
@@ -53071,6 +53469,33 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
 ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: brotli
+ORIGIN: ../../../flutter/third_party/brotli/c/enc/state.h + ../../../flutter/third_party/brotli/LICENSE
+TYPE: LicenseType.mit
+FILE: ../../../flutter/third_party/brotli/c/enc/state.h
+----------------------------------------------------------------------------------------------------
+Copyright 2022 Google Inc. All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
@@ -71010,4 +71435,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
-Total license count: 909
+Total license count: 918
