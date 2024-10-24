@@ -44558,6 +44558,7 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterViewT
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/IOKit.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/KeyCodeMap.g.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/KeyCodeMap_Internal.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObject+UIFocusSystem.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObject.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObject.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObjectTest.mm + ../../../flutter/LICENSE
@@ -47436,6 +47437,7 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterViewTes
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/IOKit.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/KeyCodeMap.g.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/KeyCodeMap_Internal.h
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObject+UIFocusSystem.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObject.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObject.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObjectTest.mm
