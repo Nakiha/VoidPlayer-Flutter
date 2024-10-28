@@ -43546,8 +43546,6 @@ ORIGIN: ../../../flutter/lib/gpu/export.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/gpu/export.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/gpu/formats.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/gpu/formats.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/lib/gpu/host_buffer.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/lib/gpu/host_buffer.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/gpu/lib/gpu.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/gpu/lib/src/buffer.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/gpu/lib/src/command_buffer.dart + ../../../flutter/LICENSE
@@ -46415,8 +46413,6 @@ FILE: ../../../flutter/lib/gpu/export.cc
 FILE: ../../../flutter/lib/gpu/export.h
 FILE: ../../../flutter/lib/gpu/formats.cc
 FILE: ../../../flutter/lib/gpu/formats.h
-FILE: ../../../flutter/lib/gpu/host_buffer.cc
-FILE: ../../../flutter/lib/gpu/host_buffer.h
 FILE: ../../../flutter/lib/gpu/lib/gpu.dart
 FILE: ../../../flutter/lib/gpu/lib/src/buffer.dart
 FILE: ../../../flutter/lib/gpu/lib/src/command_buffer.dart
