@@ -45213,8 +45213,6 @@ ORIGIN: ../../../flutter/third_party/accessibility/base/container_utils.h + ../.
 ORIGIN: ../../../flutter/third_party/accessibility/base/logging.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/third_party/accessibility/base/logging.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/third_party/accessibility/base/macros.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/third_party/accessibility/base/platform/darwin/scoped_nsobject.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/third_party/accessibility/base/platform/darwin/scoped_nsobject.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/third_party/accessibility/base/simple_token.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/third_party/accessibility/base/simple_token.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/third_party/accessibility/base/string_utils.cc + ../../../flutter/LICENSE
@@ -48108,8 +48106,6 @@ FILE: ../../../flutter/third_party/accessibility/base/container_utils.h
 FILE: ../../../flutter/third_party/accessibility/base/logging.cc
 FILE: ../../../flutter/third_party/accessibility/base/logging.h
 FILE: ../../../flutter/third_party/accessibility/base/macros.h
-FILE: ../../../flutter/third_party/accessibility/base/platform/darwin/scoped_nsobject.h
-FILE: ../../../flutter/third_party/accessibility/base/platform/darwin/scoped_nsobject.mm
 FILE: ../../../flutter/third_party/accessibility/base/simple_token.cc
 FILE: ../../../flutter/third_party/accessibility/base/simple_token.h
 FILE: ../../../flutter/third_party/accessibility/base/string_utils.cc
