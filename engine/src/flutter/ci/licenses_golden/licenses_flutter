@@ -45029,8 +45029,6 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_renderer_test.cc + ../../../flu
 ORIGIN: ../../../flutter/shell/platform/linux/fl_scrolling_manager.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_scrolling_manager.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_scrolling_manager_test.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/linux/fl_scrolling_view_delegate.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/linux/fl_scrolling_view_delegate.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_settings.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_settings.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_settings_handler.cc + ../../../flutter/LICENSE
@@ -47922,8 +47920,6 @@ FILE: ../../../flutter/shell/platform/linux/fl_renderer_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_scrolling_manager.cc
 FILE: ../../../flutter/shell/platform/linux/fl_scrolling_manager.h
 FILE: ../../../flutter/shell/platform/linux/fl_scrolling_manager_test.cc
-FILE: ../../../flutter/shell/platform/linux/fl_scrolling_view_delegate.cc
-FILE: ../../../flutter/shell/platform/linux/fl_scrolling_view_delegate.h
 FILE: ../../../flutter/shell/platform/linux/fl_settings.cc
 FILE: ../../../flutter/shell/platform/linux/fl_settings.h
 FILE: ../../../flutter/shell/platform/linux/fl_settings_handler.cc
