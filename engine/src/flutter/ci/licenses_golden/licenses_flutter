@@ -43065,6 +43065,7 @@ ORIGIN: ../../../flutter/impeller/entity/shaders/blending/porter_duff_blend.vert
 ORIGIN: ../../../flutter/impeller/entity/shaders/blending/vertices_uber.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/clip.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/clip.vert + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/downsample.glsl + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/filters/border_mask_blur.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/filters/color_matrix_color_filter.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/filters/filter_position.vert + ../../../flutter/LICENSE
@@ -43093,6 +43094,7 @@ ORIGIN: ../../../flutter/impeller/entity/shaders/runtime_effect.vert + ../../../
 ORIGIN: ../../../flutter/impeller/entity/shaders/solid_fill.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/solid_fill.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/texture_downsample.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/texture_downsample_gles.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/texture_fill.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/texture_fill.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/texture_fill_strict_src.frag + ../../../flutter/LICENSE
@@ -45925,6 +45927,7 @@ FILE: ../../../flutter/impeller/entity/shaders/blending/porter_duff_blend.vert
 FILE: ../../../flutter/impeller/entity/shaders/blending/vertices_uber.frag
 FILE: ../../../flutter/impeller/entity/shaders/clip.frag
 FILE: ../../../flutter/impeller/entity/shaders/clip.vert
+FILE: ../../../flutter/impeller/entity/shaders/downsample.glsl
 FILE: ../../../flutter/impeller/entity/shaders/filters/border_mask_blur.frag
 FILE: ../../../flutter/impeller/entity/shaders/filters/color_matrix_color_filter.frag
 FILE: ../../../flutter/impeller/entity/shaders/filters/filter_position.vert
@@ -45953,6 +45956,7 @@ FILE: ../../../flutter/impeller/entity/shaders/runtime_effect.vert
 FILE: ../../../flutter/impeller/entity/shaders/solid_fill.frag
 FILE: ../../../flutter/impeller/entity/shaders/solid_fill.vert
 FILE: ../../../flutter/impeller/entity/shaders/texture_downsample.frag
+FILE: ../../../flutter/impeller/entity/shaders/texture_downsample_gles.frag
 FILE: ../../../flutter/impeller/entity/shaders/texture_fill.frag
 FILE: ../../../flutter/impeller/entity/shaders/texture_fill.vert
 FILE: ../../../flutter/impeller/entity/shaders/texture_fill_strict_src.frag
