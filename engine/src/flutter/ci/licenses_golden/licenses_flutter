@@ -43078,15 +43078,19 @@ ORIGIN: ../../../flutter/impeller/entity/shaders/glyph_atlas.frag + ../../../flu
 ORIGIN: ../../../flutter/impeller/entity/shaders/glyph_atlas.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_fill.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_ssbo_fill.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_uniform_fill.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/fast_gradient.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/fast_gradient.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/gradient_fill.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/linear_gradient_fill.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/linear_gradient_ssbo_fill.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/linear_gradient_uniform_fill.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/radial_gradient_fill.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/radial_gradient_ssbo_fill.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/radial_gradient_uniform_fill.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/sweep_gradient_fill.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/sweep_gradient_ssbo_fill.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/sweep_gradient_uniform_fill.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/rrect_blur.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/rrect_blur.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/runtime_effect.vert + ../../../flutter/LICENSE
@@ -45940,15 +45944,19 @@ FILE: ../../../flutter/impeller/entity/shaders/glyph_atlas.frag
 FILE: ../../../flutter/impeller/entity/shaders/glyph_atlas.vert
 FILE: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_fill.frag
 FILE: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_ssbo_fill.frag
+FILE: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_uniform_fill.frag
 FILE: ../../../flutter/impeller/entity/shaders/gradients/fast_gradient.frag
 FILE: ../../../flutter/impeller/entity/shaders/gradients/fast_gradient.vert
 FILE: ../../../flutter/impeller/entity/shaders/gradients/gradient_fill.vert
 FILE: ../../../flutter/impeller/entity/shaders/gradients/linear_gradient_fill.frag
 FILE: ../../../flutter/impeller/entity/shaders/gradients/linear_gradient_ssbo_fill.frag
+FILE: ../../../flutter/impeller/entity/shaders/gradients/linear_gradient_uniform_fill.frag
 FILE: ../../../flutter/impeller/entity/shaders/gradients/radial_gradient_fill.frag
 FILE: ../../../flutter/impeller/entity/shaders/gradients/radial_gradient_ssbo_fill.frag
+FILE: ../../../flutter/impeller/entity/shaders/gradients/radial_gradient_uniform_fill.frag
 FILE: ../../../flutter/impeller/entity/shaders/gradients/sweep_gradient_fill.frag
 FILE: ../../../flutter/impeller/entity/shaders/gradients/sweep_gradient_ssbo_fill.frag
+FILE: ../../../flutter/impeller/entity/shaders/gradients/sweep_gradient_uniform_fill.frag
 FILE: ../../../flutter/impeller/entity/shaders/rrect_blur.frag
 FILE: ../../../flutter/impeller/entity/shaders/rrect_blur.vert
 FILE: ../../../flutter/impeller/entity/shaders/runtime_effect.vert
