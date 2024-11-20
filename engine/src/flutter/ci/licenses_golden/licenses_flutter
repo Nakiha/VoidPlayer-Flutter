@@ -42530,16 +42530,33 @@ ORIGIN: ../../../flutter/display_list/dl_storage.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/dl_tile_mode.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/dl_vertices.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/dl_vertices.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/dl_blur_image_filter.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/dl_blur_image_filter.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/dl_color_filter.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/dl_color_filter.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/dl_color_filter_image_filter.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/dl_color_filter_image_filter.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/dl_color_source.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/dl_color_source.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/dl_compose_image_filter.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/dl_compose_image_filter.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/dl_dilate_image_filter.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/dl_dilate_image_filter.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/dl_erode_image_filter.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/dl_erode_image_filter.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/dl_image_filter.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/dl_image_filter.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/dl_image_filters.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/dl_local_matrix_image_filter.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/dl_local_matrix_image_filter.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/dl_mask_filter.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/dl_mask_filter.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/dl_matrix_image_filter.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/dl_matrix_image_filter.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/dl_runtime_effect.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/dl_runtime_effect.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/dl_runtime_effect_image_filter.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/dl_runtime_effect_image_filter.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/geometry/dl_geometry_types.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/geometry/dl_path.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/geometry/dl_path.h + ../../../flutter/LICENSE
@@ -45409,16 +45426,33 @@ FILE: ../../../flutter/display_list/dl_storage.h
 FILE: ../../../flutter/display_list/dl_tile_mode.h
 FILE: ../../../flutter/display_list/dl_vertices.cc
 FILE: ../../../flutter/display_list/dl_vertices.h
+FILE: ../../../flutter/display_list/effects/dl_blur_image_filter.cc
+FILE: ../../../flutter/display_list/effects/dl_blur_image_filter.h
 FILE: ../../../flutter/display_list/effects/dl_color_filter.cc
 FILE: ../../../flutter/display_list/effects/dl_color_filter.h
+FILE: ../../../flutter/display_list/effects/dl_color_filter_image_filter.cc
+FILE: ../../../flutter/display_list/effects/dl_color_filter_image_filter.h
 FILE: ../../../flutter/display_list/effects/dl_color_source.cc
 FILE: ../../../flutter/display_list/effects/dl_color_source.h
+FILE: ../../../flutter/display_list/effects/dl_compose_image_filter.cc
+FILE: ../../../flutter/display_list/effects/dl_compose_image_filter.h
+FILE: ../../../flutter/display_list/effects/dl_dilate_image_filter.cc
+FILE: ../../../flutter/display_list/effects/dl_dilate_image_filter.h
+FILE: ../../../flutter/display_list/effects/dl_erode_image_filter.cc
+FILE: ../../../flutter/display_list/effects/dl_erode_image_filter.h
 FILE: ../../../flutter/display_list/effects/dl_image_filter.cc
 FILE: ../../../flutter/display_list/effects/dl_image_filter.h
+FILE: ../../../flutter/display_list/effects/dl_image_filters.h
+FILE: ../../../flutter/display_list/effects/dl_local_matrix_image_filter.cc
+FILE: ../../../flutter/display_list/effects/dl_local_matrix_image_filter.h
 FILE: ../../../flutter/display_list/effects/dl_mask_filter.cc
 FILE: ../../../flutter/display_list/effects/dl_mask_filter.h
+FILE: ../../../flutter/display_list/effects/dl_matrix_image_filter.cc
+FILE: ../../../flutter/display_list/effects/dl_matrix_image_filter.h
 FILE: ../../../flutter/display_list/effects/dl_runtime_effect.cc
 FILE: ../../../flutter/display_list/effects/dl_runtime_effect.h
+FILE: ../../../flutter/display_list/effects/dl_runtime_effect_image_filter.cc
+FILE: ../../../flutter/display_list/effects/dl_runtime_effect_image_filter.h
 FILE: ../../../flutter/display_list/geometry/dl_geometry_types.h
 FILE: ../../../flutter/display_list/geometry/dl_path.cc
 FILE: ../../../flutter/display_list/geometry/dl_path.h
