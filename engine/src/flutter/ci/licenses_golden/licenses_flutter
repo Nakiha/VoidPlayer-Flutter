@@ -44986,6 +44986,8 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_key_embedder_responder_private.
 ORIGIN: ../../../flutter/shell/platform/linux/fl_key_embedder_responder_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_key_event.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_key_event.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_keyboard_channel.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_keyboard_channel.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_keyboard_handler.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_keyboard_handler.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_keyboard_handler_test.cc + ../../../flutter/LICENSE
@@ -45011,11 +45013,15 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_method_codec_private.h + ../../
 ORIGIN: ../../../flutter/shell/platform/linux/fl_method_codec_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_method_response.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_method_response_test.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_mouse_cursor_channel.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_mouse_cursor_channel.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_mouse_cursor_handler.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_mouse_cursor_handler.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_pixel_buffer_texture.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_pixel_buffer_texture_private.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_pixel_buffer_texture_test.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_platform_channel.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_platform_channel.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_platform_handler.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_platform_handler.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_platform_handler_test.cc + ../../../flutter/LICENSE
@@ -45040,6 +45046,8 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_scrolling_manager.h + ../../../
 ORIGIN: ../../../flutter/shell/platform/linux/fl_scrolling_manager_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_settings.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_settings.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_settings_channel.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_settings_channel.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_settings_handler.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_settings_handler.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_settings_handler_test.cc + ../../../flutter/LICENSE
@@ -45056,6 +45064,8 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_string_codec.cc + ../../../flut
 ORIGIN: ../../../flutter/shell/platform/linux/fl_string_codec_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_task_runner.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_task_runner.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_text_input_channel.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_text_input_channel.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_text_input_handler.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_text_input_handler.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_text_input_handler_test.cc + ../../../flutter/LICENSE
@@ -47886,6 +47896,8 @@ FILE: ../../../flutter/shell/platform/linux/fl_key_embedder_responder_private.h
 FILE: ../../../flutter/shell/platform/linux/fl_key_embedder_responder_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_key_event.cc
 FILE: ../../../flutter/shell/platform/linux/fl_key_event.h
+FILE: ../../../flutter/shell/platform/linux/fl_keyboard_channel.cc
+FILE: ../../../flutter/shell/platform/linux/fl_keyboard_channel.h
 FILE: ../../../flutter/shell/platform/linux/fl_keyboard_handler.cc
 FILE: ../../../flutter/shell/platform/linux/fl_keyboard_handler.h
 FILE: ../../../flutter/shell/platform/linux/fl_keyboard_handler_test.cc
@@ -47911,11 +47923,15 @@ FILE: ../../../flutter/shell/platform/linux/fl_method_codec_private.h
 FILE: ../../../flutter/shell/platform/linux/fl_method_codec_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_method_response.cc
 FILE: ../../../flutter/shell/platform/linux/fl_method_response_test.cc
+FILE: ../../../flutter/shell/platform/linux/fl_mouse_cursor_channel.cc
+FILE: ../../../flutter/shell/platform/linux/fl_mouse_cursor_channel.h
 FILE: ../../../flutter/shell/platform/linux/fl_mouse_cursor_handler.cc
 FILE: ../../../flutter/shell/platform/linux/fl_mouse_cursor_handler.h
 FILE: ../../../flutter/shell/platform/linux/fl_pixel_buffer_texture.cc
 FILE: ../../../flutter/shell/platform/linux/fl_pixel_buffer_texture_private.h
 FILE: ../../../flutter/shell/platform/linux/fl_pixel_buffer_texture_test.cc
+FILE: ../../../flutter/shell/platform/linux/fl_platform_channel.cc
+FILE: ../../../flutter/shell/platform/linux/fl_platform_channel.h
 FILE: ../../../flutter/shell/platform/linux/fl_platform_handler.cc
 FILE: ../../../flutter/shell/platform/linux/fl_platform_handler.h
 FILE: ../../../flutter/shell/platform/linux/fl_platform_handler_test.cc
@@ -47940,6 +47956,8 @@ FILE: ../../../flutter/shell/platform/linux/fl_scrolling_manager.h
 FILE: ../../../flutter/shell/platform/linux/fl_scrolling_manager_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_settings.cc
 FILE: ../../../flutter/shell/platform/linux/fl_settings.h
+FILE: ../../../flutter/shell/platform/linux/fl_settings_channel.cc
+FILE: ../../../flutter/shell/platform/linux/fl_settings_channel.h
 FILE: ../../../flutter/shell/platform/linux/fl_settings_handler.cc
 FILE: ../../../flutter/shell/platform/linux/fl_settings_handler.h
 FILE: ../../../flutter/shell/platform/linux/fl_settings_handler_test.cc
@@ -47956,6 +47974,8 @@ FILE: ../../../flutter/shell/platform/linux/fl_string_codec.cc
 FILE: ../../../flutter/shell/platform/linux/fl_string_codec_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_task_runner.cc
 FILE: ../../../flutter/shell/platform/linux/fl_task_runner.h
+FILE: ../../../flutter/shell/platform/linux/fl_text_input_channel.cc
+FILE: ../../../flutter/shell/platform/linux/fl_text_input_channel.h
 FILE: ../../../flutter/shell/platform/linux/fl_text_input_handler.cc
 FILE: ../../../flutter/shell/platform/linux/fl_text_input_handler.h
 FILE: ../../../flutter/shell/platform/linux/fl_text_input_handler_test.cc
