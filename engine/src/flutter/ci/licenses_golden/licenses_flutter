@@ -42477,6 +42477,8 @@ ORIGIN: ../../../flutter/assets/asset_manager.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/assets/asset_resolver.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/assets/directory_asset_bundle.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/assets/directory_asset_bundle.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/assets/native_assets.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/assets/native_assets.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/benchmarking/benchmarking.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/benchmarking/benchmarking.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/benchmarking/library.cc + ../../../flutter/LICENSE
@@ -45369,6 +45371,8 @@ FILE: ../../../flutter/assets/asset_manager.h
 FILE: ../../../flutter/assets/asset_resolver.h
 FILE: ../../../flutter/assets/directory_asset_bundle.cc
 FILE: ../../../flutter/assets/directory_asset_bundle.h
+FILE: ../../../flutter/assets/native_assets.cc
+FILE: ../../../flutter/assets/native_assets.h
 FILE: ../../../flutter/benchmarking/benchmarking.cc
 FILE: ../../../flutter/benchmarking/benchmarking.h
 FILE: ../../../flutter/benchmarking/library.cc
