@@ -43505,7 +43505,9 @@ ORIGIN: ../../../flutter/impeller/toolkit/interop/image_filter.cc + ../../../flu
 ORIGIN: ../../../flutter/impeller/toolkit/interop/image_filter.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/interop/impeller.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/interop/impeller.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/impeller.hpp + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/interop/impeller_c.c + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/impeller_cc.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/interop/mask_filter.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/interop/mask_filter.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/interop/object.cc + ../../../flutter/LICENSE
@@ -46406,7 +46408,9 @@ FILE: ../../../flutter/impeller/toolkit/interop/image_filter.cc
 FILE: ../../../flutter/impeller/toolkit/interop/image_filter.h
 FILE: ../../../flutter/impeller/toolkit/interop/impeller.cc
 FILE: ../../../flutter/impeller/toolkit/interop/impeller.h
+FILE: ../../../flutter/impeller/toolkit/interop/impeller.hpp
 FILE: ../../../flutter/impeller/toolkit/interop/impeller_c.c
+FILE: ../../../flutter/impeller/toolkit/interop/impeller_cc.cc
 FILE: ../../../flutter/impeller/toolkit/interop/mask_filter.cc
 FILE: ../../../flutter/impeller/toolkit/interop/mask_filter.h
 FILE: ../../../flutter/impeller/toolkit/interop/object.cc
