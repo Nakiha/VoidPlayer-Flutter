@@ -45060,6 +45060,7 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_pixel_buffer_texture_private.h 
 ORIGIN: ../../../flutter/shell/platform/linux/fl_pixel_buffer_texture_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_platform_channel.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_platform_channel.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_platform_channel_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_platform_handler.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_platform_handler.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_platform_handler_test.cc + ../../../flutter/LICENSE
@@ -48008,6 +48009,7 @@ FILE: ../../../flutter/shell/platform/linux/fl_pixel_buffer_texture_private.h
 FILE: ../../../flutter/shell/platform/linux/fl_pixel_buffer_texture_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_platform_channel.cc
 FILE: ../../../flutter/shell/platform/linux/fl_platform_channel.h
+FILE: ../../../flutter/shell/platform/linux/fl_platform_channel_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_platform_handler.cc
 FILE: ../../../flutter/shell/platform/linux/fl_platform_handler.h
 FILE: ../../../flutter/shell/platform/linux/fl_platform_handler_test.cc
