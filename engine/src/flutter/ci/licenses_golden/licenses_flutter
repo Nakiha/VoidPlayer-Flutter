@@ -44563,11 +44563,11 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterOverl
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformPlugin.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformPlugin.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformPluginTest.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViews.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViewsController.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViewsController.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViewsTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViews_Internal.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViews_Internal.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPluginAppLifeCycleDelegate.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPluginAppLifeCycleDelegateTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPluginAppLifeCycleDelegate_internal.h + ../../../flutter/LICENSE
@@ -47499,11 +47499,11 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterOverlay
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformPlugin.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformPlugin.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformPluginTest.mm
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViews.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViewsController.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViewsController.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViewsTest.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViews_Internal.h
-FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlatformViews_Internal.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPluginAppLifeCycleDelegate.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPluginAppLifeCycleDelegateTest.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPluginAppLifeCycleDelegate_internal.h
