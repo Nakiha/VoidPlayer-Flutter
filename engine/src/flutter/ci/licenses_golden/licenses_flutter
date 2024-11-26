@@ -42532,6 +42532,14 @@ ORIGIN: ../../../flutter/display_list/dl_storage.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/dl_tile_mode.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/dl_vertices.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/dl_vertices.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/color_filters/dl_blend_color_filter.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/color_filters/dl_blend_color_filter.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/color_filters/dl_linear_to_srgb_gamma_color_filter.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/color_filters/dl_linear_to_srgb_gamma_color_filter.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/color_filters/dl_matrix_color_filter.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/color_filters/dl_matrix_color_filter.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/color_filters/dl_srgb_to_linear_gamma_color_filter.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/color_filters/dl_srgb_to_linear_gamma_color_filter.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/color_sources/dl_color_color_source.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/color_sources/dl_color_color_source.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/color_sources/dl_conical_gradient_color_source.cc + ../../../flutter/LICENSE
@@ -42550,6 +42558,7 @@ ORIGIN: ../../../flutter/display_list/effects/color_sources/dl_sweep_gradient_co
 ORIGIN: ../../../flutter/display_list/effects/color_sources/dl_sweep_gradient_color_source.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/dl_color_filter.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/dl_color_filter.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/effects/dl_color_filters.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/dl_color_source.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/dl_color_source.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/dl_color_sources.h + ../../../flutter/LICENSE
@@ -45450,6 +45459,14 @@ FILE: ../../../flutter/display_list/dl_storage.h
 FILE: ../../../flutter/display_list/dl_tile_mode.h
 FILE: ../../../flutter/display_list/dl_vertices.cc
 FILE: ../../../flutter/display_list/dl_vertices.h
+FILE: ../../../flutter/display_list/effects/color_filters/dl_blend_color_filter.cc
+FILE: ../../../flutter/display_list/effects/color_filters/dl_blend_color_filter.h
+FILE: ../../../flutter/display_list/effects/color_filters/dl_linear_to_srgb_gamma_color_filter.cc
+FILE: ../../../flutter/display_list/effects/color_filters/dl_linear_to_srgb_gamma_color_filter.h
+FILE: ../../../flutter/display_list/effects/color_filters/dl_matrix_color_filter.cc
+FILE: ../../../flutter/display_list/effects/color_filters/dl_matrix_color_filter.h
+FILE: ../../../flutter/display_list/effects/color_filters/dl_srgb_to_linear_gamma_color_filter.cc
+FILE: ../../../flutter/display_list/effects/color_filters/dl_srgb_to_linear_gamma_color_filter.h
 FILE: ../../../flutter/display_list/effects/color_sources/dl_color_color_source.cc
 FILE: ../../../flutter/display_list/effects/color_sources/dl_color_color_source.h
 FILE: ../../../flutter/display_list/effects/color_sources/dl_conical_gradient_color_source.cc
@@ -45468,6 +45485,7 @@ FILE: ../../../flutter/display_list/effects/color_sources/dl_sweep_gradient_colo
 FILE: ../../../flutter/display_list/effects/color_sources/dl_sweep_gradient_color_source.h
 FILE: ../../../flutter/display_list/effects/dl_color_filter.cc
 FILE: ../../../flutter/display_list/effects/dl_color_filter.h
+FILE: ../../../flutter/display_list/effects/dl_color_filters.h
 FILE: ../../../flutter/display_list/effects/dl_color_source.cc
 FILE: ../../../flutter/display_list/effects/dl_color_source.h
 FILE: ../../../flutter/display_list/effects/dl_color_sources.h
