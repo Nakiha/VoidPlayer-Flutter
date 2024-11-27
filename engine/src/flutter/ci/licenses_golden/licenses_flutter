@@ -42540,8 +42540,6 @@ ORIGIN: ../../../flutter/display_list/effects/color_filters/dl_matrix_color_filt
 ORIGIN: ../../../flutter/display_list/effects/color_filters/dl_matrix_color_filter.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/color_filters/dl_srgb_to_linear_gamma_color_filter.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/color_filters/dl_srgb_to_linear_gamma_color_filter.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/display_list/effects/color_sources/dl_color_color_source.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/display_list/effects/color_sources/dl_color_color_source.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/color_sources/dl_conical_gradient_color_source.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/color_sources/dl_conical_gradient_color_source.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/color_sources/dl_gradient_color_source_base.h + ../../../flutter/LICENSE
@@ -45467,8 +45465,6 @@ FILE: ../../../flutter/display_list/effects/color_filters/dl_matrix_color_filter
 FILE: ../../../flutter/display_list/effects/color_filters/dl_matrix_color_filter.h
 FILE: ../../../flutter/display_list/effects/color_filters/dl_srgb_to_linear_gamma_color_filter.cc
 FILE: ../../../flutter/display_list/effects/color_filters/dl_srgb_to_linear_gamma_color_filter.h
-FILE: ../../../flutter/display_list/effects/color_sources/dl_color_color_source.cc
-FILE: ../../../flutter/display_list/effects/color_sources/dl_color_color_source.h
 FILE: ../../../flutter/display_list/effects/color_sources/dl_conical_gradient_color_source.cc
 FILE: ../../../flutter/display_list/effects/color_sources/dl_conical_gradient_color_source.h
 FILE: ../../../flutter/display_list/effects/color_sources/dl_gradient_color_source_base.h
