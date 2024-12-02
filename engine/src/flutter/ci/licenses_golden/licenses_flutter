@@ -11610,7 +11610,6 @@ ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_rc2.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_rc4.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/conf/conf.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/conf/conf_def.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_intel.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/des/des.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/des/internal.h
@@ -11623,39 +11622,39 @@ ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/evp/evp_ctx.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/evp/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/evp/sign.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/ex_data.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/add.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/bn.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/bytes.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/cmp.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/div.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/exponentiation.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/gcd.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/generic.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/montgomery.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/mul.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/prime.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/random.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/shift.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/cipher.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/add.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/bn.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/bytes.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/cmp.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/div.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/exponentiation.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/gcd.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/generic.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/montgomery.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/mul.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/prime.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/random.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/shift.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/cipher.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/dh/check.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/dh/dh.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/digest/digest.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/digest/digests.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/dh/check.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/dh/dh.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/digest/digest.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/digest/digests.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/digest/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/hmac/hmac.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/md4/md4.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/md5/md5.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/blinding.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/hmac/hmac.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/blinding.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/rsa.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/rsa_impl.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/sha1.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/sha256.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/sha512.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/rsa.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/rsa_impl.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/sha1.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/sha256.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/sha512.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/lhash/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/lhash/lhash.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/md4/md4.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/md5/md5.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/mem.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/obj/obj.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/obj/obj_xref.c
@@ -11826,7 +11825,6 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_rc2.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_rc4.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/conf/conf.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/conf/conf_def.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_intel.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/des/des.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/des/internal.h
@@ -11839,39 +11837,39 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/evp_ctx.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/sign.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/ex_data.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/add.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/bn.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/bytes.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/cmp.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/div.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/exponentiation.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/gcd.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/generic.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/montgomery.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/mul.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/prime.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/random.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/shift.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/cipher.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/add.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/bn.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/bytes.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/cmp.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/div.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/exponentiation.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/gcd.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/generic.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/montgomery.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/mul.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/prime.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/random.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/shift.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/cipher.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/dh/check.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/dh/dh.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/digest/digest.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/digest/digests.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/dh/check.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/dh/dh.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/digest/digest.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/digest/digests.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/digest/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/hmac/hmac.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/md4/md4.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/md5/md5.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/blinding.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/hmac/hmac.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/blinding.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/rsa.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/rsa_impl.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/sha1.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/sha256.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/sha512.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/rsa.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/rsa_impl.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/sha1.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/sha256.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/sha512.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/lhash/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/lhash/lhash.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/md4/md4.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/md5/md5.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/mem.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/obj/obj.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/obj/obj_xref.c
@@ -32191,11 +32189,11 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ====================================================================================================
 LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/jacobi.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/sqrt.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/jacobi.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/sqrt.c.inc
 TYPE: LicenseType.bsd
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/jacobi.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/sqrt.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/jacobi.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/sqrt.c.inc
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 1998-2000 The OpenSSL Project.  All rights reserved.
 
@@ -32247,17 +32245,17 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 LIBRARY: boringssl
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/ex_data.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/gcd.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/prime.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/random.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/gcd.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/prime.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/random.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/base.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/ex_data.h
 TYPE: LicenseType.bsd
 FILE: ../../../flutter/third_party/boringssl/src/crypto/ex_data.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/gcd.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/prime.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/random.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/gcd.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/prime.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/random.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/base.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/ex_data.h
@@ -32431,9 +32429,9 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/ctx.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/ctx.c.inc
 TYPE: LicenseType.bsd
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/ctx.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/ctx.c.inc
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 1998-2004 The OpenSSL Project.  All rights reserved.
 
@@ -32485,11 +32483,11 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 LIBRARY: boringssl
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/ecdsa_extra/ecdsa_asn1.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdsa/ecdsa.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdsa/ecdsa.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/ecdsa.h
 TYPE: LicenseType.bsd
 FILE: ../../../flutter/third_party/boringssl/src/crypto/ecdsa_extra/ecdsa_asn1.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdsa/ecdsa.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdsa/ecdsa.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/ecdsa.h
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 1998-2005 The OpenSSL Project.  All rights reserved.
@@ -32541,28 +32539,28 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/exponentiation.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec_key.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec_montgomery.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/exponentiation.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec_key.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec_montgomery.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/oct.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/simple.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/wnaf.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/oct.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/simple.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/wnaf.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/ec.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/ec_key.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/d1_both.cc
 ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/d1_pkt.cc
 ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/dtls_record.cc
 TYPE: LicenseType.bsd
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/exponentiation.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec_key.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec_montgomery.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/exponentiation.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec_key.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec_montgomery.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/oct.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/simple.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/wnaf.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/oct.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/simple.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/wnaf.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/ec.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/ec_key.h
 FILE: ../../../flutter/third_party/boringssl/src/ssl/d1_both.cc
@@ -32620,8 +32618,8 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 LIBRARY: boringssl
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/err/err.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/montgomery.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/blinding.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/montgomery.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/blinding.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/bn.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/err.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/tls1.h
@@ -32630,8 +32628,8 @@ ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/ssl_session.cc
 TYPE: LicenseType.bsd
 FILE: ../../../flutter/third_party/boringssl/src/crypto/err/err.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/montgomery.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/blinding.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/montgomery.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/blinding.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/bn.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/err.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/tls1.h
@@ -32687,7 +32685,7 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/tls/kdf.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/tls/kdf.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/decrepit/ssl/ssl_decrepit.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/ssl.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/extensions.cc
@@ -32703,7 +32701,7 @@ ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/ssl_transcript.cc
 ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/ssl_x509.cc
 ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/t1_enc.cc
 TYPE: LicenseType.bsd
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/tls/kdf.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/tls/kdf.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/decrepit/ssl/ssl_decrepit.c
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/ssl.h
 FILE: ../../../flutter/third_party/boringssl/src/ssl/extensions.cc
@@ -33472,11 +33470,11 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 LIBRARY: boringssl
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/ecdh_extra/ecdh_extra.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdh/ecdh.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdh/ecdh.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/ecdh.h
 TYPE: LicenseType.bsd
 FILE: ../../../flutter/third_party/boringssl/src/crypto/ecdh_extra/ecdh_extra.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdh/ecdh.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdh/ecdh.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/ecdh.h
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2000-2002 The OpenSSL Project.  All rights reserved.
@@ -33938,11 +33936,11 @@ authorization of the copyright holder.
 
 ====================================================================================================
 LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/key_wrap.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/e_aes.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/key_wrap.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/e_aes.c.inc
 TYPE: LicenseType.bsd
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/key_wrap.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/e_aes.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/key_wrap.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/e_aes.c.inc
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2001-2011 The OpenSSL Project.  All rights reserved.
 
@@ -34717,12 +34715,12 @@ freely, subject to the following restrictions:
 
 ====================================================================================================
 LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/aes.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/mode_wrappers.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/aes.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/mode_wrappers.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/aes.h
 TYPE: LicenseType.bsd
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/aes.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/mode_wrappers.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/aes.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/mode_wrappers.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/aes.h
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2002-2006 The OpenSSL Project.  All rights reserved.
@@ -36046,9 +36044,9 @@ authorization of the copyright holder.
 
 ====================================================================================================
 LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/padding.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/padding.c.inc
 TYPE: LicenseType.bsd
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/padding.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rsa/padding.c.inc
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2005 The OpenSSL Project.  All rights reserved.
 
@@ -36166,9 +36164,9 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/digestsign/digestsign.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/digestsign/digestsign.c.inc
 TYPE: LicenseType.bsd
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/digestsign/digestsign.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/digestsign/digestsign.c.inc
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2006,2007 The OpenSSL Project.  All rights reserved.
 
@@ -36539,21 +36537,21 @@ SOFTWARE.
 
 ====================================================================================================
 LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/e_aesccm.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/cbc.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/cfb.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/ctr.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/gcm.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/e_aesccm.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/cbc.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/cfb.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/ctr.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/gcm.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/ofb.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/ofb.c.inc
 TYPE: LicenseType.bsd
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/e_aesccm.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/cbc.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/cfb.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/ctr.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/gcm.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/e_aesccm.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/cbc.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/cfb.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/ctr.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/gcm.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/ofb.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/ofb.c.inc
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2008 The OpenSSL Project.  All rights reserved.
 
@@ -37236,9 +37234,9 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cmac/cmac.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cmac/cmac.c.inc
 TYPE: LicenseType.bsd
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cmac/cmac.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cmac/cmac.c.inc
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2010 The OpenSSL Project.  All rights reserved.
 
@@ -38162,14 +38160,14 @@ ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_chacha2
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_tls.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/crypto.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/engine/engine.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/aead.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/hkdf/hkdf.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/rand.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/urandom.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/aead.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/hkdf/hkdf.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/rand.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/pkcs7/pkcs7.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305_arm.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305_vec.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/urandom.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/windows.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/aead.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/bytestring.h
@@ -38209,14 +38207,14 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_chacha20p
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_tls.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/crypto.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/engine/engine.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/aead.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/hkdf/hkdf.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/rand.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/urandom.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/aead.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/hkdf/hkdf.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/rand.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/pkcs7/pkcs7.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305_arm.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305_vec.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/urandom.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/windows.c
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/aead.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/bytestring.h
@@ -38583,8 +38581,8 @@ LIBRARY: boringssl
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bn_extra/bn_asn1.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/conf/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/curve25519/asm/x25519-asm-arm.S
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p224-64.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/util.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p224-64.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/util.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/refcount.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/thread_none.c
@@ -38607,8 +38605,8 @@ TYPE: LicenseType.unknown
 FILE: ../../../flutter/third_party/boringssl/src/crypto/bn_extra/bn_asn1.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/conf/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/curve25519/asm/x25519-asm-arm.S
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p224-64.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/util.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p224-64.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/util.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/refcount.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/thread_none.c
@@ -38826,7 +38824,7 @@ ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bytestring/asn1_compat
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_linux.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_arm_linux.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/curve25519/spake25519.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/polyval.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/polyval.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/obj/objects.go
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/poly1305/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/pool/internal.h
@@ -38848,7 +38846,7 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/bytestring/asn1_compat.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_linux.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_arm_linux.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/curve25519/spake25519.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/polyval.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/polyval.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/obj/objects.go
 FILE: ../../../flutter/third_party/boringssl/src/crypto/poly1305/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/pool/internal.h
@@ -38919,9 +38917,9 @@ ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/evp/p_ed25519_asn1.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bcm.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/delocate.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/ctrdrbg.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/self_check/fips.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/self_check/self_check.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/ctrdrbg.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/self_check/fips.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/self_check/self_check.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/pkcs7/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/pkcs7/pkcs7_x509.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/forkunsafe.c
@@ -38941,9 +38939,9 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/p_ed25519_asn1.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bcm.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/delocate.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/ctrdrbg.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/self_check/fips.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/self_check/self_check.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/ctrdrbg.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/self_check/fips.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/self_check/self_check.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/pkcs7/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/pkcs7/pkcs7_x509.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/forkunsafe.c
@@ -39139,16 +39137,16 @@ ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bytestring/unicode.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/chacha/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_fuchsia.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_arm_linux.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/div_extra.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/gcd_extra.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/felem.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/scalar.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/simple_mul.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/md5/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/div_extra.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/gcd_extra.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/felem.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/scalar.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/simple_mul.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/tls/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/hrss/hrss.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/hrss/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/md5/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/e_os2.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/hrss.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/handoff.cc
@@ -39157,16 +39155,16 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/bytestring/unicode.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/chacha/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_fuchsia.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_arm_linux.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/div_extra.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/gcd_extra.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/felem.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/scalar.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/simple_mul.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/md5/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/div_extra.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/gcd_extra.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/felem.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/scalar.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/simple_mul.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/tls/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/hrss/hrss.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/hrss/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/md5/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/e_os2.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/hrss.h
 FILE: ../../../flutter/third_party/boringssl/src/ssl/handoff.cc
@@ -39278,9 +39276,9 @@ LIBRARY: boringssl
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/ec_extra/ec_derive.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/evp/p_x25519.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/evp/p_x25519_asn1.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/aes_nohw.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/aes_nohw.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/fips_shared_support.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/gcm_nohw.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/gcm_nohw.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/siphash/siphash.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/trust_token/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/trust_token/trust_token.c
@@ -39289,9 +39287,9 @@ TYPE: LicenseType.unknown
 FILE: ../../../flutter/third_party/boringssl/src/crypto/ec_extra/ec_derive.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/p_x25519.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/p_x25519_asn1.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/aes_nohw.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/aes_nohw.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/fips_shared_support.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/gcm_nohw.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/gcm_nohw.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/siphash/siphash.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/trust_token/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/trust_token/trust_token.c
@@ -39439,12 +39437,11 @@ ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/curve25519/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/dsa/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/ec_extra/hash_to_curve.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/ec_extra/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256_table.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/fork_detect.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/fork_detect.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/getrandom_fillin.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/hpke/hpke.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/fork_detect.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/getrandom_fillin.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/passive.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/trust_token/pmbtoken.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/trust_token/voprf.c
@@ -39458,12 +39455,11 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/curve25519/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/dsa/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/ec_extra/hash_to_curve.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/ec_extra/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256_table.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/fork_detect.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/fork_detect.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/getrandom_fillin.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/hpke/hpke.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/fork_detect.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/getrandom_fillin.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/passive.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/trust_token/pmbtoken.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/trust_token/voprf.c
@@ -39904,6 +39900,7 @@ ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/keccak/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/keccak/keccak.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/kyber/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/kyber/kyber.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/mlkem/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/getentropy.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/ios.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/trusty.c
@@ -39913,6 +39910,7 @@ ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/pki/certifica
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/target.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/x509v3.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/pki/certificate.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/pki/verify.cc
 TYPE: LicenseType.unknown
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_sysreg.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/curve25519/curve25519_64_adx.c
@@ -39921,6 +39919,7 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/keccak/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/keccak/keccak.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/kyber/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/kyber/kyber.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mlkem/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/getentropy.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/ios.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/trusty.c
@@ -39930,6 +39929,7 @@ FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pki/certificate
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/target.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/x509v3.h
 FILE: ../../../flutter/third_party/boringssl/src/pki/certificate.cc
+FILE: ../../../flutter/third_party/boringssl/src/pki/verify.cc
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2023, Google Inc.
 
@@ -39948,36 +39948,42 @@ CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ====================================================================================================
 LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/address.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/address.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/fors.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/fors.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/merkle.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/merkle.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/params.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/dilithium/dilithium.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/dilithium/internal.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_address.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_address.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_fors.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_fors.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_merkle.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_merkle.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_params.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_thash.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_thash.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_util.c
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_util.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/thash.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/thash.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/wots.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/wots.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_wots.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_wots.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/experimental/dilithium.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/experimental/spx.h
 TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/address.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/address.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/fors.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/fors.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/merkle.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/merkle.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/params.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/dilithium/dilithium.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/dilithium/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_address.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_address.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_fors.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_fors.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_merkle.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_merkle.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_params.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_thash.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_thash.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_util.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_util.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/thash.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/thash.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/wots.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/wots.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_wots.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_wots.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/experimental/dilithium.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/experimental/spx.h
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2023, Google LLC
@@ -39998,16 +40004,87 @@ CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ====================================================================================================
 LIBRARY: boringssl
 ORIGIN: ../../../flutter/third_party/boringssl/src/MODULE.bazel
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bcm_support.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bcm_interface.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/sysrand_internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rsa_extra/rsa_extra.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/sha/sha1.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/sha/sha256.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/sha/sha512.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/mlkem.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/pki/verify_error.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/time.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/ssl_credential.cc
 TYPE: LicenseType.unknown
 FILE: ../../../flutter/third_party/boringssl/src/MODULE.bazel
+FILE: ../../../flutter/third_party/boringssl/src/crypto/bcm_support.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bcm_interface.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/sysrand_internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rsa_extra/rsa_extra.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/sha/sha1.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/sha/sha256.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/sha/sha512.c
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/mlkem.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pki/verify_error.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/time.h
 FILE: ../../../flutter/third_party/boringssl/src/ssl/ssl_credential.cc
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2024, Google Inc.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: boringssl
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/mldsa/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/mldsa/mldsa.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/address.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/fors.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/fors.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/merkle.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/merkle.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/params.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/slhdsa.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/thash.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/thash.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/wots.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/wots.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/bcm_public.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/mldsa.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/slhdsa.h
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mldsa/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mldsa/mldsa.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/address.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/fors.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/fors.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/merkle.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/merkle.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/params.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/slhdsa.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/thash.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/thash.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/wots.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/wots.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/bcm_public.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/mldsa.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/slhdsa.h
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2024, Google LLC
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -40494,13 +40571,13 @@ license provided above.
 
 ====================================================================================================
 LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec_key.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec_montgomery.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec_key.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec_montgomery.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/oct.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/simple.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/wnaf.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/oct.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/simple.c.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/wnaf.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/ec.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/ec_key.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/tls1.h
@@ -40508,13 +40585,13 @@ ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/handshake_client.cc
 ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/handshake_server.cc
 ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/s3_lib.cc
 TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec_key.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec_montgomery.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec_key.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec_montgomery.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/oct.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/simple.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/wnaf.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/oct.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/simple.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/wnaf.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/ec.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/ec_key.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/tls1.h
@@ -40534,11 +40611,11 @@ license provided above.
 ====================================================================================================
 LIBRARY: boringssl
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/ecdh_extra/ecdh_extra.c + ../../../flutter/third_party/boringssl/src/crypto/ecdh_extra/ecdh_extra.c
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdh/ecdh.c + ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdh/ecdh.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdh/ecdh.c.inc + ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdh/ecdh.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/ecdh.h + ../../../flutter/third_party/boringssl/src/include/openssl/ecdh.h
 TYPE: LicenseType.bsd
 FILE: ../../../flutter/third_party/boringssl/src/crypto/ecdh_extra/ecdh_extra.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdh/ecdh.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdh/ecdh.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/ecdh.h
 ----------------------------------------------------------------------------------------------------
 Copyright 2002 Sun Microsystems, Inc. ALL RIGHTS RESERVED.
@@ -48376,10 +48453,10 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/rsaz_exp.c (with ../../../flutter/third_party/boringssl/src/LICENSE)
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/rsaz_exp.c.inc (with ../../../flutter/third_party/boringssl/src/LICENSE)
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/rsaz_exp.h (with ../../../flutter/third_party/boringssl/src/LICENSE)
 TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/rsaz_exp.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/rsaz_exp.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/rsaz_exp.h
 ----------------------------------------------------------------------------------------------------
 Copyright 2013-2016 The OpenSSL Project Authors. All Rights Reserved.
@@ -48876,10 +48953,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256-nistz.c (with ../../../flutter/third_party/boringssl/src/LICENSE)
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256-nistz.c.inc (with ../../../flutter/third_party/boringssl/src/LICENSE)
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256-nistz.h (with ../../../flutter/third_party/boringssl/src/LICENSE)
 TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256-nistz.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256-nistz.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256-nistz.h
 ----------------------------------------------------------------------------------------------------
 Copyright 2014-2016 The OpenSSL Project Authors. All Rights Reserved.
@@ -49495,9 +49572,9 @@ https://www.openssl.org/source/license.html
 
 ====================================================================================================
 LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/montgomery_inv.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/montgomery_inv.c.inc
 TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/montgomery_inv.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/montgomery_inv.c.inc
 ----------------------------------------------------------------------------------------------------
 Copyright 2016 Brian Smith.
 
@@ -54043,11 +54120,11 @@ found in the LICENSE file
 ====================================================================================================
 LIBRARY: boringssl
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/service_indicator/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/service_indicator/service_indicator.c
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/service_indicator/service_indicator.c.inc
 ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/service_indicator.h
 TYPE: LicenseType.unknown
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/service_indicator/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/service_indicator/service_indicator.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/service_indicator/service_indicator.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/service_indicator.h
 ----------------------------------------------------------------------------------------------------
 Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
@@ -57830,10 +57907,16 @@ LIBRARY: boringssl
 ORIGIN: ../../../flutter/third_party/boringssl/src/LICENSE
 TYPE: LicenseType.openssl
 FILE: ../../../flutter/third_party/boringssl/src/.bazelignore
+FILE: ../../../flutter/third_party/boringssl/src/.bcr/metadata.template.json
+FILE: ../../../flutter/third_party/boringssl/src/.bcr/presubmit.yml
+FILE: ../../../flutter/third_party/boringssl/src/.bcr/source.template.json
 FILE: ../../../flutter/third_party/boringssl/src/MODULE.bazel.lock
 FILE: ../../../flutter/third_party/boringssl/src/PrivacyInfo.xcprivacy
 FILE: ../../../flutter/third_party/boringssl/src/build.json
 FILE: ../../../flutter/third_party/boringssl/src/crypto/curve25519/ed25519_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/dilithium/dilithium_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/dilithium/edge_cases_draft_dilithium3_sign.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/dilithium/edge_cases_draft_dilithium3_verify.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/ecdh_extra/ecdh_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/err/asn1.errordata
 FILE: ../../../flutter/third_party/boringssl/src/crypto/err/bio.errordata
@@ -57864,8 +57947,8 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/p_dh_asn1.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/scrypt.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/scrypt_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/aes_tests.txt
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/asm/x86_64-gcc.c
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/rsaz_exp.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/asm/x86_64-gcc.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/rsaz_exp.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/rsaz_exp.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cmac/cavp_3des_cmac_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cmac/cavp_aes128_cmac_tests.txt
@@ -57873,7 +57956,7 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cmac/cavp_aes
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cmac/cavp_aes256_cmac_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/ec_scalar_base_mult_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256-nistz-table.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256-nistz.c
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256-nistz.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256-nistz.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256-nistz_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdsa/ecdsa_sign_tests.txt
@@ -58001,15 +58084,31 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/hpke/hpke_test_vectors.t
 FILE: ../../../flutter/third_party/boringssl/src/crypto/hpke/test-vectors.json
 FILE: ../../../flutter/third_party/boringssl/src/crypto/keccak/keccak_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/kyber/kyber_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mldsa/mldsa_nist_keygen_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mldsa/mldsa_nist_siggen_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem1024_decap_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem1024_encap_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem1024_keygen_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem1024_nist_decap_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem1024_nist_keygen_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem768_decap_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem768_encap_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem768_keygen_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem768_nist_decap_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem768_nist_keygen_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/obj/obj_mac.num
 FILE: ../../../flutter/third_party/boringssl/src/crypto/obj/objects.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305_arm_asm.S
 FILE: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/rsa_extra/rsa_print.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/siphash/siphash_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/slhdsa_keygen.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/slhdsa_siggen.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/slhdsa_sigver.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_tests_deterministic.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/x509/v3_ocsp.c
+FILE: ../../../flutter/third_party/boringssl/src/docs/releasing.md
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aesni-gcm-x86_64-apple.S
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aesni-gcm-x86_64-linux.S
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aesni-gcm-x86_64-win.asm
@@ -58060,12 +58159,6 @@ FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/ghashv8-armv7-linux.S
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/ghashv8-armv8-apple.S
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/ghashv8-armv8-linux.S
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/ghashv8-armv8-win.S
-FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/md5-586-apple.S
-FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/md5-586-linux.S
-FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/md5-586-win.asm
-FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/md5-x86_64-apple.S
-FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/md5-x86_64-linux.S
-FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/md5-x86_64-win.asm
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/p256-armv8-asm-apple.S
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/p256-armv8-asm-linux.S
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/p256-armv8-asm-win.S
@@ -58152,10 +58245,17 @@ FILE: ../../../flutter/third_party/boringssl/src/gen/crypto/chacha20_poly1305_ar
 FILE: ../../../flutter/third_party/boringssl/src/gen/crypto/chacha20_poly1305_x86_64-apple.S
 FILE: ../../../flutter/third_party/boringssl/src/gen/crypto/chacha20_poly1305_x86_64-linux.S
 FILE: ../../../flutter/third_party/boringssl/src/gen/crypto/chacha20_poly1305_x86_64-win.asm
+FILE: ../../../flutter/third_party/boringssl/src/gen/crypto/md5-586-apple.S
+FILE: ../../../flutter/third_party/boringssl/src/gen/crypto/md5-586-linux.S
+FILE: ../../../flutter/third_party/boringssl/src/gen/crypto/md5-586-win.asm
+FILE: ../../../flutter/third_party/boringssl/src/gen/crypto/md5-x86_64-apple.S
+FILE: ../../../flutter/third_party/boringssl/src/gen/crypto/md5-x86_64-linux.S
+FILE: ../../../flutter/third_party/boringssl/src/gen/crypto/md5-x86_64-win.asm
 FILE: ../../../flutter/third_party/boringssl/src/gen/sources.json
 FILE: ../../../flutter/third_party/boringssl/src/go.mod
 FILE: ../../../flutter/third_party/boringssl/src/go.sum
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pki/signature_verify_cache.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pki/verify.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/ssl.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/ssl3.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/tls1.h
@@ -71540,4 +71640,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
-Total license count: 918
+Total license count: 919
