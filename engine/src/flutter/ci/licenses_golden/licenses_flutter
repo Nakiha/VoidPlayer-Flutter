@@ -39948,61 +39948,6 @@ CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 ====================================================================================================
 LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/dilithium/dilithium.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/dilithium/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_address.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_address.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_fors.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_fors.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_merkle.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_merkle.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_params.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_thash.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_thash.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_util.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_util.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_wots.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_wots.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/experimental/dilithium.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/experimental/spx.h
-TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/dilithium/dilithium.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/dilithium/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_address.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_address.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_fors.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_fors.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_merkle.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_merkle.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_params.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_thash.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_thash.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_util.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_util.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_wots.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_wots.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/experimental/dilithium.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/experimental/spx.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2023, Google LLC
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
-OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
-CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: boringssl
 ORIGIN: ../../../flutter/third_party/boringssl/src/MODULE.bazel
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bcm_support.h
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bcm_interface.h
@@ -57922,9 +57867,6 @@ FILE: ../../../flutter/third_party/boringssl/src/MODULE.bazel.lock
 FILE: ../../../flutter/third_party/boringssl/src/PrivacyInfo.xcprivacy
 FILE: ../../../flutter/third_party/boringssl/src/build.json
 FILE: ../../../flutter/third_party/boringssl/src/crypto/curve25519/ed25519_tests.txt
-FILE: ../../../flutter/third_party/boringssl/src/crypto/dilithium/dilithium_tests.txt
-FILE: ../../../flutter/third_party/boringssl/src/crypto/dilithium/edge_cases_draft_dilithium3_sign.txt
-FILE: ../../../flutter/third_party/boringssl/src/crypto/dilithium/edge_cases_draft_dilithium3_verify.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/ecdh_extra/ecdh_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/err/asn1.errordata
 FILE: ../../../flutter/third_party/boringssl/src/crypto/err/bio.errordata
@@ -58113,8 +58055,6 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/slhdsa_keygen.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/slhdsa_prehash.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/slhdsa_siggen.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/slhdsa_sigver.txt
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_tests.txt
-FILE: ../../../flutter/third_party/boringssl/src/crypto/spx/spx_tests_deterministic.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/x509/v3_ocsp.cc
 FILE: ../../../flutter/third_party/boringssl/src/docs/releasing.md
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aesni-gcm-x86_64-apple.S
@@ -71656,4 +71596,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
-Total license count: 919
+Total license count: 918
