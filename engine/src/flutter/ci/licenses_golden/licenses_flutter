@@ -58061,6 +58061,9 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/slhdsa_siggen.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/slhdsa_sigver.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/x509/v3_ocsp.cc
 FILE: ../../../flutter/third_party/boringssl/src/docs/releasing.md
+FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aes-gcm-avx10-x86_64-apple.S
+FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aes-gcm-avx10-x86_64-linux.S
+FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aes-gcm-avx10-x86_64-win.asm
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aesni-gcm-x86_64-apple.S
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aesni-gcm-x86_64-linux.S
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aesni-gcm-x86_64-win.asm
