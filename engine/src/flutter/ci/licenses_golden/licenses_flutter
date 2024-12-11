@@ -45153,6 +45153,9 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_texture_private.h + ../../../fl
 ORIGIN: ../../../flutter/shell/platform/linux/fl_texture_registrar.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_texture_registrar_private.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_texture_registrar_test.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_touch_manager.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_touch_manager.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_touch_manager_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_value.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_value_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_view.cc + ../../../flutter/LICENSE
@@ -48115,6 +48118,9 @@ FILE: ../../../flutter/shell/platform/linux/fl_texture_private.h
 FILE: ../../../flutter/shell/platform/linux/fl_texture_registrar.cc
 FILE: ../../../flutter/shell/platform/linux/fl_texture_registrar_private.h
 FILE: ../../../flutter/shell/platform/linux/fl_texture_registrar_test.cc
+FILE: ../../../flutter/shell/platform/linux/fl_touch_manager.cc
+FILE: ../../../flutter/shell/platform/linux/fl_touch_manager.h
+FILE: ../../../flutter/shell/platform/linux/fl_touch_manager_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_value.cc
 FILE: ../../../flutter/shell/platform/linux/fl_value_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_view.cc
