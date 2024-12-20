@@ -38149,117 +38149,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bio/socket_helper.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bytestring/ber.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bytestring/cbb.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bytestring/cbs.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bytestring/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/chacha/chacha.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_chacha20poly1305.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_tls.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/crypto.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/engine/engine.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/aead.cc.inc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/hkdf/hkdf.cc.inc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/rand.cc.inc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/pkcs7/pkcs7.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305_arm.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305_vec.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/urandom.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/windows.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/aead.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/bytestring.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/chacha.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/cpu.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/crypto.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/engine.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/hkdf.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/objects.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/opensslconf.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/opensslv.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/ossl_typ.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/pkcs12.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/pkcs7.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/poly1305.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/rand.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/safestack.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/args.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/client.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/const.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/digest.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/pkcs12.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/server.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/speed.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/tool.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/transport_common.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/transport_common.h
-TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/bio/socket_helper.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/bytestring/ber.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/bytestring/cbb.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/bytestring/cbs.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/bytestring/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/chacha/chacha.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_chacha20poly1305.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_tls.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/crypto.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/engine/engine.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/aead.cc.inc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/hkdf/hkdf.cc.inc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/rand.cc.inc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/pkcs7/pkcs7.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305_arm.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305_vec.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/urandom.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/windows.cc
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/aead.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/bytestring.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/chacha.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/cpu.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/crypto.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/engine.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/hkdf.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/objects.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/opensslconf.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/opensslv.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/ossl_typ.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pkcs12.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pkcs7.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/poly1305.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/rand.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/safestack.h
-FILE: ../../../flutter/third_party/boringssl/src/tool/args.cc
-FILE: ../../../flutter/third_party/boringssl/src/tool/client.cc
-FILE: ../../../flutter/third_party/boringssl/src/tool/const.cc
-FILE: ../../../flutter/third_party/boringssl/src/tool/digest.cc
-FILE: ../../../flutter/third_party/boringssl/src/tool/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/tool/pkcs12.cc
-FILE: ../../../flutter/third_party/boringssl/src/tool/server.cc
-FILE: ../../../flutter/third_party/boringssl/src/tool/speed.cc
-FILE: ../../../flutter/third_party/boringssl/src/tool/tool.cc
-FILE: ../../../flutter/third_party/boringssl/src/tool/transport_common.cc
-FILE: ../../../flutter/third_party/boringssl/src/tool/transport_common.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2014, Google Inc.
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
-OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
-CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: icu
 ORIGIN: ../../../flutter/third_party/icu/source/i18n/scientificnumberformatter.cpp + ../../../flutter/third_party/icu/LICENSE
 TYPE: LicenseType.bsd
@@ -38577,71 +38466,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bn_extra/bn_asn1.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/conf/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/curve25519/asm/x25519-asm-arm.S
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p224-64.cc.inc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/util.cc.inc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/refcount.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/thread_none.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/thread_pthread.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/thread_win.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/gen/crypto/err_data.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/buffer.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/cmac.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/curve25519.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/dtls1.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/srtp.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/ssl_aead_ctx.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/ssl_buffer.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/ssl_key_share.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/ciphers.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/generate_ed25519.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/genrsa.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/rand.cc
-TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/bn_extra/bn_asn1.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/conf/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/curve25519/asm/x25519-asm-arm.S
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p224-64.cc.inc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/util.cc.inc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/refcount.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/thread_none.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/thread_pthread.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/thread_win.cc
-FILE: ../../../flutter/third_party/boringssl/src/gen/crypto/err_data.cc
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/buffer.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/cmac.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/curve25519.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/dtls1.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/srtp.h
-FILE: ../../../flutter/third_party/boringssl/src/ssl/ssl_aead_ctx.cc
-FILE: ../../../flutter/third_party/boringssl/src/ssl/ssl_buffer.cc
-FILE: ../../../flutter/third_party/boringssl/src/ssl/ssl_key_share.cc
-FILE: ../../../flutter/third_party/boringssl/src/tool/ciphers.cc
-FILE: ../../../flutter/third_party/boringssl/src/tool/generate_ed25519.cc
-FILE: ../../../flutter/third_party/boringssl/src/tool/genrsa.cc
-FILE: ../../../flutter/third_party/boringssl/src/tool/rand.cc
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2015, Google Inc.
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
-OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
-CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: icu
 ORIGIN: ../../../flutter/third_party/icu/source/data/sprep/rfc3920node.txt + ../../../flutter/third_party/icu/LICENSE
 TYPE: LicenseType.bsd
@@ -38819,67 +38643,6 @@ freely, subject to the following restrictions:
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bytestring/asn1_compat.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_linux.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_arm_linux.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/curve25519/spake25519.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/polyval.cc.inc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/obj/objects.go
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/poly1305/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/pool/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/pool/pool.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/deterministic.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/decrepit/evp/dss1.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/decrepit/evp/evp_do_all.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/decrepit/obj/obj_decrepit.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/decrepit/x509/x509_decrepit.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/asn1_mac.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/obj_mac.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/pool.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/tls13_both.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/tls13_client.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/tls13_enc.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/tls13_server.cc
-TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/bytestring/asn1_compat.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_linux.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_arm_linux.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/curve25519/spake25519.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/polyval.cc.inc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/obj/objects.go
-FILE: ../../../flutter/third_party/boringssl/src/crypto/poly1305/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/pool/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/pool/pool.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/deterministic.cc
-FILE: ../../../flutter/third_party/boringssl/src/decrepit/evp/dss1.cc
-FILE: ../../../flutter/third_party/boringssl/src/decrepit/evp/evp_do_all.cc
-FILE: ../../../flutter/third_party/boringssl/src/decrepit/obj/obj_decrepit.cc
-FILE: ../../../flutter/third_party/boringssl/src/decrepit/x509/x509_decrepit.cc
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/asn1_mac.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/obj_mac.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pool.h
-FILE: ../../../flutter/third_party/boringssl/src/ssl/tls13_both.cc
-FILE: ../../../flutter/third_party/boringssl/src/ssl/tls13_client.cc
-FILE: ../../../flutter/third_party/boringssl/src/ssl/tls13_enc.cc
-FILE: ../../../flutter/third_party/boringssl/src/ssl/tls13_server.cc
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2016, Google Inc.
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
-OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
-CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: glfw
 ORIGIN: ../../../flutter/third_party/glfw/src/null_joystick.c
 TYPE: LicenseType.unknown
@@ -38905,67 +38668,6 @@ freely, subject to the following restrictions:
 
 3. This notice may not be removed or altered from any source
    distribution.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_aesctrhmac.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_aesgcmsiv.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/err/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/evp/p_ed25519.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/evp/p_ed25519_asn1.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bcm.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/delocate.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/ctrdrbg.cc.inc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/self_check/fips.cc.inc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/self_check/self_check.cc.inc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/pkcs7/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/pkcs7/pkcs7_x509.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/forkunsafe.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/rand_extra.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/decrepit/cfb/cfb.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/is_boringssl.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/span.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/ssl_versions.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/file.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/sign.cc
-TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_aesctrhmac.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_aesgcmsiv.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/err/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/p_ed25519.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/p_ed25519_asn1.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bcm.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/delocate.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/ctrdrbg.cc.inc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/self_check/fips.cc.inc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/self_check/self_check.cc.inc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/pkcs7/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/pkcs7/pkcs7_x509.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/forkunsafe.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/rand_extra.cc
-FILE: ../../../flutter/third_party/boringssl/src/decrepit/cfb/cfb.cc
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/is_boringssl.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/span.h
-FILE: ../../../flutter/third_party/boringssl/src/ssl/ssl_versions.cc
-FILE: ../../../flutter/third_party/boringssl/src/tool/file.cc
-FILE: ../../../flutter/third_party/boringssl/src/tool/sign.cc
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2017, Google Inc.
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
-OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
-CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
@@ -39132,81 +38834,6 @@ IN THE MATERIALS.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bytestring/unicode.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/chacha/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_fuchsia.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_arm_linux.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/div_extra.cc.inc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/gcd_extra.cc.inc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/felem.cc.inc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/scalar.cc.inc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/simple_mul.cc.inc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/tls/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/hrss/hrss.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/hrss/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/md5/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/e_os2.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/hrss.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/handoff.cc
-TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/bytestring/unicode.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/chacha/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_fuchsia.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_arm_linux.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/div_extra.cc.inc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/gcd_extra.cc.inc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/felem.cc.inc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/scalar.cc.inc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/simple_mul.cc.inc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/tls/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/hrss/hrss.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/hrss/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/md5/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/e_os2.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/hrss.h
-FILE: ../../../flutter/third_party/boringssl/src/ssl/handoff.cc
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2018, Google Inc.
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
-OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
-CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_win.cc
-TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_win.cc
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2018, Google Inc.
-Copyright (c) 2020, Arm Ltd.
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
-OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
-CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: inja
 ORIGIN: ../../../flutter/third_party/inja/LICENSE
 TYPE: LicenseType.mit
@@ -39269,45 +38896,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/ec_extra/ec_derive.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/evp/p_x25519.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/evp/p_x25519_asn1.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/aes_nohw.cc.inc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/fips_shared_support.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/gcm_nohw.cc.inc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/siphash/siphash.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/trust_token/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/trust_token/trust_token.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/siphash.h
-TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/ec_extra/ec_derive.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/p_x25519.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/p_x25519_asn1.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/aes_nohw.cc.inc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/fips_shared_support.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/gcm_nohw.cc.inc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/siphash/siphash.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/trust_token/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/trust_token/trust_token.cc
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/siphash.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2019, Google Inc.
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
-OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
-CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
@@ -39427,59 +39015,6 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/curve25519/curve25519.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/curve25519/curve25519_tables.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/curve25519/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/dsa/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/ec_extra/hash_to_curve.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/ec_extra/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256.cc.inc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256_table.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/hpke/hpke.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/fork_detect.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/getrandom_fillin.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/passive.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/trust_token/pmbtoken.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/trust_token/voprf.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/hpke.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/trust_token.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/fd.cc
-TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/curve25519/curve25519.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/curve25519/curve25519_tables.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/curve25519/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/dsa/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/ec_extra/hash_to_curve.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/ec_extra/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256.cc.inc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256_table.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/hpke/hpke.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/fork_detect.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/getrandom_fillin.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/passive.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/trust_token/pmbtoken.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/trust_token/voprf.cc
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/hpke.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/trust_token.h
-FILE: ../../../flutter/third_party/boringssl/src/tool/fd.cc
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2020, Google Inc.
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
-OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
-CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
@@ -39669,41 +39204,6 @@ SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/blake2/blake2.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/blake2/blake2b256_tests.txt
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_apple.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdsa/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/blake2.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/x509_vfy.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/encrypted_client_hello.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/tool/generate_ech.cc
-TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/blake2/blake2.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/blake2/blake2b256_tests.txt
-FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_apple.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdsa/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/blake2.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/x509_vfy.h
-FILE: ../../../flutter/third_party/boringssl/src/ssl/encrypted_client_hello.cc
-FILE: ../../../flutter/third_party/boringssl/src/tool/generate_ech.cc
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2021, Google Inc.
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
-OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
-CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: glslang
 ORIGIN: ../../../flutter/third_party/vulkan-deps/glslang/src/SPIRV/GLSL.ext.ARM.h
 TYPE: LicenseType.unknown
@@ -39797,41 +39297,6 @@ SOFTWARE.
 
 ====================================================================================================
 LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/asn1/posix_time.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_arm_freebsd.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/evp/p_hkdf.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/dh/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/x509/policy.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/ctrdrbg.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/kdf.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/posix_time.h
-TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/asn1/posix_time.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_arm_freebsd.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/p_hkdf.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/dh/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/x509/policy.cc
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/ctrdrbg.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/kdf.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/posix_time.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2022, Google Inc.
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
-OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
-CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: boringssl
 ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_openbsd.cc
 TYPE: LicenseType.unknown
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_openbsd.cc
@@ -39889,159 +39354,6 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_sysreg.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/curve25519/curve25519_64_adx.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/builtin_curves.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/keccak/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/keccak/keccak.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/kyber/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/kyber/kyber.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/mlkem/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/getentropy.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/ios.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/trusty.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/asm_base.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/experimental/kyber.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/pki/certificate.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/target.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/x509v3.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/pki/certificate.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/pki/verify.cc
-TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_sysreg.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/curve25519/curve25519_64_adx.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/builtin_curves.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/keccak/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/keccak/keccak.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/kyber/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/kyber/kyber.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/mlkem/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/getentropy.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/ios.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/trusty.cc
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/asm_base.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/experimental/kyber.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pki/certificate.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/target.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/x509v3.h
-FILE: ../../../flutter/third_party/boringssl/src/pki/certificate.cc
-FILE: ../../../flutter/third_party/boringssl/src/pki/verify.cc
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2023, Google Inc.
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
-OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
-CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/MODULE.bazel
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bcm_support.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bcm_interface.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/sysrand_internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rsa_extra/rsa_extra.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/sha/sha1.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/sha/sha256.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/sha/sha512.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/mlkem.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/pki/verify_error.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/time.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/ssl_credential.cc
-TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/MODULE.bazel
-FILE: ../../../flutter/third_party/boringssl/src/crypto/bcm_support.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bcm_interface.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/sysrand_internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/rsa_extra/rsa_extra.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/sha/sha1.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/sha/sha256.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/sha/sha512.cc
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/mlkem.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pki/verify_error.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/time.h
-FILE: ../../../flutter/third_party/boringssl/src/ssl/ssl_credential.cc
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2024, Google Inc.
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
-OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
-CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-====================================================================================================
-
-====================================================================================================
-LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/mldsa/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/mldsa/mldsa.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/address.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/fors.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/fors.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/internal.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/merkle.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/merkle.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/params.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/slhdsa.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/thash.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/thash.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/wots.cc
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/wots.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/bcm_public.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/mldsa.h
-ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/slhdsa.h
-TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/mldsa/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/mldsa/mldsa.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/address.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/fors.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/fors.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/internal.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/merkle.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/merkle.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/params.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/slhdsa.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/thash.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/thash.h
-FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/wots.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/wots.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/bcm_public.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/mldsa.h
-FILE: ../../../flutter/third_party/boringssl/src/include/openssl/slhdsa.h
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2024, Google LLC
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
-OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
-CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
@@ -48848,6 +48160,121 @@ POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: boringssl
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bio/socket_helper.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bytestring/ber.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bytestring/cbb.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bytestring/cbs.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bytestring/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/chacha/chacha.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_chacha20poly1305.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_tls.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/crypto.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/engine/engine.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/aead.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/hkdf/hkdf.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/mldsa/mldsa.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/mlkem/mlkem.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/rand.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/pkcs7/pkcs7.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305_arm.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305_vec.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/urandom.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/windows.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/aead.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/bytestring.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/chacha.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/cpu.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/crypto.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/engine.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/hkdf.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/objects.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/opensslconf.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/opensslv.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/ossl_typ.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/pkcs12.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/pkcs7.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/poly1305.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/rand.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/safestack.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/args.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/client.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/const.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/digest.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/pkcs12.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/server.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/speed.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/tool.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/transport_common.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/transport_common.h
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/boringssl/src/crypto/bio/socket_helper.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/bytestring/ber.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/bytestring/cbb.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/bytestring/cbs.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/bytestring/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/chacha/chacha.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_chacha20poly1305.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_tls.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/crypto.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/engine/engine.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/cipher/aead.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/hkdf/hkdf.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/mldsa/mldsa.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/mlkem/mlkem.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/rand.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/pkcs7/pkcs7.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305_arm.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/poly1305/poly1305_vec.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/urandom.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/windows.cc
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/aead.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/bytestring.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/chacha.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/cpu.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/crypto.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/engine.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/hkdf.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/objects.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/opensslconf.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/opensslv.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/ossl_typ.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pkcs12.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pkcs7.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/poly1305.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/rand.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/safestack.h
+FILE: ../../../flutter/third_party/boringssl/src/tool/args.cc
+FILE: ../../../flutter/third_party/boringssl/src/tool/client.cc
+FILE: ../../../flutter/third_party/boringssl/src/tool/const.cc
+FILE: ../../../flutter/third_party/boringssl/src/tool/digest.cc
+FILE: ../../../flutter/third_party/boringssl/src/tool/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/tool/pkcs12.cc
+FILE: ../../../flutter/third_party/boringssl/src/tool/server.cc
+FILE: ../../../flutter/third_party/boringssl/src/tool/speed.cc
+FILE: ../../../flutter/third_party/boringssl/src/tool/tool.cc
+FILE: ../../../flutter/third_party/boringssl/src/tool/transport_common.cc
+FILE: ../../../flutter/third_party/boringssl/src/tool/transport_common.h
+----------------------------------------------------------------------------------------------------
+Copyright 2014 The BoringSSL Authors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: accessibility
 LIBRARY: angle
 LIBRARY: icu
@@ -49414,6 +48841,71 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
 ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: boringssl
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bn_extra/bn_asn1.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/conf/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/curve25519/asm/x25519-asm-arm.S
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p224-64.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/util.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/refcount.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/thread_none.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/thread_pthread.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/thread_win.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/gen/crypto/err_data.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/buffer.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/cmac.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/curve25519.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/dtls1.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/srtp.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/ssl_aead_ctx.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/ssl_buffer.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/ssl_key_share.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/ciphers.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/generate_ed25519.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/genrsa.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/rand.cc
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/boringssl/src/crypto/bn_extra/bn_asn1.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/conf/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/curve25519/asm/x25519-asm-arm.S
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p224-64.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/util.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/refcount.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/thread_none.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/thread_pthread.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/thread_win.cc
+FILE: ../../../flutter/third_party/boringssl/src/gen/crypto/err_data.cc
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/buffer.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/cmac.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/curve25519.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/dtls1.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/srtp.h
+FILE: ../../../flutter/third_party/boringssl/src/ssl/ssl_aead_ctx.cc
+FILE: ../../../flutter/third_party/boringssl/src/ssl/ssl_buffer.cc
+FILE: ../../../flutter/third_party/boringssl/src/ssl/ssl_key_share.cc
+FILE: ../../../flutter/third_party/boringssl/src/tool/ciphers.cc
+FILE: ../../../flutter/third_party/boringssl/src/tool/generate_ed25519.cc
+FILE: ../../../flutter/third_party/boringssl/src/tool/genrsa.cc
+FILE: ../../../flutter/third_party/boringssl/src/tool/rand.cc
+----------------------------------------------------------------------------------------------------
+Copyright 2015 The BoringSSL Authors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
@@ -50101,6 +49593,67 @@ POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: boringssl
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bytestring/asn1_compat.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_linux.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_arm_linux.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/curve25519/spake25519.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/polyval.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/obj/objects.go
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/poly1305/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/pool/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/pool/pool.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/deterministic.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/decrepit/evp/dss1.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/decrepit/evp/evp_do_all.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/decrepit/obj/obj_decrepit.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/decrepit/x509/x509_decrepit.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/asn1_mac.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/obj_mac.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/pool.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/tls13_both.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/tls13_client.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/tls13_enc.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/tls13_server.cc
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/boringssl/src/crypto/bytestring/asn1_compat.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_linux.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_arm_linux.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/curve25519/spake25519.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/polyval.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/obj/objects.go
+FILE: ../../../flutter/third_party/boringssl/src/crypto/poly1305/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/pool/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/pool/pool.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/deterministic.cc
+FILE: ../../../flutter/third_party/boringssl/src/decrepit/evp/dss1.cc
+FILE: ../../../flutter/third_party/boringssl/src/decrepit/evp/evp_do_all.cc
+FILE: ../../../flutter/third_party/boringssl/src/decrepit/obj/obj_decrepit.cc
+FILE: ../../../flutter/third_party/boringssl/src/decrepit/x509/x509_decrepit.cc
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/asn1_mac.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/obj_mac.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pool.h
+FILE: ../../../flutter/third_party/boringssl/src/ssl/tls13_both.cc
+FILE: ../../../flutter/third_party/boringssl/src/ssl/tls13_client.cc
+FILE: ../../../flutter/third_party/boringssl/src/ssl/tls13_enc.cc
+FILE: ../../../flutter/third_party/boringssl/src/ssl/tls13_server.cc
+----------------------------------------------------------------------------------------------------
+Copyright 2016 The BoringSSL Authors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: boringssl
 ORIGIN: ../../../flutter/third_party/boringssl/src/pki/cert_error_id.cc (with ../../../flutter/third_party/boringssl/src/LICENSE)
 ORIGIN: ../../../flutter/third_party/boringssl/src/pki/cert_error_id.h (with ../../../flutter/third_party/boringssl/src/LICENSE)
 ORIGIN: ../../../flutter/third_party/boringssl/src/pki/cert_error_params.cc (with ../../../flutter/third_party/boringssl/src/LICENSE)
@@ -50524,6 +50077,67 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
 ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: boringssl
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_aesctrhmac.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_aesgcmsiv.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/err/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/evp/p_ed25519.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/evp/p_ed25519_asn1.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bcm.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/delocate.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/ctrdrbg.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/self_check/fips.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/self_check/self_check.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/pkcs7/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/pkcs7/pkcs7_x509.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/forkunsafe.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/rand_extra.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/decrepit/cfb/cfb.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/is_boringssl.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/span.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/ssl_versions.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/file.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/sign.cc
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_aesctrhmac.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher_extra/e_aesgcmsiv.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/err/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/p_ed25519.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/p_ed25519_asn1.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bcm.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/delocate.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/ctrdrbg.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/self_check/fips.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/self_check/self_check.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/pkcs7/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/pkcs7/pkcs7_x509.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/forkunsafe.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/rand_extra.cc
+FILE: ../../../flutter/third_party/boringssl/src/decrepit/cfb/cfb.cc
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/is_boringssl.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/span.h
+FILE: ../../../flutter/third_party/boringssl/src/ssl/ssl_versions.cc
+FILE: ../../../flutter/third_party/boringssl/src/tool/file.cc
+FILE: ../../../flutter/third_party/boringssl/src/tool/sign.cc
+----------------------------------------------------------------------------------------------------
+Copyright 2017 The BoringSSL Authors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
@@ -51628,6 +51242,81 @@ POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: boringssl
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bytestring/unicode.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/chacha/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_fuchsia.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_arm_linux.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/div_extra.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/gcd_extra.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/felem.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/scalar.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/simple_mul.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/tls/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/hrss/hrss.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/hrss/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/md5/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/e_os2.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/hrss.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/handoff.cc
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/boringssl/src/crypto/bytestring/unicode.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/chacha/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_fuchsia.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_arm_linux.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/div_extra.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/gcd_extra.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/felem.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/scalar.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/simple_mul.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/tls/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/hrss/hrss.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/hrss/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/md5/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/e_os2.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/hrss.h
+FILE: ../../../flutter/third_party/boringssl/src/ssl/handoff.cc
+----------------------------------------------------------------------------------------------------
+Copyright 2018 The BoringSSL Authors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: boringssl
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_win.cc
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_win.cc
+----------------------------------------------------------------------------------------------------
+Copyright 2018 The BoringSSL Authors
+Copyright (c) 2020, Arm Ltd.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: zlib
 ORIGIN: ../../../flutter/third_party/zlib/contrib/bench/zlib_bench.cc + ../../../LICENSE
 ORIGIN: ../../../flutter/third_party/zlib/cpu_features.c + ../../../LICENSE
@@ -52249,6 +51938,45 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
 ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: boringssl
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/ec_extra/ec_derive.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/evp/p_x25519.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/evp/p_x25519_asn1.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/aes_nohw.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/fips_shared_support.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/gcm_nohw.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/siphash/siphash.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/trust_token/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/trust_token/trust_token.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/siphash.h
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/boringssl/src/crypto/ec_extra/ec_derive.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/p_x25519.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/p_x25519_asn1.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/aes_nohw.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/fips_shared_support.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/modes/gcm_nohw.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/siphash/siphash.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/trust_token/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/trust_token/trust_token.cc
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/siphash.h
+----------------------------------------------------------------------------------------------------
+Copyright 2019 The BoringSSL Authors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
@@ -53015,6 +52743,59 @@ POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: boringssl
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/curve25519/curve25519.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/curve25519/curve25519_tables.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/curve25519/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/dsa/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/ec_extra/hash_to_curve.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/ec_extra/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256_table.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/hpke/hpke.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/fork_detect.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/getrandom_fillin.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/passive.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/trust_token/pmbtoken.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/trust_token/voprf.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/hpke.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/trust_token.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/fd.cc
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/boringssl/src/crypto/curve25519/curve25519.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/curve25519/curve25519_tables.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/curve25519/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/dsa/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/ec_extra/hash_to_curve.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/ec_extra/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/p256_table.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/hpke/hpke.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/fork_detect.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/getrandom_fillin.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/passive.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/trust_token/pmbtoken.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/trust_token/voprf.cc
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/hpke.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/trust_token.h
+FILE: ../../../flutter/third_party/boringssl/src/tool/fd.cc
+----------------------------------------------------------------------------------------------------
+Copyright 2020 The BoringSSL Authors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: accessibility
 ORIGIN: ../../../flutter/third_party/accessibility/ax/ax_action_handler_base.cc + ../../../flutter/third_party/accessibility/LICENSE
 ORIGIN: ../../../flutter/third_party/accessibility/ax/ax_action_handler_base.h + ../../../flutter/third_party/accessibility/LICENSE
@@ -53539,6 +53320,41 @@ POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: boringssl
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/blake2/blake2.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/blake2/blake2b256_tests.txt
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_apple.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdsa/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/blake2.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/x509_vfy.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/encrypted_client_hello.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/tool/generate_ech.cc
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/boringssl/src/crypto/blake2/blake2.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/blake2/blake2b256_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_apple.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ecdsa/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/blake2.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/x509_vfy.h
+FILE: ../../../flutter/third_party/boringssl/src/ssl/encrypted_client_hello.cc
+FILE: ../../../flutter/third_party/boringssl/src/tool/generate_ech.cc
+----------------------------------------------------------------------------------------------------
+Copyright 2021 The BoringSSL Authors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: pkg
 ORIGIN: ../../../flutter/third_party/pkg/io/lib/src/charcodes.dart + ../../../flutter/third_party/pkg/io/LICENSE
 TYPE: LicenseType.bsd
@@ -53905,6 +53721,41 @@ POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: boringssl
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/asn1/posix_time.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_arm_freebsd.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/evp/p_hkdf.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/dh/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/x509/policy.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/ctrdrbg.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/kdf.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/posix_time.h
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/boringssl/src/crypto/asn1/posix_time.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_arm_freebsd.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/evp/p_hkdf.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/dh/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/x509/policy.cc
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/ctrdrbg.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/kdf.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/posix_time.h
+----------------------------------------------------------------------------------------------------
+Copyright 2022 The BoringSSL Authors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: zlib
 ORIGIN: ../../../flutter/third_party/zlib/slide_hash_simd.h + ../../../LICENSE
 TYPE: LicenseType.bsd
@@ -54071,6 +53922,59 @@ POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: boringssl
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_sysreg.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/curve25519/curve25519_64_adx.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/builtin_curves.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/keccak/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/keccak/keccak.cc.inc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/kyber/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/kyber/kyber.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/getentropy.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/ios.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/trusty.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/asm_base.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/experimental/kyber.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/pki/certificate.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/target.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/x509v3.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/pki/certificate.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/pki/verify.cc
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_sysreg.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/curve25519/curve25519_64_adx.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/ec/builtin_curves.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/keccak/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/keccak/keccak.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/kyber/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/kyber/kyber.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/getentropy.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/ios.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/trusty.cc
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/asm_base.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/experimental/kyber.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pki/certificate.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/target.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/x509v3.h
+FILE: ../../../flutter/third_party/boringssl/src/pki/certificate.cc
+FILE: ../../../flutter/third_party/boringssl/src/pki/verify.cc
+----------------------------------------------------------------------------------------------------
+Copyright 2023 The BoringSSL Authors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: boringssl
 ORIGIN: ../../../flutter/third_party/boringssl/src/pki/ip_util.cc (with ../../../flutter/third_party/boringssl/src/LICENSE)
 ORIGIN: ../../../flutter/third_party/boringssl/src/pki/ip_util.h (with ../../../flutter/third_party/boringssl/src/LICENSE)
 TYPE: LicenseType.unknown
@@ -54080,6 +53984,83 @@ FILE: ../../../flutter/third_party/boringssl/src/pki/ip_util.h
 Copyright 2023 The Chromium Authors
 Use of this source code is governed by a BSD-style license that can be
 found in the LICENSE file
+====================================================================================================
+
+====================================================================================================
+LIBRARY: boringssl
+ORIGIN: ../../../flutter/third_party/boringssl/src/MODULE.bazel
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/bcm_support.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bcm_interface.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/mldsa/mldsa.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/sysrand_internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/rsa_extra/rsa_extra.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/sha/sha1.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/sha/sha256.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/sha/sha512.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/address.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/fors.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/fors.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/internal.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/merkle.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/merkle.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/params.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/slhdsa.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/thash.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/thash.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/wots.cc
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/wots.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/bcm_public.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/mldsa.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/mlkem.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/pki/verify_error.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/slhdsa.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/include/openssl/time.h
+ORIGIN: ../../../flutter/third_party/boringssl/src/ssl/ssl_credential.cc
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/boringssl/src/MODULE.bazel
+FILE: ../../../flutter/third_party/boringssl/src/crypto/bcm_support.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bcm_interface.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mldsa/mldsa.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rand_extra/sysrand_internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rsa_extra/rsa_extra.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/sha/sha1.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/sha/sha256.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/sha/sha512.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/address.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/fors.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/fors.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/internal.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/merkle.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/merkle.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/params.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/slhdsa.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/thash.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/thash.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/wots.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/slhdsa/wots.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/bcm_public.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/mldsa.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/mlkem.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pki/verify_error.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/slhdsa.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/time.h
+FILE: ../../../flutter/third_party/boringssl/src/ssl/ssl_credential.cc
+----------------------------------------------------------------------------------------------------
+Copyright 2024 The BoringSSL Authors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
@@ -57927,6 +57908,7 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/fips_shared.l
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/intcheck1.png
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/intcheck2.png
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/intcheck3.png
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/keccak/keccak_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/policydocs/BoringCrypto-Android-Security-Policy-20191020.docx!/[Content_Types].xml
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/policydocs/BoringCrypto-Android-Security-Policy-20191020.docx!/_rels/.rels
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/policydocs/BoringCrypto-Android-Security-Policy-20191020.docx!/customXml/_rels/item1.xml.rels
@@ -58043,10 +58025,11 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/rand/ctrdrbg_
 FILE: ../../../flutter/third_party/boringssl/src/crypto/hmac_extra/hmac_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/hpke/hpke_test_vectors.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/hpke/test-vectors.json
-FILE: ../../../flutter/third_party/boringssl/src/crypto/keccak/keccak_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/kyber/kyber_tests.txt
-FILE: ../../../flutter/third_party/boringssl/src/crypto/mldsa/mldsa_nist_keygen_tests.txt
-FILE: ../../../flutter/third_party/boringssl/src/crypto/mldsa/mldsa_nist_siggen_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mldsa/mldsa_nist_keygen_65_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mldsa/mldsa_nist_keygen_87_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mldsa/mldsa_nist_siggen_65_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mldsa/mldsa_nist_siggen_87_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem1024_decap_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem1024_encap_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem1024_keygen_tests.txt
@@ -58434,7 +58417,7 @@ copied and put under another distribution licence
 
 ISC license used for completely new code in BoringSSL:
 
-Copyright (c) 2015, Google Inc.
+Copyright 2015 The BoringSSL Authors
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -71611,4 +71594,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
-Total license count: 918
+Total license count: 917
