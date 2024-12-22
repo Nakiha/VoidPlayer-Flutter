@@ -42738,6 +42738,8 @@ ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/vertex_descriptor_vk.h
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/vk.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/vma.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/vma.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/workarounds_vk.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/workarounds_vk.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/yuv_conversion_library_vk.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/yuv_conversion_library_vk.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/yuv_conversion_vk.cc + ../../../flutter/LICENSE
@@ -45674,6 +45676,8 @@ FILE: ../../../flutter/impeller/renderer/backend/vulkan/vertex_descriptor_vk.h
 FILE: ../../../flutter/impeller/renderer/backend/vulkan/vk.h
 FILE: ../../../flutter/impeller/renderer/backend/vulkan/vma.cc
 FILE: ../../../flutter/impeller/renderer/backend/vulkan/vma.h
+FILE: ../../../flutter/impeller/renderer/backend/vulkan/workarounds_vk.cc
+FILE: ../../../flutter/impeller/renderer/backend/vulkan/workarounds_vk.h
 FILE: ../../../flutter/impeller/renderer/backend/vulkan/yuv_conversion_library_vk.cc
 FILE: ../../../flutter/impeller/renderer/backend/vulkan/yuv_conversion_library_vk.h
 FILE: ../../../flutter/impeller/renderer/backend/vulkan/yuv_conversion_vk.cc
