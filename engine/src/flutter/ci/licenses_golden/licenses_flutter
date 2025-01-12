@@ -44348,6 +44348,9 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_binary_messenger_test.cc + ../.
 ORIGIN: ../../../flutter/shell/platform/linux/fl_dart_project.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_dart_project_private.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_dart_project_test.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_display_monitor.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_display_monitor.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_display_monitor_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_engine.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_engine_private.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_engine_test.cc + ../../../flutter/LICENSE
@@ -47317,6 +47320,9 @@ FILE: ../../../flutter/shell/platform/linux/fl_binary_messenger_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_dart_project.cc
 FILE: ../../../flutter/shell/platform/linux/fl_dart_project_private.h
 FILE: ../../../flutter/shell/platform/linux/fl_dart_project_test.cc
+FILE: ../../../flutter/shell/platform/linux/fl_display_monitor.cc
+FILE: ../../../flutter/shell/platform/linux/fl_display_monitor.h
+FILE: ../../../flutter/shell/platform/linux/fl_display_monitor_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_engine.cc
 FILE: ../../../flutter/shell/platform/linux/fl_engine_private.h
 FILE: ../../../flutter/shell/platform/linux/fl_engine_test.cc
