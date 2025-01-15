@@ -42513,6 +42513,8 @@ ORIGIN: ../../../flutter/impeller/geometry/round_rect.cc + ../../../flutter/LICE
 ORIGIN: ../../../flutter/impeller/geometry/round_rect.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/rounding_radii.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/rounding_radii.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/geometry/rstransform.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/geometry/rstransform.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/saturated_math.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/scalar.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/separated_vector.cc + ../../../flutter/LICENSE
@@ -45456,6 +45458,8 @@ FILE: ../../../flutter/impeller/geometry/round_rect.cc
 FILE: ../../../flutter/impeller/geometry/round_rect.h
 FILE: ../../../flutter/impeller/geometry/rounding_radii.cc
 FILE: ../../../flutter/impeller/geometry/rounding_radii.h
+FILE: ../../../flutter/impeller/geometry/rstransform.cc
+FILE: ../../../flutter/impeller/geometry/rstransform.h
 FILE: ../../../flutter/impeller/geometry/saturated_math.h
 FILE: ../../../flutter/impeller/geometry/scalar.h
 FILE: ../../../flutter/impeller/geometry/separated_vector.cc
