@@ -42639,6 +42639,8 @@ ORIGIN: ../../../flutter/impeller/renderer/backend/metal/shader_library_mtl.h + 
 ORIGIN: ../../../flutter/impeller/renderer/backend/metal/shader_library_mtl.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/metal/surface_mtl.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/metal/surface_mtl.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/backend/metal/swapchain_transients_mtl.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/backend/metal/swapchain_transients_mtl.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/metal/texture_mtl.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/metal/texture_mtl.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/metal/texture_wrapper_mtl.h + ../../../flutter/LICENSE
@@ -45584,6 +45586,8 @@ FILE: ../../../flutter/impeller/renderer/backend/metal/shader_library_mtl.h
 FILE: ../../../flutter/impeller/renderer/backend/metal/shader_library_mtl.mm
 FILE: ../../../flutter/impeller/renderer/backend/metal/surface_mtl.h
 FILE: ../../../flutter/impeller/renderer/backend/metal/surface_mtl.mm
+FILE: ../../../flutter/impeller/renderer/backend/metal/swapchain_transients_mtl.h
+FILE: ../../../flutter/impeller/renderer/backend/metal/swapchain_transients_mtl.mm
 FILE: ../../../flutter/impeller/renderer/backend/metal/texture_mtl.h
 FILE: ../../../flutter/impeller/renderer/backend/metal/texture_mtl.mm
 FILE: ../../../flutter/impeller/renderer/backend/metal/texture_wrapper_mtl.h
