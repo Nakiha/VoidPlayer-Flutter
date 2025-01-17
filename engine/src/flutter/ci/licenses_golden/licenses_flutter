@@ -44394,8 +44394,6 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_keyboard_layout_test.cc + ../..
 ORIGIN: ../../../flutter/shell/platform/linux/fl_keyboard_manager.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_keyboard_manager.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_keyboard_manager_test.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/linux/fl_keyboard_pending_event.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/linux/fl_keyboard_pending_event.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_keyboard_view_delegate.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_keyboard_view_delegate.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_message_codec.cc + ../../../flutter/LICENSE
@@ -47372,8 +47370,6 @@ FILE: ../../../flutter/shell/platform/linux/fl_keyboard_layout_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_keyboard_manager.cc
 FILE: ../../../flutter/shell/platform/linux/fl_keyboard_manager.h
 FILE: ../../../flutter/shell/platform/linux/fl_keyboard_manager_test.cc
-FILE: ../../../flutter/shell/platform/linux/fl_keyboard_pending_event.cc
-FILE: ../../../flutter/shell/platform/linux/fl_keyboard_pending_event.h
 FILE: ../../../flutter/shell/platform/linux/fl_keyboard_view_delegate.cc
 FILE: ../../../flutter/shell/platform/linux/fl_keyboard_view_delegate.h
 FILE: ../../../flutter/shell/platform/linux/fl_message_codec.cc
