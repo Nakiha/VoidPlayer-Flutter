@@ -39882,6 +39882,8 @@ ORIGIN: ../../../flutter/display_list/dl_sampling_options.h + ../../../flutter/L
 ORIGIN: ../../../flutter/display_list/dl_storage.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/dl_storage.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/dl_tile_mode.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/dl_types.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/dl_types.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/dl_vertices.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/dl_vertices.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/color_filters/dl_blend_color_filter.cc + ../../../flutter/LICENSE
@@ -42824,6 +42826,8 @@ FILE: ../../../flutter/display_list/dl_sampling_options.h
 FILE: ../../../flutter/display_list/dl_storage.cc
 FILE: ../../../flutter/display_list/dl_storage.h
 FILE: ../../../flutter/display_list/dl_tile_mode.h
+FILE: ../../../flutter/display_list/dl_types.cc
+FILE: ../../../flutter/display_list/dl_types.h
 FILE: ../../../flutter/display_list/dl_vertices.cc
 FILE: ../../../flutter/display_list/dl_vertices.h
 FILE: ../../../flutter/display_list/effects/color_filters/dl_blend_color_filter.cc
