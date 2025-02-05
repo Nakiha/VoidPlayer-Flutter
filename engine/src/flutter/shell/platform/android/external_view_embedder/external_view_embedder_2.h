@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-#ifndef FLUTTER_SHELL_PLATFORM_ANDROID_EXTERNAL_VIEW_EMBEDDER_EXTERNAL_VIEW_EMBEDDER_H_
-#define FLUTTER_SHELL_PLATFORM_ANDROID_EXTERNAL_VIEW_EMBEDDER_EXTERNAL_VIEW_EMBEDDER_H_
+#ifndef FLUTTER_SHELL_PLATFORM_ANDROID_EXTERNAL_VIEW_EMBEDDER_EXTERNAL_VIEW_EMBEDDER_2_H_
+#define FLUTTER_SHELL_PLATFORM_ANDROID_EXTERNAL_VIEW_EMBEDDER_EXTERNAL_VIEW_EMBEDDER_2_H_
 
 #include <unordered_map>
 
@@ -26,9 +26,12 @@ namespace flutter {
 /// that render above (by Z order) the Android view corresponding to
 /// |flutter::PlatformViewLayer|.
 ///
-class AndroidExternalViewEmbedder final : public ExternalViewEmbedder {
+/// This implementation of the external view embedder is designed only to use
+/// HC++ mode. Mixing old HC modes is not supported, but either of the texture
+/// composition based platform views can be used with either mode.
+class AndroidExternalViewEmbedder2 final : public ExternalViewEmbedder {
  public:
-  AndroidExternalViewEmbedder(
+  AndroidExternalViewEmbedder2(
       const AndroidContext& android_context,
       std::shared_ptr<PlatformViewAndroidJNI> jni_facade,
       std::shared_ptr<AndroidSurfaceFactory> surface_factory,
@@ -82,7 +85,9 @@ class AndroidExternalViewEmbedder final : public ExternalViewEmbedder {
 
   // Gets the rect based on the device pixel ratio of a platform view displayed
   // on the screen.
-  SkRect GetViewRect(int64_t view_id) const;
+  static SkRect GetViewRect(
+      int64_t view_id,
+      const std::unordered_map<int64_t, EmbeddedViewParams>& view_params);
 
  private:
   // The number of frames the rasterizer task runner will continue
@@ -151,4 +156,4 @@ class AndroidExternalViewEmbedder final : public ExternalViewEmbedder {
 
 }  // namespace flutter
 
-#endif  // FLUTTER_SHELL_PLATFORM_ANDROID_EXTERNAL_VIEW_EMBEDDER_EXTERNAL_VIEW_EMBEDDER_H_
+#endif  // FLUTTER_SHELL_PLATFORM_ANDROID_EXTERNAL_VIEW_EMBEDDER_EXTERNAL_VIEW_EMBEDDER_2_H_

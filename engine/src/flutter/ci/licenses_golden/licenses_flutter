@@ -41611,6 +41611,8 @@ ORIGIN: ../../../flutter/shell/platform/android/context/android_context.cc + ../
 ORIGIN: ../../../flutter/shell/platform/android/context/android_context.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/external_view_embedder/external_view_embedder.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/external_view_embedder/external_view_embedder.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/external_view_embedder/external_view_embedder_2.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/external_view_embedder/external_view_embedder_2.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/external_view_embedder/surface_pool.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/external_view_embedder/surface_pool.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/flutter_main.cc + ../../../flutter/LICENSE
@@ -44563,6 +44565,8 @@ FILE: ../../../flutter/shell/platform/android/context/android_context.cc
 FILE: ../../../flutter/shell/platform/android/context/android_context.h
 FILE: ../../../flutter/shell/platform/android/external_view_embedder/external_view_embedder.cc
 FILE: ../../../flutter/shell/platform/android/external_view_embedder/external_view_embedder.h
+FILE: ../../../flutter/shell/platform/android/external_view_embedder/external_view_embedder_2.cc
+FILE: ../../../flutter/shell/platform/android/external_view_embedder/external_view_embedder_2.h
 FILE: ../../../flutter/shell/platform/android/external_view_embedder/surface_pool.cc
 FILE: ../../../flutter/shell/platform/android/external_view_embedder/surface_pool.h
 FILE: ../../../flutter/shell/platform/android/flutter_main.cc
