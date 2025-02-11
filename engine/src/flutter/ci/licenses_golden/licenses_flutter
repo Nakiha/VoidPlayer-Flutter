@@ -55,6 +55,206 @@ authorization of the copyright holder.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: lunarg-vulkantools
+ORIGIN: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/LICENSE.txt
+TYPE: LicenseType.apache
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/GOVERNANCE.md
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/api_dump_layer.md
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/images/lunarg.png
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/json/VkLayer_api_dump.json.in
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/json/VkLayer_monitor.json.in
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/json/VkLayer_screenshot.json.in
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/monitor_layer.md
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/screenshot_layer.md
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/vk_layer_settings.txt
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/images/bg-starfield.jpg
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/images/lunarg_via.png
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/images/lunarg_via_title.png
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_cmd/macOS/Info.plist
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_cmd/macOS/Resources/VulkanIcon.icns
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configurations/3.0.0/API dump.json
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configurations/3.0.0/Crash Diagnostic.json
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configurations/3.0.0/Disable All Vulkan Layers.json
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configurations/3.0.0/Frame Capture.json
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configurations/3.0.0/Log Loader Messages.json
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configurations/3.0.0/Portability.json
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configurations/3.0.0/Synchronization.json
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configurations/3.0.0/Validation.json
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/layers/layers_schema.json
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/layers/validusage.json
+----------------------------------------------------------------------------------------------------
+Apache License
+
+Version 2.0, January 2004
+
+http://www.apache.org/licenses/
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+1. Definitions.
+
+"License" shall mean the terms and conditions for use, reproduction, and distribution as
+defined by Sections 1 through 9 of this document.
+
+"Licensor" shall mean the copyright owner or entity authorized by the copyright owner
+that is granting the License.
+
+"Legal Entity" shall mean the union of the acting entity and all other entities that
+control, are controlled by, or are under common control with that entity. For the
+purposes of this definition, "control" means (i) the power, direct or indirect, to
+cause the direction or management of such entity, whether by contract or otherwise,
+or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or
+(iii) beneficial ownership of such entity.
+
+"You" (or "Your") shall mean an individual or Legal Entity exercising permissions
+granted by this License.
+
+"Source" form shall mean the preferred form for making modifications, including but not
+limited to software source code, documentation source, and configuration files.
+
+"Object" form shall mean any form resulting from mechanical transformation or
+translation of a Source form, including but not limited to compiled object code,
+generated documentation, and conversions to other media types.
+
+"Work" shall mean the work of authorship, whether in Source or Object form, made
+available under the License, as indicated by a copyright notice that is included in or
+attached to the work (an example is provided in the Appendix below).
+
+"Derivative Works" shall mean any work, whether in Source or Object form, that is based
+on (or derived from) the Work and for which the editorial revisions, annotations,
+elaborations, or other modifications represent, as a whole, an original work of
+authorship. For the purposes of this License, Derivative Works shall not include works
+that remain separable from, or merely link (or bind by name) to the interfaces of, the
+Work and Derivative Works thereof.
+
+"Contribution" shall mean any work of authorship, including the original version of the
+Work and any modifications or additions to that Work or Derivative Works thereof, that
+is intentionally submitted to Licensor for inclusion in the Work by the copyright owner
+or by an individual or Legal Entity authorized to submit on behalf of the copyright owner.
+For the purposes of this definition, "submitted" means any form of electronic, verbal,
+or written communication sent to the Licensor or its representatives, including but not
+limited to communication on electronic mailing lists, source code control systems, and
+issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose
+of discussing and improving the Work, but excluding communication that is conspicuously
+marked or otherwise designated in writing by the copyright owner as "Not a Contribution."
+
+"Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a
+Contribution has been received by Licensor and subsequently incorporated within the Work.
+
+2. Grant of Copyright License. Subject to the terms and conditions of this License, each
+Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge,
+royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of,
+publicly display, publicly perform, sublicense, and distribute the Work and such
+Derivative Works in Source or Object form.
+
+3. Grant of Patent License. Subject to the terms and conditions of this License, each
+Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge,
+royalty-free, irrevocable (except as stated in this section) patent license to make,
+have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such
+license applies only to those patent claims licensable by such Contributor that are
+necessarily infringed by their Contribution(s) alone or by combination of their
+Contribution(s) with the Work to which such Contribution(s) was submitted. If You
+institute patent litigation against any entity (including a cross-claim or counterclaim
+in a lawsuit) alleging that the Work or a Contribution incorporated within the Work
+constitutes direct or contributory patent infringement, then any patent licenses granted
+to You under this License for that Work shall terminate as of the date such litigation
+is filed.
+
+4. Redistribution. You may reproduce and distribute copies of the Work or Derivative
+Works thereof in any medium, with or without modifications, and in Source or Object form,
+provided that You meet the following conditions:
+
+You must give any other recipients of the Work or Derivative Works a copy of this
+License; and
+You must cause any modified files to carry prominent notices stating that You changed
+the files; and
+You must retain, in the Source form of any Derivative Works that You distribute, all
+copyright, patent, trademark, and attribution notices from the Source form of the Work,
+excluding those notices that do not pertain to any part of the Derivative Works; and
+If the Work includes a "NOTICE" text file as part of its distribution, then any
+Derivative Works that You distribute must include a readable copy of the attribution
+notices contained within such NOTICE file, excluding those notices that do not pertain
+to any part of the Derivative Works, in at least one of the following places: within a
+NOTICE text file distributed as part of the Derivative Works; within the Source form or
+documentation, if provided along with the Derivative Works; or, within a display
+generated by the Derivative Works, if and wherever such third-party notices normally
+appear. The contents of the NOTICE file are for informational purposes only and do not
+modify the License. You may add Your own attribution notices within Derivative Works
+that You distribute, alongside or as an addendum to the NOTICE text from the Work,
+provided that such additional attribution notices cannot be construed as modifying
+the License.
+
+You may add Your own copyright statement to Your modifications and may provide
+additional or different license terms and conditions for use, reproduction, or
+distribution of Your modifications, or for any such Derivative Works as a whole,
+provided Your use, reproduction, and distribution of the Work otherwise complies with
+the conditions stated in this License.
+
+5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution
+intentionally submitted for inclusion in the Work by You to the Licensor shall be under
+the terms and conditions of this License, without any additional terms or conditions.
+Notwithstanding the above, nothing herein shall supersede or modify the terms of any
+separate license agreement you may have executed with Licensor regarding such
+Contributions.
+
+6. Trademarks. This License does not grant permission to use the trade names,
+trademarks, service marks, or product names of the Licensor, except as required for
+reasonable and customary use in describing the origin of the Work and reproducing the
+content of the NOTICE file.
+
+7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing,
+Licensor provides the Work (and each Contributor provides its Contributions) on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied,
+including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT,
+MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for
+determining the appropriateness of using or redistributing the Work and assume any
+risks associated with Your exercise of permissions under this License.
+
+8. Limitation of Liability. In no event and under no legal theory, whether in tort
+(including negligence), contract, or otherwise, unless required by applicable law (such
+as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor
+be liable to You for damages, including any direct, indirect, special, incidental, or
+consequential damages of any character arising as a result of this License or out of the
+use or inability to use the Work (including but not limited to damages for loss of
+goodwill, work stoppage, computer failure or malfunction, or any and all other
+commercial damages or losses), even if such Contributor has been advised of the
+possibility of such damages.
+
+9. Accepting Warranty or Additional Liability. While redistributing the Work or
+Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of
+support, warranty, indemnity, or other liability obligations and/or rights consistent
+with this License. However, in accepting such obligations, You may act only on Your own
+behalf and on Your sole responsibility, not on behalf of any other Contributor, and only
+if You agree to indemnify, defend, and hold each Contributor harmless for any liability
+incurred by, or claims asserted against, such Contributor by reason of your accepting
+any such warranty or additional liability.
+
+END OF TERMS AND CONDITIONS
+
+APPENDIX: HOW TO APPLY THE APACHE LICENSE TO YOUR WORK
+To apply the Apache License to your work, attach the following boilerplate notice, with
+the fields enclosed by brackets "[]" replaced with your own identifying information.
+(Don't include the brackets!) The text should be enclosed in the appropriate comment
+syntax for the file format. We also recommend that a file or class name and description
+of purpose be included on the same "printed page" as the copyright notice for easier
+identification within third-party archives.
+
+Copyright [yyyy] [name of copyright owner]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: vulkan-validation-layers
 ORIGIN: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/LICENSE.txt
 TYPE: LicenseType.apache
@@ -64,7 +264,7 @@ FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/laye
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/VkLayer_khronos_validation.exp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/VkLayer_khronos_validation.json.in
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/VkLayer_khronos_validation.map
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_as_inspection.comp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/profiling/profiling.md
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_settings.txt
 ----------------------------------------------------------------------------------------------------
 Apache License
@@ -754,6 +954,7 @@ LIBRARY: cpu_features
 LIBRARY: expat
 LIBRARY: flatbuffers
 LIBRARY: glslang
+LIBRARY: lunarg-vulkantools
 LIBRARY: perfetto
 LIBRARY: shaderc
 LIBRARY: spirv-cross
@@ -870,6 +1071,7 @@ ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/spirv-
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/spirv-cross/src/pkg-config/spirv-cross-c.pc.in
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_av1std.h
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_av1std_decode.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_av1std_encode.h
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_h264std.h
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_h264std_decode.h
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_h264std_encode.h
@@ -901,8 +1103,13 @@ ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/docs/layer_configuration.md
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/layer/vk_layer_settings.h
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/layer/vk_layer_settings.hpp
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/utility/vk_concurrent_unordered_map.hpp
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/utility/vk_dispatch_table.h
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/utility/vk_format_utils.h
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/utility/vk_safe_struct.hpp
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/utility/vk_safe_struct_utils.hpp
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/utility/vk_small_containers.hpp
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/utility/vk_sparse_range_map.hpp
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/utility/vk_struct_helper.hpp
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/vk_enum_string_helper.h
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/scripts/gn/stub.cpp
@@ -912,6 +1119,12 @@ ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/layer/layer_settings_util.hpp
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/layer/vk_layer_settings.cpp
 ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/layer/vk_layer_settings_helper.cpp
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/vulkan/vk_safe_struct_core.cpp
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/vulkan/vk_safe_struct_ext.cpp
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/vulkan/vk_safe_struct_khr.cpp
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/vulkan/vk_safe_struct_manual.cpp
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/vulkan/vk_safe_struct_utils.cpp
+ORIGIN: Apache-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/vulkan/vk_safe_struct_vendor.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/angle/include/CL/cl.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/angle/include/CL/cl_d3d10.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/angle/include/CL/cl_d3d11.h
@@ -2147,6 +2360,143 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutte
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/glslang/src/gtests/Common.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/glslang/src/gtests/HexFloat.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/glslang/src/ndk_test/test.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/VKLayer_monitor.def
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/VkLayer_api_dump.def
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/VkLayer_screenshot.def
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/api_dump.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump_html.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump_html.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump_json.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump_json.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump_text.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump_text.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump_video_html.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump_video_json.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump_video_text.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/monitor.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/screenshot.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/screenshot_parsing.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/screenshot_parsing.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/vk_layer_table.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/vk_layer_table.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system_bsd.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system_bsd.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system_linux.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system_linux.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system_macos.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system_macos.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system_windows.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system_windows.hpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_cmd/main.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_cmd/main_doc.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_cmd/main_doc.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_cmd/main_layers.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_cmd/main_layers.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_cmd/main_reset.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_cmd/main_reset.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/alert.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/alert.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/application_singleton.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/application_singleton.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/bitfield.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/bitfield.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/command_line.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/command_line.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configuration.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configuration.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configuration_manager.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configuration_manager.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configurator.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configurator.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configurator_signal.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configurator_signal.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/date.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/date.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/doc.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/doc.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/executable.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/executable.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/executable_manager.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/executable_manager.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/header.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/header.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/help.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/help.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/is_dll_32.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/is_dll_32.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/json.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/json.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/json_validator.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/json_validator.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/layer.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/layer.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/layer_manager.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/layer_manager.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/layer_preset.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/layer_preset.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/parameter.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/parameter.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/path.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/path.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/registry.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/registry.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/serialization.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_bool.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_bool.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_filesystem.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_filesystem.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_flags.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_flags.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_float.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_float.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_frames.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_frames.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_group.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_group.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_int.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_int.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_list.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_list.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_string.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_string.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_configuration_area.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_configuration_area.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_executable_mode.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_executable_mode.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_hide_message.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_hide_message.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_layer_builtin.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_layer_builtin.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_layer_control.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_layer_control.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_layer_type.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_layer_type.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_layers_paths.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_layers_paths.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_log.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_log.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_override_area.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_override_area.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_platform.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_platform.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_status.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_status.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_tab.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_tab.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/ui.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/ui.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/util.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/util.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/version.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/version.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/vulkan_util.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/vulkan_util.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/spirv-cross/src/include/spirv_cross/barrier.hpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/spirv-cross/src/include/spirv_cross/external_interface.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/spirv-cross/src/include/spirv_cross/image.hpp
@@ -2182,7 +2532,6 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutte
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/spirv-cross/src/spirv_reflect.hpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/spirv-cross/src/tests-other/small_vector.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/VkLayer_khronos_validation.def
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/best_practices_error_enums.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/best_practices_utils.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/best_practices_validation.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_buffer.cpp
@@ -2198,13 +2547,20 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutte
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_pipeline.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_ray_tracing.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_render_pass.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_state.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_synchronization.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_video.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_wsi.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/chassis/chassis.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/chassis/chassis_handle_data.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/chassis/chassis_manual.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/chassis/chassis_modification_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/chassis/dispatch_object.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/chassis/dispatch_object_manual.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/chassis/validation_object.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/custom_containers.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/qfo_transfer.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/range_vector.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/sparse_containers.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/subresource_adapter.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/subresource_adapter.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_android.cpp
@@ -2215,6 +2571,7 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutte
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_copy_blit_resolve.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_descriptor.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_device.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_device_generated_commands.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_device_memory.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_drawdispatch.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_external_object.cpp
@@ -2231,8 +2588,15 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutte
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_shader_interface.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_shader_object.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_spirv.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_state_tracker.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_state_tracker.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_submit.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_submit.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_synchronization.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_synchronization.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_video.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_vuid_maps.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_vuid_maps.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_wsi.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_ycbcr.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/core_validation.h
@@ -2242,66 +2606,122 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutte
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/drawdispatch/drawdispatch_vuids.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/error_location.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/error_location.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/error_strings.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/log_message_type.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/logging.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/logging.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/record_object.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/spirv_logging.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/spirv_logging.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/unimplementable_validation.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vma.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vma.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_pre_action.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_pre_copy_buffer_to_image.comp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_pre_dispatch.comp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_pre_draw.vert
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_pre_trace_rays.rgen
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_shaders_constants.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/inst_bindless_descriptor.comp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/inst_buffer_device_address.comp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/debug_printf.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/debug_printf.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_descriptor_set.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_descriptor_set.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_error_message.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_error_message.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_image_layout.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_record.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_settings.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_setup.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_state_tracker.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_state_tracker.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_subclasses.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_subclasses.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_validation.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_validation.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_vuids.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_vuids.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/bindless_descriptor_pass.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/bindless_descriptor_pass.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/buffer_device_address_pass.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/buffer_device_address_pass.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/function_basic_block.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/function_basic_block.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/instruction.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/instruction.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/link.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/module.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/module.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/pass.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/pass.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/type_manager.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/type_manager.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/layer_chassis_dispatch_manual.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/core/gpuav.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/core/gpuav_constants.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/core/gpuav_record.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/core/gpuav_settings.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/core/gpuav_setup.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/debug_printf/debug_printf.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/debug_printf/debug_printf.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/descriptor_validation/gpuav_descriptor_set.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/descriptor_validation/gpuav_descriptor_set.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/descriptor_validation/gpuav_descriptor_validation.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/descriptor_validation/gpuav_descriptor_validation.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/descriptor_validation/gpuav_image_layout.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/descriptor_validation/gpuav_image_layout.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/error_message/gpuav_vuids.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/error_message/gpuav_vuids.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/instrumentation/gpuav_instrumentation.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/instrumentation/gpuav_instrumentation.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/instrumentation/gpuav_shader_instrumentor.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/instrumentation/gpuav_shader_instrumentor.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/resources/gpuav_shader_resources.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/resources/gpuav_state_trackers.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/resources/gpuav_state_trackers.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/resources/gpuav_vulkan_objects.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/resources/gpuav_vulkan_objects.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/gpuav_error_codes.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/gpuav_error_header.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/gpuav_shaders_constants.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/instrumentation/buffer_device_address.comp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/instrumentation/common_descriptor_sets.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/instrumentation/descriptor_class_general_buffer.comp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/instrumentation/descriptor_class_texel_buffer.comp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/instrumentation/descriptor_indexing_oob_bindless.comp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/instrumentation/descriptor_indexing_oob_non_bindless.comp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/instrumentation/post_process_descriptor_index.comp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/instrumentation/ray_query.comp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/instrumentation/vertex_attribute_fetch_oob.vert
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/validation_cmd/common.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/validation_cmd/copy_buffer_to_image.comp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/validation_cmd/count_buffer.comp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/validation_cmd/dispatch.comp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/validation_cmd/draw_indexed_indirect_index_buffer.comp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/validation_cmd/draw_mesh_indirect.comp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/validation_cmd/draw_push_data.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/validation_cmd/first_instance.comp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/validation_cmd/trace_rays.rgen
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/buffer_device_address_pass.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/buffer_device_address_pass.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/debug_printf_pass.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/debug_printf_pass.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/descriptor_class_general_buffer_pass.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/descriptor_class_general_buffer_pass.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/descriptor_class_texel_buffer_pass.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/descriptor_class_texel_buffer_pass.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/descriptor_indexing_oob_pass.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/descriptor_indexing_oob_pass.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/function_basic_block.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/function_basic_block.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/inject_conditional_function_pass.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/inject_conditional_function_pass.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/inject_function_pass.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/inject_function_pass.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/instruction.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/instruction.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/interface.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/link.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/module.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/module.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/pass.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/pass.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/post_process_descriptor_indexing.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/post_process_descriptor_indexing.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/post_process_descriptor_indexing_pass.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/post_process_descriptor_indexing_pass.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/ray_query_pass.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/ray_query_pass.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/type_manager.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/type_manager.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/vertex_attribute_fetch_oob.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/vertex_attribute_fetch_oob.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_copy_buffer_to_image.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_copy_buffer_to_image.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_dispatch.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_dispatch.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_draw.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_draw.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_trace_rays.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_trace_rays.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_validation_cmd_common.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_validation_cmd_common.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/layer_options.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/layer_options.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/object_tracker/object_lifetime_validation.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/object_tracker/object_tracker_utils.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/profiling/profiling.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/profiling/profiling.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/buffer_state.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/buffer_state.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/cmd_buffer_state.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/cmd_buffer_state.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/descriptor_sets.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/descriptor_sets.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/device_generated_commands_state.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/device_generated_commands_state.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/device_memory_state.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/device_memory_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/device_state.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/device_state.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/fence_state.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/fence_state.h
@@ -2330,16 +2750,21 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutte
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/shader_module.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/shader_object_state.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/shader_object_state.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/shader_stage_state.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/shader_stage_state.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/state_object.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/state_object.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/state_tracker.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/state_tracker.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/submission_reference.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/vertex_index_buffer_state.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/video_session_state.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/video_session_state.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_buffer.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_cmd_buffer.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_cmd_buffer_dynamic.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_descriptor.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_device_generated_commands.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_device_memory.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_external_object.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_framebuffer.cpp
@@ -2351,6 +2776,8 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutte
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_shader_object.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_synchronization.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_utils.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_vuid_maps.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_vuid_maps.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_wsi.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/stateless_validation.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_access_context.cpp
@@ -2361,10 +2788,18 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutte
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_commandbuffer.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_common.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_common.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_error_messages.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_error_messages.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_image.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_op.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_op.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_renderpass.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_renderpass.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_reporting.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_reporting.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_settings.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_stats.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_stats.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_submit.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_submit.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_utils.cpp
@@ -2392,14 +2827,23 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutte
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/vk_layer_extension_utils.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/vk_layer_utils.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/vk_layer_utils.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/vk_struct_compare.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/vk_struct_compare.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_config.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_config.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/best_practices.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/best_practices.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/best_practices_device_methods.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/best_practices_instance_methods.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/chassis.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/chassis.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/chassis_dispatch_helper.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/command_validation.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/device_features.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/device_features.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/dispatch_functions.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/dispatch_object.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/dispatch_object_device_methods.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/dispatch_object_instance_methods.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/dispatch_vector.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/dispatch_vector.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/dynamic_state_helper.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/dynamic_state_helper.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/enum_flag_bits.h
@@ -2407,38 +2851,59 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutte
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/error_location_helper.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/feature_requirements_helper.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/feature_requirements_helper.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/gpu_as_inspection_comp.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/gpu_inst_shader_hash.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/gpu_pre_copy_buffer_to_image_comp.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/gpu_pre_dispatch_comp.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/gpu_pre_draw_vert.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/gpu_pre_trace_rays_rgen.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/inst_bindless_descriptor_comp.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/inst_buffer_device_address_comp.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/layer_chassis_dispatch.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/layer_chassis_dispatch.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_buffer_device_address_comp.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_buffer_device_address_comp.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_descriptor_class_general_buffer_comp.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_descriptor_class_general_buffer_comp.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_descriptor_class_texel_buffer_comp.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_descriptor_class_texel_buffer_comp.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_descriptor_indexing_oob_bindless_comp.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_descriptor_indexing_oob_bindless_comp.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_descriptor_indexing_oob_non_bindless_comp.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_descriptor_indexing_oob_non_bindless_comp.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_post_process_descriptor_index_comp.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_post_process_descriptor_index_comp.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_ray_query_comp.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_ray_query_comp.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_vertex_attribute_fetch_oob_vert.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_vertex_attribute_fetch_oob_vert.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/object_tracker.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/object_tracker.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/object_tracker_device_methods.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/object_tracker_instance_methods.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/pnext_chain_extraction.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/pnext_chain_extraction.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/spirv_grammar_helper.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/spirv_grammar_helper.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/spirv_tools_commit_id.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/spirv_validation_helper.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/state_tracker_helper.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/state_tracker_helper.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/stateless_device_methods.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/stateless_instance_methods.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/stateless_validation_helper.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/stateless_validation_helper.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/sync_validation_types.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/sync_validation_types.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/test_icd_helper.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/thread_safety.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/thread_safety_commands.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/thread_safety_counter_bodies.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/thread_safety_counter_definitions.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/thread_safety_counter_instances.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/thread_safety_device_defs.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/thread_safety_instance_defs.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/valid_enum_values.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/valid_enum_values.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/valid_flag_values.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_copy_buffer_to_image_comp.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_copy_buffer_to_image_comp.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_count_buffer_comp.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_count_buffer_comp.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_dispatch_comp.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_dispatch_comp.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_draw_indexed_indirect_index_buffer_comp.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_draw_indexed_indirect_index_buffer_comp.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_draw_mesh_indirect_comp.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_draw_mesh_indirect_comp.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_first_instance_comp.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_first_instance_comp.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_trace_rays_rgen.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_trace_rays_rgen.h
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_object.cpp
+ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_object_methods.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_api_version.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_dispatch_table_helper.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_dispatch_table_helper.h
@@ -2449,12 +2914,6 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutte
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_layer_dispatch_table.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_object_types.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_object_types.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_safe_struct.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_safe_struct_core.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_safe_struct_ext.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_safe_struct_khr.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_safe_struct_utils.cpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_safe_struct_vendor.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_validation_error_messages.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/abseil-cpp/MODULE.bazel
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/abseil-cpp/WORKSPACE.bzlmod
@@ -6665,6 +7124,143 @@ FILE: ../../../flutter/third_party/vulkan-deps/glslang/src/SPIRV/hex_float.h
 FILE: ../../../flutter/third_party/vulkan-deps/glslang/src/gtests/Common.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/glslang/src/gtests/HexFloat.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/glslang/src/ndk_test/test.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/VKLayer_monitor.def
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/VkLayer_api_dump.def
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/VkLayer_screenshot.def
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/api_dump.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump_html.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump_html.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump_json.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump_json.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump_text.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump_text.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump_video_html.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump_video_json.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/generated/api_dump_video_text.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/monitor.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/screenshot.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/screenshot_parsing.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/screenshot_parsing.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/vk_layer_table.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/layersvt/vk_layer_table.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system.hpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system_bsd.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system_bsd.hpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system_linux.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system_linux.hpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system_macos.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system_macos.hpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system_windows.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/via/via_system_windows.hpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_cmd/main.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_cmd/main_doc.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_cmd/main_doc.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_cmd/main_layers.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_cmd/main_layers.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_cmd/main_reset.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_cmd/main_reset.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/alert.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/alert.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/application_singleton.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/application_singleton.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/bitfield.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/bitfield.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/command_line.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/command_line.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configuration.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configuration.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configuration_manager.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configuration_manager.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configurator.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configurator.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configurator_signal.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/configurator_signal.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/date.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/date.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/doc.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/doc.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/executable.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/executable.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/executable_manager.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/executable_manager.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/header.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/header.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/help.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/help.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/is_dll_32.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/is_dll_32.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/json.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/json.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/json_validator.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/json_validator.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/layer.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/layer.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/layer_manager.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/layer_manager.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/layer_preset.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/layer_preset.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/parameter.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/parameter.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/path.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/path.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/registry.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/registry.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/serialization.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_bool.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_bool.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_filesystem.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_filesystem.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_flags.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_flags.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_float.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_float.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_frames.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_frames.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_group.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_group.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_int.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_int.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_list.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_list.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_string.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/setting_string.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_configuration_area.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_configuration_area.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_executable_mode.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_executable_mode.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_hide_message.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_hide_message.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_layer_builtin.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_layer_builtin.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_layer_control.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_layer_control.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_layer_type.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_layer_type.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_layers_paths.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_layers_paths.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_log.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_log.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_override_area.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_override_area.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_platform.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_platform.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_status.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_status.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_tab.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/type_tab.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/ui.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/ui.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/util.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/util.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/version.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/version.h
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/vulkan_util.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/lunarg-vulkantools/src/vkconfig_core/vulkan_util.h
 FILE: ../../../flutter/third_party/vulkan-deps/spirv-cross/src/Package.swift
 FILE: ../../../flutter/third_party/vulkan-deps/spirv-cross/src/include/spirv_cross/barrier.hpp
 FILE: ../../../flutter/third_party/vulkan-deps/spirv-cross/src/include/spirv_cross/external_interface.h
@@ -9394,6 +9990,7 @@ FILE: ../../../flutter/third_party/vulkan-deps/spirv-cross/src/tests-other/small
 FILE: ../../../flutter/third_party/vulkan-deps/spirv-cross/src/tests-other/typed_id_test.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_av1std.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_av1std_decode.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_av1std_encode.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_h264std.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_h264std_decode.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-headers/src/include/vk_video/vulkan_video_codec_h264std_encode.h
@@ -9440,8 +10037,13 @@ FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/docs
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/docs/layer_configuration.md
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/layer/vk_layer_settings.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/layer/vk_layer_settings.hpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/utility/vk_concurrent_unordered_map.hpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/utility/vk_dispatch_table.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/utility/vk_format_utils.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/utility/vk_safe_struct.hpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/utility/vk_safe_struct_utils.hpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/utility/vk_small_containers.hpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/utility/vk_sparse_range_map.hpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/utility/vk_struct_helper.hpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/include/vulkan/vk_enum_string_helper.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/scripts/gn/stub.cpp
@@ -9451,8 +10053,13 @@ FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/layer/layer_settings_util.hpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/layer/vk_layer_settings.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/layer/vk_layer_settings_helper.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/vulkan/vk_safe_struct_core.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/vulkan/vk_safe_struct_ext.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/vulkan/vk_safe_struct_khr.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/vulkan/vk_safe_struct_manual.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/vulkan/vk_safe_struct_utils.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-utility-libraries/src/src/vulkan/vk_safe_struct_vendor.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/VkLayer_khronos_validation.def
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/best_practices_error_enums.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/best_practices_utils.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/best_practices_validation.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_buffer.cpp
@@ -9468,13 +10075,20 @@ FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/laye
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_pipeline.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_ray_tracing.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_render_pass.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_state.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_synchronization.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_video.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/best_practices/bp_wsi.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/chassis/chassis.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/chassis/chassis_handle_data.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/chassis/chassis_manual.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/chassis/chassis_modification_state.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/chassis/dispatch_object.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/chassis/dispatch_object_manual.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/chassis/validation_object.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/custom_containers.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/qfo_transfer.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/range_vector.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/sparse_containers.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/subresource_adapter.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/containers/subresource_adapter.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_android.cpp
@@ -9485,6 +10099,7 @@ FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/laye
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_copy_blit_resolve.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_descriptor.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_device.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_device_generated_commands.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_device_memory.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_drawdispatch.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_external_object.cpp
@@ -9501,8 +10116,15 @@ FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/laye
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_shader_interface.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_shader_object.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_spirv.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_state_tracker.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_state_tracker.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_submit.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_submit.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_synchronization.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_synchronization.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_video.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_vuid_maps.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_vuid_maps.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_wsi.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/cc_ycbcr.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_checks/core_validation.h
@@ -9512,66 +10134,122 @@ FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/laye
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/drawdispatch/drawdispatch_vuids.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/error_location.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/error_location.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/error_strings.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/log_message_type.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/logging.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/logging.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/record_object.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/spirv_logging.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/spirv_logging.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/error_message/unimplementable_validation.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vma.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vma.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_pre_action.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_pre_copy_buffer_to_image.comp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_pre_dispatch.comp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_pre_draw.vert
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_pre_trace_rays.rgen
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/gpu_shaders_constants.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/inst_bindless_descriptor.comp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_shaders/inst_buffer_device_address.comp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/debug_printf.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/debug_printf.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_descriptor_set.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_descriptor_set.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_error_message.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_error_message.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_image_layout.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_record.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_settings.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_setup.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_state_tracker.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_state_tracker.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_subclasses.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_subclasses.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_validation.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_validation.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_vuids.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/gpu_vuids.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/bindless_descriptor_pass.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/bindless_descriptor_pass.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/buffer_device_address_pass.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/buffer_device_address_pass.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/function_basic_block.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/function_basic_block.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/instruction.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/instruction.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/link.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/module.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/module.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/pass.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/pass.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/type_manager.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpu_validation/spirv/type_manager.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/layer_chassis_dispatch_manual.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/core/gpuav.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/core/gpuav_constants.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/core/gpuav_record.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/core/gpuav_settings.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/core/gpuav_setup.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/debug_printf/debug_printf.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/debug_printf/debug_printf.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/descriptor_validation/gpuav_descriptor_set.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/descriptor_validation/gpuav_descriptor_set.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/descriptor_validation/gpuav_descriptor_validation.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/descriptor_validation/gpuav_descriptor_validation.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/descriptor_validation/gpuav_image_layout.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/descriptor_validation/gpuav_image_layout.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/error_message/gpuav_vuids.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/error_message/gpuav_vuids.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/instrumentation/gpuav_instrumentation.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/instrumentation/gpuav_instrumentation.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/instrumentation/gpuav_shader_instrumentor.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/instrumentation/gpuav_shader_instrumentor.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/resources/gpuav_shader_resources.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/resources/gpuav_state_trackers.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/resources/gpuav_state_trackers.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/resources/gpuav_vulkan_objects.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/resources/gpuav_vulkan_objects.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/gpuav_error_codes.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/gpuav_error_header.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/gpuav_shaders_constants.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/instrumentation/buffer_device_address.comp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/instrumentation/common_descriptor_sets.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/instrumentation/descriptor_class_general_buffer.comp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/instrumentation/descriptor_class_texel_buffer.comp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/instrumentation/descriptor_indexing_oob_bindless.comp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/instrumentation/descriptor_indexing_oob_non_bindless.comp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/instrumentation/post_process_descriptor_index.comp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/instrumentation/ray_query.comp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/instrumentation/vertex_attribute_fetch_oob.vert
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/validation_cmd/common.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/validation_cmd/copy_buffer_to_image.comp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/validation_cmd/count_buffer.comp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/validation_cmd/dispatch.comp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/validation_cmd/draw_indexed_indirect_index_buffer.comp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/validation_cmd/draw_mesh_indirect.comp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/validation_cmd/draw_push_data.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/validation_cmd/first_instance.comp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/shaders/validation_cmd/trace_rays.rgen
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/buffer_device_address_pass.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/buffer_device_address_pass.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/debug_printf_pass.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/debug_printf_pass.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/descriptor_class_general_buffer_pass.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/descriptor_class_general_buffer_pass.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/descriptor_class_texel_buffer_pass.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/descriptor_class_texel_buffer_pass.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/descriptor_indexing_oob_pass.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/descriptor_indexing_oob_pass.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/function_basic_block.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/function_basic_block.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/inject_conditional_function_pass.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/inject_conditional_function_pass.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/inject_function_pass.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/inject_function_pass.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/instruction.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/instruction.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/interface.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/link.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/module.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/module.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/pass.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/pass.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/post_process_descriptor_indexing.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/post_process_descriptor_indexing.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/post_process_descriptor_indexing_pass.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/post_process_descriptor_indexing_pass.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/ray_query_pass.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/ray_query_pass.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/type_manager.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/type_manager.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/vertex_attribute_fetch_oob.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/spirv/vertex_attribute_fetch_oob.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_copy_buffer_to_image.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_copy_buffer_to_image.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_dispatch.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_dispatch.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_draw.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_draw.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_trace_rays.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_trace_rays.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_validation_cmd_common.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/gpuav/validation_cmd/gpuav_validation_cmd_common.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/layer_options.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/layer_options.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/object_tracker/object_lifetime_validation.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/object_tracker/object_tracker_utils.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/profiling/profiling.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/profiling/profiling.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/buffer_state.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/buffer_state.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/cmd_buffer_state.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/cmd_buffer_state.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/descriptor_sets.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/descriptor_sets.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/device_generated_commands_state.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/device_generated_commands_state.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/device_memory_state.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/device_memory_state.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/device_state.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/device_state.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/fence_state.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/fence_state.h
@@ -9600,16 +10278,21 @@ FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/laye
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/shader_module.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/shader_object_state.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/shader_object_state.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/shader_stage_state.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/shader_stage_state.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/state_object.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/state_object.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/state_tracker.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/state_tracker.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/submission_reference.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/vertex_index_buffer_state.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/video_session_state.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/state_tracker/video_session_state.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_buffer.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_cmd_buffer.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_cmd_buffer_dynamic.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_descriptor.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_device_generated_commands.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_device_memory.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_external_object.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_framebuffer.cpp
@@ -9621,6 +10304,8 @@ FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/laye
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_shader_object.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_synchronization.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_utils.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_vuid_maps.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_vuid_maps.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/sl_wsi.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/stateless/stateless_validation.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_access_context.cpp
@@ -9631,10 +10316,18 @@ FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/laye
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_commandbuffer.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_common.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_common.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_error_messages.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_error_messages.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_image.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_op.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_op.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_renderpass.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_renderpass.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_reporting.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_reporting.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_settings.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_stats.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_stats.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_submit.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_submit.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/sync/sync_utils.cpp
@@ -9662,14 +10355,23 @@ FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/laye
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/vk_layer_extension_utils.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/vk_layer_utils.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/vk_layer_utils.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/vk_struct_compare.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/utils/vk_struct_compare.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_config.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vk_layer_config.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/best_practices.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/best_practices.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/best_practices_device_methods.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/best_practices_instance_methods.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/chassis.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/chassis.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/chassis_dispatch_helper.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/command_validation.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/device_features.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/device_features.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/dispatch_functions.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/dispatch_object.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/dispatch_object_device_methods.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/dispatch_object_instance_methods.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/dispatch_vector.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/dispatch_vector.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/dynamic_state_helper.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/dynamic_state_helper.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/enum_flag_bits.h
@@ -9677,38 +10379,59 @@ FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/laye
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/error_location_helper.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/feature_requirements_helper.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/feature_requirements_helper.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/gpu_as_inspection_comp.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/gpu_inst_shader_hash.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/gpu_pre_copy_buffer_to_image_comp.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/gpu_pre_dispatch_comp.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/gpu_pre_draw_vert.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/gpu_pre_trace_rays_rgen.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/inst_bindless_descriptor_comp.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/inst_buffer_device_address_comp.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/layer_chassis_dispatch.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/layer_chassis_dispatch.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_buffer_device_address_comp.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_buffer_device_address_comp.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_descriptor_class_general_buffer_comp.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_descriptor_class_general_buffer_comp.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_descriptor_class_texel_buffer_comp.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_descriptor_class_texel_buffer_comp.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_descriptor_indexing_oob_bindless_comp.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_descriptor_indexing_oob_bindless_comp.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_descriptor_indexing_oob_non_bindless_comp.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_descriptor_indexing_oob_non_bindless_comp.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_post_process_descriptor_index_comp.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_post_process_descriptor_index_comp.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_ray_query_comp.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_ray_query_comp.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_vertex_attribute_fetch_oob_vert.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/instrumentation_vertex_attribute_fetch_oob_vert.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/object_tracker.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/object_tracker.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/object_tracker_device_methods.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/object_tracker_instance_methods.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/pnext_chain_extraction.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/pnext_chain_extraction.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/spirv_grammar_helper.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/spirv_grammar_helper.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/spirv_tools_commit_id.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/spirv_validation_helper.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/state_tracker_helper.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/state_tracker_helper.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/stateless_device_methods.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/stateless_instance_methods.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/stateless_validation_helper.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/stateless_validation_helper.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/sync_validation_types.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/sync_validation_types.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/test_icd_helper.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/thread_safety.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/thread_safety_commands.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/thread_safety_counter_bodies.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/thread_safety_counter_definitions.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/thread_safety_counter_instances.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/thread_safety_device_defs.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/thread_safety_instance_defs.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/valid_enum_values.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/valid_enum_values.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/valid_flag_values.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_copy_buffer_to_image_comp.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_copy_buffer_to_image_comp.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_count_buffer_comp.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_count_buffer_comp.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_dispatch_comp.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_dispatch_comp.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_draw_indexed_indirect_index_buffer_comp.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_draw_indexed_indirect_index_buffer_comp.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_draw_mesh_indirect_comp.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_draw_mesh_indirect_comp.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_first_instance_comp.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_first_instance_comp.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_trace_rays_rgen.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_cmd_trace_rays_rgen.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_object.cpp
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/validation_object_methods.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_api_version.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_dispatch_table_helper.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_dispatch_table_helper.h
@@ -9719,12 +10442,6 @@ FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/laye
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_layer_dispatch_table.h
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_object_types.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_object_types.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_safe_struct.h
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_safe_struct_core.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_safe_struct_ext.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_safe_struct_khr.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_safe_struct_utils.cpp
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_safe_struct_vendor.cpp
 FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/vulkan/generated/vk_validation_error_messages.h
 FILE: ../../../flutter/third_party/wuffs/release/c/wuffs-v0.2.c
 FILE: ../../../flutter/third_party/wuffs/release/c/wuffs-v0.3.c
@@ -12891,6 +13608,37 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: vulkan-validation-layers
+ORIGIN: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/inplace_function.h
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/inplace_function.h
+----------------------------------------------------------------------------------------------------
+Boost Software License - Version 1.0 - August 17th, 2003
+
+Permission is hereby granted, free of charge, to any person or organization
+obtaining a copy of the software and accompanying documentation covered by
+this license (the "Software") to use, reproduce, display, distribute,
+execute, and transmit the Software, and to prepare derivative works of the
+Software, and to permit third-parties to whom the Software is furnished to
+do so, all subject to the following:
+
+The copyright notices in the Software and this entire statement, including
+the above license grant, this restriction and the following disclaimer,
+must be included in all copies of the Software, in whole or in part, and
+all derivative works of the Software, unless such copies or derivative
+works are solely in the form of machine-executable object code generated by
+a source language processor.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
+SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
+FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
@@ -20103,6 +20851,7 @@ Copyright (C) 2012-2013 LunarG, Inc.
 Copyright (C) 2017, 2022-2024 Arm Limited.
 Copyright (C) 2015-2018 Google, Inc.
 Modifications Copyright (C) 2020 Advanced Micro Devices, Inc. All rights reserved.
+Modifications Copyright (C) 2024 Valve Corporation.
 
 All rights reserved.
 
@@ -20191,6 +20940,7 @@ Copyright (C) 2012-2015 LunarG, Inc.
 Copyright (C) 2015-2018 Google, Inc.
 Copyright (C) 2017, 2019 ARM Limited.
 Modifications Copyright (C) 2020 Advanced Micro Devices, Inc. All rights reserved.
+Modifications Copyright (C) 2024 Ravi Prakash Singh.
 
 All rights reserved.
 
@@ -31565,12 +32315,53 @@ POSSIBILITY OF SUCH DAMAGE.
 
 ====================================================================================================
 LIBRARY: glslang
+ORIGIN: ../../../flutter/third_party/vulkan-deps/glslang/src/glslang/Include/visibility.h
 ORIGIN: ../../../flutter/third_party/vulkan-deps/glslang/src/glslang/MachineIndependent/span.h
 TYPE: LicenseType.bsd
+FILE: ../../../flutter/third_party/vulkan-deps/glslang/src/glslang/Include/visibility.h
 FILE: ../../../flutter/third_party/vulkan-deps/glslang/src/glslang/MachineIndependent/span.h
 ----------------------------------------------------------------------------------------------------
 Copyright (C) 2023 LunarG, Inc.
 
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+   Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+   Redistributions in binary form must reproduce the above
+   copyright notice, this list of conditions and the following
+   disclaimer in the documentation and/or other materials provided
+   with the distribution.
+
+   Neither the name of 3Dlabs Inc. Ltd. nor the names of its
+   contributors may be used to endorse or promote products derived
+   from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE
+COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: glslang
+ORIGIN: ../../../flutter/third_party/vulkan-deps/glslang/src/glslang/stub.cpp
+TYPE: LicenseType.bsd
+FILE: ../../../flutter/third_party/vulkan-deps/glslang/src/glslang/stub.cpp
+----------------------------------------------------------------------------------------------------
+Copyright (C) 2024 The Khronos Group Inc.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -37339,13 +38130,10 @@ IN THE MATERIALS.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: glslang
 LIBRARY: spirv-cross
-ORIGIN: ../../../flutter/third_party/vulkan-deps/glslang/src/SPIRV/spirv.hpp
 ORIGIN: ../../../flutter/third_party/vulkan-deps/spirv-cross/src/spirv.h
 ORIGIN: ../../../flutter/third_party/vulkan-deps/spirv-cross/src/spirv.hpp
 TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/vulkan-deps/glslang/src/SPIRV/spirv.hpp
 FILE: ../../../flutter/third_party/vulkan-deps/spirv-cross/src/spirv.h
 FILE: ../../../flutter/third_party/vulkan-deps/spirv-cross/src/spirv.hpp
 ----------------------------------------------------------------------------------------------------
@@ -37383,6 +38171,37 @@ FILE: ../../../flutter/third_party/vulkan-deps/glslang/src/SPIRV/GLSL.ext.KHR.h
 Copyright (c) 2014-2020 The Khronos Group Inc.
 Copyright (C) 2022-2024 Arm Limited.
 Modifications Copyright (C) 2020 Advanced Micro Devices, Inc. All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and/or associated documentation files (the "Materials"),
+to deal in the Materials without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Materials, and to permit persons to whom the
+Materials are furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Materials.
+
+MODIFICATIONS TO THIS FILE MAY MEAN IT NO LONGER ACCURATELY REFLECTS KHRONOS
+STANDARDS. THE UNMODIFIED, NORMATIVE VERSIONS OF KHRONOS SPECIFICATIONS AND
+HEADER INFORMATION ARE LOCATED AT https://www.khronos.org/registry/
+
+THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM,OUT OF OR IN CONNECTION WITH THE MATERIALS OR THE USE OR OTHER DEALINGS
+IN THE MATERIALS.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: glslang
+ORIGIN: ../../../flutter/third_party/vulkan-deps/glslang/src/SPIRV/spirv.hpp
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/vulkan-deps/glslang/src/SPIRV/spirv.hpp
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2014-2024 The Khronos Group Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and/or associated documentation files (the "Materials"),
@@ -37713,15 +38532,39 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: vulkan-validation-layers
 LIBRARY: vulkan_memory_allocator
-ORIGIN: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vk_mem_alloc.h
 ORIGIN: ../../../flutter/third_party/vulkan_memory_allocator/include/vk_mem_alloc.h
 TYPE: LicenseType.mit
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vk_mem_alloc.h
 FILE: ../../../flutter/third_party/vulkan_memory_allocator/include/vk_mem_alloc.h
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 2017-2022 Advanced Micro Devices, Inc. All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: vulkan-validation-layers
+ORIGIN: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vk_mem_alloc.h
+TYPE: LicenseType.mit
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vk_mem_alloc.h
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2017-2024 Advanced Micro Devices, Inc. All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -68547,4 +69390,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
-Total license count: 835
+Total license count: 840
