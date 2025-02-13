@@ -43908,8 +43908,6 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_text_input_channel.h + ../../..
 ORIGIN: ../../../flutter/shell/platform/linux/fl_text_input_handler.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_text_input_handler.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_text_input_handler_test.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/linux/fl_text_input_view_delegate.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/linux/fl_text_input_view_delegate.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_texture.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_texture_gl.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_texture_gl_private.h + ../../../flutter/LICENSE
@@ -46910,8 +46908,6 @@ FILE: ../../../flutter/shell/platform/linux/fl_text_input_channel.h
 FILE: ../../../flutter/shell/platform/linux/fl_text_input_handler.cc
 FILE: ../../../flutter/shell/platform/linux/fl_text_input_handler.h
 FILE: ../../../flutter/shell/platform/linux/fl_text_input_handler_test.cc
-FILE: ../../../flutter/shell/platform/linux/fl_text_input_view_delegate.cc
-FILE: ../../../flutter/shell/platform/linux/fl_text_input_view_delegate.h
 FILE: ../../../flutter/shell/platform/linux/fl_texture.cc
 FILE: ../../../flutter/shell/platform/linux/fl_texture_gl.cc
 FILE: ../../../flutter/shell/platform/linux/fl_texture_gl_private.h
