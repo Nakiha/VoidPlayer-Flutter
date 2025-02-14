@@ -42731,6 +42731,7 @@ ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/semantics/route.dart + ../../
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/semantics/scrollable.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/semantics/semantics.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/semantics/semantics_helper.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/semantics/table.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/semantics/tabs.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/semantics/tappable.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/semantics/text_field.dart + ../../../flutter/LICENSE
@@ -45705,6 +45706,7 @@ FILE: ../../../flutter/lib/web_ui/lib/src/engine/semantics/route.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/semantics/scrollable.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/semantics/semantics.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/semantics/semantics_helper.dart
+FILE: ../../../flutter/lib/web_ui/lib/src/engine/semantics/table.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/semantics/tabs.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/semantics/tappable.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/semantics/text_field.dart
