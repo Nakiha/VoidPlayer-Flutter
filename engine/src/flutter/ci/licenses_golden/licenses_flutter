@@ -3970,6 +3970,7 @@ ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/include/openssl/pkcs7.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/include/openssl/pkcs8.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/include/openssl/pki/certificate.h
+ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/include/openssl/pki/ocsp.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/include/openssl/pki/signature_verify_cache.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/include/openssl/pki/verify_error.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/include/openssl/poly1305.h
@@ -4031,9 +4032,6 @@ ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/pki/name_constraints.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/pki/ocsp.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/pki/ocsp.h
-ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/pki/ocsp_revocation_status.h
-ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/pki/ocsp_verify_result.cc
-ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/pki/ocsp_verify_result.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/pki/parse_certificate.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/pki/parse_certificate.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/pki/parse_name.cc
@@ -5644,6 +5642,7 @@ FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pkcs12.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pkcs7.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pkcs8.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pki/certificate.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pki/ocsp.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pki/signature_verify_cache.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pki/verify.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/pki/verify_error.h
@@ -5714,9 +5713,6 @@ FILE: ../../../flutter/third_party/boringssl/src/pki/name_constraints.cc
 FILE: ../../../flutter/third_party/boringssl/src/pki/name_constraints.h
 FILE: ../../../flutter/third_party/boringssl/src/pki/ocsp.cc
 FILE: ../../../flutter/third_party/boringssl/src/pki/ocsp.h
-FILE: ../../../flutter/third_party/boringssl/src/pki/ocsp_revocation_status.h
-FILE: ../../../flutter/third_party/boringssl/src/pki/ocsp_verify_result.cc
-FILE: ../../../flutter/third_party/boringssl/src/pki/ocsp_verify_result.h
 FILE: ../../../flutter/third_party/boringssl/src/pki/parse_certificate.cc
 FILE: ../../../flutter/third_party/boringssl/src/pki/parse_certificate.h
 FILE: ../../../flutter/third_party/boringssl/src/pki/parse_name.cc
