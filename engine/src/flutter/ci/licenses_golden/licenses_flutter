@@ -43431,12 +43431,8 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_context.h + ../../../flut
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_context.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_context_metal_impeller.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_context_metal_impeller.mm + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_context_metal_skia.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_context_metal_skia.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_context_noop.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_context_noop.mm + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_context_software.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_context_software.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_external_texture_metal.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_external_texture_metal.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_external_view_embedder.h + ../../../flutter/LICENSE
@@ -43445,12 +43441,8 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_surface.h + ../../../flut
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_surface.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_surface_metal_impeller.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_surface_metal_impeller.mm + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_surface_metal_skia.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_surface_metal_skia.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_surface_noop.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_surface_noop.mm + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_surface_software.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/ios_surface_software.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/platform_message_handler_ios.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/platform_message_handler_ios.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/platform_message_handler_ios_test.mm + ../../../flutter/LICENSE
@@ -46420,12 +46412,8 @@ FILE: ../../../flutter/shell/platform/darwin/ios/ios_context.h
 FILE: ../../../flutter/shell/platform/darwin/ios/ios_context.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/ios_context_metal_impeller.h
 FILE: ../../../flutter/shell/platform/darwin/ios/ios_context_metal_impeller.mm
-FILE: ../../../flutter/shell/platform/darwin/ios/ios_context_metal_skia.h
-FILE: ../../../flutter/shell/platform/darwin/ios/ios_context_metal_skia.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/ios_context_noop.h
 FILE: ../../../flutter/shell/platform/darwin/ios/ios_context_noop.mm
-FILE: ../../../flutter/shell/platform/darwin/ios/ios_context_software.h
-FILE: ../../../flutter/shell/platform/darwin/ios/ios_context_software.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/ios_external_texture_metal.h
 FILE: ../../../flutter/shell/platform/darwin/ios/ios_external_texture_metal.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/ios_external_view_embedder.h
@@ -46434,12 +46422,8 @@ FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface.h
 FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_metal_impeller.h
 FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_metal_impeller.mm
-FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_metal_skia.h
-FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_metal_skia.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_noop.h
 FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_noop.mm
-FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_software.h
-FILE: ../../../flutter/shell/platform/darwin/ios/ios_surface_software.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/platform_message_handler_ios.h
 FILE: ../../../flutter/shell/platform/darwin/ios/platform_message_handler_ios.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/platform_message_handler_ios_test.mm
