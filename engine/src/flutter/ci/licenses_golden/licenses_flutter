@@ -42633,6 +42633,7 @@ ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/font_fallbacks.dart + ../../.
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/fonts.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/frame_service.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/frame_timing_recorder.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/high_contrast.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/html/backdrop_filter.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/html/bitmap_canvas.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/html/canvas.dart + ../../../flutter/LICENSE
@@ -45600,6 +45601,7 @@ FILE: ../../../flutter/lib/web_ui/lib/src/engine/font_fallbacks.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/fonts.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/frame_service.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/frame_timing_recorder.dart
+FILE: ../../../flutter/lib/web_ui/lib/src/engine/high_contrast.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/html/backdrop_filter.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/html/bitmap_canvas.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/html/canvas.dart
