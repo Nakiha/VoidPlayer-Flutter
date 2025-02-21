@@ -41379,6 +41379,8 @@ ORIGIN: ../../../flutter/flow/layers/clip_rect_layer.cc + ../../../flutter/LICEN
 ORIGIN: ../../../flutter/flow/layers/clip_rect_layer.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/flow/layers/clip_rrect_layer.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/flow/layers/clip_rrect_layer.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/flow/layers/clip_rsuperellipse_layer.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/flow/layers/clip_rsuperellipse_layer.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/flow/layers/clip_shape_layer.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/flow/layers/color_filter_layer.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/flow/layers/color_filter_layer.h + ../../../flutter/LICENSE
@@ -42490,6 +42492,8 @@ ORIGIN: ../../../flutter/lib/ui/painting/picture_recorder.cc + ../../../flutter/
 ORIGIN: ../../../flutter/lib/ui/painting/picture_recorder.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/painting/rrect.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/painting/rrect.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/ui/painting/rsuperellipse.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/ui/painting/rsuperellipse.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/painting/shader.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/painting/shader.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/painting/single_frame_codec.cc + ../../../flutter/LICENSE
@@ -44342,6 +44346,8 @@ FILE: ../../../flutter/flow/layers/clip_rect_layer.cc
 FILE: ../../../flutter/flow/layers/clip_rect_layer.h
 FILE: ../../../flutter/flow/layers/clip_rrect_layer.cc
 FILE: ../../../flutter/flow/layers/clip_rrect_layer.h
+FILE: ../../../flutter/flow/layers/clip_rsuperellipse_layer.cc
+FILE: ../../../flutter/flow/layers/clip_rsuperellipse_layer.h
 FILE: ../../../flutter/flow/layers/clip_shape_layer.h
 FILE: ../../../flutter/flow/layers/color_filter_layer.cc
 FILE: ../../../flutter/flow/layers/color_filter_layer.h
@@ -45457,6 +45463,8 @@ FILE: ../../../flutter/lib/ui/painting/picture_recorder.cc
 FILE: ../../../flutter/lib/ui/painting/picture_recorder.h
 FILE: ../../../flutter/lib/ui/painting/rrect.cc
 FILE: ../../../flutter/lib/ui/painting/rrect.h
+FILE: ../../../flutter/lib/ui/painting/rsuperellipse.cc
+FILE: ../../../flutter/lib/ui/painting/rsuperellipse.h
 FILE: ../../../flutter/lib/ui/painting/shader.cc
 FILE: ../../../flutter/lib/ui/painting/shader.h
 FILE: ../../../flutter/lib/ui/painting/single_frame_codec.cc
