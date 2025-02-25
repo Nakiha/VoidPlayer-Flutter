@@ -42960,6 +42960,7 @@ ORIGIN: ../../../flutter/shell/platform/android/android_environment_gl.h + ../..
 ORIGIN: ../../../flutter/shell/platform/android/android_exports.lst + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/android_image_generator.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/android_image_generator.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/android_rendering_selector.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/android_shell_holder.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/android_shell_holder.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/android_surface_gl_impeller.cc + ../../../flutter/LICENSE
@@ -45876,6 +45877,7 @@ FILE: ../../../flutter/shell/platform/android/android_environment_gl.h
 FILE: ../../../flutter/shell/platform/android/android_exports.lst
 FILE: ../../../flutter/shell/platform/android/android_image_generator.cc
 FILE: ../../../flutter/shell/platform/android/android_image_generator.h
+FILE: ../../../flutter/shell/platform/android/android_rendering_selector.h
 FILE: ../../../flutter/shell/platform/android/android_shell_holder.cc
 FILE: ../../../flutter/shell/platform/android/android_shell_holder.h
 FILE: ../../../flutter/shell/platform/android/android_surface_gl_impeller.cc
