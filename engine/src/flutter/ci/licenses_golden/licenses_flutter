@@ -41654,6 +41654,7 @@ ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/dithering.glsl + 
 ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/external_texture_oes.glsl + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/gaussian.glsl + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/gradient.glsl + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/math.glsl + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/path.glsl + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/prefix_sum.glsl + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/texture.glsl + ../../../flutter/LICENSE
@@ -44568,6 +44569,7 @@ FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/dithering.glsl
 FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/external_texture_oes.glsl
 FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/gaussian.glsl
 FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/gradient.glsl
+FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/math.glsl
 FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/path.glsl
 FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/prefix_sum.glsl
 FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/texture.glsl
