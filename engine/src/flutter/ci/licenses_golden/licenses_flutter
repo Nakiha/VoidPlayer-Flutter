@@ -41648,6 +41648,8 @@ ORIGIN: ../../../flutter/impeller/compiler/shader_lib/flutter/runtime_effect.gls
 ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/blending.glsl + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/branching.glsl + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/color.glsl + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/conical_gradient_fill.glsl + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/conical_gradient_uniform_fill.glsl + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/constants.glsl + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/conversions.glsl + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/dithering.glsl + ../../../flutter/LICENSE
@@ -41874,9 +41876,15 @@ ORIGIN: ../../../flutter/impeller/entity/shaders/filters/srgb_to_linear_filter.f
 ORIGIN: ../../../flutter/impeller/entity/shaders/filters/yuv_to_rgb_filter.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/glyph_atlas.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/glyph_atlas.vert + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_fill.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_fill_conical.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_fill_radial.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_fill_strip.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_fill_strip_radial.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_ssbo_fill.frag + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_uniform_fill.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_uniform_fill_conical.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_uniform_fill_radial.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_uniform_fill_strip.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_uniform_fill_strip_radial.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/fast_gradient.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/fast_gradient.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/gradient_fill.vert + ../../../flutter/LICENSE
@@ -44567,6 +44575,8 @@ FILE: ../../../flutter/impeller/compiler/shader_lib/flutter/runtime_effect.glsl
 FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/blending.glsl
 FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/branching.glsl
 FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/color.glsl
+FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/conical_gradient_fill.glsl
+FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/conical_gradient_uniform_fill.glsl
 FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/constants.glsl
 FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/conversions.glsl
 FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/dithering.glsl
@@ -44793,9 +44803,15 @@ FILE: ../../../flutter/impeller/entity/shaders/filters/srgb_to_linear_filter.fra
 FILE: ../../../flutter/impeller/entity/shaders/filters/yuv_to_rgb_filter.frag
 FILE: ../../../flutter/impeller/entity/shaders/glyph_atlas.frag
 FILE: ../../../flutter/impeller/entity/shaders/glyph_atlas.vert
-FILE: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_fill.frag
+FILE: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_fill_conical.frag
+FILE: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_fill_radial.frag
+FILE: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_fill_strip.frag
+FILE: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_fill_strip_radial.frag
 FILE: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_ssbo_fill.frag
-FILE: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_uniform_fill.frag
+FILE: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_uniform_fill_conical.frag
+FILE: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_uniform_fill_radial.frag
+FILE: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_uniform_fill_strip.frag
+FILE: ../../../flutter/impeller/entity/shaders/gradients/conical_gradient_uniform_fill_strip_radial.frag
 FILE: ../../../flutter/impeller/entity/shaders/gradients/fast_gradient.frag
 FILE: ../../../flutter/impeller/entity/shaders/gradients/fast_gradient.vert
 FILE: ../../../flutter/impeller/entity/shaders/gradients/gradient_fill.vert
