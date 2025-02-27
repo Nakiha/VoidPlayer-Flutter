@@ -42685,6 +42685,7 @@ ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/scene_view.dart + ../../../fl
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/semantics.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/semantics/accessibility.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/semantics/checkable.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/semantics/expandable.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/semantics/focusable.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/semantics/header.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/semantics/heading.dart + ../../../flutter/LICENSE
@@ -45617,6 +45618,7 @@ FILE: ../../../flutter/lib/web_ui/lib/src/engine/scene_view.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/semantics.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/semantics/accessibility.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/semantics/checkable.dart
+FILE: ../../../flutter/lib/web_ui/lib/src/engine/semantics/expandable.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/semantics/focusable.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/semantics/header.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/semantics/heading.dart
