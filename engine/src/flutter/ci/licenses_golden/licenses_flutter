@@ -959,7 +959,6 @@ LIBRARY: perfetto
 LIBRARY: shaderc
 LIBRARY: spirv-cross
 LIBRARY: swiftshader
-LIBRARY: txt
 LIBRARY: vulkan-headers
 LIBRARY: vulkan-utility-libraries
 LIBRARY: vulkan-validation-layers
@@ -2319,42 +2318,6 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutte
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/libWaylandClient.hpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/libXCB.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/swiftshader/src/WSI/libXCB.hpp
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/benchmarks/skparagraph_benchmarks.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/benchmarks/txt_run_all_benchmarks.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/skia/paragraph_builder_skia.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/skia/paragraph_builder_skia.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/skia/paragraph_skia.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/skia/paragraph_skia.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/asset_font_manager.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/asset_font_manager.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/font_asset_provider.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/font_asset_provider.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/font_collection.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/font_collection.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/font_features.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/font_features.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/font_style.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/font_weight.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/line_metrics.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/paragraph.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/paragraph_builder.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/paragraph_builder.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/paragraph_style.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/paragraph_style.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/placeholder_run.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/placeholder_run.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/run_metrics.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/test_font_manager.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/test_font_manager.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/text_baseline.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/text_decoration.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/text_decoration.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/text_shadow.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/text_shadow.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/text_style.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/text_style.h
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/typeface_font_asset_provider.cc
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/txt/src/txt/typeface_font_asset_provider.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/glslang/src/SPIRV/bitutils.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/glslang/src/SPIRV/hex_float.h
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/vulkan-deps/glslang/src/gtests/Common.cpp
@@ -7079,42 +7042,6 @@ FILE: ../../../flutter/third_party/swiftshader/src/WSI/libWaylandClient.cpp
 FILE: ../../../flutter/third_party/swiftshader/src/WSI/libWaylandClient.hpp
 FILE: ../../../flutter/third_party/swiftshader/src/WSI/libXCB.cpp
 FILE: ../../../flutter/third_party/swiftshader/src/WSI/libXCB.hpp
-FILE: ../../../flutter/third_party/txt/benchmarks/skparagraph_benchmarks.cc
-FILE: ../../../flutter/third_party/txt/benchmarks/txt_run_all_benchmarks.cc
-FILE: ../../../flutter/third_party/txt/src/skia/paragraph_builder_skia.cc
-FILE: ../../../flutter/third_party/txt/src/skia/paragraph_builder_skia.h
-FILE: ../../../flutter/third_party/txt/src/skia/paragraph_skia.cc
-FILE: ../../../flutter/third_party/txt/src/skia/paragraph_skia.h
-FILE: ../../../flutter/third_party/txt/src/txt/asset_font_manager.cc
-FILE: ../../../flutter/third_party/txt/src/txt/asset_font_manager.h
-FILE: ../../../flutter/third_party/txt/src/txt/font_asset_provider.cc
-FILE: ../../../flutter/third_party/txt/src/txt/font_asset_provider.h
-FILE: ../../../flutter/third_party/txt/src/txt/font_collection.cc
-FILE: ../../../flutter/third_party/txt/src/txt/font_collection.h
-FILE: ../../../flutter/third_party/txt/src/txt/font_features.cc
-FILE: ../../../flutter/third_party/txt/src/txt/font_features.h
-FILE: ../../../flutter/third_party/txt/src/txt/font_style.h
-FILE: ../../../flutter/third_party/txt/src/txt/font_weight.h
-FILE: ../../../flutter/third_party/txt/src/txt/line_metrics.h
-FILE: ../../../flutter/third_party/txt/src/txt/paragraph.h
-FILE: ../../../flutter/third_party/txt/src/txt/paragraph_builder.cc
-FILE: ../../../flutter/third_party/txt/src/txt/paragraph_builder.h
-FILE: ../../../flutter/third_party/txt/src/txt/paragraph_style.cc
-FILE: ../../../flutter/third_party/txt/src/txt/paragraph_style.h
-FILE: ../../../flutter/third_party/txt/src/txt/placeholder_run.cc
-FILE: ../../../flutter/third_party/txt/src/txt/placeholder_run.h
-FILE: ../../../flutter/third_party/txt/src/txt/run_metrics.h
-FILE: ../../../flutter/third_party/txt/src/txt/test_font_manager.cc
-FILE: ../../../flutter/third_party/txt/src/txt/test_font_manager.h
-FILE: ../../../flutter/third_party/txt/src/txt/text_baseline.h
-FILE: ../../../flutter/third_party/txt/src/txt/text_decoration.cc
-FILE: ../../../flutter/third_party/txt/src/txt/text_decoration.h
-FILE: ../../../flutter/third_party/txt/src/txt/text_shadow.cc
-FILE: ../../../flutter/third_party/txt/src/txt/text_shadow.h
-FILE: ../../../flutter/third_party/txt/src/txt/text_style.cc
-FILE: ../../../flutter/third_party/txt/src/txt/text_style.h
-FILE: ../../../flutter/third_party/txt/src/txt/typeface_font_asset_provider.cc
-FILE: ../../../flutter/third_party/txt/src/txt/typeface_font_asset_provider.h
 FILE: ../../../flutter/third_party/vulkan-deps/glslang/src/SPIRV/bitutils.h
 FILE: ../../../flutter/third_party/vulkan-deps/glslang/src/SPIRV/hex_float.h
 FILE: ../../../flutter/third_party/vulkan-deps/glslang/src/gtests/Common.cpp
@@ -41215,7 +41142,6 @@ LIBRARY: accessibility
 LIBRARY: engine
 LIBRARY: spring_animation
 LIBRARY: tonic
-LIBRARY: txt
 LIBRARY: web_test_fonts
 LIBRARY: web_unicode
 ORIGIN: ../../../flutter/LICENSE
@@ -44093,18 +44019,54 @@ ORIGIN: ../../../flutter/third_party/tonic/typed_data/typed_list.cc + ../../../f
 ORIGIN: ../../../flutter/third_party/tonic/typed_data/typed_list.h + ../../../flutter/third_party/tonic/LICENSE
 ORIGIN: ../../../flutter/third_party/tonic/typed_data/uint16_list.h + ../../../flutter/third_party/tonic/LICENSE
 ORIGIN: ../../../flutter/third_party/tonic/typed_data/uint8_list.h + ../../../flutter/third_party/tonic/LICENSE
-ORIGIN: ../../../flutter/third_party/txt/src/txt/platform.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/third_party/txt/src/txt/platform.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/third_party/txt/src/txt/platform_android.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/third_party/txt/src/txt/platform_fuchsia.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/third_party/txt/src/txt/platform_linux.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/third_party/txt/src/txt/platform_mac.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/third_party/txt/src/txt/platform_mac.mm + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/third_party/txt/src/txt/platform_windows.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/third_party/web_test_fonts/lib/web_test_fonts.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/third_party/web_test_fonts/lib/web_test_fonts/web_test_fonts.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/third_party/web_unicode/lib/web_unicode.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/third_party/web_unicode/tool/unicode_sync_script.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/benchmarks/skparagraph_benchmarks.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/benchmarks/txt_run_all_benchmarks.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/skia/paragraph_builder_skia.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/skia/paragraph_builder_skia.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/skia/paragraph_skia.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/skia/paragraph_skia.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/asset_font_manager.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/asset_font_manager.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/font_asset_provider.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/font_asset_provider.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/font_collection.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/font_collection.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/font_features.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/font_features.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/font_style.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/font_weight.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/line_metrics.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/paragraph.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/paragraph_builder.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/paragraph_builder.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/paragraph_style.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/paragraph_style.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/placeholder_run.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/placeholder_run.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/platform.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/platform.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/platform_android.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/platform_fuchsia.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/platform_linux.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/platform_mac.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/platform_mac.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/platform_windows.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/run_metrics.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/test_font_manager.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/test_font_manager.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/text_baseline.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/text_decoration.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/text_decoration.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/text_shadow.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/text_shadow.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/text_style.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/text_style.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/typeface_font_asset_provider.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/txt/src/txt/typeface_font_asset_provider.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/vulkan/procs/vulkan_handle.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/vulkan/procs/vulkan_handle.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/vulkan/procs/vulkan_interface.cc + ../../../flutter/LICENSE
@@ -47053,18 +47015,54 @@ FILE: ../../../flutter/third_party/tonic/typed_data/typed_list.cc
 FILE: ../../../flutter/third_party/tonic/typed_data/typed_list.h
 FILE: ../../../flutter/third_party/tonic/typed_data/uint16_list.h
 FILE: ../../../flutter/third_party/tonic/typed_data/uint8_list.h
-FILE: ../../../flutter/third_party/txt/src/txt/platform.cc
-FILE: ../../../flutter/third_party/txt/src/txt/platform.h
-FILE: ../../../flutter/third_party/txt/src/txt/platform_android.cc
-FILE: ../../../flutter/third_party/txt/src/txt/platform_fuchsia.cc
-FILE: ../../../flutter/third_party/txt/src/txt/platform_linux.cc
-FILE: ../../../flutter/third_party/txt/src/txt/platform_mac.h
-FILE: ../../../flutter/third_party/txt/src/txt/platform_mac.mm
-FILE: ../../../flutter/third_party/txt/src/txt/platform_windows.cc
 FILE: ../../../flutter/third_party/web_test_fonts/lib/web_test_fonts.dart
 FILE: ../../../flutter/third_party/web_test_fonts/lib/web_test_fonts/web_test_fonts.dart
 FILE: ../../../flutter/third_party/web_unicode/lib/web_unicode.dart
 FILE: ../../../flutter/third_party/web_unicode/tool/unicode_sync_script.dart
+FILE: ../../../flutter/txt/benchmarks/skparagraph_benchmarks.cc
+FILE: ../../../flutter/txt/benchmarks/txt_run_all_benchmarks.cc
+FILE: ../../../flutter/txt/src/skia/paragraph_builder_skia.cc
+FILE: ../../../flutter/txt/src/skia/paragraph_builder_skia.h
+FILE: ../../../flutter/txt/src/skia/paragraph_skia.cc
+FILE: ../../../flutter/txt/src/skia/paragraph_skia.h
+FILE: ../../../flutter/txt/src/txt/asset_font_manager.cc
+FILE: ../../../flutter/txt/src/txt/asset_font_manager.h
+FILE: ../../../flutter/txt/src/txt/font_asset_provider.cc
+FILE: ../../../flutter/txt/src/txt/font_asset_provider.h
+FILE: ../../../flutter/txt/src/txt/font_collection.cc
+FILE: ../../../flutter/txt/src/txt/font_collection.h
+FILE: ../../../flutter/txt/src/txt/font_features.cc
+FILE: ../../../flutter/txt/src/txt/font_features.h
+FILE: ../../../flutter/txt/src/txt/font_style.h
+FILE: ../../../flutter/txt/src/txt/font_weight.h
+FILE: ../../../flutter/txt/src/txt/line_metrics.h
+FILE: ../../../flutter/txt/src/txt/paragraph.h
+FILE: ../../../flutter/txt/src/txt/paragraph_builder.cc
+FILE: ../../../flutter/txt/src/txt/paragraph_builder.h
+FILE: ../../../flutter/txt/src/txt/paragraph_style.cc
+FILE: ../../../flutter/txt/src/txt/paragraph_style.h
+FILE: ../../../flutter/txt/src/txt/placeholder_run.cc
+FILE: ../../../flutter/txt/src/txt/placeholder_run.h
+FILE: ../../../flutter/txt/src/txt/platform.cc
+FILE: ../../../flutter/txt/src/txt/platform.h
+FILE: ../../../flutter/txt/src/txt/platform_android.cc
+FILE: ../../../flutter/txt/src/txt/platform_fuchsia.cc
+FILE: ../../../flutter/txt/src/txt/platform_linux.cc
+FILE: ../../../flutter/txt/src/txt/platform_mac.h
+FILE: ../../../flutter/txt/src/txt/platform_mac.mm
+FILE: ../../../flutter/txt/src/txt/platform_windows.cc
+FILE: ../../../flutter/txt/src/txt/run_metrics.h
+FILE: ../../../flutter/txt/src/txt/test_font_manager.cc
+FILE: ../../../flutter/txt/src/txt/test_font_manager.h
+FILE: ../../../flutter/txt/src/txt/text_baseline.h
+FILE: ../../../flutter/txt/src/txt/text_decoration.cc
+FILE: ../../../flutter/txt/src/txt/text_decoration.h
+FILE: ../../../flutter/txt/src/txt/text_shadow.cc
+FILE: ../../../flutter/txt/src/txt/text_shadow.h
+FILE: ../../../flutter/txt/src/txt/text_style.cc
+FILE: ../../../flutter/txt/src/txt/text_style.h
+FILE: ../../../flutter/txt/src/txt/typeface_font_asset_provider.cc
+FILE: ../../../flutter/txt/src/txt/typeface_font_asset_provider.h
 FILE: ../../../flutter/vulkan/procs/vulkan_handle.cc
 FILE: ../../../flutter/vulkan/procs/vulkan_handle.h
 FILE: ../../../flutter/vulkan/procs/vulkan_interface.cc
