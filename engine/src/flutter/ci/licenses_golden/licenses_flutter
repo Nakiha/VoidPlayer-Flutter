@@ -38456,12 +38456,12 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEAL
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: vulkan_memory_allocator
-ORIGIN: ../../../flutter/third_party/vulkan_memory_allocator/include/vk_mem_alloc.h
+LIBRARY: vulkan-validation-layers
+ORIGIN: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vk_mem_alloc.h
 TYPE: LicenseType.mit
-FILE: ../../../flutter/third_party/vulkan_memory_allocator/include/vk_mem_alloc.h
+FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vk_mem_alloc.h
 ----------------------------------------------------------------------------------------------------
-Copyright (c) 2017-2022 Advanced Micro Devices, Inc. All rights reserved.
+Copyright (c) 2017-2024 Advanced Micro Devices, Inc. All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -38483,12 +38483,12 @@ THE SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: vulkan-validation-layers
-ORIGIN: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vk_mem_alloc.h
+LIBRARY: vulkan_memory_allocator
+ORIGIN: ../../../flutter/third_party/vulkan_memory_allocator/include/vk_mem_alloc.h
 TYPE: LicenseType.mit
-FILE: ../../../flutter/third_party/vulkan-deps/vulkan-validation-layers/src/layers/external/vma/vk_mem_alloc.h
+FILE: ../../../flutter/third_party/vulkan_memory_allocator/include/vk_mem_alloc.h
 ----------------------------------------------------------------------------------------------------
-Copyright (c) 2017-2024 Advanced Micro Devices, Inc. All rights reserved.
+Copyright (c) 2017-2025 Advanced Micro Devices, Inc. All rights reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
