@@ -41860,6 +41860,8 @@ ORIGIN: ../../../flutter/impeller/geometry/point.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/point.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/quaternion.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/quaternion.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/geometry/rational.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/geometry/rational.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/rect.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/rect.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/round_rect.cc + ../../../flutter/LICENSE
@@ -44821,6 +44823,8 @@ FILE: ../../../flutter/impeller/geometry/point.cc
 FILE: ../../../flutter/impeller/geometry/point.h
 FILE: ../../../flutter/impeller/geometry/quaternion.cc
 FILE: ../../../flutter/impeller/geometry/quaternion.h
+FILE: ../../../flutter/impeller/geometry/rational.cc
+FILE: ../../../flutter/impeller/geometry/rational.h
 FILE: ../../../flutter/impeller/geometry/rect.cc
 FILE: ../../../flutter/impeller/geometry/rect.h
 FILE: ../../../flutter/impeller/geometry/round_rect.cc
