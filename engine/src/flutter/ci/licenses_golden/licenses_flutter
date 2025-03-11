@@ -5049,6 +5049,7 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/keccak/intern
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/keccak/keccak.cc.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/keccak/keccak_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/mldsa/mldsa.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/mlkem/fips_known_values.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/mlkem/mlkem.cc.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/policydocs/BoringCrypto-Android-Security-Policy-20191020.docx!/[Content_Types].xml
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/policydocs/BoringCrypto-Android-Security-Policy-20191020.docx!/_rels/.rels
