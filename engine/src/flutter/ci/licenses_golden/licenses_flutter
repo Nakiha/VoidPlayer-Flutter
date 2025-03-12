@@ -5048,6 +5048,7 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/intcheck3.png
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/keccak/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/keccak/keccak.cc.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/keccak/keccak_tests.txt
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/mldsa/fips_known_values.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/mldsa/mldsa.cc.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/mlkem/fips_known_values.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/mlkem/mlkem.cc.inc
@@ -5181,6 +5182,7 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/sha1.cc.i
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/sha256.cc.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/sha/sha512.cc.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/slhdsa/address.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/slhdsa/fips_known_values.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/slhdsa/fors.cc.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/slhdsa/fors.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/slhdsa/merkle.cc.inc
