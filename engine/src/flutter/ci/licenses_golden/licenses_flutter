@@ -3502,6 +3502,7 @@ ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/blake2/blake2b256_tests.txt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/bn/bn_asn1.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/bn/convert.cc
+ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/bn/exponentiation.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/buf/buf.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/bytestring/asn1_compat.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/bytestring/ber.cc
@@ -4851,6 +4852,7 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/blake2/blake2.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/blake2/blake2b256_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/bn/bn_asn1.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/bn/convert.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/bn/exponentiation.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/buf/buf.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/bytestring/asn1_compat.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/bytestring/ber.cc
@@ -39045,6 +39047,27 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: boringssl
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cipher/e_aeseax.cc
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher/e_aeseax.cc
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2025, Google Inc.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: icu
 ORIGIN: ../../../flutter/third_party/icu/source/i18n/decNumber.h (with ../../../flutter/third_party/icu/LICENSE)
 TYPE: LicenseType.unknown
@@ -69357,4 +69380,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
-Total license count: 840
+Total license count: 841
