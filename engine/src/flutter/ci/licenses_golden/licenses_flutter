@@ -51252,6 +51252,8 @@ ORIGIN: ../../../flutter/impeller/entity/contents/framebuffer_blend_contents.cc 
 ORIGIN: ../../../flutter/impeller/entity/contents/framebuffer_blend_contents.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/gradient_generator.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/gradient_generator.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/contents/line_contents.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/contents/line_contents.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/linear_gradient_contents.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/linear_gradient_contents.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/radial_gradient_contents.cc + ../../../flutter/LICENSE
@@ -51357,6 +51359,8 @@ ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/radial_gradient_unifo
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/sweep_gradient_fill.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/sweep_gradient_ssbo_fill.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/sweep_gradient_uniform_fill.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/line.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/line.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/rrect_blur.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/rrect_blur.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/runtime_effect.vert + ../../../flutter/LICENSE
@@ -51689,8 +51693,8 @@ ORIGIN: ../../../flutter/impeller/renderer/snapshot.cc + ../../../flutter/LICENS
 ORIGIN: ../../../flutter/impeller/renderer/snapshot.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/surface.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/surface.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/renderer/texture_mipmap.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/renderer/texture_mipmap.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/texture_util.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/texture_util.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/threadgroup_sizing_test.comp + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/vertex_buffer_builder.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/vertex_buffer_builder.h + ../../../flutter/LICENSE
@@ -54225,6 +54229,8 @@ FILE: ../../../flutter/impeller/entity/contents/framebuffer_blend_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/framebuffer_blend_contents.h
 FILE: ../../../flutter/impeller/entity/contents/gradient_generator.cc
 FILE: ../../../flutter/impeller/entity/contents/gradient_generator.h
+FILE: ../../../flutter/impeller/entity/contents/line_contents.cc
+FILE: ../../../flutter/impeller/entity/contents/line_contents.h
 FILE: ../../../flutter/impeller/entity/contents/linear_gradient_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/linear_gradient_contents.h
 FILE: ../../../flutter/impeller/entity/contents/radial_gradient_contents.cc
@@ -54330,6 +54336,8 @@ FILE: ../../../flutter/impeller/entity/shaders/gradients/radial_gradient_uniform
 FILE: ../../../flutter/impeller/entity/shaders/gradients/sweep_gradient_fill.frag
 FILE: ../../../flutter/impeller/entity/shaders/gradients/sweep_gradient_ssbo_fill.frag
 FILE: ../../../flutter/impeller/entity/shaders/gradients/sweep_gradient_uniform_fill.frag
+FILE: ../../../flutter/impeller/entity/shaders/line.frag
+FILE: ../../../flutter/impeller/entity/shaders/line.vert
 FILE: ../../../flutter/impeller/entity/shaders/rrect_blur.frag
 FILE: ../../../flutter/impeller/entity/shaders/rrect_blur.vert
 FILE: ../../../flutter/impeller/entity/shaders/runtime_effect.vert
@@ -54663,8 +54671,8 @@ FILE: ../../../flutter/impeller/renderer/snapshot.cc
 FILE: ../../../flutter/impeller/renderer/snapshot.h
 FILE: ../../../flutter/impeller/renderer/surface.cc
 FILE: ../../../flutter/impeller/renderer/surface.h
-FILE: ../../../flutter/impeller/renderer/texture_mipmap.cc
-FILE: ../../../flutter/impeller/renderer/texture_mipmap.h
+FILE: ../../../flutter/impeller/renderer/texture_util.cc
+FILE: ../../../flutter/impeller/renderer/texture_util.h
 FILE: ../../../flutter/impeller/renderer/threadgroup_sizing_test.comp
 FILE: ../../../flutter/impeller/renderer/vertex_buffer_builder.cc
 FILE: ../../../flutter/impeller/renderer/vertex_buffer_builder.h
