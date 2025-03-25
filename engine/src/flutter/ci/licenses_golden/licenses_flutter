@@ -51235,6 +51235,7 @@ ORIGIN: ../../../flutter/impeller/entity/contents/line_contents.cc + ../../../fl
 ORIGIN: ../../../flutter/impeller/entity/contents/line_contents.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/linear_gradient_contents.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/linear_gradient_contents.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/contents/pipelines.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/radial_gradient_contents.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/radial_gradient_contents.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/runtime_effect_contents.cc + ../../../flutter/LICENSE
@@ -54212,6 +54213,7 @@ FILE: ../../../flutter/impeller/entity/contents/line_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/line_contents.h
 FILE: ../../../flutter/impeller/entity/contents/linear_gradient_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/linear_gradient_contents.h
+FILE: ../../../flutter/impeller/entity/contents/pipelines.h
 FILE: ../../../flutter/impeller/entity/contents/radial_gradient_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/radial_gradient_contents.h
 FILE: ../../../flutter/impeller/entity/contents/runtime_effect_contents.cc
