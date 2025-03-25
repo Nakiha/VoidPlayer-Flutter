@@ -3514,6 +3514,7 @@ ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/chacha/internal.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/cipher/derive_key.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/cipher/e_aesctrhmac.cc
+ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/cipher/e_aeseax.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/cipher/e_aesgcmsiv.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/cipher/e_chacha20poly1305.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/cipher/e_des.cc
@@ -3593,7 +3594,6 @@ ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/key_wrap.cc.inc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/mode_wrappers.cc.inc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/ofb.cc.inc
-ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/polyval.cc.inc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bcm.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bcm_interface.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/add.cc.inc
@@ -4864,6 +4864,7 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/chacha/chacha.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/chacha/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher/derive_key.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher/e_aesctrhmac.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher/e_aeseax.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher/e_aesgcmsiv.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher/e_chacha20poly1305.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher/e_des.cc
@@ -4970,7 +4971,6 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/internal.
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/key_wrap.cc.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/mode_wrappers.cc.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/ofb.cc.inc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/aes/polyval.cc.inc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bcm.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bcm_interface.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/bn/add.cc.inc
@@ -48554,27 +48554,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/cipher/e_aeseax.cc
-TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher/e_aeseax.cc
-----------------------------------------------------------------------------------------------------
-Copyright (c) 2025, Google Inc.
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
-OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
-CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: icu
 ORIGIN: ../../../flutter/third_party/icu/source/i18n/decNumber.h (with ../../../flutter/third_party/icu/LICENSE)
 TYPE: LicenseType.unknown
@@ -62048,6 +62027,27 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
 LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
 ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: boringssl
+ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/aes/aes.cc
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/boringssl/src/crypto/aes/aes.cc
+----------------------------------------------------------------------------------------------------
+Copyright 2025 The BoringSSL Authors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
+SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
+OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
+CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
