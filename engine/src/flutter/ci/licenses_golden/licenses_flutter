@@ -52788,6 +52788,9 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterResto
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterRestorationPluginTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSemanticsScrollView.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSemanticsScrollView.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSharedApplication.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSharedApplication.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSharedApplicationTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSpellCheckPlugin.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSpellCheckPlugin.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSpellCheckPluginTest.mm + ../../../flutter/LICENSE
@@ -55789,6 +55792,9 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterRestora
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterRestorationPluginTest.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSemanticsScrollView.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSemanticsScrollView.mm
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSharedApplication.h
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSharedApplication.mm
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSharedApplicationTest.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSpellCheckPlugin.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSpellCheckPlugin.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSpellCheckPluginTest.mm
