@@ -3456,6 +3456,7 @@ ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/abseil-cpp/absl/utility/utility.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/abseil-cpp/ci/absl_alternate_options.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/MODULE.bazel
+ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/aes/aes.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/asn1/a_bitstr.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/asn1/a_bool.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/asn1/a_d2i_fp.cc
@@ -3691,6 +3692,7 @@ ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/slhdsa/wots.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/tls/internal.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/tls/kdf.cc.inc
+ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/fuzzer_mode.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/hpke/hpke.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/hrss/asm/poly_rq_mul.S
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/hrss/hrss.cc
@@ -3737,10 +3739,10 @@ ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/rand/forkunsafe.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/rand/getentropy.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/rand/getrandom_fillin.h
+ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/rand/internal.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/rand/ios.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/rand/passive.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/rand/rand.cc
-ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/rand/sysrand_internal.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/rand/trusty.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/rand/urandom.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/rand/windows.cc
@@ -4806,6 +4808,7 @@ FILE: ../../../flutter/third_party/boringssl/src/MODULE.bazel
 FILE: ../../../flutter/third_party/boringssl/src/MODULE.bazel.lock
 FILE: ../../../flutter/third_party/boringssl/src/PrivacyInfo.xcprivacy
 FILE: ../../../flutter/third_party/boringssl/src/build.json
+FILE: ../../../flutter/third_party/boringssl/src/crypto/aes/aes.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/asn1/a_bitstr.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/asn1/a_bool.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/asn1/a_d2i_fp.cc
@@ -5197,6 +5200,7 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/slhdsa/wots.c
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/slhdsa/wots.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/tls/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/fipsmodule/tls/kdf.cc.inc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/fuzzer_mode.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/hmac/hmac_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/hpke/hpke.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/hpke/hpke_test_vectors.txt
@@ -5265,10 +5269,10 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/rand/fork_detect.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/rand/forkunsafe.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/rand/getentropy.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/rand/getrandom_fillin.h
+FILE: ../../../flutter/third_party/boringssl/src/crypto/rand/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/rand/ios.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/rand/passive.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/rand/rand.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/rand/sysrand_internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/rand/trusty.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/rand/urandom.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/rand/windows.cc
@@ -5392,12 +5396,12 @@ FILE: ../../../flutter/third_party/boringssl/src/decrepit/ssl/ssl_decrepit.cc
 FILE: ../../../flutter/third_party/boringssl/src/decrepit/x509/x509_decrepit.cc
 FILE: ../../../flutter/third_party/boringssl/src/decrepit/xts/xts.cc
 FILE: ../../../flutter/third_party/boringssl/src/docs/releasing.md
-FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aes-gcm-avx10-x86_64-apple.S
-FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aes-gcm-avx10-x86_64-linux.S
-FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aes-gcm-avx10-x86_64-win.asm
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aes-gcm-avx2-x86_64-apple.S
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aes-gcm-avx2-x86_64-linux.S
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aes-gcm-avx2-x86_64-win.asm
+FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aes-gcm-avx512-x86_64-apple.S
+FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aes-gcm-avx512-x86_64-linux.S
+FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aes-gcm-avx512-x86_64-win.asm
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aesni-gcm-x86_64-apple.S
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aesni-gcm-x86_64-linux.S
 FILE: ../../../flutter/third_party/boringssl/src/gen/bcm/aesni-gcm-x86_64-win.asm
@@ -62048,27 +62052,6 @@ POSSIBILITY OF SUCH DAMAGE.
 ====================================================================================================
 
 ====================================================================================================
-LIBRARY: boringssl
-ORIGIN: ../../../flutter/third_party/boringssl/src/crypto/aes/aes.cc
-TYPE: LicenseType.unknown
-FILE: ../../../flutter/third_party/boringssl/src/crypto/aes/aes.cc
-----------------------------------------------------------------------------------------------------
-Copyright 2025 The BoringSSL Authors
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY
-SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION
-OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN
-CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-====================================================================================================
-
-====================================================================================================
 LIBRARY: angle
 ORIGIN: ../../../flutter/third_party/angle/src/libANGLE/renderer/gl/egl/DmaBufImageSiblingEGL.cpp + ../../../flutter/third_party/angle/LICENSE
 ORIGIN: ../../../flutter/third_party/angle/src/libANGLE/renderer/gl/egl/DmaBufImageSiblingEGL.h + ../../../flutter/third_party/angle/LICENSE
@@ -78919,4 +78902,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
-Total license count: 843
+Total license count: 842
