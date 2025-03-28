@@ -53264,6 +53264,8 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_mouse_cursor_channel.cc + ../..
 ORIGIN: ../../../flutter/shell/platform/linux/fl_mouse_cursor_channel.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_mouse_cursor_handler.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_mouse_cursor_handler.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_opengl_manager.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_opengl_manager.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_pixel_buffer_texture.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_pixel_buffer_texture_private.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_pixel_buffer_texture_test.cc + ../../../flutter/LICENSE
@@ -53284,10 +53286,6 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_renderable.cc + ../../../flutte
 ORIGIN: ../../../flutter/shell/platform/linux/fl_renderable.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_renderer.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_renderer.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/linux/fl_renderer_gdk.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/linux/fl_renderer_gdk.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/linux/fl_renderer_headless.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/linux/fl_renderer_headless.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_renderer_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_scrolling_manager.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_scrolling_manager.h + ../../../flutter/LICENSE
@@ -56281,6 +56279,8 @@ FILE: ../../../flutter/shell/platform/linux/fl_mouse_cursor_channel.cc
 FILE: ../../../flutter/shell/platform/linux/fl_mouse_cursor_channel.h
 FILE: ../../../flutter/shell/platform/linux/fl_mouse_cursor_handler.cc
 FILE: ../../../flutter/shell/platform/linux/fl_mouse_cursor_handler.h
+FILE: ../../../flutter/shell/platform/linux/fl_opengl_manager.cc
+FILE: ../../../flutter/shell/platform/linux/fl_opengl_manager.h
 FILE: ../../../flutter/shell/platform/linux/fl_pixel_buffer_texture.cc
 FILE: ../../../flutter/shell/platform/linux/fl_pixel_buffer_texture_private.h
 FILE: ../../../flutter/shell/platform/linux/fl_pixel_buffer_texture_test.cc
@@ -56301,10 +56301,6 @@ FILE: ../../../flutter/shell/platform/linux/fl_renderable.cc
 FILE: ../../../flutter/shell/platform/linux/fl_renderable.h
 FILE: ../../../flutter/shell/platform/linux/fl_renderer.cc
 FILE: ../../../flutter/shell/platform/linux/fl_renderer.h
-FILE: ../../../flutter/shell/platform/linux/fl_renderer_gdk.cc
-FILE: ../../../flutter/shell/platform/linux/fl_renderer_gdk.h
-FILE: ../../../flutter/shell/platform/linux/fl_renderer_headless.cc
-FILE: ../../../flutter/shell/platform/linux/fl_renderer_headless.h
 FILE: ../../../flutter/shell/platform/linux/fl_renderer_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_scrolling_manager.cc
 FILE: ../../../flutter/shell/platform/linux/fl_scrolling_manager.h
