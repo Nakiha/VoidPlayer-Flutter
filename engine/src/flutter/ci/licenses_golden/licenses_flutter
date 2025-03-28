@@ -51303,7 +51303,9 @@ ORIGIN: ../../../flutter/impeller/entity/shaders/blending/framebuffer_blend.frag
 ORIGIN: ../../../flutter/impeller/entity/shaders/blending/framebuffer_blend.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/blending/porter_duff_blend.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/blending/porter_duff_blend.vert + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/entity/shaders/blending/vertices_uber.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/blending/vertices_uber.glsl + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/blending/vertices_uber_1.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/blending/vertices_uber_2.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/clip.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/clip.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/downsample.glsl + ../../../flutter/LICENSE
@@ -54287,7 +54289,9 @@ FILE: ../../../flutter/impeller/entity/shaders/blending/framebuffer_blend.frag
 FILE: ../../../flutter/impeller/entity/shaders/blending/framebuffer_blend.vert
 FILE: ../../../flutter/impeller/entity/shaders/blending/porter_duff_blend.frag
 FILE: ../../../flutter/impeller/entity/shaders/blending/porter_duff_blend.vert
-FILE: ../../../flutter/impeller/entity/shaders/blending/vertices_uber.frag
+FILE: ../../../flutter/impeller/entity/shaders/blending/vertices_uber.glsl
+FILE: ../../../flutter/impeller/entity/shaders/blending/vertices_uber_1.frag
+FILE: ../../../flutter/impeller/entity/shaders/blending/vertices_uber_2.frag
 FILE: ../../../flutter/impeller/entity/shaders/clip.frag
 FILE: ../../../flutter/impeller/entity/shaders/clip.vert
 FILE: ../../../flutter/impeller/entity/shaders/downsample.glsl
