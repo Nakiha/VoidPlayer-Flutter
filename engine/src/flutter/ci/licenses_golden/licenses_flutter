@@ -53211,6 +53211,11 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_binary_codec_test.cc + ../../..
 ORIGIN: ../../../flutter/shell/platform/linux/fl_binary_messenger.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_binary_messenger_private.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_binary_messenger_test.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_compositor.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_compositor.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_compositor_opengl.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_compositor_opengl.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/linux/fl_compositor_opengl_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_dart_project.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_dart_project_private.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_dart_project_test.cc + ../../../flutter/LICENSE
@@ -53290,9 +53295,6 @@ ORIGIN: ../../../flutter/shell/platform/linux/fl_pointer_manager.h + ../../../fl
 ORIGIN: ../../../flutter/shell/platform/linux/fl_pointer_manager_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_renderable.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_renderable.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/linux/fl_renderer.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/linux/fl_renderer.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/linux/fl_renderer_test.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_scrolling_manager.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_scrolling_manager.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/linux/fl_scrolling_manager_test.cc + ../../../flutter/LICENSE
@@ -56228,6 +56230,11 @@ FILE: ../../../flutter/shell/platform/linux/fl_binary_codec_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_binary_messenger.cc
 FILE: ../../../flutter/shell/platform/linux/fl_binary_messenger_private.h
 FILE: ../../../flutter/shell/platform/linux/fl_binary_messenger_test.cc
+FILE: ../../../flutter/shell/platform/linux/fl_compositor.cc
+FILE: ../../../flutter/shell/platform/linux/fl_compositor.h
+FILE: ../../../flutter/shell/platform/linux/fl_compositor_opengl.cc
+FILE: ../../../flutter/shell/platform/linux/fl_compositor_opengl.h
+FILE: ../../../flutter/shell/platform/linux/fl_compositor_opengl_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_dart_project.cc
 FILE: ../../../flutter/shell/platform/linux/fl_dart_project_private.h
 FILE: ../../../flutter/shell/platform/linux/fl_dart_project_test.cc
@@ -56307,9 +56314,6 @@ FILE: ../../../flutter/shell/platform/linux/fl_pointer_manager.h
 FILE: ../../../flutter/shell/platform/linux/fl_pointer_manager_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_renderable.cc
 FILE: ../../../flutter/shell/platform/linux/fl_renderable.h
-FILE: ../../../flutter/shell/platform/linux/fl_renderer.cc
-FILE: ../../../flutter/shell/platform/linux/fl_renderer.h
-FILE: ../../../flutter/shell/platform/linux/fl_renderer_test.cc
 FILE: ../../../flutter/shell/platform/linux/fl_scrolling_manager.cc
 FILE: ../../../flutter/shell/platform/linux/fl_scrolling_manager.h
 FILE: ../../../flutter/shell/platform/linux/fl_scrolling_manager_test.cc
