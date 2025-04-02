@@ -51252,6 +51252,8 @@ ORIGIN: ../../../flutter/impeller/entity/contents/sweep_gradient_contents.cc + .
 ORIGIN: ../../../flutter/impeller/entity/contents/sweep_gradient_contents.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/text_contents.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/text_contents.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/contents/text_shadow_cache.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/contents/text_shadow_cache.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/texture_contents.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/texture_contents.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/tiled_texture_contents.cc + ../../../flutter/LICENSE
@@ -54240,6 +54242,8 @@ FILE: ../../../flutter/impeller/entity/contents/sweep_gradient_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/sweep_gradient_contents.h
 FILE: ../../../flutter/impeller/entity/contents/text_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/text_contents.h
+FILE: ../../../flutter/impeller/entity/contents/text_shadow_cache.cc
+FILE: ../../../flutter/impeller/entity/contents/text_shadow_cache.h
 FILE: ../../../flutter/impeller/entity/contents/texture_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/texture_contents.h
 FILE: ../../../flutter/impeller/entity/contents/tiled_texture_contents.cc
