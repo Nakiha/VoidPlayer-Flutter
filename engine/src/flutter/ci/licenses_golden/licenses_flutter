@@ -63796,9 +63796,13 @@ PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
 ====================================================================================================
 LIBRARY: harfbuzz
+ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-coretext-shape.cc
 ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-coretext.cc
+ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-coretext.hh
 TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/harfbuzz/src/hb-coretext-shape.cc
 FILE: ../../../flutter/third_party/harfbuzz/src/hb-coretext.cc
+FILE: ../../../flutter/third_party/harfbuzz/src/hb-coretext.hh
 ----------------------------------------------------------------------------------------------------
 Copyright © 2012,2013  Mozilla Foundation.
 Copyright © 2012,2013  Google, Inc.
@@ -65200,8 +65204,8 @@ ORIGIN: ../../../flutter/third_party/harfbuzz/src/graph/serialize.hh
 ORIGIN: ../../../flutter/third_party/harfbuzz/src/graph/split-helpers.hh
 ORIGIN: ../../../flutter/third_party/harfbuzz/src/graph/test-classdef-graph.cc
 ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-subset-accelerator.hh
-ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-subset-repacker.cc
-ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-subset-repacker.h
+ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-subset-serialize.cc
+ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-subset-serialize.h
 TYPE: LicenseType.unknown
 FILE: ../../../flutter/third_party/harfbuzz/src/graph/classdef-graph.hh
 FILE: ../../../flutter/third_party/harfbuzz/src/graph/coverage-graph.hh
@@ -65215,8 +65219,8 @@ FILE: ../../../flutter/third_party/harfbuzz/src/graph/serialize.hh
 FILE: ../../../flutter/third_party/harfbuzz/src/graph/split-helpers.hh
 FILE: ../../../flutter/third_party/harfbuzz/src/graph/test-classdef-graph.cc
 FILE: ../../../flutter/third_party/harfbuzz/src/hb-subset-accelerator.hh
-FILE: ../../../flutter/third_party/harfbuzz/src/hb-subset-repacker.cc
-FILE: ../../../flutter/third_party/harfbuzz/src/hb-subset-repacker.h
+FILE: ../../../flutter/third_party/harfbuzz/src/hb-subset-serialize.cc
+FILE: ../../../flutter/third_party/harfbuzz/src/hb-subset-serialize.h
 ----------------------------------------------------------------------------------------------------
 Copyright © 2022  Google, Inc.
 
@@ -65332,10 +65336,12 @@ PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 ====================================================================================================
 LIBRARY: harfbuzz
 ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-cplusplus.hh
+ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-geometry.hh
 ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-paint-extents.cc
 ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-paint-extents.hh
 TYPE: LicenseType.unknown
 FILE: ../../../flutter/third_party/harfbuzz/src/hb-cplusplus.hh
+FILE: ../../../flutter/third_party/harfbuzz/src/hb-geometry.hh
 FILE: ../../../flutter/third_party/harfbuzz/src/hb-paint-extents.cc
 FILE: ../../../flutter/third_party/harfbuzz/src/hb-paint-extents.hh
 ----------------------------------------------------------------------------------------------------
@@ -65543,6 +65549,130 @@ PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 ====================================================================================================
 
 ====================================================================================================
+LIBRARY: harfbuzz
+ORIGIN: ../../../flutter/third_party/harfbuzz/src/test-cff.cc
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/harfbuzz/src/test-cff.cc
+----------------------------------------------------------------------------------------------------
+Copyright © 2024  David Corbett
+
+This is part of HarfBuzz, a text shaping library.
+
+Permission is hereby granted, without written agreement and without
+license or royalty fees, to use, copy, modify, and distribute this
+software and its documentation for any purpose, provided that the
+above copyright notice and the following two paragraphs appear in
+all copies of this software.
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE TO ANY PARTY FOR
+DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN
+IF THE COPYRIGHT HOLDER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+THE COPYRIGHT HOLDER SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING,
+BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE PROVIDED HEREUNDER IS
+ON AN "AS IS" BASIS, AND THE COPYRIGHT HOLDER HAS NO OBLIGATION TO
+PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: harfbuzz
+ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-coretext-font.cc
+ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-ot-var-varc-table.hh
+ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-subset-instancer-iup.cc
+ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-subset-instancer-iup.hh
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/harfbuzz/src/hb-coretext-font.cc
+FILE: ../../../flutter/third_party/harfbuzz/src/hb-ot-var-varc-table.hh
+FILE: ../../../flutter/third_party/harfbuzz/src/hb-subset-instancer-iup.cc
+FILE: ../../../flutter/third_party/harfbuzz/src/hb-subset-instancer-iup.hh
+----------------------------------------------------------------------------------------------------
+Copyright © 2024  Google, Inc.
+
+This is part of HarfBuzz, a text shaping library.
+
+Permission is hereby granted, without written agreement and without
+license or royalty fees, to use, copy, modify, and distribute this
+software and its documentation for any purpose, provided that the
+above copyright notice and the following two paragraphs appear in
+all copies of this software.
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE TO ANY PARTY FOR
+DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN
+IF THE COPYRIGHT HOLDER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+THE COPYRIGHT HOLDER SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING,
+BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE PROVIDED HEREUNDER IS
+ON AN "AS IS" BASIS, AND THE COPYRIGHT HOLDER HAS NO OBLIGATION TO
+PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: harfbuzz
+ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-directwrite-font.cc
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/harfbuzz/src/hb-directwrite-font.cc
+----------------------------------------------------------------------------------------------------
+Copyright © 2025  Google, Inc.
+
+This is part of HarfBuzz, a text shaping library.
+
+Permission is hereby granted, without written agreement and without
+license or royalty fees, to use, copy, modify, and distribute this
+software and its documentation for any purpose, provided that the
+above copyright notice and the following two paragraphs appear in
+all copies of this software.
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE TO ANY PARTY FOR
+DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN
+IF THE COPYRIGHT HOLDER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+THE COPYRIGHT HOLDER SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING,
+BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE PROVIDED HEREUNDER IS
+ON AN "AS IS" BASIS, AND THE COPYRIGHT HOLDER HAS NO OBLIGATION TO
+PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: harfbuzz
+ORIGIN: ../../../flutter/third_party/harfbuzz/src/hb-decycler.hh
+ORIGIN: ../../../flutter/third_party/harfbuzz/src/test-decycler.cc
+TYPE: LicenseType.unknown
+FILE: ../../../flutter/third_party/harfbuzz/src/hb-decycler.hh
+FILE: ../../../flutter/third_party/harfbuzz/src/test-decycler.cc
+----------------------------------------------------------------------------------------------------
+Copyright © 2025 Behdad Esfahbod
+
+This is part of HarfBuzz, a text shaping library.
+
+Permission is hereby granted, without written agreement and without
+license or royalty fees, to use, copy, modify, and distribute this
+software and its documentation for any purpose, provided that the
+above copyright notice and the following two paragraphs appear in
+all copies of this software.
+
+IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE TO ANY PARTY FOR
+DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES
+ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN
+IF THE COPYRIGHT HOLDER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+THE COPYRIGHT HOLDER SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING,
+BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE PROVIDED HEREUNDER IS
+ON AN "AS IS" BASIS, AND THE COPYRIGHT HOLDER HAS NO OBLIGATION TO
+PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+====================================================================================================
+
+====================================================================================================
 LIBRARY: glslang
 ORIGIN: ../../../flutter/third_party/vulkan-deps/glslang/src/glslang/Include/SpirvIntrinsics.h
 ORIGIN: ../../../flutter/third_party/vulkan-deps/glslang/src/glslang/MachineIndependent/SpirvIntrinsics.cpp
@@ -65597,21 +65727,6 @@ FILE: ../../../flutter/third_party/harfbuzz/.circleci/config.yml
 FILE: ../../../flutter/third_party/harfbuzz/.codecov.yml
 FILE: ../../../flutter/third_party/harfbuzz/harfbuzz.doap
 FILE: ../../../flutter/third_party/harfbuzz/meson_options.txt
-FILE: ../../../flutter/third_party/harfbuzz/perf/benchmark-font.cc
-FILE: ../../../flutter/third_party/harfbuzz/perf/benchmark-map.cc
-FILE: ../../../flutter/third_party/harfbuzz/perf/benchmark-ot.cc
-FILE: ../../../flutter/third_party/harfbuzz/perf/benchmark-set.cc
-FILE: ../../../flutter/third_party/harfbuzz/perf/benchmark-shape.cc
-FILE: ../../../flutter/third_party/harfbuzz/perf/benchmark-subset.cc
-FILE: ../../../flutter/third_party/harfbuzz/perf/fonts/Amiri-Regular.ttf
-FILE: ../../../flutter/third_party/harfbuzz/perf/fonts/NotoNastaliqUrdu-Regular.ttf
-FILE: ../../../flutter/third_party/harfbuzz/perf/fonts/Roboto-Regular.ttf
-FILE: ../../../flutter/third_party/harfbuzz/perf/texts/duployan.txt
-FILE: ../../../flutter/third_party/harfbuzz/perf/texts/en-thelittleprince.txt
-FILE: ../../../flutter/third_party/harfbuzz/perf/texts/en-words.txt
-FILE: ../../../flutter/third_party/harfbuzz/perf/texts/fa-thelittleprince.txt
-FILE: ../../../flutter/third_party/harfbuzz/perf/texts/fa-words.txt
-FILE: ../../../flutter/third_party/harfbuzz/perf/texts/hi-words.txt
 FILE: ../../../flutter/third_party/harfbuzz/src/ArabicPUASimplified.txt
 FILE: ../../../flutter/third_party/harfbuzz/src/ArabicPUATraditional.txt
 FILE: ../../../flutter/third_party/harfbuzz/src/OT/Layout/GPOS/Anchor.hh
@@ -65668,18 +65783,21 @@ FILE: ../../../flutter/third_party/harfbuzz/src/OT/Layout/GSUB/SingleSubstFormat
 FILE: ../../../flutter/third_party/harfbuzz/src/OT/Layout/GSUB/SingleSubstFormat2.hh
 FILE: ../../../flutter/third_party/harfbuzz/src/OT/Layout/GSUB/SubstLookup.hh
 FILE: ../../../flutter/third_party/harfbuzz/src/OT/Layout/GSUB/SubstLookupSubTable.hh
+FILE: ../../../flutter/third_party/harfbuzz/src/OT/Var/VARC/VARC.cc
+FILE: ../../../flutter/third_party/harfbuzz/src/OT/Var/VARC/VARC.hh
+FILE: ../../../flutter/third_party/harfbuzz/src/OT/Var/VARC/coord-setter.hh
 FILE: ../../../flutter/third_party/harfbuzz/src/OT/glyf/CompositeGlyph.hh
 FILE: ../../../flutter/third_party/harfbuzz/src/OT/glyf/Glyph.hh
 FILE: ../../../flutter/third_party/harfbuzz/src/OT/glyf/GlyphHeader.hh
 FILE: ../../../flutter/third_party/harfbuzz/src/OT/glyf/SimpleGlyph.hh
 FILE: ../../../flutter/third_party/harfbuzz/src/OT/glyf/SubsetGlyph.hh
-FILE: ../../../flutter/third_party/harfbuzz/src/OT/glyf/VarCompositeGlyph.hh
 FILE: ../../../flutter/third_party/harfbuzz/src/OT/glyf/composite-iter.hh
-FILE: ../../../flutter/third_party/harfbuzz/src/OT/glyf/coord-setter.hh
 FILE: ../../../flutter/third_party/harfbuzz/src/OT/glyf/glyf-helpers.hh
 FILE: ../../../flutter/third_party/harfbuzz/src/OT/glyf/glyf.hh
 FILE: ../../../flutter/third_party/harfbuzz/src/OT/glyf/loca.hh
 FILE: ../../../flutter/third_party/harfbuzz/src/OT/glyf/path-builder.hh
+FILE: ../../../flutter/third_party/harfbuzz/src/fontations/Cargo.lock
+FILE: ../../../flutter/third_party/harfbuzz/src/fontations/Cargo.toml
 FILE: ../../../flutter/third_party/harfbuzz/src/harfbuzz-cairo.pc.in
 FILE: ../../../flutter/third_party/harfbuzz/src/harfbuzz-config.cmake.in
 FILE: ../../../flutter/third_party/harfbuzz/src/harfbuzz-gobject.pc.in
@@ -65708,7 +65826,9 @@ FILE: ../../../flutter/third_party/harfbuzz/subprojects/cairo.wrap
 FILE: ../../../flutter/third_party/harfbuzz/subprojects/freetype2.wrap
 FILE: ../../../flutter/third_party/harfbuzz/subprojects/glib.wrap
 FILE: ../../../flutter/third_party/harfbuzz/subprojects/google-benchmark.wrap
+FILE: ../../../flutter/third_party/harfbuzz/subprojects/libffi.wrap
 FILE: ../../../flutter/third_party/harfbuzz/subprojects/ragel.wrap
+FILE: ../../../flutter/third_party/harfbuzz/xkcd.png
 ----------------------------------------------------------------------------------------------------
 HarfBuzz is licensed under the so-called "Old MIT" license.  Details follow.
 For parts of HarfBuzz that are licensed under different licenses see individual
@@ -78904,4 +79024,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
-Total license count: 842
+Total license count: 846
