@@ -50774,6 +50774,7 @@ ORIGIN: ../../../flutter/display_list/effects/image_filters/dl_matrix_image_filt
 ORIGIN: ../../../flutter/display_list/effects/image_filters/dl_matrix_image_filter.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/image_filters/dl_runtime_effect_image_filter.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/effects/image_filters/dl_runtime_effect_image_filter.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/geometry/dl_geometry_conversions.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/geometry/dl_geometry_types.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/geometry/dl_path.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/geometry/dl_path.h + ../../../flutter/LICENSE
@@ -51381,6 +51382,7 @@ ORIGIN: ../../../flutter/impeller/geometry/path_builder.cc + ../../../flutter/LI
 ORIGIN: ../../../flutter/impeller/geometry/path_builder.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/path_component.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/path_component.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/geometry/path_source.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/point.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/point.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/quaternion.cc + ../../../flutter/LICENSE
@@ -51705,6 +51707,8 @@ ORIGIN: ../../../flutter/impeller/shader_bundle/shader_bundle.fbs + ../../../flu
 ORIGIN: ../../../flutter/impeller/tessellator/c/tessellator.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/tessellator/c/tessellator.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/tessellator/dart/lib/tessellator.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/tessellator/path_tessellator.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/tessellator/path_tessellator.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/tessellator/tessellator.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/tessellator/tessellator.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/tessellator/tessellator_libtess.cc + ../../../flutter/LICENSE
@@ -53760,6 +53764,7 @@ FILE: ../../../flutter/display_list/effects/image_filters/dl_matrix_image_filter
 FILE: ../../../flutter/display_list/effects/image_filters/dl_matrix_image_filter.h
 FILE: ../../../flutter/display_list/effects/image_filters/dl_runtime_effect_image_filter.cc
 FILE: ../../../flutter/display_list/effects/image_filters/dl_runtime_effect_image_filter.h
+FILE: ../../../flutter/display_list/geometry/dl_geometry_conversions.h
 FILE: ../../../flutter/display_list/geometry/dl_geometry_types.h
 FILE: ../../../flutter/display_list/geometry/dl_path.cc
 FILE: ../../../flutter/display_list/geometry/dl_path.h
@@ -54367,6 +54372,7 @@ FILE: ../../../flutter/impeller/geometry/path_builder.cc
 FILE: ../../../flutter/impeller/geometry/path_builder.h
 FILE: ../../../flutter/impeller/geometry/path_component.cc
 FILE: ../../../flutter/impeller/geometry/path_component.h
+FILE: ../../../flutter/impeller/geometry/path_source.h
 FILE: ../../../flutter/impeller/geometry/point.cc
 FILE: ../../../flutter/impeller/geometry/point.h
 FILE: ../../../flutter/impeller/geometry/quaternion.cc
@@ -54692,6 +54698,8 @@ FILE: ../../../flutter/impeller/shader_bundle/shader_bundle.fbs
 FILE: ../../../flutter/impeller/tessellator/c/tessellator.cc
 FILE: ../../../flutter/impeller/tessellator/c/tessellator.h
 FILE: ../../../flutter/impeller/tessellator/dart/lib/tessellator.dart
+FILE: ../../../flutter/impeller/tessellator/path_tessellator.cc
+FILE: ../../../flutter/impeller/tessellator/path_tessellator.h
 FILE: ../../../flutter/impeller/tessellator/tessellator.cc
 FILE: ../../../flutter/impeller/tessellator/tessellator.h
 FILE: ../../../flutter/impeller/tessellator/tessellator_libtess.cc
