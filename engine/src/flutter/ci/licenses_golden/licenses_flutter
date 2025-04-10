@@ -51134,8 +51134,6 @@ ORIGIN: ../../../flutter/impeller/core/formats.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/core/host_buffer.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/core/host_buffer.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/core/idle_waiter.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/core/platform.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/core/platform.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/core/range.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/core/range.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/core/raw_ptr.cc + ../../../flutter/LICENSE
@@ -54124,8 +54122,6 @@ FILE: ../../../flutter/impeller/core/formats.h
 FILE: ../../../flutter/impeller/core/host_buffer.cc
 FILE: ../../../flutter/impeller/core/host_buffer.h
 FILE: ../../../flutter/impeller/core/idle_waiter.h
-FILE: ../../../flutter/impeller/core/platform.cc
-FILE: ../../../flutter/impeller/core/platform.h
 FILE: ../../../flutter/impeller/core/range.cc
 FILE: ../../../flutter/impeller/core/range.h
 FILE: ../../../flutter/impeller/core/raw_ptr.cc
