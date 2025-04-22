@@ -3503,7 +3503,9 @@ ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/blake2/blake2b256_tests.txt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/bn/bn_asn1.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/bn/convert.cc
+ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/bn/div.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/bn/exponentiation.cc
+ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/bn/sqrt.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/buf/buf.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/bytestring/asn1_compat.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/bytestring/ber.cc
@@ -4857,7 +4859,9 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/blake2/blake2.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/blake2/blake2b256_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/bn/bn_asn1.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/bn/convert.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/bn/div.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/bn/exponentiation.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/bn/sqrt.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/buf/buf.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/bytestring/asn1_compat.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/bytestring/ber.cc
