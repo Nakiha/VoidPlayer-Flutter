@@ -3526,6 +3526,7 @@ ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/cipher/get_cipher.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/cipher/internal.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/cipher/tls_cbc.cc
+ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/cms/cms.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/conf/conf.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/conf/internal.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_apple.cc
@@ -3891,6 +3892,7 @@ ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/include/openssl/chacha.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/include/openssl/cipher.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/include/openssl/cmac.h
+ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/include/openssl/cms.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/include/openssl/conf.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/include/openssl/cpu.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/include/openssl/crypto.h
@@ -4878,6 +4880,7 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher/e_tls.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher/get_cipher.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cipher/tls_cbc.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/cms/cms.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/conf/conf.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/conf/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/cpu_aarch64_apple.cc
@@ -4918,6 +4921,7 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/err/asn1.errordata
 FILE: ../../../flutter/third_party/boringssl/src/crypto/err/bio.errordata
 FILE: ../../../flutter/third_party/boringssl/src/crypto/err/bn.errordata
 FILE: ../../../flutter/third_party/boringssl/src/crypto/err/cipher.errordata
+FILE: ../../../flutter/third_party/boringssl/src/crypto/err/cms.errordata
 FILE: ../../../flutter/third_party/boringssl/src/crypto/err/conf.errordata
 FILE: ../../../flutter/third_party/boringssl/src/crypto/err/dh.errordata
 FILE: ../../../flutter/third_party/boringssl/src/crypto/err/digest.errordata
@@ -5569,6 +5573,7 @@ FILE: ../../../flutter/third_party/boringssl/src/include/openssl/cast.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/chacha.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/cipher.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/cmac.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/cms.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/conf.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/cpu.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/crypto.h
