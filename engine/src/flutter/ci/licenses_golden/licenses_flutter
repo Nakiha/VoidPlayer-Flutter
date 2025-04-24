@@ -51891,6 +51891,7 @@ ORIGIN: ../../../flutter/lib/ui/dart_wrapper.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/floating_point.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/geometry.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/hooks.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/ui/io_manager.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/io_manager.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/isolate_name_server.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/isolate_name_server/isolate_name_server.cc + ../../../flutter/LICENSE
@@ -52424,8 +52425,6 @@ ORIGIN: ../../../flutter/shell/gpu/gpu_surface_vulkan_delegate.h + ../../../flut
 ORIGIN: ../../../flutter/shell/gpu/gpu_surface_vulkan_impeller.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/gpu/gpu_surface_vulkan_impeller.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/AndroidManifest.xml + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/android/android_context_dynamic_impeller.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/android/android_context_dynamic_impeller.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/android_context_gl_impeller.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/android_context_gl_impeller.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/android_context_gl_skia.cc + ../../../flutter/LICENSE
@@ -52444,8 +52443,6 @@ ORIGIN: ../../../flutter/shell/platform/android/android_image_generator.h + ../.
 ORIGIN: ../../../flutter/shell/platform/android/android_rendering_selector.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/android_shell_holder.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/android_shell_holder.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/android/android_surface_dynamic_impeller.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/android/android_surface_dynamic_impeller.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/android_surface_gl_impeller.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/android_surface_gl_impeller.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/android_surface_gl_skia.cc + ../../../flutter/LICENSE
@@ -52462,8 +52459,6 @@ ORIGIN: ../../../flutter/shell/platform/android/external_view_embedder/external_
 ORIGIN: ../../../flutter/shell/platform/android/external_view_embedder/external_view_embedder.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/external_view_embedder/external_view_embedder_2.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/external_view_embedder/external_view_embedder_2.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/android/external_view_embedder/external_view_embedder_wrapper.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/android/external_view_embedder/external_view_embedder_wrapper.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/external_view_embedder/surface_pool.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/external_view_embedder/surface_pool.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/flutter_main.cc + ../../../flutter/LICENSE
@@ -54888,6 +54883,7 @@ FILE: ../../../flutter/lib/ui/dart_wrapper.h
 FILE: ../../../flutter/lib/ui/floating_point.h
 FILE: ../../../flutter/lib/ui/geometry.dart
 FILE: ../../../flutter/lib/ui/hooks.dart
+FILE: ../../../flutter/lib/ui/io_manager.cc
 FILE: ../../../flutter/lib/ui/io_manager.h
 FILE: ../../../flutter/lib/ui/isolate_name_server.dart
 FILE: ../../../flutter/lib/ui/isolate_name_server/isolate_name_server.cc
@@ -55422,8 +55418,6 @@ FILE: ../../../flutter/shell/gpu/gpu_surface_vulkan_delegate.h
 FILE: ../../../flutter/shell/gpu/gpu_surface_vulkan_impeller.cc
 FILE: ../../../flutter/shell/gpu/gpu_surface_vulkan_impeller.h
 FILE: ../../../flutter/shell/platform/android/AndroidManifest.xml
-FILE: ../../../flutter/shell/platform/android/android_context_dynamic_impeller.cc
-FILE: ../../../flutter/shell/platform/android/android_context_dynamic_impeller.h
 FILE: ../../../flutter/shell/platform/android/android_context_gl_impeller.cc
 FILE: ../../../flutter/shell/platform/android/android_context_gl_impeller.h
 FILE: ../../../flutter/shell/platform/android/android_context_gl_skia.cc
@@ -55442,8 +55436,6 @@ FILE: ../../../flutter/shell/platform/android/android_image_generator.h
 FILE: ../../../flutter/shell/platform/android/android_rendering_selector.h
 FILE: ../../../flutter/shell/platform/android/android_shell_holder.cc
 FILE: ../../../flutter/shell/platform/android/android_shell_holder.h
-FILE: ../../../flutter/shell/platform/android/android_surface_dynamic_impeller.cc
-FILE: ../../../flutter/shell/platform/android/android_surface_dynamic_impeller.h
 FILE: ../../../flutter/shell/platform/android/android_surface_gl_impeller.cc
 FILE: ../../../flutter/shell/platform/android/android_surface_gl_impeller.h
 FILE: ../../../flutter/shell/platform/android/android_surface_gl_skia.cc
@@ -55460,8 +55452,6 @@ FILE: ../../../flutter/shell/platform/android/external_view_embedder/external_vi
 FILE: ../../../flutter/shell/platform/android/external_view_embedder/external_view_embedder.h
 FILE: ../../../flutter/shell/platform/android/external_view_embedder/external_view_embedder_2.cc
 FILE: ../../../flutter/shell/platform/android/external_view_embedder/external_view_embedder_2.h
-FILE: ../../../flutter/shell/platform/android/external_view_embedder/external_view_embedder_wrapper.cc
-FILE: ../../../flutter/shell/platform/android/external_view_embedder/external_view_embedder_wrapper.h
 FILE: ../../../flutter/shell/platform/android/external_view_embedder/surface_pool.cc
 FILE: ../../../flutter/shell/platform/android/external_view_embedder/surface_pool.h
 FILE: ../../../flutter/shell/platform/android/flutter_main.cc
