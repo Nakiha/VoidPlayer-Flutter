@@ -52755,6 +52755,7 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterPlat
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterPlugin.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterPluginAppLifeCycleDelegate.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterViewController.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FakeUIPressProxy.swift + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegateTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate_Test.h + ../../../flutter/LICENSE
@@ -52822,8 +52823,6 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterTextu
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterTextureRegistryRelay.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterTextureRegistryRelayTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterTouchInterceptingView_Test.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterUIPressProxy.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterUIPressProxy.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterUmbrellaImport.m + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterUndoManagerDelegate.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterUndoManagerPlugin.h + ../../../flutter/LICENSE
@@ -52846,6 +52845,7 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObj
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObjectTestMocks.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/TextInputSemanticsObject.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/TextInputSemanticsObject.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/UIPressProxy.swift + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/UIViewController+FlutterScreenAndSceneIfLoaded.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/UIViewController+FlutterScreenAndSceneIfLoaded.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/UIViewController_FlutterScreenAndSceneIfLoadedTest.mm + ../../../flutter/LICENSE
@@ -55766,6 +55766,7 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterPlugin
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterViewController.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Info.plist
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/PrivacyInfo.xcprivacy
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FakeUIPressProxy.swift
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegateTest.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate_Test.h
@@ -55833,8 +55834,6 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterTexture
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterTextureRegistryRelay.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterTextureRegistryRelayTest.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterTouchInterceptingView_Test.h
-FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterUIPressProxy.h
-FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterUIPressProxy.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterUmbrellaImport.m
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterUndoManagerDelegate.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterUndoManagerPlugin.h
@@ -55857,6 +55856,7 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObjec
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/SemanticsObjectTestMocks.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/TextInputSemanticsObject.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/TextInputSemanticsObject.mm
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/UIPressProxy.swift
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/UIViewController+FlutterScreenAndSceneIfLoaded.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/UIViewController+FlutterScreenAndSceneIfLoaded.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/UIViewController_FlutterScreenAndSceneIfLoadedTest.mm
