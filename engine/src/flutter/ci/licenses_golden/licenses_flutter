@@ -66716,6 +66716,7 @@ TYPE: LicenseType.icu
 FILE: ../../../flutter/third_party/icu/android/icudtl.dat
 FILE: ../../../flutter/third_party/icu/cast/brkitr.patch
 FILE: ../../../flutter/third_party/icu/cast/icudtl.dat
+FILE: ../../../flutter/third_party/icu/chromecast_video/icudtl.dat
 FILE: ../../../flutter/third_party/icu/chromeos/icudtl.dat
 FILE: ../../../flutter/third_party/icu/common/icudtb.dat
 FILE: ../../../flutter/third_party/icu/common/icudtl.dat
