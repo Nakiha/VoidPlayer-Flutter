@@ -52755,6 +52755,8 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterPlat
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterPlugin.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterPluginAppLifeCycleDelegate.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterViewController.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/ConnectionCollection.swift + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/ConnectionCollectionTest.swift + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FakeUIPressProxy.swift + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegateTest.mm + ../../../flutter/LICENSE
@@ -52855,9 +52857,6 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/accessibilit
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/accessibility_bridge_ios.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/accessibility_bridge_test.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/availability_version_check_test.mm + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/connection_collection.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/connection_collection.mm + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/connection_collection_test.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/overlay_layer_pool.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/overlay_layer_pool.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/platform_message_response_darwin.h + ../../../flutter/LICENSE
@@ -55766,6 +55765,8 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterPlugin
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterViewController.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Info.plist
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/PrivacyInfo.xcprivacy
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/ConnectionCollection.swift
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/ConnectionCollectionTest.swift
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FakeUIPressProxy.swift
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegateTest.mm
@@ -55866,9 +55867,6 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/accessibility_
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/accessibility_bridge_ios.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/accessibility_bridge_test.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/availability_version_check_test.mm
-FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/connection_collection.h
-FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/connection_collection.mm
-FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/connection_collection_test.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/overlay_layer_pool.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/overlay_layer_pool.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/platform_message_response_darwin.h
