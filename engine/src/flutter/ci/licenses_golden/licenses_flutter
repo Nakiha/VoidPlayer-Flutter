@@ -3562,6 +3562,7 @@ ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/ec/internal.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/ecdh/ecdh.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/ecdsa/ecdsa_asn1.cc
+ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/ecdsa/ecdsa_p1363.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/engine/engine.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/err/err.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/err/internal.h
@@ -4920,6 +4921,7 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/ec/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/ecdh/ecdh.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/ecdh/ecdh_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/ecdsa/ecdsa_asn1.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/ecdsa/ecdsa_p1363.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/engine/engine.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/err/asn1.errordata
 FILE: ../../../flutter/third_party/boringssl/src/crypto/err/bio.errordata
