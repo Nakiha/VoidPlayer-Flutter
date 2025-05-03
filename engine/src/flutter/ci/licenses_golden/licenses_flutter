@@ -51391,6 +51391,7 @@ ORIGIN: ../../../flutter/impeller/geometry/path_builder.cc + ../../../flutter/LI
 ORIGIN: ../../../flutter/impeller/geometry/path_builder.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/path_component.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/path_component.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/geometry/path_source.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/path_source.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/point.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/point.h + ../../../flutter/LICENSE
@@ -54382,6 +54383,7 @@ FILE: ../../../flutter/impeller/geometry/path_builder.cc
 FILE: ../../../flutter/impeller/geometry/path_builder.h
 FILE: ../../../flutter/impeller/geometry/path_component.cc
 FILE: ../../../flutter/impeller/geometry/path_component.h
+FILE: ../../../flutter/impeller/geometry/path_source.cc
 FILE: ../../../flutter/impeller/geometry/path_source.h
 FILE: ../../../flutter/impeller/geometry/point.cc
 FILE: ../../../flutter/impeller/geometry/point.h
