@@ -51421,6 +51421,8 @@ ORIGIN: ../../../flutter/impeller/geometry/sigma.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/sigma.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/size.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/size.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/geometry/stroke_parameters.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/geometry/stroke_parameters.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/trig.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/trig.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/type_traits.cc + ../../../flutter/LICENSE
@@ -54413,6 +54415,8 @@ FILE: ../../../flutter/impeller/geometry/sigma.cc
 FILE: ../../../flutter/impeller/geometry/sigma.h
 FILE: ../../../flutter/impeller/geometry/size.cc
 FILE: ../../../flutter/impeller/geometry/size.h
+FILE: ../../../flutter/impeller/geometry/stroke_parameters.cc
+FILE: ../../../flutter/impeller/geometry/stroke_parameters.h
 FILE: ../../../flutter/impeller/geometry/trig.cc
 FILE: ../../../flutter/impeller/geometry/trig.h
 FILE: ../../../flutter/impeller/geometry/type_traits.cc
