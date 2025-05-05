@@ -3710,6 +3710,7 @@ ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/md5/internal.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/md5/md5.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/mem.cc
+ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/mem_internal.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/mldsa/mldsa.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/mlkem/mlkem.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/obj/obj.cc
@@ -5228,6 +5229,7 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/md4/md4.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/md5/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/md5/md5.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/mem.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/mem_internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/mldsa/mldsa.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/mldsa/mldsa_nist_keygen_65_tests.txt
 FILE: ../../../flutter/third_party/boringssl/src/crypto/mldsa/mldsa_nist_keygen_87_tests.txt
