@@ -52963,6 +52963,7 @@ ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterRen
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterResizeSynchronizer.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterResizeSynchronizer.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterResizeSynchronizerTest.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterRunLoop.swift + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterSurface.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterSurface.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterSurfaceManager.h + ../../../flutter/LICENSE
