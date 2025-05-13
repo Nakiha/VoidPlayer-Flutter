@@ -3781,7 +3781,6 @@ ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/x509/asn1_gen.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/x509/by_dir.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/x509/by_file.cc
-ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/x509/ext_dat.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/x509/i2d_pr.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/x509/internal.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/x509/name_print.cc
@@ -5323,7 +5322,6 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/x509/algorithm.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/x509/asn1_gen.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/x509/by_dir.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/x509/by_file.cc
-FILE: ../../../flutter/third_party/boringssl/src/crypto/x509/ext_dat.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/x509/i2d_pr.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/x509/internal.h
 FILE: ../../../flutter/third_party/boringssl/src/crypto/x509/name_print.cc
