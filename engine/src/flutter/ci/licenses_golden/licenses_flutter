@@ -52771,7 +52771,6 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/ConnectionCo
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FakeUIPressProxy.swift + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegateTest.mm + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate_Internal.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate_Test.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterCallbackCache.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterCallbackCache_Internal.h + ../../../flutter/LICENSE
@@ -52802,9 +52801,6 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterKeySe
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterKeyboardManager.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterKeyboardManager.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterKeyboardManagerTest.mm + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterLaunchEngine.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterLaunchEngine.m + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterLaunchEngineTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterMetalLayer.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterMetalLayer.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterMetalLayerTest.mm + ../../../flutter/LICENSE
@@ -55793,7 +55789,6 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/ConnectionColl
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FakeUIPressProxy.swift
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegateTest.mm
-FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate_Internal.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate_Test.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterCallbackCache.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterCallbackCache_Internal.h
@@ -55824,9 +55819,6 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterKeySeco
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterKeyboardManager.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterKeyboardManager.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterKeyboardManagerTest.mm
-FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterLaunchEngine.h
-FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterLaunchEngine.m
-FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterLaunchEngineTest.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterMetalLayer.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterMetalLayer.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterMetalLayerTest.mm
