@@ -52749,6 +52749,9 @@ ORIGIN: ../../../flutter/shell/platform/darwin/common/framework/Source/FlutterSt
 ORIGIN: ../../../flutter/shell/platform/darwin/common/framework/Source/FlutterStandardCodec_Internal.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/common/framework/Source/FlutterTestUtils.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/common/framework/Source/FlutterTestUtils.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/common/framework/Source/Logger.swift + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/common/framework/Source/LoggerTest.swift + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/common/framework/Source/LoggerTestUtils.swift + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/graphics/FlutterDarwinContextMetalImpeller.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/graphics/FlutterDarwinContextMetalImpeller.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/graphics/FlutterDarwinContextMetalSkia.h + ../../../flutter/LICENSE
@@ -55737,6 +55740,8 @@ FILE: ../../../flutter/shell/platform/common/text_editing_delta.h
 FILE: ../../../flutter/shell/platform/common/text_input_model.cc
 FILE: ../../../flutter/shell/platform/common/text_input_model.h
 FILE: ../../../flutter/shell/platform/common/text_range.h
+FILE: ../../../flutter/shell/platform/darwin/common/SwiftTestingMain.swift
+FILE: ../../../flutter/shell/platform/darwin/common/SwiftTestingRunner.swift
 FILE: ../../../flutter/shell/platform/darwin/common/availability_version_check.cc
 FILE: ../../../flutter/shell/platform/darwin/common/availability_version_check.h
 FILE: ../../../flutter/shell/platform/darwin/common/buffer_conversions.h
@@ -55765,6 +55770,10 @@ FILE: ../../../flutter/shell/platform/darwin/common/framework/Source/FlutterStan
 FILE: ../../../flutter/shell/platform/darwin/common/framework/Source/FlutterStandardCodec_Internal.h
 FILE: ../../../flutter/shell/platform/darwin/common/framework/Source/FlutterTestUtils.h
 FILE: ../../../flutter/shell/platform/darwin/common/framework/Source/FlutterTestUtils.mm
+FILE: ../../../flutter/shell/platform/darwin/common/framework/Source/Logger.swift
+FILE: ../../../flutter/shell/platform/darwin/common/framework/Source/LoggerTest.swift
+FILE: ../../../flutter/shell/platform/darwin/common/framework/Source/LoggerTestUtils.swift
+FILE: ../../../flutter/shell/platform/darwin/common/framework/Source/SwiftTests.swift
 FILE: ../../../flutter/shell/platform/darwin/graphics/FlutterDarwinContextMetalImpeller.h
 FILE: ../../../flutter/shell/platform/darwin/graphics/FlutterDarwinContextMetalImpeller.mm
 FILE: ../../../flutter/shell/platform/darwin/graphics/FlutterDarwinContextMetalSkia.h
