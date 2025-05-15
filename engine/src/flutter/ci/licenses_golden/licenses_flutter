@@ -52718,6 +52718,7 @@ ORIGIN: ../../../flutter/shell/platform/common/text_editing_delta.h + ../../../f
 ORIGIN: ../../../flutter/shell/platform/common/text_input_model.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/common/text_input_model.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/common/text_range.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/common/InternalFlutterSwiftCommon-Bridging-Header.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/common/availability_version_check.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/common/availability_version_check.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/common/buffer_conversions.h + ../../../flutter/LICENSE
@@ -52755,6 +52756,7 @@ ORIGIN: ../../../flutter/shell/platform/darwin/graphics/FlutterDarwinContextMeta
 ORIGIN: ../../../flutter/shell/platform/darwin/graphics/FlutterDarwinContextMetalSkia.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/graphics/FlutterDarwinExternalTextureMetal.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/graphics/FlutterDarwinExternalTextureMetal.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/InternalFlutterSwift-Bridging-Header.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/flutter_task_queue_dispatch.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Headers/Flutter.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterAppDelegate.h + ../../../flutter/LICENSE
@@ -52899,6 +52901,7 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/platform_view_ios.h + ../../.
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/platform_view_ios.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/rendering_api_selection.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/rendering_api_selection.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/macos/InternalFlutterSwift-Bridging-Header.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Headers/FlutterAppDelegate.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Headers/FlutterAppLifecycleDelegate.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Headers/FlutterEngine.h + ../../../flutter/LICENSE
@@ -55734,6 +55737,7 @@ FILE: ../../../flutter/shell/platform/common/text_editing_delta.h
 FILE: ../../../flutter/shell/platform/common/text_input_model.cc
 FILE: ../../../flutter/shell/platform/common/text_input_model.h
 FILE: ../../../flutter/shell/platform/common/text_range.h
+FILE: ../../../flutter/shell/platform/darwin/common/InternalFlutterSwiftCommon-Bridging-Header.h
 FILE: ../../../flutter/shell/platform/darwin/common/SwiftTestingMain.swift
 FILE: ../../../flutter/shell/platform/darwin/common/SwiftTestingRunner.swift
 FILE: ../../../flutter/shell/platform/darwin/common/availability_version_check.cc
@@ -55774,6 +55778,7 @@ FILE: ../../../flutter/shell/platform/darwin/graphics/FlutterDarwinContextMetalS
 FILE: ../../../flutter/shell/platform/darwin/graphics/FlutterDarwinContextMetalSkia.mm
 FILE: ../../../flutter/shell/platform/darwin/graphics/FlutterDarwinExternalTextureMetal.h
 FILE: ../../../flutter/shell/platform/darwin/graphics/FlutterDarwinExternalTextureMetal.mm
+FILE: ../../../flutter/shell/platform/darwin/ios/InternalFlutterSwift-Bridging-Header.h
 FILE: ../../../flutter/shell/platform/darwin/ios/flutter_task_queue_dispatch.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Headers/Flutter.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterAppDelegate.h
@@ -55921,6 +55926,7 @@ FILE: ../../../flutter/shell/platform/darwin/ios/platform_view_ios.h
 FILE: ../../../flutter/shell/platform/darwin/ios/platform_view_ios.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/rendering_api_selection.h
 FILE: ../../../flutter/shell/platform/darwin/ios/rendering_api_selection.mm
+FILE: ../../../flutter/shell/platform/darwin/macos/InternalFlutterSwift-Bridging-Header.h
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Headers/FlutterAppDelegate.h
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Headers/FlutterAppLifecycleDelegate.h
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Headers/FlutterEngine.h
