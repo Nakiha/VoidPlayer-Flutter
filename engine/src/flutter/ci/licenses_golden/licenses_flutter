@@ -50702,6 +50702,7 @@ ORIGIN: ../../../flutter/display_list/benchmarking/dl_complexity.cc + ../../../f
 ORIGIN: ../../../flutter/display_list/benchmarking/dl_complexity.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/benchmarking/dl_complexity_gl.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/benchmarking/dl_complexity_gl.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/benchmarking/dl_complexity_helper.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/benchmarking/dl_complexity_helper.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/benchmarking/dl_complexity_metal.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/benchmarking/dl_complexity_metal.h + ../../../flutter/LICENSE
@@ -50789,6 +50790,8 @@ ORIGIN: ../../../flutter/display_list/geometry/dl_geometry_conversions.h + ../..
 ORIGIN: ../../../flutter/display_list/geometry/dl_geometry_types.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/geometry/dl_path.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/geometry/dl_path.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/geometry/dl_path_builder.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/display_list/geometry/dl_path_builder.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/geometry/dl_region.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/geometry/dl_region.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/display_list/geometry/dl_rtree.cc + ../../../flutter/LICENSE
@@ -51385,12 +51388,6 @@ ORIGIN: ../../../flutter/impeller/geometry/matrix.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/matrix.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/matrix_decomposition.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/matrix_decomposition.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/geometry/path.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/geometry/path.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/geometry/path_builder.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/geometry/path_builder.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/geometry/path_component.cc + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/geometry/path_component.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/path_source.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/path_source.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/point.cc + ../../../flutter/LICENSE
@@ -53705,6 +53702,7 @@ FILE: ../../../flutter/display_list/benchmarking/dl_complexity.cc
 FILE: ../../../flutter/display_list/benchmarking/dl_complexity.h
 FILE: ../../../flutter/display_list/benchmarking/dl_complexity_gl.cc
 FILE: ../../../flutter/display_list/benchmarking/dl_complexity_gl.h
+FILE: ../../../flutter/display_list/benchmarking/dl_complexity_helper.cc
 FILE: ../../../flutter/display_list/benchmarking/dl_complexity_helper.h
 FILE: ../../../flutter/display_list/benchmarking/dl_complexity_metal.cc
 FILE: ../../../flutter/display_list/benchmarking/dl_complexity_metal.h
@@ -53792,6 +53790,8 @@ FILE: ../../../flutter/display_list/geometry/dl_geometry_conversions.h
 FILE: ../../../flutter/display_list/geometry/dl_geometry_types.h
 FILE: ../../../flutter/display_list/geometry/dl_path.cc
 FILE: ../../../flutter/display_list/geometry/dl_path.h
+FILE: ../../../flutter/display_list/geometry/dl_path_builder.cc
+FILE: ../../../flutter/display_list/geometry/dl_path_builder.h
 FILE: ../../../flutter/display_list/geometry/dl_region.cc
 FILE: ../../../flutter/display_list/geometry/dl_region.h
 FILE: ../../../flutter/display_list/geometry/dl_rtree.cc
@@ -54388,12 +54388,6 @@ FILE: ../../../flutter/impeller/geometry/matrix.cc
 FILE: ../../../flutter/impeller/geometry/matrix.h
 FILE: ../../../flutter/impeller/geometry/matrix_decomposition.cc
 FILE: ../../../flutter/impeller/geometry/matrix_decomposition.h
-FILE: ../../../flutter/impeller/geometry/path.cc
-FILE: ../../../flutter/impeller/geometry/path.h
-FILE: ../../../flutter/impeller/geometry/path_builder.cc
-FILE: ../../../flutter/impeller/geometry/path_builder.h
-FILE: ../../../flutter/impeller/geometry/path_component.cc
-FILE: ../../../flutter/impeller/geometry/path_component.h
 FILE: ../../../flutter/impeller/geometry/path_source.cc
 FILE: ../../../flutter/impeller/geometry/path_source.h
 FILE: ../../../flutter/impeller/geometry/point.cc
