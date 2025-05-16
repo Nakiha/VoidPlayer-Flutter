@@ -55286,6 +55286,8 @@ FILE: ../../../flutter/lib/web_ui/skwasm/fonts.cpp
 FILE: ../../../flutter/lib/web_ui/skwasm/helpers.h
 FILE: ../../../flutter/lib/web_ui/skwasm/image.cpp
 FILE: ../../../flutter/lib/web_ui/skwasm/library_skwasm_support.js
+FILE: ../../../flutter/lib/web_ui/skwasm/live_objects.cpp
+FILE: ../../../flutter/lib/web_ui/skwasm/live_objects.h
 FILE: ../../../flutter/lib/web_ui/skwasm/paint.cpp
 FILE: ../../../flutter/lib/web_ui/skwasm/path.cpp
 FILE: ../../../flutter/lib/web_ui/skwasm/picture.cpp
