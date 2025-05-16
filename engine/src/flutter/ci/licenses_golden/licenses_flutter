@@ -52608,6 +52608,7 @@ ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/Platf
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/PlatformViewsAccessibilityDelegate.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/PlatformViewsController.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/PlatformViewsController2.java + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/PlatformViewsControllerDelegator.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/SingleViewFakeWindowViewGroup.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/SingleViewPresentation.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/SingleViewWindowManager.java + ../../../flutter/LICENSE
@@ -55627,6 +55628,7 @@ FILE: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/Platfor
 FILE: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/PlatformViewsAccessibilityDelegate.java
 FILE: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/PlatformViewsController.java
 FILE: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/PlatformViewsController2.java
+FILE: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/PlatformViewsControllerDelegator.java
 FILE: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/SingleViewFakeWindowViewGroup.java
 FILE: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/SingleViewPresentation.java
 FILE: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/SingleViewWindowManager.java
