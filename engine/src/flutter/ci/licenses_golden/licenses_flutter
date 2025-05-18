@@ -52962,9 +52962,6 @@ ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterPla
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterPlatformViewControllerTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterRenderer.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterRenderer.mm + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterResizeSynchronizer.h + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterResizeSynchronizer.mm + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterResizeSynchronizerTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterRunLoop.swift + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterSurface.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterSurface.mm + ../../../flutter/LICENSE
@@ -52999,6 +52996,8 @@ ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/KeyCodeMap
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/KeyCodeMapTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/KeyCodeMap_Internal.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/NSView+ClipsToBounds.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/ResizeSynchronizer.swift + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/ResizeSynchronizerTest.swift + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/TestFlutterPlatformView.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/TestFlutterPlatformView.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/embedder/embedder.cc + ../../../flutter/LICENSE
@@ -55994,9 +55993,6 @@ FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterPlatf
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterPlatformViewControllerTest.mm
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterRenderer.h
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterRenderer.mm
-FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterResizeSynchronizer.h
-FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterResizeSynchronizer.mm
-FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterResizeSynchronizerTest.mm
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterRunLoop.swift
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterSurface.h
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterSurface.mm
@@ -56033,6 +56029,8 @@ FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/KeyCodeMap.g
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/KeyCodeMapTest.mm
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/KeyCodeMap_Internal.h
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/NSView+ClipsToBounds.h
+FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/ResizeSynchronizer.swift
+FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/ResizeSynchronizerTest.swift
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/TestFlutterPlatformView.h
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/TestFlutterPlatformView.mm
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/module.modulemap
