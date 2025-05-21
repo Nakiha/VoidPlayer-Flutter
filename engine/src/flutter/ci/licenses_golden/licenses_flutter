@@ -3845,6 +3845,7 @@ ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/x509/x_val.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/x509/x_x509.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/x509/x_x509a.cc
+ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/crypto/xwing/xwing.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/decrepit/bio/base64_bio.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/decrepit/blowfish/blowfish.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/decrepit/cast/cast.cc
@@ -3971,6 +3972,7 @@ ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/include/openssl/x509_vfy.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/include/openssl/x509v3.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/include/openssl/x509v3_errors.h
+ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/include/openssl/xwing.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/pki/cert_error_id.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/pki/cert_error_id.h
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/pki/cert_error_params.cc
@@ -5386,6 +5388,7 @@ FILE: ../../../flutter/third_party/boringssl/src/crypto/x509/x_spki.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/x509/x_val.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/x509/x_x509.cc
 FILE: ../../../flutter/third_party/boringssl/src/crypto/x509/x_x509a.cc
+FILE: ../../../flutter/third_party/boringssl/src/crypto/xwing/xwing.cc
 FILE: ../../../flutter/third_party/boringssl/src/decrepit/bio/base64_bio.cc
 FILE: ../../../flutter/third_party/boringssl/src/decrepit/blowfish/blowfish.cc
 FILE: ../../../flutter/third_party/boringssl/src/decrepit/cast/cast.cc
@@ -5656,6 +5659,7 @@ FILE: ../../../flutter/third_party/boringssl/src/include/openssl/x509.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/x509_vfy.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/x509v3.h
 FILE: ../../../flutter/third_party/boringssl/src/include/openssl/x509v3_errors.h
+FILE: ../../../flutter/third_party/boringssl/src/include/openssl/xwing.h
 FILE: ../../../flutter/third_party/boringssl/src/infra/config/generated/commit-queue.cfg
 FILE: ../../../flutter/third_party/boringssl/src/infra/config/generated/cr-buildbucket.cfg
 FILE: ../../../flutter/third_party/boringssl/src/infra/config/generated/luci-logdog.cfg
