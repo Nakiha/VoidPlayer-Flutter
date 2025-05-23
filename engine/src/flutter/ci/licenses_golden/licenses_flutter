@@ -51121,6 +51121,7 @@ ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/gradient.glsl + .
 ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/math.glsl + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/path.glsl + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/prefix_sum.glsl + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/rrect.glsl + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/texture.glsl + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/tile_mode.glsl + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/compiler/shader_lib/impeller/transform.glsl + ../../../flutter/LICENSE
@@ -51265,6 +51266,10 @@ ORIGIN: ../../../flutter/impeller/entity/contents/solid_color_contents.cc + ../.
 ORIGIN: ../../../flutter/impeller/entity/contents/solid_color_contents.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/solid_rrect_blur_contents.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/solid_rrect_blur_contents.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/contents/solid_rrect_like_blur_contents.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/contents/solid_rrect_like_blur_contents.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/contents/solid_rsuperellipse_blur_contents.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/contents/solid_rsuperellipse_blur_contents.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/sweep_gradient_contents.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/sweep_gradient_contents.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/contents/text_contents.cc + ../../../flutter/LICENSE
@@ -51367,7 +51372,8 @@ ORIGIN: ../../../flutter/impeller/entity/shaders/gradients/sweep_gradient_unifor
 ORIGIN: ../../../flutter/impeller/entity/shaders/line.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/line.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/rrect_blur.frag + ../../../flutter/LICENSE
-ORIGIN: ../../../flutter/impeller/entity/shaders/rrect_blur.vert + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/rrect_like_blur.vert + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/shaders/rsuperellipse_blur.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/runtime_effect.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/solid_fill.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/solid_fill.vert + ../../../flutter/LICENSE
@@ -54124,6 +54130,7 @@ FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/gradient.glsl
 FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/math.glsl
 FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/path.glsl
 FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/prefix_sum.glsl
+FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/rrect.glsl
 FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/texture.glsl
 FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/tile_mode.glsl
 FILE: ../../../flutter/impeller/compiler/shader_lib/impeller/transform.glsl
@@ -54268,6 +54275,10 @@ FILE: ../../../flutter/impeller/entity/contents/solid_color_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/solid_color_contents.h
 FILE: ../../../flutter/impeller/entity/contents/solid_rrect_blur_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/solid_rrect_blur_contents.h
+FILE: ../../../flutter/impeller/entity/contents/solid_rrect_like_blur_contents.cc
+FILE: ../../../flutter/impeller/entity/contents/solid_rrect_like_blur_contents.h
+FILE: ../../../flutter/impeller/entity/contents/solid_rsuperellipse_blur_contents.cc
+FILE: ../../../flutter/impeller/entity/contents/solid_rsuperellipse_blur_contents.h
 FILE: ../../../flutter/impeller/entity/contents/sweep_gradient_contents.cc
 FILE: ../../../flutter/impeller/entity/contents/sweep_gradient_contents.h
 FILE: ../../../flutter/impeller/entity/contents/text_contents.cc
@@ -54370,7 +54381,8 @@ FILE: ../../../flutter/impeller/entity/shaders/gradients/sweep_gradient_uniform_
 FILE: ../../../flutter/impeller/entity/shaders/line.frag
 FILE: ../../../flutter/impeller/entity/shaders/line.vert
 FILE: ../../../flutter/impeller/entity/shaders/rrect_blur.frag
-FILE: ../../../flutter/impeller/entity/shaders/rrect_blur.vert
+FILE: ../../../flutter/impeller/entity/shaders/rrect_like_blur.vert
+FILE: ../../../flutter/impeller/entity/shaders/rsuperellipse_blur.frag
 FILE: ../../../flutter/impeller/entity/shaders/runtime_effect.vert
 FILE: ../../../flutter/impeller/entity/shaders/solid_fill.frag
 FILE: ../../../flutter/impeller/entity/shaders/solid_fill.vert
