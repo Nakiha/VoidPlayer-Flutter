@@ -1281,8 +1281,6 @@ ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutte
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/cpu_features/src/src/stack_line_reader.c
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/cpu_features/src/src/string_view.c
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/cpu_features/src/src/utils/list_cpu_features.c
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/expat/expat/fuzz/xml_parse_fuzzer.c
-ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/expat/expat/fuzz/xml_parsebuffer_fuzzer.c
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/flatbuffers/conan/test_package/test_package.cpp
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/flatbuffers/grpc/flatbuffers-java-grpc/src/main/java/com/google/flatbuffers/grpc/FlatbuffersUtils.java
 ORIGIN: http://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/flatbuffers/grpc/src/compiler/java_generator.cc
@@ -4101,6 +4099,8 @@ ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutt
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/tool/tool.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/tool/transport_common.cc
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/boringssl/src/tool/transport_common.h
+ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/expat/expat/fuzz/xml_parse_fuzzer.c
+ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/expat/expat/fuzz/xml_parsebuffer_fuzzer.c
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/wuffs/release/c/wuffs-v0.2.c
 ORIGIN: https://www.apache.org/licenses/LICENSE-2.0 referenced by ../../../flutter/third_party/wuffs/release/c/wuffs-v0.3.c
 TYPE: LicenseType.apache
@@ -42335,11 +42335,14 @@ Copyright (c) 2000      Clark Cooper <coopercc@users.sourceforge.net>
 Copyright (c) 2000-2005 Fred L. Drake, Jr. <fdrake@users.sourceforge.net>
 Copyright (c) 2001-2002 Greg Stein <gstein@users.sourceforge.net>
 Copyright (c) 2002-2016 Karl Waclawek <karl@waclawek.net>
-Copyright (c) 2016-2022 Sebastian Pipping <sebastian@pipping.org>
+Copyright (c) 2016-2025 Sebastian Pipping <sebastian@pipping.org>
 Copyright (c) 2016      Cristian Rodríguez <crrodriguez@opensuse.org>
 Copyright (c) 2016      Thomas Beutlich <tc@tbeu.de>
 Copyright (c) 2017      Rhodri James <rhodri@wildebeest.org.uk>
 Copyright (c) 2022      Thijs Schreijer <thijs@thijsschreijer.nl>
+Copyright (c) 2023      Hanno Böck <hanno@gentoo.org>
+Copyright (c) 2023      Sony Corporation / Snild Dolkow <snild@sony.com>
+Copyright (c) 2024      Taichi Haradaguchi <20001722@ymail.ne.jp>
 
 Licensed under the MIT license:
 
@@ -42376,7 +42379,7 @@ Copyright (c) 2001-2002 Greg Stein <gstein@users.sourceforge.net>
 Copyright (c) 2002-2016 Karl Waclawek <karl@waclawek.net>
 Copyright (c) 2005-2009 Steven Solie <steven@solie.ca>
 Copyright (c) 2016      Eric Rahm <erahm@mozilla.com>
-Copyright (c) 2016-2022 Sebastian Pipping <sebastian@pipping.org>
+Copyright (c) 2016-2025 Sebastian Pipping <sebastian@pipping.org>
 Copyright (c) 2016      Gaurav <g.gupta@samsung.com>
 Copyright (c) 2016      Thomas Beutlich <tc@tbeu.de>
 Copyright (c) 2016      Gustavo Grieco <gustavo.grieco@imag.fr>
@@ -42395,10 +42398,15 @@ Copyright (c) 2018      Mariusz Zaborski <oshogbo@vexillium.org>
 Copyright (c) 2019      David Loffredo <loffredo@steptools.com>
 Copyright (c) 2019-2020 Ben Wagner <bungeman@chromium.org>
 Copyright (c) 2019      Vadim Zeitlin <vadim@zeitlins.org>
-Copyright (c) 2021      Dong-hee Na <donghee.na@python.org>
+Copyright (c) 2021      Donghee Na <donghee.na@python.org>
 Copyright (c) 2022      Samanta Navarro <ferivoz@riseup.net>
 Copyright (c) 2022      Jeffrey Walton <noloader@gmail.com>
 Copyright (c) 2022      Jann Horn <jannh@google.com>
+Copyright (c) 2022      Sean McBride <sean@rogue-research.com>
+Copyright (c) 2023      Owain Davies <owaind@bath.edu>
+Copyright (c) 2023-2024 Sony Corporation / Snild Dolkow <snild@sony.com>
+Copyright (c) 2024-2025 Berkay Eren Ürün <berkay.ueruen@siemens.com>
+Copyright (c) 2024      Hanno Böck <hanno@gentoo.org>
 
 Licensed under the MIT license:
 
@@ -42469,7 +42477,7 @@ Copyright (c) 2001-2003 Fred L. Drake, Jr. <fdrake@users.sourceforge.net>
 Copyright (c) 2002      Greg Stein <gstein@users.sourceforge.net>
 Copyright (c) 2002-2016 Karl Waclawek <karl@waclawek.net>
 Copyright (c) 2005-2009 Steven Solie <steven@solie.ca>
-Copyright (c) 2016-2022 Sebastian Pipping <sebastian@pipping.org>
+Copyright (c) 2016-2024 Sebastian Pipping <sebastian@pipping.org>
 Copyright (c) 2016      Pascal Cuoq <cuoq@trust-in-soft.com>
 Copyright (c) 2016      Don Lewis <truckman@apache.org>
 Copyright (c) 2017      Rhodri James <rhodri@wildebeest.org.uk>
@@ -42477,8 +42485,10 @@ Copyright (c) 2017      Alexander Bluhm <alexander.bluhm@gmx.net>
 Copyright (c) 2017      Benbuck Nason <bnason@netflix.com>
 Copyright (c) 2017      José Gutiérrez de la Concha <jose@zeroc.com>
 Copyright (c) 2019      David Loffredo <loffredo@steptools.com>
-Copyright (c) 2021      Dong-hee Na <donghee.na@python.org>
+Copyright (c) 2021      Donghee Na <donghee.na@python.org>
 Copyright (c) 2022      Martin Ettl <ettl.martin78@googlemail.com>
+Copyright (c) 2022      Sean McBride <sean@rogue-research.com>
+Copyright (c) 2023      Hanno Böck <hanno@gentoo.org>
 
 Licensed under the MIT license:
 
@@ -42513,13 +42523,14 @@ Copyright (c) 2000      Clark Cooper <coopercc@users.sourceforge.net>
 Copyright (c) 2001-2003 Fred L. Drake, Jr. <fdrake@users.sourceforge.net>
 Copyright (c) 2004-2009 Karl Waclawek <karl@waclawek.net>
 Copyright (c) 2005-2007 Steven Solie <steven@solie.ca>
-Copyright (c) 2016-2022 Sebastian Pipping <sebastian@pipping.org>
+Copyright (c) 2016-2023 Sebastian Pipping <sebastian@pipping.org>
 Copyright (c) 2017      Rhodri James <rhodri@wildebeest.org.uk>
 Copyright (c) 2019      David Loffredo <loffredo@steptools.com>
 Copyright (c) 2020      Joe Orton <jorton@redhat.com>
 Copyright (c) 2020      Kleber Tarcísio <klebertarcisio@yahoo.com.br>
 Copyright (c) 2021      Tim Bray <tbray@textuality.com>
 Copyright (c) 2022      Martin Ettl <ettl.martin78@googlemail.com>
+Copyright (c) 2022      Sean McBride <sean@rogue-research.com>
 
 Licensed under the MIT license:
 
@@ -42556,6 +42567,8 @@ Copyright (c) 2002-2009 Karl Waclawek <karl@waclawek.net>
 Copyright (c) 2016-2017 Sebastian Pipping <sebastian@pipping.org>
 Copyright (c) 2017      Rhodri James <rhodri@wildebeest.org.uk>
 Copyright (c) 2017      Franek Korta <fkorta@gmail.com>
+Copyright (c) 2022      Sean McBride <sean@rogue-research.com>
+Copyright (c) 2025      Hanno Böck <hanno@gentoo.org>
 
 Licensed under the MIT license:
 
@@ -42589,7 +42602,7 @@ Copyright (c) 1997-2000 Thai Open Source Software Center Ltd
 Copyright (c) 2000      Clark Cooper <coopercc@users.sourceforge.net>
 Copyright (c) 2002      Fred L. Drake, Jr. <fdrake@users.sourceforge.net>
 Copyright (c) 2002-2005 Karl Waclawek <karl@waclawek.net>
-Copyright (c) 2016-2017 Sebastian Pipping <sebastian@pipping.org>
+Copyright (c) 2016-2024 Sebastian Pipping <sebastian@pipping.org>
 Copyright (c) 2017      Rhodri James <rhodri@wildebeest.org.uk>
 
 Licensed under the MIT license:
@@ -42664,7 +42677,7 @@ Copyright (c) 1997-2000 Thai Open Source Software Center Ltd
 Copyright (c) 2000      Clark Cooper <coopercc@users.sourceforge.net>
 Copyright (c) 2002      Fred L. Drake, Jr. <fdrake@users.sourceforge.net>
 Copyright (c) 2005      Karl Waclawek <karl@waclawek.net>
-Copyright (c) 2016-2019 Sebastian Pipping <sebastian@pipping.org>
+Copyright (c) 2016-2023 Sebastian Pipping <sebastian@pipping.org>
 
 Licensed under the MIT license:
 
@@ -42725,11 +42738,9 @@ USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ====================================================================================================
 LIBRARY: expat
-ORIGIN: ../../../flutter/third_party/expat/expat/gennmtab/gennmtab.c
 ORIGIN: ../../../flutter/third_party/expat/expat/xmlwf/codepage.h
 ORIGIN: ../../../flutter/third_party/expat/expat/xmlwf/filemap.h
 TYPE: LicenseType.mit
-FILE: ../../../flutter/third_party/expat/expat/gennmtab/gennmtab.c
 FILE: ../../../flutter/third_party/expat/expat/xmlwf/codepage.h
 FILE: ../../../flutter/third_party/expat/expat/xmlwf/filemap.h
 ----------------------------------------------------------------------------------------------------
@@ -42771,6 +42782,39 @@ Copyright (c) 2000      Clark Cooper <coopercc@users.sourceforge.net>
 Copyright (c) 2002      Fred L. Drake, Jr. <fdrake@users.sourceforge.net>
 Copyright (c) 2016-2022 Sebastian Pipping <sebastian@pipping.org>
 Copyright (c) 2022      Martin Ettl <ettl.martin78@googlemail.com>
+
+Licensed under the MIT license:
+
+Permission is  hereby granted,  free of charge,  to any  person obtaining
+a  copy  of  this  software   and  associated  documentation  files  (the
+"Software"),  to  deal in  the  Software  without restriction,  including
+without  limitation the  rights  to use,  copy,  modify, merge,  publish,
+distribute, sublicense, and/or sell copies of the Software, and to permit
+persons  to whom  the Software  is  furnished to  do so,  subject to  the
+following conditions:
+
+The above copyright  notice and this permission notice  shall be included
+in all copies or substantial portions of the Software.
+
+THE  SOFTWARE  IS  PROVIDED  "AS  IS",  WITHOUT  WARRANTY  OF  ANY  KIND,
+EXPRESS  OR IMPLIED,  INCLUDING  BUT  NOT LIMITED  TO  THE WARRANTIES  OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+NO EVENT SHALL THE AUTHORS OR  COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR  OTHER LIABILITY, WHETHER  IN AN  ACTION OF CONTRACT,  TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: expat
+ORIGIN: ../../../flutter/third_party/expat/expat/gennmtab/gennmtab.c
+TYPE: LicenseType.mit
+FILE: ../../../flutter/third_party/expat/expat/gennmtab/gennmtab.c
+----------------------------------------------------------------------------------------------------
+Copyright (c) 1997-2000 Thai Open Source Software Center Ltd
+Copyright (c) 2000      Clark Cooper <coopercc@users.sourceforge.net>
+Copyright (c) 2002      Fred L. Drake, Jr. <fdrake@users.sourceforge.net>
+Copyright (c) 2016-2024 Sebastian Pipping <sebastian@pipping.org>
 
 Licensed under the MIT license:
 
@@ -42880,10 +42924,10 @@ Copyright (c) 2002      Greg Stein <gstein@users.sourceforge.net>
 Copyright (c) 2002-2006 Karl Waclawek <karl@waclawek.net>
 Copyright (c) 2002-2003 Fred L. Drake, Jr. <fdrake@users.sourceforge.net>
 Copyright (c) 2005-2009 Steven Solie <steven@solie.ca>
-Copyright (c) 2016-2021 Sebastian Pipping <sebastian@pipping.org>
+Copyright (c) 2016-2023 Sebastian Pipping <sebastian@pipping.org>
 Copyright (c) 2017      Rhodri James <rhodri@wildebeest.org.uk>
 Copyright (c) 2019      David Loffredo <loffredo@steptools.com>
-Copyright (c) 2021      Dong-hee Na <donghee.na@python.org>
+Copyright (c) 2021      Donghee Na <donghee.na@python.org>
 
 Licensed under the MIT license:
 
@@ -42917,7 +42961,7 @@ Copyright (c) 1997-2000 Thai Open Source Software Center Ltd
 Copyright (c) 2000      Clark Cooper <coopercc@users.sourceforge.net>
 Copyright (c) 2002      Karl Waclawek <karl@waclawek.net>
 Copyright (c) 2002      Fred L. Drake, Jr. <fdrake@users.sourceforge.net>
-Copyright (c) 2017      Sebastian Pipping <sebastian@pipping.org>
+Copyright (c) 2017-2024 Sebastian Pipping <sebastian@pipping.org>
 
 Licensed under the MIT license:
 
@@ -42952,10 +42996,11 @@ Copyright (c) 2000      Clark Cooper <coopercc@users.sourceforge.net>
 Copyright (c) 2002-2003 Fred L. Drake, Jr. <fdrake@users.sourceforge.net>
 Copyright (c) 2004-2006 Karl Waclawek <karl@waclawek.net>
 Copyright (c) 2005-2007 Steven Solie <steven@solie.ca>
-Copyright (c) 2016-2021 Sebastian Pipping <sebastian@pipping.org>
+Copyright (c) 2016-2023 Sebastian Pipping <sebastian@pipping.org>
 Copyright (c) 2017      Rhodri James <rhodri@wildebeest.org.uk>
 Copyright (c) 2019      David Loffredo <loffredo@steptools.com>
-Copyright (c) 2021      Dong-hee Na <donghee.na@python.org>
+Copyright (c) 2021      Donghee Na <donghee.na@python.org>
+Copyright (c) 2024      Hanno Böck <hanno@gentoo.org>
 
 Licensed under the MIT license:
 
@@ -43312,10 +43357,9 @@ ORIGIN: ../../../flutter/third_party/expat/expat/COPYING
 TYPE: LicenseType.mit
 FILE: ../../../flutter/third_party/expat/expat/expat.pc.in
 FILE: ../../../flutter/third_party/expat/expat/lib/siphash.h
-FILE: ../../../flutter/third_party/expat/expat/win32/version.rc
 ----------------------------------------------------------------------------------------------------
 Copyright (c) 1998-2000 Thai Open Source Software Center Ltd and Clark Cooper
-Copyright (c) 2001-2022 Expat maintainers
+Copyright (c) 2001-2025 Expat maintainers
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -43456,7 +43500,8 @@ FILE: ../../../flutter/third_party/expat/expat/lib/winconfig.h
 Copyright (c) 2000      Clark Cooper <coopercc@users.sourceforge.net>
 Copyright (c) 2002      Greg Stein <gstein@users.sourceforge.net>
 Copyright (c) 2005      Karl Waclawek <karl@waclawek.net>
-Copyright (c) 2017-2021 Sebastian Pipping <sebastian@pipping.org>
+Copyright (c) 2017-2023 Sebastian Pipping <sebastian@pipping.org>
+Copyright (c) 2023      Orgad Shaneh <orgad.shaneh@audiocodes.com>
 
 Licensed under the MIT license:
 
@@ -44098,9 +44143,11 @@ FILE: ../../../flutter/third_party/expat/expat/lib/internal.h
 Copyright (c) 2002-2003 Fred L. Drake, Jr. <fdrake@users.sourceforge.net>
 Copyright (c) 2002-2006 Karl Waclawek <karl@waclawek.net>
 Copyright (c) 2003      Greg Stein <gstein@users.sourceforge.net>
-Copyright (c) 2016-2022 Sebastian Pipping <sebastian@pipping.org>
+Copyright (c) 2016-2025 Sebastian Pipping <sebastian@pipping.org>
 Copyright (c) 2018      Yury Gribov <tetra2005@gmail.com>
 Copyright (c) 2019      David Loffredo <loffredo@steptools.com>
+Copyright (c) 2023-2024 Sony Corporation / Snild Dolkow <snild@sony.com>
+Copyright (c) 2024      Taichi Haradaguchi <20001722@ymail.ne.jp>
 
 Licensed under the MIT license:
 
@@ -48530,6 +48577,39 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+====================================================================================================
+
+====================================================================================================
+LIBRARY: expat
+ORIGIN: ../../../flutter/third_party/expat/expat/fuzz/xml_lpm_fuzzer.cpp
+ORIGIN: ../../../flutter/third_party/expat/expat/fuzz/xml_lpm_fuzzer.proto
+TYPE: LicenseType.mit
+FILE: ../../../flutter/third_party/expat/expat/fuzz/xml_lpm_fuzzer.cpp
+FILE: ../../../flutter/third_party/expat/expat/fuzz/xml_lpm_fuzzer.proto
+----------------------------------------------------------------------------------------------------
+Copyright (c) 2022 Mark Brand <markbrand@google.com>
+Copyright (c) 2025 Sebastian Pipping <sebastian@pipping.org>
+
+Licensed under the MIT license:
+
+Permission is  hereby granted,  free of charge,  to any  person obtaining
+a  copy  of  this  software   and  associated  documentation  files  (the
+"Software"),  to  deal in  the  Software  without restriction,  including
+without  limitation the  rights  to use,  copy,  modify, merge,  publish,
+distribute, sublicense, and/or sell copies of the Software, and to permit
+persons  to whom  the Software  is  furnished to  do so,  subject to  the
+following conditions:
+
+The above copyright  notice and this permission notice  shall be included
+in all copies or substantial portions of the Software.
+
+THE  SOFTWARE  IS  PROVIDED  "AS  IS",  WITHOUT  WARRANTY  OF  ANY  KIND,
+EXPRESS  OR IMPLIED,  INCLUDING  BUT  NOT LIMITED  TO  THE WARRANTIES  OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+NO EVENT SHALL THE AUTHORS OR  COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR  OTHER LIABILITY, WHETHER  IN AN  ACTION OF CONTRACT,  TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+USE OR OTHER DEALINGS IN THE SOFTWARE.
 ====================================================================================================
 
 ====================================================================================================
@@ -79089,4 +79169,4 @@ freely, subject to the following restrictions:
 3. This notice may not be removed or altered from any source distribution.
 ====================================================================================================
 
-Total license count: 846
+Total license count: 848
