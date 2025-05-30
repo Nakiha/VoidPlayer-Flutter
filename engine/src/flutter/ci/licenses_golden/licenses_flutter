@@ -52858,12 +52858,14 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterHead
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterPlatformViews.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterPlugin.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterPluginAppLifeCycleDelegate.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterSceneDelegate.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterViewController.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/ConnectionCollection.swift + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/ConnectionCollectionTest.swift + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FakeUIPressProxy.swift + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegateTest.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate_Internal.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate_Test.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterCallbackCache.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterCallbackCache_Internal.h + ../../../flutter/LICENSE
@@ -52894,6 +52896,9 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterKeySe
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterKeyboardManager.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterKeyboardManager.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterKeyboardManagerTest.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterLaunchEngine.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterLaunchEngine.m + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterLaunchEngineTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterMetalLayer.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterMetalLayer.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterMetalLayerTest.mm + ../../../flutter/LICENSE
@@ -52913,6 +52918,7 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPlugi
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterRestorationPlugin.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterRestorationPlugin.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterRestorationPluginTest.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSceneDelegate.m + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSemanticsScrollView.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSemanticsScrollView.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSharedApplication.h + ../../../flutter/LICENSE
@@ -55888,6 +55894,7 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterHeadle
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterPlatformViews.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterPlugin.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterPluginAppLifeCycleDelegate.h
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterSceneDelegate.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Headers/FlutterViewController.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Info.plist
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/PrivacyInfo.xcprivacy
@@ -55896,6 +55903,7 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/ConnectionColl
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FakeUIPressProxy.swift
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegateTest.mm
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate_Internal.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterAppDelegate_Test.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterCallbackCache.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterCallbackCache_Internal.h
@@ -55926,6 +55934,9 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterKeySeco
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterKeyboardManager.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterKeyboardManager.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterKeyboardManagerTest.mm
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterLaunchEngine.h
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterLaunchEngine.m
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterLaunchEngineTest.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterMetalLayer.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterMetalLayer.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterMetalLayerTest.mm
@@ -55945,6 +55956,7 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterPluginA
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterRestorationPlugin.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterRestorationPlugin.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterRestorationPluginTest.mm
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSceneDelegate.m
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSemanticsScrollView.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSemanticsScrollView.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSharedApplication.h
