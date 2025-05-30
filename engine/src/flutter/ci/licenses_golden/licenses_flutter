@@ -51372,6 +51372,8 @@ ORIGIN: ../../../flutter/impeller/entity/entity_pass_target.cc + ../../../flutte
 ORIGIN: ../../../flutter/impeller/entity/entity_pass_target.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/entity_playground.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/entity_playground.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/geometry/arc_geometry.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/entity/geometry/arc_geometry.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/geometry/circle_geometry.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/geometry/circle_geometry.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/geometry/cover_geometry.cc + ../../../flutter/LICENSE
@@ -54387,6 +54389,8 @@ FILE: ../../../flutter/impeller/entity/entity_pass_target.cc
 FILE: ../../../flutter/impeller/entity/entity_pass_target.h
 FILE: ../../../flutter/impeller/entity/entity_playground.cc
 FILE: ../../../flutter/impeller/entity/entity_playground.h
+FILE: ../../../flutter/impeller/entity/geometry/arc_geometry.cc
+FILE: ../../../flutter/impeller/entity/geometry/arc_geometry.h
 FILE: ../../../flutter/impeller/entity/geometry/circle_geometry.cc
 FILE: ../../../flutter/impeller/entity/geometry/circle_geometry.h
 FILE: ../../../flutter/impeller/entity/geometry/cover_geometry.cc
