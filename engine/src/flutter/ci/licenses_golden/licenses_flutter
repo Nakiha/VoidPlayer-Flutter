@@ -51089,6 +51089,7 @@ ORIGIN: ../../../flutter/fml/platform/posix/native_library_posix.cc + ../../../f
 ORIGIN: ../../../flutter/fml/platform/posix/paths_posix.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/posix/posix_wrappers_posix.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/posix/process_posix.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/fml/platform/qnx/paths_qnx.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/win/command_line_win.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/win/errors_win.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/fml/platform/win/errors_win.h + ../../../flutter/LICENSE
@@ -54109,6 +54110,7 @@ FILE: ../../../flutter/fml/platform/posix/native_library_posix.cc
 FILE: ../../../flutter/fml/platform/posix/paths_posix.cc
 FILE: ../../../flutter/fml/platform/posix/posix_wrappers_posix.cc
 FILE: ../../../flutter/fml/platform/posix/process_posix.cc
+FILE: ../../../flutter/fml/platform/qnx/paths_qnx.cc
 FILE: ../../../flutter/fml/platform/win/command_line_win.cc
 FILE: ../../../flutter/fml/platform/win/errors_win.cc
 FILE: ../../../flutter/fml/platform/win/errors_win.h
