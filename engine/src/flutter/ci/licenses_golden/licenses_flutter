@@ -52156,6 +52156,7 @@ ORIGIN: ../../../flutter/lib/web_ui/lib/semantics.dart + ../../../flutter/LICENS
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/alarm_clock.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/app_bootstrap.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/arena.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/browser_detection.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/canvas.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/canvaskit_api.dart + ../../../flutter/LICENSE
@@ -52217,6 +52218,7 @@ ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/js_interop/js_typed_data.dart
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/key_map.g.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/keyboard_binding.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/layers.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/lazy_path.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/mouse/context_menu.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/mouse/cursor.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/mouse/prevent_default.dart + ../../../flutter/LICENSE
@@ -55182,6 +55184,7 @@ FILE: ../../../flutter/lib/web_ui/lib/semantics.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/alarm_clock.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/app_bootstrap.dart
+FILE: ../../../flutter/lib/web_ui/lib/src/engine/arena.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/browser_detection.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/canvas.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/canvaskit/canvaskit_api.dart
@@ -55243,6 +55246,7 @@ FILE: ../../../flutter/lib/web_ui/lib/src/engine/js_interop/js_typed_data.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/key_map.g.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/keyboard_binding.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/layers.dart
+FILE: ../../../flutter/lib/web_ui/lib/src/engine/lazy_path.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/mouse/context_menu.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/mouse/cursor.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/mouse/prevent_default.dart
