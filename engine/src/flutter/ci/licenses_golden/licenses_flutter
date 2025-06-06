@@ -52077,6 +52077,8 @@ ORIGIN: ../../../flutter/lib/ui/pointer.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/semantics.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/semantics/custom_accessibility_action.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/semantics/custom_accessibility_action.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/ui/semantics/semantics_flags.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/ui/semantics/semantics_flags.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/semantics/semantics_node.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/semantics/semantics_node.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/ui/semantics/semantics_update.cc + ../../../flutter/LICENSE
@@ -55103,6 +55105,8 @@ FILE: ../../../flutter/lib/ui/pointer.dart
 FILE: ../../../flutter/lib/ui/semantics.dart
 FILE: ../../../flutter/lib/ui/semantics/custom_accessibility_action.cc
 FILE: ../../../flutter/lib/ui/semantics/custom_accessibility_action.h
+FILE: ../../../flutter/lib/ui/semantics/semantics_flags.cc
+FILE: ../../../flutter/lib/ui/semantics/semantics_flags.h
 FILE: ../../../flutter/lib/ui/semantics/semantics_node.cc
 FILE: ../../../flutter/lib/ui/semantics/semantics_node.h
 FILE: ../../../flutter/lib/ui/semantics/semantics_update.cc
