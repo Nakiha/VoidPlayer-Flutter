@@ -51472,6 +51472,8 @@ ORIGIN: ../../../flutter/impeller/geometry/color.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/color.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/constants.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/constants.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/geometry/dashed_line_path_source.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/geometry/dashed_line_path_source.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/geometry_asserts.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/geometry_benchmarks.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/gradient.cc + ../../../flutter/LICENSE
@@ -54496,6 +54498,8 @@ FILE: ../../../flutter/impeller/geometry/color.cc
 FILE: ../../../flutter/impeller/geometry/color.h
 FILE: ../../../flutter/impeller/geometry/constants.cc
 FILE: ../../../flutter/impeller/geometry/constants.h
+FILE: ../../../flutter/impeller/geometry/dashed_line_path_source.cc
+FILE: ../../../flutter/impeller/geometry/dashed_line_path_source.h
 FILE: ../../../flutter/impeller/geometry/geometry_asserts.h
 FILE: ../../../flutter/impeller/geometry/geometry_benchmarks.cc
 FILE: ../../../flutter/impeller/geometry/gradient.cc
