@@ -51935,6 +51935,8 @@ ORIGIN: ../../../flutter/impeller/entity/shaders/texture_fill_strict_src.frag + 
 ORIGIN: ../../../flutter/impeller/entity/shaders/texture_uv_fill.vert + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/tiled_texture_fill.frag + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/entity/shaders/tiled_texture_fill_external.frag + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/geometry/arc.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/geometry/arc.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/color.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/color.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/geometry/constants.cc + ../../../flutter/LICENSE
@@ -54961,6 +54963,8 @@ FILE: ../../../flutter/impeller/entity/shaders/texture_fill_strict_src.frag
 FILE: ../../../flutter/impeller/entity/shaders/texture_uv_fill.vert
 FILE: ../../../flutter/impeller/entity/shaders/tiled_texture_fill.frag
 FILE: ../../../flutter/impeller/entity/shaders/tiled_texture_fill_external.frag
+FILE: ../../../flutter/impeller/geometry/arc.cc
+FILE: ../../../flutter/impeller/geometry/arc.h
 FILE: ../../../flutter/impeller/geometry/color.cc
 FILE: ../../../flutter/impeller/geometry/color.h
 FILE: ../../../flutter/impeller/geometry/constants.cc
