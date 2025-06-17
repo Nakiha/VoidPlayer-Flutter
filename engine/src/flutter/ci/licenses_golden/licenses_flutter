@@ -53398,6 +53398,7 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterResto
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterRestorationPlugin.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterRestorationPluginTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSceneDelegate.m + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSceneDelegateTest.m + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSemanticsScrollView.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSemanticsScrollView.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSharedApplication.h + ../../../flutter/LICENSE
@@ -56451,6 +56452,7 @@ FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterRestora
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterRestorationPlugin.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterRestorationPluginTest.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSceneDelegate.m
+FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSceneDelegateTest.m
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSemanticsScrollView.h
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSemanticsScrollView.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/framework/Source/FlutterSharedApplication.h
