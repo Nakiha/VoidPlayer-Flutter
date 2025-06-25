@@ -52141,6 +52141,7 @@ ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/formats_vk.cc + ../../
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/formats_vk.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/gpu_tracer_vk.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/gpu_tracer_vk.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/limits_vk.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/pipeline_cache_data_vk.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/pipeline_cache_data_vk.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/renderer/backend/vulkan/pipeline_cache_vk.cc + ../../../flutter/LICENSE
@@ -52306,10 +52307,12 @@ ORIGIN: ../../../flutter/impeller/toolkit/egl/display.cc + ../../../flutter/LICE
 ORIGIN: ../../../flutter/impeller/toolkit/egl/display.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/egl/egl.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/egl/egl.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/egl/image.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/egl/image.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/egl/surface.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/egl/surface.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/gles/gles.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/gles/texture.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/gles/texture.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/glvk/proc_table.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/glvk/proc_table.h + ../../../flutter/LICENSE
@@ -52847,6 +52850,8 @@ ORIGIN: ../../../flutter/lib/web_ui/skwasm/fonts.cpp + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/skwasm/helpers.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/skwasm/image.cpp + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/skwasm/library_skwasm_support.js + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/web_ui/skwasm/live_objects.cpp + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/web_ui/skwasm/live_objects.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/skwasm/paint.cpp + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/skwasm/path.cpp + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/skwasm/picture.cpp + ../../../flutter/LICENSE
@@ -53060,6 +53065,7 @@ ORIGIN: ../../../flutter/shell/platform/android/io/flutter/BuildConfig.java + ..
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/FlutterInjector.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/Log.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/app/FlutterApplication.java + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/AndroidTouchProcessor.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/ExclusiveAppComponent.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/FlutterActivity.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/FlutterActivityAndFragmentDelegate.java + ../../../flutter/LICENSE
@@ -53079,6 +53085,7 @@ ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/Key
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/KeyEmbedderResponder.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/KeyboardManager.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/KeyboardMap.java + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/MotionEventTracker.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/RenderMode.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/TransparencyMode.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/android/WindowInfoRepositoryCallbackAdapterWrapper.java + ../../../flutter/LICENSE
@@ -53100,6 +53107,7 @@ ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/load
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/loader/FlutterApplicationInfo.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/loader/FlutterLoader.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/loader/ResourceExtractor.java + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/mutatorsstack/FlutterMutatorView.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/mutatorsstack/FlutterMutatorsStack.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/plugins/FlutterPlugin.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/plugins/PluginRegistry.java + ../../../flutter/LICENSE
@@ -53120,7 +53128,9 @@ ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/plug
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/renderer/FlutterRenderer.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/renderer/FlutterUiDisplayListener.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/renderer/RenderSurface.java + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/renderer/SurfaceTextureSurfaceProducer.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/renderer/SurfaceTextureWrapper.java + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/systemchannels/AccessibilityChannel.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/systemchannels/BackGestureChannel.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/systemchannels/DeferredComponentChannel.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/systemchannels/KeyEventChannel.java + ../../../flutter/LICENSE
@@ -53136,8 +53146,10 @@ ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/syst
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/systemchannels/RestorationChannel.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/systemchannels/ScribeChannel.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/systemchannels/SensitiveContentChannel.java + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/systemchannels/SettingsChannel.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/systemchannels/SpellCheckChannel.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/systemchannels/SystemChannel.java + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/io/flutter/embedding/engine/systemchannels/TextInputChannel.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/common/ActivityLifecycleListener.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/common/BasicMessageChannel.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/common/BinaryCodec.java + ../../../flutter/LICENSE
@@ -53147,6 +53159,7 @@ ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/common/EventCh
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/common/FlutterException.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/common/JSONMessageCodec.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/common/JSONMethodCodec.java + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/common/JSONUtil.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/common/MessageCodec.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/common/MethodCall.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/common/MethodChannel.java + ../../../flutter/LICENSE
@@ -53166,6 +53179,7 @@ ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/editing/TextIn
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/localization/LocalizationPlugin.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/mouse/MouseCursorPlugin.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/AccessibilityEventsDelegate.java + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/ImageReaderPlatformViewRenderTarget.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/PlatformOverlayView.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/PlatformPlugin.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/PlatformView.java + ../../../flutter/LICENSE
@@ -53181,6 +53195,8 @@ ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/Platf
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/SingleViewFakeWindowViewGroup.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/SingleViewPresentation.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/SingleViewWindowManager.java + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/SurfaceProducerPlatformViewRenderTarget.java + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/SurfaceTexturePlatformViewRenderTarget.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/VirtualDisplayController.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/platform/WindowManagerHandler.java + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/android/io/flutter/plugin/text/ProcessTextPlugin.java + ../../../flutter/LICENSE
@@ -53289,6 +53305,8 @@ ORIGIN: ../../../flutter/shell/platform/common/text_input_model.cc + ../../../fl
 ORIGIN: ../../../flutter/shell/platform/common/text_input_model.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/common/text_range.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/common/InternalFlutterSwiftCommon-Bridging-Header.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/common/SwiftTestingMain.swift + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/common/SwiftTestingRunner.swift + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/common/availability_version_check.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/common/availability_version_check.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/common/buffer_conversions.h + ../../../flutter/LICENSE
@@ -53320,6 +53338,7 @@ ORIGIN: ../../../flutter/shell/platform/darwin/common/framework/Source/FlutterTe
 ORIGIN: ../../../flutter/shell/platform/darwin/common/framework/Source/Logger.swift + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/common/framework/Source/LoggerTest.swift + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/common/framework/Source/LoggerTestUtils.swift + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/common/framework/Source/SwiftTests.swift + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/graphics/FlutterDarwinContextMetalImpeller.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/graphics/FlutterDarwinContextMetalImpeller.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/graphics/FlutterDarwinContextMetalSkia.h + ../../../flutter/LICENSE
@@ -53503,6 +53522,8 @@ ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterCom
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterCompositor.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterDartProject.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterDartProject_Internal.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterDisplayLink.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterDisplayLink.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterDisplayLinkTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterEmbedderExternalTextureTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterEmbedderKeyResponder.h + ../../../flutter/LICENSE
@@ -53555,6 +53576,8 @@ ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterTex
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterTimeConverter.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterTimeConverter.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterUmbrellaImportTests.m + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterVSyncWaiter.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterVSyncWaiter.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterVSyncWaiterTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterView.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterView.mm + ../../../flutter/LICENSE
@@ -53663,6 +53686,8 @@ ORIGIN: ../../../flutter/shell/platform/fuchsia/dart-pkg/zircon_ffi/channel.cc +
 ORIGIN: ../../../flutter/shell/platform/fuchsia/dart-pkg/zircon_ffi/channel.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/fuchsia/dart-pkg/zircon_ffi/clock.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/fuchsia/dart-pkg/zircon_ffi/clock.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/fuchsia/dart-pkg/zircon_ffi/dart_dl.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/fuchsia/dart-pkg/zircon_ffi/dart_dl.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/fuchsia/dart-pkg/zircon_ffi/handle.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/fuchsia/dart-pkg/zircon_ffi/handle.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/fuchsia/dart-pkg/zircon_ffi/macros.h + ../../../flutter/LICENSE
