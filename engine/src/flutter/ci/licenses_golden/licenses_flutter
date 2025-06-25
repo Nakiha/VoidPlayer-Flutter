@@ -52349,6 +52349,8 @@ ORIGIN: ../../../flutter/impeller/toolkit/interop/example_mtl.m + ../../../flutt
 ORIGIN: ../../../flutter/impeller/toolkit/interop/example_vk.c + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/interop/formats.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/interop/formats.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/fragment_program.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/impeller/toolkit/interop/fragment_program.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/interop/glyph_info.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/interop/glyph_info.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/impeller/toolkit/interop/image_filter.cc + ../../../flutter/LICENSE
@@ -55405,6 +55407,8 @@ FILE: ../../../flutter/impeller/toolkit/interop/example_mtl.m
 FILE: ../../../flutter/impeller/toolkit/interop/example_vk.c
 FILE: ../../../flutter/impeller/toolkit/interop/formats.cc
 FILE: ../../../flutter/impeller/toolkit/interop/formats.h
+FILE: ../../../flutter/impeller/toolkit/interop/fragment_program.cc
+FILE: ../../../flutter/impeller/toolkit/interop/fragment_program.h
 FILE: ../../../flutter/impeller/toolkit/interop/glyph_info.cc
 FILE: ../../../flutter/impeller/toolkit/interop/glyph_info.h
 FILE: ../../../flutter/impeller/toolkit/interop/image_filter.cc
