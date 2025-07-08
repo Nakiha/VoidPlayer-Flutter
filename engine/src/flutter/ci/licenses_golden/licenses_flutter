@@ -53288,6 +53288,8 @@ ORIGIN: ../../../flutter/shell/platform/common/flutter_platform_node_delegate.h 
 ORIGIN: ../../../flutter/shell/platform/common/geometry.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/common/incoming_message_dispatcher.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/common/incoming_message_dispatcher.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/common/isolate_scope.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/common/isolate_scope.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/common/json_message_codec.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/common/json_message_codec.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/common/json_method_codec.cc + ../../../flutter/LICENSE
@@ -53307,6 +53309,7 @@ ORIGIN: ../../../flutter/shell/platform/common/text_editing_delta.h + ../../../f
 ORIGIN: ../../../flutter/shell/platform/common/text_input_model.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/common/text_input_model.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/common/text_range.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/common/windowing.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/common/InternalFlutterSwiftCommon-Bridging-Header.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/common/SwiftTestingMain.swift + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/common/SwiftTestingRunner.swift + ../../../flutter/LICENSE
@@ -53594,6 +53597,9 @@ ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterVie
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterViewEngineProviderTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterViewProvider.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterViewTest.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterWindowController.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterWindowController.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterWindowControllerTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/KeyCodeMap.g.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/KeyCodeMapTest.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/framework/Source/KeyCodeMap_Internal.h + ../../../flutter/LICENSE
@@ -54071,6 +54077,8 @@ ORIGIN: ../../../flutter/shell/platform/windows/flutter_windows_view.cc + ../../
 ORIGIN: ../../../flutter/shell/platform/windows/flutter_windows_view.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/windows/flutter_windows_view_controller.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/windows/flutter_windows_view_controller.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/windows/host_window.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/windows/host_window.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/windows/keyboard_handler_base.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/windows/keyboard_key_channel_handler.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/windows/keyboard_key_channel_handler.h + ../../../flutter/LICENSE
@@ -54105,6 +54113,8 @@ ORIGIN: ../../../flutter/shell/platform/windows/text_input_plugin.cc + ../../../
 ORIGIN: ../../../flutter/shell/platform/windows/text_input_plugin.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/windows/window_binding_handler.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/windows/window_binding_handler_delegate.h + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/windows/window_manager.cc + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/windows/window_manager.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/windows/window_proc_delegate_manager.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/windows/window_proc_delegate_manager.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/windows/window_state.h + ../../../flutter/LICENSE
@@ -56349,6 +56359,8 @@ FILE: ../../../flutter/shell/platform/common/flutter_platform_node_delegate.h
 FILE: ../../../flutter/shell/platform/common/geometry.h
 FILE: ../../../flutter/shell/platform/common/incoming_message_dispatcher.cc
 FILE: ../../../flutter/shell/platform/common/incoming_message_dispatcher.h
+FILE: ../../../flutter/shell/platform/common/isolate_scope.cc
+FILE: ../../../flutter/shell/platform/common/isolate_scope.h
 FILE: ../../../flutter/shell/platform/common/json_message_codec.cc
 FILE: ../../../flutter/shell/platform/common/json_message_codec.h
 FILE: ../../../flutter/shell/platform/common/json_method_codec.cc
@@ -56368,6 +56380,7 @@ FILE: ../../../flutter/shell/platform/common/text_editing_delta.h
 FILE: ../../../flutter/shell/platform/common/text_input_model.cc
 FILE: ../../../flutter/shell/platform/common/text_input_model.h
 FILE: ../../../flutter/shell/platform/common/text_range.h
+FILE: ../../../flutter/shell/platform/common/windowing.h
 FILE: ../../../flutter/shell/platform/darwin/common/InternalFlutterSwiftCommon-Bridging-Header.h
 FILE: ../../../flutter/shell/platform/darwin/common/SwiftTestingMain.swift
 FILE: ../../../flutter/shell/platform/darwin/common/SwiftTestingRunner.swift
@@ -56660,6 +56673,9 @@ FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterViewE
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterViewEngineProviderTest.mm
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterViewProvider.h
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterViewTest.mm
+FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterWindowController.h
+FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterWindowController.mm
+FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/FlutterWindowControllerTest.mm
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/KeyCodeMap.g.mm
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/KeyCodeMapTest.mm
 FILE: ../../../flutter/shell/platform/darwin/macos/framework/Source/KeyCodeMap_Internal.h
@@ -57141,6 +57157,8 @@ FILE: ../../../flutter/shell/platform/windows/flutter_windows_view.cc
 FILE: ../../../flutter/shell/platform/windows/flutter_windows_view.h
 FILE: ../../../flutter/shell/platform/windows/flutter_windows_view_controller.cc
 FILE: ../../../flutter/shell/platform/windows/flutter_windows_view_controller.h
+FILE: ../../../flutter/shell/platform/windows/host_window.cc
+FILE: ../../../flutter/shell/platform/windows/host_window.h
 FILE: ../../../flutter/shell/platform/windows/keyboard_handler_base.h
 FILE: ../../../flutter/shell/platform/windows/keyboard_key_channel_handler.cc
 FILE: ../../../flutter/shell/platform/windows/keyboard_key_channel_handler.h
@@ -57175,6 +57193,8 @@ FILE: ../../../flutter/shell/platform/windows/text_input_plugin.cc
 FILE: ../../../flutter/shell/platform/windows/text_input_plugin.h
 FILE: ../../../flutter/shell/platform/windows/window_binding_handler.h
 FILE: ../../../flutter/shell/platform/windows/window_binding_handler_delegate.h
+FILE: ../../../flutter/shell/platform/windows/window_manager.cc
+FILE: ../../../flutter/shell/platform/windows/window_manager.h
 FILE: ../../../flutter/shell/platform/windows/window_proc_delegate_manager.cc
 FILE: ../../../flutter/shell/platform/windows/window_proc_delegate_manager.h
 FILE: ../../../flutter/shell/platform/windows/window_state.h
