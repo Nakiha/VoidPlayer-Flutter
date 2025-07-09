@@ -54288,6 +54288,7 @@ ORIGIN: ../../../flutter/vulkan/vulkan_window.cc + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/vulkan/vulkan_window.h + ../../../flutter/LICENSE
 TYPE: LicenseType.bsd
 FILE: ../../../flutter/.engine-release.version
+FILE: ../../../flutter/.gemini/settings.json
 FILE: ../../../flutter/.pylintrc
 FILE: ../../../flutter/assets/asset_manager.cc
 FILE: ../../../flutter/assets/asset_manager.h
