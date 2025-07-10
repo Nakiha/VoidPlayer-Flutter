@@ -66823,6 +66823,9 @@ FILE: ../../../flutter/third_party/boringssl/src/third_party/fiat/asm/fiat_curve
 FILE: ../../../flutter/third_party/boringssl/src/third_party/fiat/asm/fiat_curve25519_adx_square.S
 FILE: ../../../flutter/third_party/boringssl/src/third_party/fiat/asm/fiat_p256_adx_mul.S
 FILE: ../../../flutter/third_party/boringssl/src/third_party/fiat/asm/fiat_p256_adx_sqr.S
+FILE: ../../../flutter/third_party/boringssl/src/third_party/fiat/bedrock_polyfill_platform.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/third_party/fiat/bedrock_unverified_bareminimum.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/third_party/fiat/bedrock_unverified_platform.c.inc
 FILE: ../../../flutter/third_party/boringssl/src/third_party/fiat/curve25519_32.h
 FILE: ../../../flutter/third_party/boringssl/src/third_party/fiat/curve25519_64.h
 FILE: ../../../flutter/third_party/boringssl/src/third_party/fiat/curve25519_64_adx.h
@@ -66830,6 +66833,10 @@ FILE: ../../../flutter/third_party/boringssl/src/third_party/fiat/curve25519_64_
 FILE: ../../../flutter/third_party/boringssl/src/third_party/fiat/p256_32.h
 FILE: ../../../flutter/third_party/boringssl/src/third_party/fiat/p256_64.h
 FILE: ../../../flutter/third_party/boringssl/src/third_party/fiat/p256_64_msvc.h
+FILE: ../../../flutter/third_party/boringssl/src/third_party/fiat/p256_field.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/third_party/fiat/p256_field_32.br.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/third_party/fiat/p256_field_64.br.c.inc
+FILE: ../../../flutter/third_party/boringssl/src/third_party/fiat/p256_point.br.c.inc
 ----------------------------------------------------------------------------------------------------
 The Apache License, Version 2.0 (Apache-2.0)
 
