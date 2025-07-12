@@ -52630,6 +52630,7 @@ ORIGIN: ../../../flutter/lib/web_ui/lib/path_metrics.dart + ../../../flutter/LIC
 ORIGIN: ../../../flutter/lib/web_ui/lib/platform_dispatcher.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/platform_isolate.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/pointer.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/web_ui/lib/rsuperellipse_param.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/semantics.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/alarm_clock.dart + ../../../flutter/LICENSE
@@ -55704,6 +55705,7 @@ FILE: ../../../flutter/lib/web_ui/lib/path_metrics.dart
 FILE: ../../../flutter/lib/web_ui/lib/platform_dispatcher.dart
 FILE: ../../../flutter/lib/web_ui/lib/platform_isolate.dart
 FILE: ../../../flutter/lib/web_ui/lib/pointer.dart
+FILE: ../../../flutter/lib/web_ui/lib/rsuperellipse_param.dart
 FILE: ../../../flutter/lib/web_ui/lib/semantics.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/alarm_clock.dart
