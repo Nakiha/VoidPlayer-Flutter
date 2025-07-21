@@ -52823,7 +52823,12 @@ ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/view_embedder/flutter_view_ma
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/view_embedder/global_html_attributes.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/view_embedder/hot_restart_cache_handler.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/view_embedder/style_manager.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/web_paragraph/code_unit_flags.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/web_paragraph/debug.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/web_paragraph/layout.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/web_paragraph/paint.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/web_paragraph/paragraph.dart + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/web_paragraph/wrapper.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/src/engine/window.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/text.dart + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/lib/web_ui/lib/tile_mode.dart + ../../../flutter/LICENSE
@@ -55896,7 +55901,12 @@ FILE: ../../../flutter/lib/web_ui/lib/src/engine/view_embedder/flutter_view_mana
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/view_embedder/global_html_attributes.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/view_embedder/hot_restart_cache_handler.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/view_embedder/style_manager.dart
+FILE: ../../../flutter/lib/web_ui/lib/src/engine/web_paragraph/code_unit_flags.dart
+FILE: ../../../flutter/lib/web_ui/lib/src/engine/web_paragraph/debug.dart
+FILE: ../../../flutter/lib/web_ui/lib/src/engine/web_paragraph/layout.dart
+FILE: ../../../flutter/lib/web_ui/lib/src/engine/web_paragraph/paint.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/web_paragraph/paragraph.dart
+FILE: ../../../flutter/lib/web_ui/lib/src/engine/web_paragraph/wrapper.dart
 FILE: ../../../flutter/lib/web_ui/lib/src/engine/window.dart
 FILE: ../../../flutter/lib/web_ui/lib/text.dart
 FILE: ../../../flutter/lib/web_ui/lib/tile_mode.dart
