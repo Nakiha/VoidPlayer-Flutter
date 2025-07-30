@@ -54687,6 +54687,7 @@ FILE: ../../../flutter/fml/unique_fd.cc
 FILE: ../../../flutter/fml/unique_fd.h
 FILE: ../../../flutter/fml/unique_object.h
 FILE: ../../../flutter/fml/wakeable.h
+FILE: ../../../flutter/impeller/GEMINI.md
 FILE: ../../../flutter/impeller/base/allocation.cc
 FILE: ../../../flutter/impeller/base/allocation.h
 FILE: ../../../flutter/impeller/base/allocation_size.cc
