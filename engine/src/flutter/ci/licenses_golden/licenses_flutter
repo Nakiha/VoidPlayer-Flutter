@@ -53508,6 +53508,7 @@ ORIGIN: ../../../flutter/shell/platform/darwin/ios/platform_message_handler_ios.
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/platform_message_handler_ios_test.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/platform_view_ios.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/platform_view_ios.mm + ../../../flutter/LICENSE
+ORIGIN: ../../../flutter/shell/platform/darwin/ios/platform_view_ios_test.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/rendering_api_selection.h + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/ios/rendering_api_selection.mm + ../../../flutter/LICENSE
 ORIGIN: ../../../flutter/shell/platform/darwin/macos/InternalFlutterSwift-Bridging-Header.h + ../../../flutter/LICENSE
@@ -56592,6 +56593,7 @@ FILE: ../../../flutter/shell/platform/darwin/ios/platform_message_handler_ios.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/platform_message_handler_ios_test.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/platform_view_ios.h
 FILE: ../../../flutter/shell/platform/darwin/ios/platform_view_ios.mm
+FILE: ../../../flutter/shell/platform/darwin/ios/platform_view_ios_test.mm
 FILE: ../../../flutter/shell/platform/darwin/ios/rendering_api_selection.h
 FILE: ../../../flutter/shell/platform/darwin/ios/rendering_api_selection.mm
 FILE: ../../../flutter/shell/platform/darwin/macos/InternalFlutterSwift-Bridging-Header.h
