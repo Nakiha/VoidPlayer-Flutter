@@ -26,6 +26,10 @@
   return _ioSurface;
 }
 
+- (id<MTLTexture>)texture {
+  return _texture;
+}
+
 - (CGSize)size {
   return _size;
 }

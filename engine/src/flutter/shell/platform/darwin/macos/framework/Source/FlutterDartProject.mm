@@ -9,9 +9,25 @@
 
 #import <Metal/Metal.h>
 
+#include "flutter/fml/logging.h"
 #include "flutter/shell/platform/common/engine_switches.h"
 
 static NSString* const kICUBundlePath = @"icudtl.dat";
+static NSString* const kVoidPlayerHDRSpikeEnvironmentKey = @"VOIDPLAYER_FLUTTER_HDR_SPIKE";
+
+static BOOL IsTruthyEnvironmentValue(NSString* value) {
+  if (value == nil) {
+    return NO;
+  }
+  NSString* normalized = [value lowercaseString];
+  return normalized.length > 0 && ![normalized isEqualToString:@"0"] &&
+         ![normalized isEqualToString:@"false"] && ![normalized isEqualToString:@"no"];
+}
+
+static BOOL IsVoidPlayerHDRSpikeEnabled() {
+  return IsTruthyEnvironmentValue(
+      [NSProcessInfo processInfo].environment[kVoidPlayerHDRSpikeEnvironmentKey]);
+}
 
 static BOOL DoesHardwareSupportWideGamut() {
   static BOOL result = NO;
@@ -75,6 +91,10 @@ static NSString* const kAppBundleIdentifier = @"io.flutter.flutter.app";
 }
 
 - (BOOL)enableImpeller {
+  if (IsVoidPlayerHDRSpikeEnabled()) {
+    FML_LOG(INFO) << "VoidPlayer HDR spike requested: Impeller enabled";
+    return YES;
+  }
   NSNumber* enableImpeller =
       [[NSBundle mainBundle] objectForInfoDictionaryKey:@"FLTEnableImpeller"];
   if (enableImpeller != nil) {
@@ -86,8 +106,15 @@ static NSString* const kAppBundleIdentifier = @"io.flutter.flutter.app";
 - (BOOL)enableWideGamut {
   NSNumber* enableWideGamut =
       [[NSBundle mainBundle] objectForInfoDictionaryKey:@"FLTEnableWideGamut"];
-  if (enableWideGamut != nil) {
-    return enableWideGamut.boolValue && DoesHardwareSupportWideGamut();
+  BOOL requested = enableWideGamut != nil && enableWideGamut.boolValue;
+  BOOL spikeRequested = IsVoidPlayerHDRSpikeEnabled();
+  if (requested || spikeRequested) {
+    BOOL supported = DoesHardwareSupportWideGamut();
+    if (spikeRequested) {
+      FML_LOG(INFO) << "VoidPlayer HDR spike requested: wide gamut "
+                    << (supported ? "enabled" : "not supported by this GPU");
+    }
+    return supported;
   }
   return NO;
 }

@@ -5,9 +5,12 @@
 #include "flutter/shell/platform/embedder/embedder_external_view_embedder.h"
 
 #include <cassert>
+#include <cstdlib>
+#include <cstring>
 #include <utility>
 
 #include "flutter/common/constants.h"
+#include "flutter/fml/logging.h"
 #include "flutter/shell/platform/embedder/embedder_layers.h"
 #include "flutter/shell/platform/embedder/embedder_render_target.h"
 #include "third_party/skia/include/gpu/ganesh/GrDirectContext.h"
@@ -15,6 +18,12 @@
 namespace flutter {
 
 static const auto kRootViewIdentifier = EmbedderExternalView::ViewIdentifier{};
+
+static bool IsVoidPlayerHDRSpikeEnabled() {
+  const char* value = std::getenv("VOIDPLAYER_FLUTTER_HDR_SPIKE");
+  return value != nullptr && value[0] != '\0' && strcmp(value, "0") != 0 &&
+         strcmp(value, "false") != 0 && strcmp(value, "no") != 0;
+}
 
 EmbedderExternalViewEmbedder::EmbedderExternalViewEmbedder(
     bool avoid_backing_store_cache,
@@ -442,6 +451,16 @@ void EmbedderExternalViewEmbedder::SubmitFlutterView(
     builder.AddExternalView(view.get());
   }
 
+  static int submit_log_count = 0;
+  if (IsVoidPlayerHDRSpikeEnabled() && submit_log_count < 12) {
+    ++submit_log_count;
+    FML_LOG(INFO) << "VoidPlayer HDR spike: SubmitFlutterView view=" << flutter_view_id
+                  << " pending_size=" << pending_frame_size_.width << "x"
+                  << pending_frame_size_.height
+                  << " composition_order=" << composition_order_.size();
+  }
+
+  static int target_log_count = 0;
   builder.PrepareBackingStore([&](const DlISize& frame_size) {
     if (!avoid_backing_store_cache_) {
       std::unique_ptr<EmbedderRenderTarget> target =
@@ -452,6 +471,12 @@ void EmbedderExternalViewEmbedder::SubmitFlutterView(
       }
     }
     auto config = MakeBackingStoreConfig(flutter_view_id, frame_size);
+    if (IsVoidPlayerHDRSpikeEnabled() && target_log_count < 12) {
+      ++target_log_count;
+      FML_LOG(INFO) << "VoidPlayer HDR spike: requesting render target view="
+                    << flutter_view_id << " size=" << frame_size.width << "x"
+                    << frame_size.height;
+    }
     return create_render_target_callback_(context, aiks_context, config);
   });
 

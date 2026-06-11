@@ -5,6 +5,7 @@
 #define FML_USED_ON_EMBEDDER
 #define RAPIDJSON_HAS_STDSTRING 1
 
+#include <cstdlib>
 #include <cstring>
 #include <iostream>
 #include <memory>
@@ -39,6 +40,12 @@ extern "C" {
 extern const uint8_t kPlatformStrongDill[];
 extern const intptr_t kPlatformStrongDillSize;
 #endif  // FLUTTER_RUNTIME_MODE == FLUTTER_RUNTIME_MODE_DEBUG
+}
+
+static bool IsVoidPlayerHDRSpikeEnabled() {
+  const char* value = std::getenv("VOIDPLAYER_FLUTTER_HDR_SPIKE");
+  return value != nullptr && value[0] != '\0' && strcmp(value, "0") != 0 &&
+         strcmp(value, "false") != 0 && strcmp(value, "no") != 0;
 }
 
 #include "flutter/assets/directory_asset_bundle.h"
@@ -1246,6 +1253,14 @@ MakeRenderTargetFromBackingStoreImpeller(
   }
 
   const auto size = impeller::ISize(config.size.width, config.size.height);
+  static int metal_impeller_target_log_count = 0;
+  if (IsVoidPlayerHDRSpikeEnabled() && metal_impeller_target_log_count < 12) {
+    ++metal_impeller_target_log_count;
+    FML_LOG(INFO) << "VoidPlayer HDR spike: wrapping Metal backing store for Impeller"
+                  << " view=" << config.view_id << " size=" << config.size.width << "x"
+                  << config.size.height << " texture=" << metal->texture.texture
+                  << " texture_id=" << metal->texture.texture_id;
+  }
 
   impeller::TextureDescriptor resolve_tex_desc;
   resolve_tex_desc.size = size;
