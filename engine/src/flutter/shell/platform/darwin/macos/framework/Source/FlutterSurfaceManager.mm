@@ -5,6 +5,7 @@
 #import "flutter/shell/platform/darwin/macos/framework/Source/FlutterSurfaceManager.h"
 
 #import <Metal/Metal.h>
+#import <objc/message.h>
 
 #include <algorithm>
 
@@ -13,6 +14,8 @@
 
 @implementation FlutterSurfacePresentInfo
 @end
+
+static NSString* const kVoidPlayerHDRSpikeEnvironmentKey = @"VOIDPLAYER_FLUTTER_HDR_SPIKE";
 
 @interface FlutterSurfaceManager () {
   id<MTLDevice> _device;
@@ -46,6 +49,33 @@
 
 @end
 
+static BOOL IsTruthyEnvironmentValue(NSString* value) {
+  if (value == nil) {
+    return NO;
+  }
+  NSString* normalized = [value lowercaseString];
+  return normalized.length > 0 && ![normalized isEqualToString:@"0"] &&
+         ![normalized isEqualToString:@"false"] && ![normalized isEqualToString:@"no"];
+}
+
+static BOOL IsVoidPlayerHDRSpikeEnabled() {
+  return IsTruthyEnvironmentValue(
+      [NSProcessInfo processInfo].environment[kVoidPlayerHDRSpikeEnvironmentKey]);
+}
+
+static void SetLayerWantsExtendedDynamicRangeContent(CALayer* layer, BOOL enabled) {
+  SEL selector = NSSelectorFromString(@"setWantsExtendedDynamicRangeContent:");
+  if (![layer respondsToSelector:selector]) {
+    return;
+  }
+  using SetWantsEDRFn = void (*)(id, SEL, BOOL);
+  reinterpret_cast<SetWantsEDRFn>(objc_msgSend)(layer, selector, enabled);
+}
+
+static void ConfigureLayerForWideGamutContent(CALayer* layer, BOOL wideGamut) {
+  SetLayerWantsExtendedDynamicRangeContent(layer, wideGamut);
+}
+
 static NSColor* GetBorderColorForLayer(int layer) {
   NSArray* colors = @[
     [NSColor yellowColor],
@@ -66,6 +96,7 @@ static void UpdateContentSubLayers(CALayer* layer,
                                    CGFloat scale,
                                    CGSize surfaceSize,
                                    NSColor* borderColor,
+                                   BOOL wideGamut,
                                    const std::vector<FlutterRect>& paintRegion) {
   // Adjust sublayer count to paintRegion count.
   while (layer.sublayers.count > paintRegion.size()) {
@@ -74,11 +105,13 @@ static void UpdateContentSubLayers(CALayer* layer,
 
   while (layer.sublayers.count < paintRegion.size()) {
     CALayer* newLayer = [CALayer layer];
+    ConfigureLayerForWideGamutContent(newLayer, wideGamut);
     [layer addSublayer:newLayer];
   }
 
   for (size_t i = 0; i < paintRegion.size(); i++) {
     CALayer* subLayer = [layer.sublayers objectAtIndex:i];
+    ConfigureLayerForWideGamutContent(subLayer, wideGamut);
     const auto& rect = paintRegion[i];
     subLayer.frame = CGRectMake(rect.left / scale, rect.top / scale,
                                 (rect.right - rect.left) / scale, (rect.bottom - rect.top) / scale);
@@ -116,6 +149,11 @@ static void UpdateContentSubLayers(CALayer* layer,
     _backBufferCache = [[FlutterBackBufferCache alloc] init];
     _frontSurfaces = [NSMutableArray array];
     _layers = [NSMutableArray array];
+    ConfigureLayerForWideGamutContent(_containingLayer, _wideGamut);
+    if (IsVoidPlayerHDRSpikeEnabled()) {
+      FML_LOG(INFO) << "VoidPlayer HDR spike: FlutterSurfaceManager initialized with wideGamut="
+                    << (_wideGamut ? "true" : "false");
+    }
   }
   return self;
 }
@@ -126,6 +164,17 @@ static void UpdateContentSubLayers(CALayer* layer,
     return;
   }
   _wideGamut = enableWideGamut;
+  ConfigureLayerForWideGamutContent(_containingLayer, _wideGamut);
+  for (CALayer* layer in _layers) {
+    ConfigureLayerForWideGamutContent(layer, _wideGamut);
+    for (CALayer* subLayer in layer.sublayers) {
+      ConfigureLayerForWideGamutContent(subLayer, _wideGamut);
+    }
+  }
+  if (IsVoidPlayerHDRSpikeEnabled()) {
+    FML_LOG(INFO) << "VoidPlayer HDR spike: FlutterSurfaceManager wideGamut="
+                  << (_wideGamut ? "true" : "false");
+  }
 
   // Flush cached surfaces since they have the wrong pixel format.
   [_backBufferCache flush];
@@ -150,6 +199,11 @@ static void UpdateContentSubLayers(CALayer* layer,
   FlutterSurface* surface = [_backBufferCache removeSurfaceForSize:size];
   if (surface == nil) {
     surface = [[FlutterSurface alloc] initWithSize:size device:_device enableWideGamut:_wideGamut];
+    if (IsVoidPlayerHDRSpikeEnabled()) {
+      FML_LOG(INFO) << "VoidPlayer HDR spike: created FlutterSurface "
+                    << static_cast<int>(size.width) << "x" << static_cast<int>(size.height)
+                    << " wideGamut=" << (_wideGamut ? "true" : "false");
+    }
   }
   return surface;
 }
@@ -192,6 +246,7 @@ static void UpdateContentSubLayers(CALayer* layer,
   }
   while (_layers.count < _frontSurfaces.count) {
     CALayer* layer = [CALayer layer];
+    ConfigureLayerForWideGamutContent(layer, _wideGamut);
     [_containingLayer addSublayer:layer];
     [_layers addObject:layer];
   }
@@ -202,6 +257,7 @@ static void UpdateContentSubLayers(CALayer* layer,
   for (size_t i = 0; i < surfaces.count; ++i) {
     FlutterSurfacePresentInfo* info = surfaces[i];
     CALayer* layer = _layers[i];
+    ConfigureLayerForWideGamutContent(layer, _wideGamut);
     CGFloat scale = _containingLayer.contentsScale;
     if (i == 0) {
       layer.frame = CGRectMake(info.offset.x / scale, info.offset.y / scale,
@@ -211,7 +267,7 @@ static void UpdateContentSubLayers(CALayer* layer,
       layer.frame = CGRectZero;
       NSColor* borderColor = enableSurfaceDebugInfo ? GetBorderColorForLayer(i - 1) : nil;
       UpdateContentSubLayers(layer, info.surface.ioSurface, scale, info.surface.size, borderColor,
-                             info.paintRegion);
+                             _wideGamut, info.paintRegion);
     }
     layer.zPosition = info.zIndex;
   }

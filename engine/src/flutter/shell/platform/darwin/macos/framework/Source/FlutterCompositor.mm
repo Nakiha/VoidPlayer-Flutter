@@ -4,12 +4,30 @@
 
 #import "flutter/shell/platform/darwin/macos/framework/Source/FlutterCompositor.h"
 
+#import <Foundation/Foundation.h>
+
 #include "flutter/common/constants.h"
 #include "flutter/fml/logging.h"
 
 namespace flutter {
 
 namespace {
+static NSString* const kVoidPlayerHDRSpikeEnvironmentKey = @"VOIDPLAYER_FLUTTER_HDR_SPIKE";
+
+bool IsTruthyEnvironmentValue(NSString* value) {
+  if (value == nil) {
+    return false;
+  }
+  NSString* normalized = [value lowercaseString];
+  return normalized.length > 0 && ![normalized isEqualToString:@"0"] &&
+         ![normalized isEqualToString:@"false"] && ![normalized isEqualToString:@"no"];
+}
+
+bool IsVoidPlayerHDRSpikeEnabled() {
+  return IsTruthyEnvironmentValue(
+      [NSProcessInfo processInfo].environment[kVoidPlayerHDRSpikeEnvironmentKey]);
+}
+
 std::vector<LayerVariant> CopyLayers(const FlutterLayer** layers, size_t layer_count) {
   std::vector<LayerVariant> layers_copy;
   for (size_t i = 0; i < layer_count; i++) {
@@ -60,6 +78,14 @@ bool FlutterCompositor::CreateBackingStore(const FlutterBackingStoreConfig* conf
 
   CGSize size = CGSizeMake(config->size.width, config->size.height);
   FlutterSurface* surface = [view.surfaceManager surfaceForSize:size];
+  static int backing_store_log_count = 0;
+  if (IsVoidPlayerHDRSpikeEnabled() && backing_store_log_count < 8) {
+    ++backing_store_log_count;
+    FML_LOG(INFO) << "VoidPlayer HDR spike: CreateBackingStore view=" << config->view_id
+                  << " size=" << static_cast<int>(size.width) << "x"
+                  << static_cast<int>(size.height)
+                  << " wideGamut=" << (surface.isWideGamut ? "true" : "false");
+  }
   memset(backing_store_out, 0, sizeof(FlutterBackingStore));
   backing_store_out->struct_size = sizeof(FlutterBackingStore);
   backing_store_out->type = kFlutterBackingStoreTypeMetal;
@@ -98,6 +124,14 @@ bool FlutterCompositor::Present(FlutterViewIdentifier view_id,
         [surfaces addObject:info];
       }
     }
+  }
+
+  static int present_log_count = 0;
+  if (IsVoidPlayerHDRSpikeEnabled() && present_log_count < 8) {
+    ++present_log_count;
+    FML_LOG(INFO) << "VoidPlayer HDR spike: Present view=" << view_id
+                  << " layer_count=" << layers_count
+                  << " backing_surface_count=" << surfaces.count;
   }
 
   CFTimeInterval presentation_time = 0;

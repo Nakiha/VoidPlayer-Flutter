@@ -51,6 +51,10 @@ static FlutterSurfaceManager* CreateSurfaceManager(TestView* testView, BOOL enab
                                              wideGamut:enableWideGamut];
 }
 
+static BOOL LayerWantsExtendedDynamicRangeContent(CALayer* layer) {
+  return [[layer valueForKey:@"wantsExtendedDynamicRangeContent"] boolValue];
+}
+
 static FlutterSurfacePresentInfo* CreatePresentInfo(
     FlutterSurface* surface,
     CGPoint offset = CGPointZero,
@@ -332,6 +336,42 @@ TEST(FlutterSurfaceManager, WideGamutLayerWorksWithoutExplicitContentsFormat) {
 
   EXPECT_EQ(testView.layer.sublayers.count, 1ul);
   EXPECT_NE(testView.layer.sublayers[0].contents, nil);
+}
+
+TEST(FlutterSurfaceManager, WideGamutLayersRequestExtendedDynamicRangeContent) {
+  TestView* testView = [[TestView alloc] init];
+  FlutterSurfaceManager* surfaceManager = CreateSurfaceManager(testView, /*enableWideGamut=*/YES);
+
+  auto baseSurface = [surfaceManager surfaceForSize:CGSizeMake(50, 30)];
+  auto overlaySurface = [surfaceManager surfaceForSize:CGSizeMake(20, 20)];
+  [surfaceManager presentSurfaces:@[
+    CreatePresentInfo(baseSurface),
+    CreatePresentInfo(overlaySurface, CGPointMake(0, 0), 1,
+                      {
+                          FlutterRect{0, 0, 20, 20},
+                      })
+  ]
+                           atTime:0
+                           notify:nil];
+
+  EXPECT_TRUE(LayerWantsExtendedDynamicRangeContent(testView.layer));
+  EXPECT_EQ(testView.layer.sublayers.count, 2ul);
+  EXPECT_TRUE(LayerWantsExtendedDynamicRangeContent(testView.layer.sublayers[0]));
+  EXPECT_TRUE(LayerWantsExtendedDynamicRangeContent(testView.layer.sublayers[1]));
+  EXPECT_EQ(testView.layer.sublayers[1].sublayers.count, 1ul);
+  EXPECT_TRUE(LayerWantsExtendedDynamicRangeContent(testView.layer.sublayers[1].sublayers[0]));
+}
+
+TEST(FlutterSurfaceManager, StandardGamutLayersDoNotRequestExtendedDynamicRangeContent) {
+  TestView* testView = [[TestView alloc] init];
+  FlutterSurfaceManager* surfaceManager = CreateSurfaceManager(testView, /*enableWideGamut=*/NO);
+
+  auto surface = [surfaceManager surfaceForSize:CGSizeMake(50, 30)];
+  [surfaceManager presentSurfaces:@[ CreatePresentInfo(surface) ] atTime:0 notify:nil];
+
+  EXPECT_FALSE(LayerWantsExtendedDynamicRangeContent(testView.layer));
+  EXPECT_EQ(testView.layer.sublayers.count, 1ul);
+  EXPECT_FALSE(LayerWantsExtendedDynamicRangeContent(testView.layer.sublayers[0]));
 }
 
 TEST(FlutterSurfaceManager, WideGamutIOSurfaceHasCorrectColorSpace) {

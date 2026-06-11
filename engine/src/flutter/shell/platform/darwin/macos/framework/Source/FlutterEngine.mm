@@ -27,6 +27,7 @@
 #import "flutter/shell/platform/darwin/macos/framework/Source/FlutterMouseCursorPlugin.h"
 #import "flutter/shell/platform/darwin/macos/framework/Source/FlutterPlatformViewController.h"
 #import "flutter/shell/platform/darwin/macos/framework/Source/FlutterRenderer.h"
+#import "flutter/shell/platform/darwin/macos/framework/Source/FlutterSurface.h"
 #import "flutter/shell/platform/darwin/macos/framework/Source/FlutterTimeConverter.h"
 #import "flutter/shell/platform/darwin/macos/framework/Source/FlutterVSyncWaiter.h"
 #import "flutter/shell/platform/darwin/macos/framework/Source/FlutterView.h"
@@ -35,6 +36,7 @@
 
 #import <CoreVideo/CoreVideo.h>
 #import <IOSurface/IOSurface.h>
+#import <Metal/Metal.h>
 
 @class FlutterEngineRegistrar;
 
@@ -467,6 +469,9 @@ static void OnPlatformMessage(const FlutterPlatformMessage* message, void* user_
   // A method channel for taking screenshots via the rasterizer.
   FlutterMethodChannel* _screenshotChannel;
 
+  // A private VoidPlayer HDR exploration channel for inspecting Flutter render surfaces.
+  FlutterMethodChannel* _voidPlayerHDRSpikeChannel;
+
   // Whether the application is currently the active application.
   BOOL _active;
 
@@ -520,6 +525,38 @@ static void SetThreadPriority(FlutterThreadPriority priority) {
     }
     pthread_set_qos_class_self_np(QOS_CLASS_USER_INTERACTIVE, 0);
   }
+}
+
+static NSString* VoidPlayerHDRTexturePixelFormatString(MTLPixelFormat pixelFormat) {
+  switch (pixelFormat) {
+    case MTLPixelFormatBGRA10_XR:
+      return @"MTLPixelFormatBGRA10_XR";
+    case MTLPixelFormatBGRA8Unorm:
+      return @"MTLPixelFormatBGRA8Unorm";
+    case MTLPixelFormatRGBA16Float:
+      return @"MTLPixelFormatRGBA16Float";
+    default:
+      return [NSString stringWithFormat:@"MTLPixelFormat(%lu)", (unsigned long)pixelFormat];
+  }
+}
+
+static NSString* VoidPlayerHDRIOSurfacePixelFormatString(uint32_t pixelFormat) {
+  switch (pixelFormat) {
+    case kCVPixelFormatType_40ARGBLEWideGamut:
+      return @"MTLPixelFormatBGRA10_XR";
+    case kCVPixelFormatType_32BGRA:
+      return @"MTLPixelFormatBGRA8Unorm";
+    default:
+      return [NSString stringWithFormat:@"Unknown(%u)", pixelFormat];
+  }
+}
+
+static NSDictionary<NSString*, id>* VoidPlayerHDRSerializableSurfaceInfo(
+    NSDictionary<NSString*, id>* info) {
+  NSMutableDictionary<NSString*, id>* serializable = [info mutableCopy];
+  [serializable removeObjectForKey:@"texture"];
+  [serializable removeObjectForKey:@"ioSurface"];
+  return serializable;
 }
 
 - (instancetype)initWithName:(NSString*)labelPrefix
@@ -1406,6 +1443,52 @@ static void SetThreadPriority(FlutterThreadPriority priority) {
                object:nil];
 }
 
+- (NSArray<NSDictionary<NSString*, id>*>*)voidPlayerHDRCurrentFlutterSurfaceInfos {
+  FlutterViewController* viewController = [self viewControllerForIdentifier:kFlutterImplicitViewId];
+  if (!viewController) {
+    return @[];
+  }
+
+  NSArray<FlutterSurface*>* frontSurfaces =
+      viewController.flutterView.surfaceManager.frontSurfaces;
+  NSMutableArray<NSDictionary<NSString*, id>*>* infos =
+      [NSMutableArray arrayWithCapacity:frontSurfaces.count];
+  NSUInteger index = 0;
+  for (FlutterSurface* surface in frontSurfaces) {
+    IOSurfaceRef ioSurface = surface.ioSurface;
+    id<MTLTexture> texture = surface.texture;
+    NSMutableDictionary<NSString*, id>* info = [NSMutableDictionary dictionary];
+
+    info[@"index"] = @(index++);
+    info[@"frontSurfaceCount"] = @(frontSurfaces.count);
+    info[@"textureId"] = @(surface.textureId);
+    info[@"wideGamut"] = @(surface.isWideGamut);
+
+    if (ioSurface) {
+      uint32_t pixelFormat = (uint32_t)IOSurfaceGetPixelFormat(ioSurface);
+      info[@"ioSurface"] = (__bridge id)ioSurface;
+      info[@"ioSurfaceId"] = @(IOSurfaceGetID(ioSurface));
+      info[@"ioSurfacePixelFormat"] = @(pixelFormat);
+      info[@"ioSurfacePixelFormatString"] = VoidPlayerHDRIOSurfacePixelFormatString(pixelFormat);
+      info[@"width"] = @(IOSurfaceGetWidth(ioSurface));
+      info[@"height"] = @(IOSurfaceGetHeight(ioSurface));
+      info[@"bytesPerRow"] = @(IOSurfaceGetBytesPerRow(ioSurface));
+      info[@"bytesPerElement"] = @(IOSurfaceGetBytesPerElement(ioSurface));
+    }
+
+    if (texture) {
+      info[@"texture"] = texture;
+      info[@"texturePointer"] = @((uint64_t)(uintptr_t)(__bridge void*)texture);
+      info[@"texturePixelFormat"] = VoidPlayerHDRTexturePixelFormatString(texture.pixelFormat);
+      info[@"textureWidth"] = @(texture.width);
+      info[@"textureHeight"] = @(texture.height);
+    }
+
+    [infos addObject:info];
+  }
+  return infos;
+}
+
 - (void)addInternalPlugins {
   __weak FlutterEngine* weakSelf = self;
   [FlutterMouseCursorPlugin registerWithRegistrar:[self registrarForPlugin:@"mousecursor"]
@@ -1495,6 +1578,33 @@ static void SetThreadPriority(FlutterThreadPriority priority) {
       formatString,
       [FlutterStandardTypedData typedDataWithBytes:packedData],
     ]);
+  }];
+
+  _voidPlayerHDRSpikeChannel =
+      [FlutterMethodChannel methodChannelWithName:@"voidplayer/hdr_spike"
+                                  binaryMessenger:self.binaryMessenger
+                                            codec:[FlutterStandardMethodCodec sharedInstance]];
+  [_voidPlayerHDRSpikeChannel setMethodCallHandler:^(FlutterMethodCall* call, FlutterResult result) {
+    if (![call.method isEqualToString:@"getFlutterTextureInfo"]) {
+      return result(FlutterMethodNotImplemented);
+    }
+
+    FlutterEngine* strongSelf = weakSelf;
+    if (!strongSelf) {
+      return result([FlutterError errorWithCode:@"invalid_state"
+                                        message:@"Engine deallocated."
+                                        details:nil]);
+    }
+
+    NSArray<NSDictionary<NSString*, id>*>* surfaceInfos =
+        [strongSelf voidPlayerHDRCurrentFlutterSurfaceInfos];
+    if (surfaceInfos.count == 0) {
+      return result([FlutterError errorWithCode:@"failure"
+                                        message:@"No front surfaces."
+                                        details:nil]);
+    }
+
+    return result(VoidPlayerHDRSerializableSurfaceInfo(surfaceInfos.firstObject));
   }];
 }
 
