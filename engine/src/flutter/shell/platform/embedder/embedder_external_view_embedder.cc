@@ -454,7 +454,8 @@ void EmbedderExternalViewEmbedder::SubmitFlutterView(
   static int submit_log_count = 0;
   if (IsVoidPlayerHDRSpikeEnabled() && submit_log_count < 12) {
     ++submit_log_count;
-    FML_LOG(INFO) << "VoidPlayer HDR spike: SubmitFlutterView view=" << flutter_view_id
+    FML_LOG(INFO) << "VoidPlayer HDR spike: SubmitFlutterView view="
+                  << flutter_view_id
                   << " pending_size=" << pending_frame_size_.width << "x"
                   << pending_frame_size_.height
                   << " composition_order=" << composition_order_.size();

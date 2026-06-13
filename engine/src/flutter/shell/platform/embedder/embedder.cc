@@ -1256,10 +1256,11 @@ MakeRenderTargetFromBackingStoreImpeller(
   static int metal_impeller_target_log_count = 0;
   if (IsVoidPlayerHDRSpikeEnabled() && metal_impeller_target_log_count < 12) {
     ++metal_impeller_target_log_count;
-    FML_LOG(INFO) << "VoidPlayer HDR spike: wrapping Metal backing store for Impeller"
-                  << " view=" << config.view_id << " size=" << config.size.width << "x"
-                  << config.size.height << " texture=" << metal->texture.texture
-                  << " texture_id=" << metal->texture.texture_id;
+    FML_LOG(INFO)
+        << "VoidPlayer HDR spike: wrapping Metal backing store for Impeller"
+        << " view=" << config.view_id << " size=" << config.size.width << "x"
+        << config.size.height << " texture=" << metal->texture.texture
+        << " texture_id=" << metal->texture.texture_id;
   }
 
   impeller::TextureDescriptor resolve_tex_desc;

@@ -559,6 +559,52 @@ static NSDictionary<NSString*, id>* VoidPlayerHDRSerializableSurfaceInfo(
   return serializable;
 }
 
+static NSArray<NSDictionary<NSString*, id>*>* VoidPlayerHDRBuildFlutterSurfaceInfos(
+    FlutterViewController* viewController) {
+  if (!viewController) {
+    return @[];
+  }
+
+  NSArray<FlutterSurface*>* frontSurfaces = viewController.flutterView.surfaceManager.frontSurfaces;
+  NSUInteger frontSurfaceCount = frontSurfaces.count;
+  NSMutableArray<NSDictionary<NSString*, id>*>* infos =
+      [NSMutableArray arrayWithCapacity:frontSurfaceCount];
+  NSUInteger index = 0;
+  for (FlutterSurface* surface in frontSurfaces) {
+    IOSurfaceRef ioSurface = surface.ioSurface;
+    id<MTLTexture> texture = surface.texture;
+    NSMutableDictionary<NSString*, id>* info = [NSMutableDictionary dictionary];
+
+    info[@"index"] = @(index++);
+    info[@"frontSurfaceCount"] = @(frontSurfaceCount);
+    info[@"textureId"] = @(surface.textureId);
+    info[@"wideGamut"] = @(surface.isWideGamut);
+
+    if (ioSurface) {
+      uint32_t pixelFormat = (uint32_t)IOSurfaceGetPixelFormat(ioSurface);
+      info[@"ioSurface"] = (__bridge id)ioSurface;
+      info[@"ioSurfaceId"] = @(IOSurfaceGetID(ioSurface));
+      info[@"ioSurfacePixelFormat"] = @(pixelFormat);
+      info[@"ioSurfacePixelFormatString"] = VoidPlayerHDRIOSurfacePixelFormatString(pixelFormat);
+      info[@"width"] = @(IOSurfaceGetWidth(ioSurface));
+      info[@"height"] = @(IOSurfaceGetHeight(ioSurface));
+      info[@"bytesPerRow"] = @(IOSurfaceGetBytesPerRow(ioSurface));
+      info[@"bytesPerElement"] = @(IOSurfaceGetBytesPerElement(ioSurface));
+    }
+
+    if (texture) {
+      info[@"texture"] = texture;
+      info[@"texturePointer"] = @((uint64_t)(uintptr_t)(__bridge void*)texture);
+      info[@"texturePixelFormat"] = VoidPlayerHDRTexturePixelFormatString(texture.pixelFormat);
+      info[@"textureWidth"] = @(texture.width);
+      info[@"textureHeight"] = @(texture.height);
+    }
+
+    [infos addObject:info];
+  }
+  return infos;
+}
+
 - (instancetype)initWithName:(NSString*)labelPrefix
                      project:(FlutterDartProject*)project
       allowHeadlessExecution:(BOOL)allowHeadlessExecution {
@@ -1449,44 +1495,7 @@ static NSDictionary<NSString*, id>* VoidPlayerHDRSerializableSurfaceInfo(
     return @[];
   }
 
-  NSArray<FlutterSurface*>* frontSurfaces =
-      viewController.flutterView.surfaceManager.frontSurfaces;
-  NSMutableArray<NSDictionary<NSString*, id>*>* infos =
-      [NSMutableArray arrayWithCapacity:frontSurfaces.count];
-  NSUInteger index = 0;
-  for (FlutterSurface* surface in frontSurfaces) {
-    IOSurfaceRef ioSurface = surface.ioSurface;
-    id<MTLTexture> texture = surface.texture;
-    NSMutableDictionary<NSString*, id>* info = [NSMutableDictionary dictionary];
-
-    info[@"index"] = @(index++);
-    info[@"frontSurfaceCount"] = @(frontSurfaces.count);
-    info[@"textureId"] = @(surface.textureId);
-    info[@"wideGamut"] = @(surface.isWideGamut);
-
-    if (ioSurface) {
-      uint32_t pixelFormat = (uint32_t)IOSurfaceGetPixelFormat(ioSurface);
-      info[@"ioSurface"] = (__bridge id)ioSurface;
-      info[@"ioSurfaceId"] = @(IOSurfaceGetID(ioSurface));
-      info[@"ioSurfacePixelFormat"] = @(pixelFormat);
-      info[@"ioSurfacePixelFormatString"] = VoidPlayerHDRIOSurfacePixelFormatString(pixelFormat);
-      info[@"width"] = @(IOSurfaceGetWidth(ioSurface));
-      info[@"height"] = @(IOSurfaceGetHeight(ioSurface));
-      info[@"bytesPerRow"] = @(IOSurfaceGetBytesPerRow(ioSurface));
-      info[@"bytesPerElement"] = @(IOSurfaceGetBytesPerElement(ioSurface));
-    }
-
-    if (texture) {
-      info[@"texture"] = texture;
-      info[@"texturePointer"] = @((uint64_t)(uintptr_t)(__bridge void*)texture);
-      info[@"texturePixelFormat"] = VoidPlayerHDRTexturePixelFormatString(texture.pixelFormat);
-      info[@"textureWidth"] = @(texture.width);
-      info[@"textureHeight"] = @(texture.height);
-    }
-
-    [infos addObject:info];
-  }
-  return infos;
+  return VoidPlayerHDRBuildFlutterSurfaceInfos(viewController);
 }
 
 - (void)addInternalPlugins {
@@ -1584,28 +1593,29 @@ static NSDictionary<NSString*, id>* VoidPlayerHDRSerializableSurfaceInfo(
       [FlutterMethodChannel methodChannelWithName:@"voidplayer/hdr_spike"
                                   binaryMessenger:self.binaryMessenger
                                             codec:[FlutterStandardMethodCodec sharedInstance]];
-  [_voidPlayerHDRSpikeChannel setMethodCallHandler:^(FlutterMethodCall* call, FlutterResult result) {
-    if (![call.method isEqualToString:@"getFlutterTextureInfo"]) {
-      return result(FlutterMethodNotImplemented);
-    }
+  [_voidPlayerHDRSpikeChannel
+      setMethodCallHandler:^(FlutterMethodCall* call, FlutterResult result) {
+        if (![call.method isEqualToString:@"getFlutterTextureInfo"]) {
+          return result(FlutterMethodNotImplemented);
+        }
 
-    FlutterEngine* strongSelf = weakSelf;
-    if (!strongSelf) {
-      return result([FlutterError errorWithCode:@"invalid_state"
-                                        message:@"Engine deallocated."
-                                        details:nil]);
-    }
+        FlutterEngine* strongSelf = weakSelf;
+        if (!strongSelf) {
+          return result([FlutterError errorWithCode:@"invalid_state"
+                                            message:@"Engine deallocated."
+                                            details:nil]);
+        }
 
-    NSArray<NSDictionary<NSString*, id>*>* surfaceInfos =
-        [strongSelf voidPlayerHDRCurrentFlutterSurfaceInfos];
-    if (surfaceInfos.count == 0) {
-      return result([FlutterError errorWithCode:@"failure"
-                                        message:@"No front surfaces."
-                                        details:nil]);
-    }
+        NSArray<NSDictionary<NSString*, id>*>* surfaceInfos =
+            [strongSelf voidPlayerHDRCurrentFlutterSurfaceInfos];
+        if (surfaceInfos.count == 0) {
+          return result([FlutterError errorWithCode:@"failure"
+                                            message:@"No front surfaces."
+                                            details:nil]);
+        }
 
-    return result(VoidPlayerHDRSerializableSurfaceInfo(surfaceInfos.firstObject));
-  }];
+        return result(VoidPlayerHDRSerializableSurfaceInfo(surfaceInfos.firstObject));
+      }];
 }
 
 - (void)didUpdateMouseCursor:(NSCursor*)cursor {

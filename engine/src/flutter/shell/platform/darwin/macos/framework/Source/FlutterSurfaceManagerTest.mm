@@ -175,6 +175,26 @@ TEST(FlutterSurfaceManager, SurfacesAreRecycled) {
   EXPECT_EQ(surface3, surface1);
 }
 
+TEST(FlutterSurfaceManager, FrontSurfacesReturnsStableSnapshot) {
+  TestView* testView = [[TestView alloc] init];
+  FlutterSurfaceManager* surfaceManager = CreateSurfaceManager(testView);
+
+  auto surface1 = [surfaceManager surfaceForSize:CGSizeMake(100, 100)];
+  [surfaceManager presentSurfaces:@[ CreatePresentInfo(surface1) ] atTime:0 notify:nil];
+
+  NSArray<FlutterSurface*>* firstSnapshot = surfaceManager.frontSurfaces;
+  EXPECT_EQ(firstSnapshot.count, 1ul);
+  EXPECT_EQ(firstSnapshot.firstObject, surface1);
+
+  auto surface2 = [surfaceManager surfaceForSize:CGSizeMake(100, 100)];
+  [surfaceManager presentSurfaces:@[ CreatePresentInfo(surface2) ] atTime:0 notify:nil];
+
+  EXPECT_EQ(firstSnapshot.count, 1ul);
+  EXPECT_EQ(firstSnapshot.firstObject, surface1);
+  EXPECT_EQ(surfaceManager.frontSurfaces.count, 1ul);
+  EXPECT_EQ(surfaceManager.frontSurfaces.firstObject, surface2);
+}
+
 TEST(FlutterSurfaceManager, BackingStoreCacheSurfaceStuckInUse) {
   TestView* testView = [[TestView alloc] init];
   FlutterSurfaceManager* surfaceManager = CreateSurfaceManager(testView);
@@ -345,11 +365,10 @@ TEST(FlutterSurfaceManager, WideGamutLayersRequestExtendedDynamicRangeContent) {
   auto baseSurface = [surfaceManager surfaceForSize:CGSizeMake(50, 30)];
   auto overlaySurface = [surfaceManager surfaceForSize:CGSizeMake(20, 20)];
   [surfaceManager presentSurfaces:@[
-    CreatePresentInfo(baseSurface),
-    CreatePresentInfo(overlaySurface, CGPointMake(0, 0), 1,
-                      {
-                          FlutterRect{0, 0, 20, 20},
-                      })
+    CreatePresentInfo(baseSurface), CreatePresentInfo(overlaySurface, CGPointMake(0, 0), 1,
+                                                      {
+                                                          FlutterRect{0, 0, 20, 20},
+                                                      })
   ]
                            atTime:0
                            notify:nil];

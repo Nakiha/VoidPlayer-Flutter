@@ -119,6 +119,8 @@
 @interface FlutterSurfaceManager (Private)
 
 @property(readonly, nonatomic, nonnull) FlutterBackBufferCache* backBufferCache;
+// Returns an immutable snapshot. VoidPlayer's native compositor may enumerate
+// this off the platform thread while Flutter presents the next frame.
 @property(readonly, nonatomic, nonnull) NSArray<FlutterSurface*>* frontSurfaces;
 @property(readonly, nonatomic, nonnull) NSArray<CALayer*>* layers;
 
