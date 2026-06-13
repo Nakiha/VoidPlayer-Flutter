@@ -130,8 +130,7 @@ bool FlutterCompositor::Present(FlutterViewIdentifier view_id,
   if (IsVoidPlayerHDRSpikeEnabled() && present_log_count < 8) {
     ++present_log_count;
     FML_LOG(INFO) << "VoidPlayer HDR spike: Present view=" << view_id
-                  << " layer_count=" << layers_count
-                  << " backing_surface_count=" << surfaces.count;
+                  << " layer_count=" << layers_count << " backing_surface_count=" << surfaces.count;
   }
 
   CFTimeInterval presentation_time = 0;

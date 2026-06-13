@@ -180,7 +180,9 @@ static void UpdateContentSubLayers(CALayer* layer,
   [_backBufferCache flush];
 
   // Clear front surfaces — they will be replaced on the next present.
-  [_frontSurfaces removeAllObjects];
+  @synchronized(self) {
+    [_frontSurfaces removeAllObjects];
+  }
 }
 
 - (FlutterBackBufferCache*)backBufferCache {
@@ -188,7 +190,9 @@ static void UpdateContentSubLayers(CALayer* layer,
 }
 
 - (NSArray*)frontSurfaces {
-  return _frontSurfaces;
+  @synchronized(self) {
+    return [_frontSurfaces copy];
+  }
 }
 
 - (NSArray*)layers {
@@ -230,13 +234,15 @@ static void UpdateContentSubLayers(CALayer* layer,
     }
   }
 
-  // Release all unused back buffer surfaces and replace them with front surfaces.
-  [_backBufferCache returnSurfaces:_frontSurfaces];
+  @synchronized(self) {
+    // Release all unused back buffer surfaces and replace them with front surfaces.
+    [_backBufferCache returnSurfaces:_frontSurfaces];
 
-  // Front surfaces will be replaced by currently presented surfaces.
-  [_frontSurfaces removeAllObjects];
-  for (FlutterSurfacePresentInfo* info in surfaces) {
-    [_frontSurfaces addObject:info.surface];
+    // Front surfaces will be replaced by currently presented surfaces.
+    [_frontSurfaces removeAllObjects];
+    for (FlutterSurfacePresentInfo* info in surfaces) {
+      [_frontSurfaces addObject:info.surface];
+    }
   }
 
   // Add or remove layers to match the count of surfaces to present.
