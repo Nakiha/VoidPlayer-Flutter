@@ -227,6 +227,52 @@ TEST_F(CompositorOpenGLTest, Present) {
   ASSERT_TRUE(compositor.CollectBackingStore(&backing_store));
 }
 
+TEST_F(CompositorOpenGLTest, ExportFailurePreservesWindowPresentation) {
+  UseEngineWithView();
+  ASSERT_NE(view()->surface_export(), nullptr);
+  view()->surface_export()->SetMode(
+      kFlutterDesktopWindowsSurfaceExportModeCompositorOwned);
+
+  auto compositor =
+      CompositorOpenGL{engine(), kMockResolver, /*enable_impeller=*/false};
+  FlutterBackingStoreConfig config = {};
+  FlutterBackingStore backing_store = {};
+  EXPECT_CALL(*render_context(), MakeCurrent).WillOnce(Return(true));
+  ASSERT_TRUE(compositor.CreateBackingStore(config, &backing_store));
+
+  FlutterLayer layer = {};
+  layer.type = kFlutterLayerContentTypeBackingStore;
+  layer.backing_store = &backing_store;
+  const FlutterLayer* layer_ptr = &layer;
+
+  EXPECT_CALL(*surface(), IsValid).WillRepeatedly(Return(true));
+  EXPECT_CALL(*surface(), MakeCurrent).WillOnce(Return(true));
+  EXPECT_CALL(*surface(), SwapBuffers).WillOnce(Return(true));
+  EXPECT_TRUE(compositor.Present(view(), &layer_ptr, 1));
+
+  ASSERT_TRUE(compositor.CollectBackingStore(&backing_store));
+}
+
+TEST_F(CompositorOpenGLTest, SurfaceExportModeSwitchesAreStable) {
+  UseEngineWithView();
+  auto* surface_export = view()->surface_export();
+  ASSERT_NE(surface_export, nullptr);
+  EXPECT_EQ(surface_export->mode(),
+            kFlutterDesktopWindowsSurfaceExportModeDisabled);
+
+  surface_export->SetMode(kFlutterDesktopWindowsSurfaceExportModeMirror);
+  EXPECT_EQ(surface_export->mode(),
+            kFlutterDesktopWindowsSurfaceExportModeMirror);
+  surface_export->SetMode(
+      kFlutterDesktopWindowsSurfaceExportModeCompositorOwned);
+  EXPECT_EQ(surface_export->mode(),
+            kFlutterDesktopWindowsSurfaceExportModeCompositorOwned);
+  surface_export->SetMode(
+      kFlutterDesktopWindowsSurfaceExportModeDisabled);
+  EXPECT_EQ(surface_export->mode(),
+            kFlutterDesktopWindowsSurfaceExportModeDisabled);
+}
+
 TEST_F(CompositorOpenGLTest, PresentEmpty) {
   UseEngineWithView();
 
