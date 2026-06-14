@@ -161,11 +161,25 @@ bool CompositorOpenGL::Present(FlutterWindowsView* view,
   FML_DCHECK(view->surface()->IsValid());
 
   egl::WindowSurface* surface = view->surface();
+  auto source_id = layers[0]->backing_store->open_gl.framebuffer.name;
+  auto export_mode = view->surface_export()
+                         ? view->surface_export()->mode()
+                         : kFlutterDesktopWindowsSurfaceExportModeDisabled;
+  bool exported = false;
+  if (export_mode != kFlutterDesktopWindowsSurfaceExportModeDisabled) {
+    exported = ExportFrame(view, source_id, width, height);
+  }
+
+  if (export_mode ==
+          kFlutterDesktopWindowsSurfaceExportModeCompositorOwned &&
+      exported) {
+    view->OnFramePresented();
+    return true;
+  }
+
   if (!surface->MakeCurrent()) {
     return false;
   }
-
-  auto source_id = layers[0]->backing_store->open_gl.framebuffer.name;
 
   // Disable the scissor test as it can affect blit operations.
   // Prevents regressions like: https://github.com/flutter/flutter/issues/140828
@@ -192,6 +206,64 @@ bool CompositorOpenGL::Present(FlutterWindowsView* view,
   }
 
   view->OnFramePresented();
+  return true;
+}
+
+bool CompositorOpenGL::ExportFrame(FlutterWindowsView* view,
+                                   uint32_t source_id,
+                                   size_t width,
+                                   size_t height) {
+  auto surface_export = view->surface_export();
+  if (surface_export == nullptr) {
+    return false;
+  }
+  auto writable = surface_export->BeginFrame(width, height);
+  if (!writable || writable->surface == nullptr ||
+      !writable->surface->MakeCurrent()) {
+    if (writable) {
+      surface_export->CancelFrame(*writable);
+    }
+    return false;
+  }
+
+  gl_->Disable(GL_SCISSOR_TEST);
+  gl_->BindFramebuffer(GL_READ_FRAMEBUFFER, source_id);
+  gl_->BindFramebuffer(GL_DRAW_FRAMEBUFFER, kWindowFrameBufferId);
+  GetBlitFramebufferProc(*gl_)(
+      0, 0, static_cast<GLint>(width), static_cast<GLint>(height), 0, 0,
+      static_cast<GLint>(width), static_cast<GLint>(height),
+      GL_COLOR_BUFFER_BIT, GL_NEAREST);
+  gl_->Finish();
+  if (!surface_export->PublishFrame(*writable)) {
+    surface_export->CancelFrame(*writable);
+    return false;
+  }
+  return true;
+}
+
+bool CompositorOpenGL::ExportClearFrame(FlutterWindowsView* view,
+                                        size_t width,
+                                        size_t height) {
+  auto surface_export = view->surface_export();
+  if (surface_export == nullptr) {
+    return false;
+  }
+  auto writable = surface_export->BeginFrame(width, height);
+  if (!writable || writable->surface == nullptr ||
+      !writable->surface->MakeCurrent()) {
+    if (writable) {
+      surface_export->CancelFrame(*writable);
+    }
+    return false;
+  }
+  gl_->BindFramebuffer(GL_FRAMEBUFFER, kWindowFrameBufferId);
+  gl_->ClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+  gl_->Clear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
+  gl_->Finish();
+  if (!surface_export->PublishFrame(*writable)) {
+    surface_export->CancelFrame(*writable);
+    return false;
+  }
   return true;
 }
 
@@ -244,6 +316,20 @@ bool CompositorOpenGL::Clear(FlutterWindowsView* view) {
   FML_DCHECK(view->surface()->IsValid());
 
   egl::WindowSurface* surface = view->surface();
+  auto export_mode = view->surface_export()
+                         ? view->surface_export()->mode()
+                         : kFlutterDesktopWindowsSurfaceExportModeDisabled;
+  bool exported = false;
+  if (export_mode != kFlutterDesktopWindowsSurfaceExportModeDisabled) {
+    exported =
+        ExportClearFrame(view, surface->width(), surface->height());
+  }
+  if (export_mode ==
+          kFlutterDesktopWindowsSurfaceExportModeCompositorOwned &&
+      exported) {
+    view->OnFramePresented();
+    return true;
+  }
   if (!surface->MakeCurrent()) {
     return false;
   }

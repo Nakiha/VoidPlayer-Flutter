@@ -27,6 +27,9 @@ class FlutterView {
   // Returns the backing HWND for the view.
   HWND GetNativeWindow() { return FlutterDesktopViewGetHWND(view_); }
 
+  // Returns the non-owning C API handle for the view.
+  FlutterDesktopViewRef GetHandle() const { return view_; }
+
   // Returns the DXGI adapter used for rendering or nullptr in case of error.
   // DEPRECATED: Use |GetGraphicsAdapter| on |FlutterEngine| instead.
   IDXGIAdapter* GetGraphicsAdapter() {

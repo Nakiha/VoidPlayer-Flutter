@@ -5,6 +5,8 @@
 #ifndef FLUTTER_SHELL_PLATFORM_WINDOWS_PUBLIC_FLUTTER_WINDOWS_H_
 #define FLUTTER_SHELL_PLATFORM_WINDOWS_PUBLIC_FLUTTER_WINDOWS_H_
 
+#define FLUTTER_WINDOWS_SURFACE_EXPORT_API 1
+
 #include <dxgi.h>
 #include <stddef.h>
 #include <stdint.h>
@@ -34,6 +36,45 @@ typedef struct FlutterDesktopEngine* FlutterDesktopEngineRef;
 
 // The unique identifier for a view.
 typedef int64_t FlutterDesktopViewId;
+
+// Controls publication of Flutter's final premultiplied-alpha Windows frame.
+typedef enum {
+  kFlutterDesktopWindowsSurfaceExportModeDisabled = 0,
+  // Publish exported frames while continuing to present to the HWND.
+  kFlutterDesktopWindowsSurfaceExportModeMirror = 1,
+  // Publish exported frames without swapping the HWND EGL window surface.
+  kFlutterDesktopWindowsSurfaceExportModeCompositorOwned = 2,
+} FlutterDesktopWindowsSurfaceExportMode;
+
+typedef enum {
+  kFlutterDesktopWindowsSurfaceAlphaModePremultiplied = 0,
+} FlutterDesktopWindowsSurfaceAlphaMode;
+
+// An immutable lease on one exported Flutter frame. The shared texture uses a
+// keyed mutex. The consumer must acquire |consumer_acquire_key| before GPU use,
+// release |producer_release_key| after GPU completion, and finally call
+// FlutterDesktopViewReleaseSurface with |lease_id|.
+typedef struct {
+  size_t struct_size;
+  HANDLE shared_texture_handle;
+  uint32_t width;
+  uint32_t height;
+  DXGI_FORMAT format;
+  FlutterDesktopWindowsSurfaceAlphaMode alpha_mode;
+  uint64_t ring_generation;
+  uint64_t frame_generation;
+  uint32_t slot;
+  uint64_t consumer_acquire_key;
+  uint64_t producer_release_key;
+  uint64_t lease_id;
+} FlutterDesktopWindowsSurface;
+
+// Invoked on Flutter's raster thread after a new exported frame is published.
+// Callers should only signal their consumer thread from this callback.
+typedef void (*FlutterDesktopWindowsSurfacePublishedCallback)(
+    FlutterDesktopViewRef view,
+    uint64_t frame_generation,
+    void* user_data);
 
 // Configures how the Flutter engine selects a GPU.
 typedef enum {
@@ -259,6 +300,27 @@ FLUTTER_EXPORT void FlutterDesktopEngineSetNextFrameCallback(
 
 // Returns the backing HWND for manipulation in host application.
 FLUTTER_EXPORT HWND FlutterDesktopViewGetHWND(FlutterDesktopViewRef view);
+
+// Sets how the view publishes its final premultiplied-alpha frame.
+FLUTTER_EXPORT bool FlutterDesktopViewSetSurfaceExportMode(
+    FlutterDesktopViewRef view,
+    FlutterDesktopWindowsSurfaceExportMode mode);
+
+// Registers a callback for newly published exported frames.
+FLUTTER_EXPORT void FlutterDesktopViewSetSurfacePublishedCallback(
+    FlutterDesktopViewRef view,
+    FlutterDesktopWindowsSurfacePublishedCallback callback,
+    void* user_data);
+
+// Acquires an immutable lease on the latest exported frame.
+FLUTTER_EXPORT bool FlutterDesktopViewAcquireLatestSurface(
+    FlutterDesktopViewRef view,
+    FlutterDesktopWindowsSurface* surface_out);
+
+// Releases a lease previously returned by AcquireLatestSurface.
+FLUTTER_EXPORT bool FlutterDesktopViewReleaseSurface(
+    FlutterDesktopViewRef view,
+    uint64_t lease_id);
 
 // Returns the DXGI adapter used for rendering or nullptr in case of error.
 // The caller must release the adapter.
