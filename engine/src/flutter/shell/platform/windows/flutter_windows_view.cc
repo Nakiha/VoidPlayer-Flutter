@@ -903,6 +903,32 @@ bool FlutterWindowsView::SetSurfaceExportMode(
   return true;
 }
 
+bool FlutterWindowsView::RequestSurfaceExportFrame() {
+  if (!surface_export_ ||
+      surface_export_->mode() ==
+          kFlutterDesktopWindowsSurfaceExportModeDisabled) {
+    return false;
+  }
+  surface_export_->RecordFrameRequest();
+  engine_->task_runner()->RunNowOrPostTask([this] {
+    if (!surface_export_ ||
+        surface_export_->mode() ==
+            kFlutterDesktopWindowsSurfaceExportModeDisabled) {
+      return;
+    }
+    surface_export_->RecordFrameRequestDispatch();
+    engine_->SendWindowMetricsEvent(CreateWindowMetricsEvent());
+    surface_export_->RecordScheduleFrame();
+    engine_->ScheduleFrame();
+  });
+  return true;
+}
+
+bool FlutterWindowsView::GetSurfaceExportState(
+    FlutterDesktopWindowsSurfaceExportState* state_out) const {
+  return surface_export_ && surface_export_->GetState(state_out);
+}
+
 void FlutterWindowsView::SetSurfacePublishedCallback(
     FlutterDesktopWindowsSurfacePublishedCallback callback,
     void* user_data) {

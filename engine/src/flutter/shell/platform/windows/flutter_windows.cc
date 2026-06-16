@@ -260,6 +260,19 @@ bool FlutterDesktopViewSetSurfaceExportMode(
   return view != nullptr && ViewFromHandle(view)->SetSurfaceExportMode(mode);
 }
 
+bool FlutterDesktopViewRequestSurfaceExportFrame(
+    FlutterDesktopViewRef view) {
+  return view != nullptr &&
+         ViewFromHandle(view)->RequestSurfaceExportFrame();
+}
+
+bool FlutterDesktopViewGetSurfaceExportState(
+    FlutterDesktopViewRef view,
+    FlutterDesktopWindowsSurfaceExportState* state_out) {
+  return view != nullptr &&
+         ViewFromHandle(view)->GetSurfaceExportState(state_out);
+}
+
 void FlutterDesktopViewSetSurfacePublishedCallback(
     FlutterDesktopViewRef view,
     FlutterDesktopWindowsSurfacePublishedCallback callback,

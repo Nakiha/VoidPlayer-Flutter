@@ -16,6 +16,7 @@ namespace {
 
 constexpr uint64_t kProducerAcquireKey = 0;
 constexpr uint64_t kConsumerAcquireKey = 1;
+constexpr uint32_t kFramePumpFramesPerRequest = 18;
 
 }  // namespace
 
@@ -53,6 +54,106 @@ FlutterDesktopWindowsSurfaceExportMode FlutterWindowsSurfaceExport::mode()
     const {
   std::scoped_lock lock(mutex_);
   return mode_;
+}
+
+void FlutterWindowsSurfaceExport::RecordFrameRequest() {
+  std::scoped_lock lock(mutex_);
+  if (!shutdown_ &&
+      mode_ != kFlutterDesktopWindowsSurfaceExportModeDisabled) {
+    ++request_count_;
+    pending_frame_pump_frames_ =
+        std::max(pending_frame_pump_frames_, kFramePumpFramesPerRequest);
+  }
+}
+
+void FlutterWindowsSurfaceExport::RecordFrameRequestDispatch() {
+  std::scoped_lock lock(mutex_);
+  if (!shutdown_ &&
+      mode_ != kFlutterDesktopWindowsSurfaceExportModeDisabled) {
+    ++request_dispatch_count_;
+  }
+}
+
+void FlutterWindowsSurfaceExport::RecordScheduleFrame() {
+  std::scoped_lock lock(mutex_);
+  if (!shutdown_ &&
+      mode_ != kFlutterDesktopWindowsSurfaceExportModeDisabled) {
+    ++schedule_frame_count_;
+  }
+}
+
+void FlutterWindowsSurfaceExport::RecordVsync() {
+  std::scoped_lock lock(mutex_);
+  if (!shutdown_ &&
+      mode_ != kFlutterDesktopWindowsSurfaceExportModeDisabled) {
+    ++vsync_count_;
+  }
+}
+
+void FlutterWindowsSurfaceExport::RecordPresent() {
+  std::scoped_lock lock(mutex_);
+  if (!shutdown_ &&
+      mode_ != kFlutterDesktopWindowsSurfaceExportModeDisabled) {
+    ++present_count_;
+  }
+}
+
+void FlutterWindowsSurfaceExport::RecordExportMakeCurrentFail() {
+  std::scoped_lock lock(mutex_);
+  ++export_make_current_fail_count_;
+}
+
+void FlutterWindowsSurfaceExport::RecordExportPublishFail() {
+  std::scoped_lock lock(mutex_);
+  ++export_publish_fail_count_;
+}
+
+bool FlutterWindowsSurfaceExport::ConsumeFramePumpToken() {
+  std::scoped_lock lock(mutex_);
+  if (shutdown_ ||
+      mode_ != kFlutterDesktopWindowsSurfaceExportModeCompositorOwned ||
+      pending_frame_pump_frames_ == 0) {
+    return false;
+  }
+  --pending_frame_pump_frames_;
+  return true;
+}
+
+bool FlutterWindowsSurfaceExport::GetState(
+    FlutterDesktopWindowsSurfaceExportState* state_out) const {
+  if (state_out == nullptr ||
+      state_out->struct_size <
+          sizeof(FlutterDesktopWindowsSurfaceExportState)) {
+    return false;
+  }
+  std::scoped_lock lock(mutex_);
+  state_out->mode = mode_;
+  state_out->ring_generation = latest_ring_ ? latest_ring_->generation : 0;
+  state_out->frame_generation =
+      latest_slot_ ? latest_slot_->frame_generation : 0;
+  state_out->publish_count = publish_count_;
+  state_out->request_count = request_count_;
+  state_out->request_dispatch_count = request_dispatch_count_;
+  state_out->schedule_frame_count = schedule_frame_count_;
+  state_out->vsync_count = vsync_count_;
+  state_out->present_count = present_count_;
+  state_out->export_begin_count = export_begin_count_;
+  state_out->export_begin_fail_count = export_begin_fail_count_;
+  state_out->export_make_current_fail_count =
+      export_make_current_fail_count_;
+  state_out->export_publish_fail_count = export_publish_fail_count_;
+  state_out->backpressure_count = backpressure_count_;
+  state_out->pending_frame_pump_frames = pending_frame_pump_frames_;
+  state_out->width =
+      latest_ring_ ? static_cast<uint32_t>(latest_ring_->width) : 0;
+  state_out->height =
+      latest_ring_ ? static_cast<uint32_t>(latest_ring_->height) : 0;
+  state_out->latest_slot = latest_slot_ ? latest_slot_->index : 0;
+  state_out->latest_available = latest_ring_ != nullptr &&
+                                latest_slot_ != nullptr &&
+                                !latest_slot_->writing;
+  state_out->shutdown = shutdown_;
+  return true;
 }
 
 void FlutterWindowsSurfaceExport::SetPublishedCallback(
@@ -151,6 +252,7 @@ FlutterWindowsSurfaceExport::BeginFrame(size_t width, size_t height) {
   std::scoped_lock lock(mutex_);
   if (shutdown_ ||
       mode_ == kFlutterDesktopWindowsSurfaceExportModeDisabled) {
+    ++export_begin_fail_count_;
     return std::nullopt;
   }
 
@@ -159,6 +261,7 @@ FlutterWindowsSurfaceExport::BeginFrame(size_t width, size_t height) {
     RetireActiveRingLocked();
     active_ring_ = CreateRing(width, height);
     if (!active_ring_) {
+      ++export_begin_fail_count_;
       return std::nullopt;
     }
   }
@@ -166,14 +269,24 @@ FlutterWindowsSurfaceExport::BeginFrame(size_t width, size_t height) {
   Slot* slot = FindWritableSlotLocked();
   if (slot == nullptr) {
     ++backpressure_count_;
+    ++export_begin_fail_count_;
     return std::nullopt;
   }
 
   HRESULT result = slot->keyed_mutex->AcquireSync(kProducerAcquireKey, 0);
+  if (result != S_OK && slot != latest_slot_) {
+    // A slot can contain an older published frame that was superseded before
+    // the native compositor acquired it. In that case its keyed mutex is still
+    // waiting on the consumer key, but no consumer can legally observe it now
+    // because it is no longer latest and has no outstanding lease.
+    result = slot->keyed_mutex->AcquireSync(kConsumerAcquireKey, 0);
+  }
   if (result != S_OK) {
     ++backpressure_count_;
+    ++export_begin_fail_count_;
     return std::nullopt;
   }
+  ++export_begin_count_;
   slot->writing = true;
   WritableSurface writable;
   writable.surface = slot->egl_surface.get();
@@ -198,6 +311,7 @@ bool FlutterWindowsSurfaceExport::PublishFrame(
     }
     slot->writing = false;
     slot->frame_generation = next_frame_generation_++;
+    ++publish_count_;
     frame_generation = slot->frame_generation;
     latest_ring_ = active_ring_;
     latest_slot_ = slot;

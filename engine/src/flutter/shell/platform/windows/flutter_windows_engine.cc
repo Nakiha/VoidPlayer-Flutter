@@ -662,6 +662,14 @@ void FlutterWindowsEngine::RemoveView(FlutterViewId view_id) {
 }
 
 void FlutterWindowsEngine::OnVsync(intptr_t baton) {
+  {
+    std::shared_lock read_lock(views_mutex_);
+    for (const auto& [view_id, view] : views_) {
+      if (view && view->surface_export()) {
+        view->surface_export()->RecordVsync();
+      }
+    }
+  }
   std::chrono::nanoseconds current_time =
       std::chrono::nanoseconds(embedder_api_.GetCurrentTime());
   std::chrono::nanoseconds frame_interval = FrameInterval();

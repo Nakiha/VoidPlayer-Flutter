@@ -97,6 +97,9 @@ class FlutterWindowsView : public WindowBindingHandlerDelegate {
 
   FlutterWindowsSurfaceExport* surface_export() const;
   bool SetSurfaceExportMode(FlutterDesktopWindowsSurfaceExportMode mode);
+  bool RequestSurfaceExportFrame();
+  bool GetSurfaceExportState(
+      FlutterDesktopWindowsSurfaceExportState* state_out) const;
   void SetSurfacePublishedCallback(
       FlutterDesktopWindowsSurfacePublishedCallback callback,
       void* user_data);
