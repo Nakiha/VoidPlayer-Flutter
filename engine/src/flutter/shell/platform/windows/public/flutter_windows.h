@@ -69,6 +69,31 @@ typedef struct {
   uint64_t lease_id;
 } FlutterDesktopWindowsSurface;
 
+// Read-only state for the current exported Flutter surface stream.
+typedef struct {
+  size_t struct_size;
+  FlutterDesktopWindowsSurfaceExportMode mode;
+  uint64_t ring_generation;
+  uint64_t frame_generation;
+  uint64_t publish_count;
+  uint64_t request_count;
+  uint64_t request_dispatch_count;
+  uint64_t schedule_frame_count;
+  uint64_t vsync_count;
+  uint64_t present_count;
+  uint64_t export_begin_count;
+  uint64_t export_begin_fail_count;
+  uint64_t export_make_current_fail_count;
+  uint64_t export_publish_fail_count;
+  uint64_t backpressure_count;
+  uint64_t pending_frame_pump_frames;
+  uint32_t width;
+  uint32_t height;
+  uint32_t latest_slot;
+  bool latest_available;
+  bool shutdown;
+} FlutterDesktopWindowsSurfaceExportState;
+
 // Invoked on Flutter's raster thread after a new exported frame is published.
 // Callers should only signal their consumer thread from this callback.
 typedef void (*FlutterDesktopWindowsSurfacePublishedCallback)(
@@ -305,6 +330,17 @@ FLUTTER_EXPORT HWND FlutterDesktopViewGetHWND(FlutterDesktopViewRef view);
 FLUTTER_EXPORT bool FlutterDesktopViewSetSurfaceExportMode(
     FlutterDesktopViewRef view,
     FlutterDesktopWindowsSurfaceExportMode mode);
+
+// Requests that the view produce a new exported Flutter frame in its current
+// export mode. This does not change the mode and never swaps the HWND surface
+// while in compositor-owned mode.
+FLUTTER_EXPORT bool FlutterDesktopViewRequestSurfaceExportFrame(
+    FlutterDesktopViewRef view);
+
+// Reads the current exported surface stream state.
+FLUTTER_EXPORT bool FlutterDesktopViewGetSurfaceExportState(
+    FlutterDesktopViewRef view,
+    FlutterDesktopWindowsSurfaceExportState* state_out);
 
 // Registers a callback for newly published exported frames.
 FLUTTER_EXPORT void FlutterDesktopViewSetSurfacePublishedCallback(

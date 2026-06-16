@@ -44,6 +44,15 @@ class FlutterWindowsSurfaceExport {
   void SetViewHandle(FlutterDesktopViewRef view);
   void SetMode(FlutterDesktopWindowsSurfaceExportMode mode);
   FlutterDesktopWindowsSurfaceExportMode mode() const;
+  void RecordFrameRequest();
+  void RecordFrameRequestDispatch();
+  void RecordScheduleFrame();
+  void RecordVsync();
+  void RecordPresent();
+  void RecordExportMakeCurrentFail();
+  void RecordExportPublishFail();
+  bool ConsumeFramePumpToken();
+  bool GetState(FlutterDesktopWindowsSurfaceExportState* state_out) const;
 
   void SetPublishedCallback(
       FlutterDesktopWindowsSurfacePublishedCallback callback,
@@ -113,7 +122,18 @@ class FlutterWindowsSurfaceExport {
   uint64_t next_ring_generation_ = 1;
   uint64_t next_frame_generation_ = 1;
   uint64_t next_lease_id_ = 1;
+  uint64_t publish_count_ = 0;
+  uint64_t request_count_ = 0;
+  uint64_t request_dispatch_count_ = 0;
+  uint64_t schedule_frame_count_ = 0;
+  uint64_t vsync_count_ = 0;
+  uint64_t present_count_ = 0;
+  uint64_t export_begin_count_ = 0;
+  uint64_t export_begin_fail_count_ = 0;
+  uint64_t export_make_current_fail_count_ = 0;
+  uint64_t export_publish_fail_count_ = 0;
   uint64_t backpressure_count_ = 0;
+  uint32_t pending_frame_pump_frames_ = 0;
   bool shutdown_ = false;
 
   FML_DISALLOW_COPY_AND_ASSIGN(FlutterWindowsSurfaceExport);

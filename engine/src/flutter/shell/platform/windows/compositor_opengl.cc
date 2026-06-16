@@ -5,6 +5,7 @@
 #include "flutter/shell/platform/windows/compositor_opengl.h"
 
 #include "GLES3/gl3.h"
+#include "flutter/fml/logging.h"
 #include "flutter/shell/platform/windows/flutter_windows_engine.h"
 #include "flutter/shell/platform/windows/flutter_windows_view.h"
 
@@ -167,13 +168,22 @@ bool CompositorOpenGL::Present(FlutterWindowsView* view,
                          : kFlutterDesktopWindowsSurfaceExportModeDisabled;
   bool exported = false;
   if (export_mode != kFlutterDesktopWindowsSurfaceExportModeDisabled) {
+    if (view->surface_export()) {
+      view->surface_export()->RecordPresent();
+    }
     exported = ExportFrame(view, source_id, width, height);
   }
 
   if (export_mode ==
           kFlutterDesktopWindowsSurfaceExportModeCompositorOwned &&
       exported) {
+    const bool pump_next_frame =
+        view->surface_export() &&
+        view->surface_export()->ConsumeFramePumpToken();
     view->OnFramePresented();
+    if (pump_next_frame) {
+      engine_->ScheduleFrame();
+    }
     return true;
   }
 
@@ -220,6 +230,7 @@ bool CompositorOpenGL::ExportFrame(FlutterWindowsView* view,
   auto writable = surface_export->BeginFrame(width, height);
   if (!writable || writable->surface == nullptr ||
       !writable->surface->MakeCurrent()) {
+    surface_export->RecordExportMakeCurrentFail();
     if (writable) {
       surface_export->CancelFrame(*writable);
     }
@@ -235,6 +246,7 @@ bool CompositorOpenGL::ExportFrame(FlutterWindowsView* view,
       GL_COLOR_BUFFER_BIT, GL_NEAREST);
   gl_->Finish();
   if (!surface_export->PublishFrame(*writable)) {
+    surface_export->RecordExportPublishFail();
     surface_export->CancelFrame(*writable);
     return false;
   }
@@ -251,6 +263,7 @@ bool CompositorOpenGL::ExportClearFrame(FlutterWindowsView* view,
   auto writable = surface_export->BeginFrame(width, height);
   if (!writable || writable->surface == nullptr ||
       !writable->surface->MakeCurrent()) {
+    surface_export->RecordExportMakeCurrentFail();
     if (writable) {
       surface_export->CancelFrame(*writable);
     }
@@ -261,6 +274,7 @@ bool CompositorOpenGL::ExportClearFrame(FlutterWindowsView* view,
   gl_->Clear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
   gl_->Finish();
   if (!surface_export->PublishFrame(*writable)) {
+    surface_export->RecordExportPublishFail();
     surface_export->CancelFrame(*writable);
     return false;
   }
@@ -321,13 +335,22 @@ bool CompositorOpenGL::Clear(FlutterWindowsView* view) {
                          : kFlutterDesktopWindowsSurfaceExportModeDisabled;
   bool exported = false;
   if (export_mode != kFlutterDesktopWindowsSurfaceExportModeDisabled) {
+    if (view->surface_export()) {
+      view->surface_export()->RecordPresent();
+    }
     exported =
         ExportClearFrame(view, surface->width(), surface->height());
   }
   if (export_mode ==
           kFlutterDesktopWindowsSurfaceExportModeCompositorOwned &&
       exported) {
+    const bool pump_next_frame =
+        view->surface_export() &&
+        view->surface_export()->ConsumeFramePumpToken();
     view->OnFramePresented();
+    if (pump_next_frame) {
+      engine_->ScheduleFrame();
+    }
     return true;
   }
   if (!surface->MakeCurrent()) {
