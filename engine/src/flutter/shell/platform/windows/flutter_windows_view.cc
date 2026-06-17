@@ -910,16 +910,19 @@ bool FlutterWindowsView::RequestSurfaceExportFrame() {
     return false;
   }
   surface_export_->RecordFrameRequest();
-  engine_->task_runner()->RunNowOrPostTask([this] {
-    if (!surface_export_ ||
-        surface_export_->mode() ==
+  auto* engine = engine_;
+  const FlutterViewId view_id = view_id_;
+  engine->task_runner()->RunNowOrPostTask([engine, view_id] {
+    auto* view = engine->view(view_id);
+    if (!view || !view->surface_export() ||
+        view->surface_export()->mode() ==
             kFlutterDesktopWindowsSurfaceExportModeDisabled) {
       return;
     }
-    surface_export_->RecordFrameRequestDispatch();
-    engine_->SendWindowMetricsEvent(CreateWindowMetricsEvent());
-    surface_export_->RecordScheduleFrame();
-    engine_->ScheduleFrame();
+    view->surface_export()->RecordFrameRequestDispatch();
+    engine->SendWindowMetricsEvent(view->CreateWindowMetricsEvent());
+    view->surface_export()->RecordScheduleFrame();
+    engine->ScheduleFrame();
   });
   return true;
 }
