@@ -47,6 +47,7 @@ void FlutterWindowsSurfaceExport::SetMode(
   if (shutdown_ || mode_ == mode) {
     return;
   }
+  pending_frame_pump_frames_ = 0;
   mode_ = mode;
 }
 
@@ -326,6 +327,11 @@ bool FlutterWindowsSurfaceExport::PublishFrame(
   HRESULT result =
       published_slot->keyed_mutex->ReleaseSync(kConsumerAcquireKey);
   if (FAILED(result)) {
+    std::scoped_lock lock(mutex_);
+    if (latest_slot_ == published_slot) {
+      latest_slot_ = nullptr;
+      latest_ring_.reset();
+    }
     return false;
   }
   if (callback != nullptr) {

@@ -228,12 +228,12 @@ bool CompositorOpenGL::ExportFrame(FlutterWindowsView* view,
     return false;
   }
   auto writable = surface_export->BeginFrame(width, height);
-  if (!writable || writable->surface == nullptr ||
-      !writable->surface->MakeCurrent()) {
+  if (!writable || writable->surface == nullptr) {
+    return false;
+  }
+  if (!writable->surface->MakeCurrent()) {
     surface_export->RecordExportMakeCurrentFail();
-    if (writable) {
-      surface_export->CancelFrame(*writable);
-    }
+    surface_export->CancelFrame(*writable);
     return false;
   }
 
@@ -261,12 +261,12 @@ bool CompositorOpenGL::ExportClearFrame(FlutterWindowsView* view,
     return false;
   }
   auto writable = surface_export->BeginFrame(width, height);
-  if (!writable || writable->surface == nullptr ||
-      !writable->surface->MakeCurrent()) {
+  if (!writable || writable->surface == nullptr) {
+    return false;
+  }
+  if (!writable->surface->MakeCurrent()) {
     surface_export->RecordExportMakeCurrentFail();
-    if (writable) {
-      surface_export->CancelFrame(*writable);
-    }
+    surface_export->CancelFrame(*writable);
     return false;
   }
   gl_->BindFramebuffer(GL_FRAMEBUFFER, kWindowFrameBufferId);
