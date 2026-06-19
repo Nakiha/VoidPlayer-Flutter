@@ -69,6 +69,18 @@ class CompositorOpenGL : public Compositor {
   // Clear the view's surface and removes any previously presented layers.
   bool Clear(FlutterWindowsView* view);
 
+  // Copies the final Flutter framebuffer into the view's exported texture
+  // ring. Returns true when a frame was published.
+  bool ExportFrame(FlutterWindowsView* view,
+                   uint32_t source_id,
+                   size_t width,
+                   size_t height);
+
+  // Publishes an all-transparent exported frame.
+  bool ExportClearFrame(FlutterWindowsView* view,
+                        size_t width,
+                        size_t height);
+
   FML_DISALLOW_COPY_AND_ASSIGN(CompositorOpenGL);
 };
 

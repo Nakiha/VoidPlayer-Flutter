@@ -1159,6 +1159,48 @@ TEST(FlutterWindowsViewTest, WindowRepaintTests) {
   EXPECT_TRUE(schedule_frame_called);
 }
 
+TEST(FlutterWindowsViewTest, RequestSurfaceExportFrameSchedulesWithoutModeSwitch) {
+  std::unique_ptr<FlutterWindowsEngine> engine = GetTestEngine();
+  EngineModifier modifier(engine.get());
+
+  FlutterWindowsView view{kImplicitViewId, engine.get(),
+                          std::make_unique<flutter::FlutterWindow>(
+                              100, 100, engine->display_manager()),
+                          /*is_sized_to_content=*/false, BoxConstraints()};
+
+  bool schedule_frame_called = false;
+  bool metrics_event_sent = false;
+  modifier.embedder_api().ScheduleFrame =
+      MOCK_ENGINE_PROC(ScheduleFrame, ([&schedule_frame_called](auto engine) {
+                         schedule_frame_called = true;
+                         return kSuccess;
+                       }));
+  modifier.embedder_api().SendWindowMetricsEvent = MOCK_ENGINE_PROC(
+      SendWindowMetricsEvent,
+      ([&metrics_event_sent](auto engine,
+                             const FlutterWindowMetricsEvent* event) {
+        metrics_event_sent = true;
+        EXPECT_EQ(event->width, 100u);
+        EXPECT_EQ(event->height, 100u);
+        return kSuccess;
+      }));
+
+  ASSERT_TRUE(view.SetSurfaceExportMode(
+      kFlutterDesktopWindowsSurfaceExportModeCompositorOwned));
+  schedule_frame_called = false;
+  ASSERT_TRUE(view.RequestSurfaceExportFrame());
+  engine->task_runner()->ProcessTasks();
+  EXPECT_TRUE(metrics_event_sent);
+  EXPECT_TRUE(schedule_frame_called);
+
+  FlutterDesktopWindowsSurfaceExportState state = {};
+  state.struct_size = sizeof(state);
+  ASSERT_TRUE(view.GetSurfaceExportState(&state));
+  EXPECT_EQ(state.mode,
+            kFlutterDesktopWindowsSurfaceExportModeCompositorOwned);
+  EXPECT_EQ(state.request_count, 1u);
+}
+
 // Ensure that checkboxes have their checked status set apropriately
 // Previously, only Radios could have this flag updated
 // Resulted in the issue seen at

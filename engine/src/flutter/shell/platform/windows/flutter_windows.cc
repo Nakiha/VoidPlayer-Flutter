@@ -254,6 +254,46 @@ HWND FlutterDesktopViewGetHWND(FlutterDesktopViewRef view) {
   return ViewFromHandle(view)->GetWindowHandle();
 }
 
+bool FlutterDesktopViewSetSurfaceExportMode(
+    FlutterDesktopViewRef view,
+    FlutterDesktopWindowsSurfaceExportMode mode) {
+  return view != nullptr && ViewFromHandle(view)->SetSurfaceExportMode(mode);
+}
+
+bool FlutterDesktopViewRequestSurfaceExportFrame(
+    FlutterDesktopViewRef view) {
+  return view != nullptr &&
+         ViewFromHandle(view)->RequestSurfaceExportFrame();
+}
+
+bool FlutterDesktopViewGetSurfaceExportState(
+    FlutterDesktopViewRef view,
+    FlutterDesktopWindowsSurfaceExportState* state_out) {
+  return view != nullptr &&
+         ViewFromHandle(view)->GetSurfaceExportState(state_out);
+}
+
+void FlutterDesktopViewSetSurfacePublishedCallback(
+    FlutterDesktopViewRef view,
+    FlutterDesktopWindowsSurfacePublishedCallback callback,
+    void* user_data) {
+  if (view != nullptr) {
+    ViewFromHandle(view)->SetSurfacePublishedCallback(callback, user_data);
+  }
+}
+
+bool FlutterDesktopViewAcquireLatestSurface(
+    FlutterDesktopViewRef view,
+    FlutterDesktopWindowsSurface* surface_out) {
+  return view != nullptr &&
+         ViewFromHandle(view)->AcquireLatestSurface(surface_out);
+}
+
+bool FlutterDesktopViewReleaseSurface(FlutterDesktopViewRef view,
+                                      uint64_t lease_id) {
+  return view != nullptr && ViewFromHandle(view)->ReleaseSurface(lease_id);
+}
+
 IDXGIAdapter* FlutterDesktopViewGetGraphicsAdapter(FlutterDesktopViewRef view) {
   auto engine = ViewFromHandle(view)->GetEngine();
   IDXGIAdapter* adapter;

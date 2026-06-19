@@ -19,6 +19,7 @@
 #include "flutter/shell/platform/embedder/embedder.h"
 #include "flutter/shell/platform/windows/accessibility_bridge_windows.h"
 #include "flutter/shell/platform/windows/flutter_windows_engine.h"
+#include "flutter/shell/platform/windows/flutter_windows_surface_export.h"
 #include "flutter/shell/platform/windows/public/flutter_windows.h"
 #include "flutter/shell/platform/windows/window_binding_handler.h"
 #include "flutter/shell/platform/windows/window_binding_handler_delegate.h"
@@ -93,6 +94,17 @@ class FlutterWindowsView : public WindowBindingHandlerDelegate {
 
   // Returns the engine backing this view.
   FlutterWindowsEngine* GetEngine() const;
+
+  FlutterWindowsSurfaceExport* surface_export() const;
+  bool SetSurfaceExportMode(FlutterDesktopWindowsSurfaceExportMode mode);
+  bool RequestSurfaceExportFrame();
+  bool GetSurfaceExportState(
+      FlutterDesktopWindowsSurfaceExportState* state_out) const;
+  void SetSurfacePublishedCallback(
+      FlutterDesktopWindowsSurfacePublishedCallback callback,
+      void* user_data);
+  bool AcquireLatestSurface(FlutterDesktopWindowsSurface* surface_out);
+  bool ReleaseSurface(uint64_t lease_id);
 
   // Tells the engine to generate a new frame
   void ForceRedraw();
@@ -463,6 +475,8 @@ class FlutterWindowsView : public WindowBindingHandlerDelegate {
 
   // The engine associated with this view.
   FlutterWindowsEngine* engine_ = nullptr;
+
+  std::unique_ptr<FlutterWindowsSurfaceExport> surface_export_;
 
   // Mocks win32 APIs.
   std::shared_ptr<WindowsProcTable> windows_proc_table_;
