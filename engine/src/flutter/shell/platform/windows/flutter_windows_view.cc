@@ -128,9 +128,27 @@ FlutterWindowsView::FlutterWindowsView(
   // Take the binding handler, and give it a pointer back to self.
   binding_handler_ = std::move(window_binding);
   binding_handler_->SetView(this);
+  if (engine_->egl_manager()) {
+    surface_export_ =
+        std::make_unique<FlutterWindowsSurfaceExport>(engine_->egl_manager());
+    surface_export_->SetViewHandle(
+        reinterpret_cast<FlutterDesktopViewRef>(this));
+  }
 }
 
 FlutterWindowsView::~FlutterWindowsView() {
+  if (surface_export_) {
+    if (engine_->running()) {
+      engine_->PostRasterThreadTask(fml::MakeCopyable(
+          [surface_export = std::move(surface_export_)]() mutable {
+            surface_export->Shutdown();
+            surface_export.reset();
+          }));
+    } else {
+      surface_export_->Shutdown();
+      surface_export_.reset();
+    }
+  }
   // The view owns the child window.
   // Notify the engine the view's child window will no longer be visible.
   engine_->OnWindowStateEvent(GetWindowHandle(), WindowStateEvent::kHide);
@@ -867,6 +885,68 @@ HWND FlutterWindowsView::GetWindowHandle() const {
 
 FlutterWindowsEngine* FlutterWindowsView::GetEngine() const {
   return engine_;
+}
+
+FlutterWindowsSurfaceExport* FlutterWindowsView::surface_export() const {
+  return surface_export_.get();
+}
+
+bool FlutterWindowsView::SetSurfaceExportMode(
+    FlutterDesktopWindowsSurfaceExportMode mode) {
+  if (!surface_export_ ||
+      mode < kFlutterDesktopWindowsSurfaceExportModeDisabled ||
+      mode > kFlutterDesktopWindowsSurfaceExportModeCompositorOwned) {
+    return false;
+  }
+  surface_export_->SetMode(mode);
+  ForceRedraw();
+  return true;
+}
+
+bool FlutterWindowsView::RequestSurfaceExportFrame() {
+  if (!surface_export_ ||
+      surface_export_->mode() ==
+          kFlutterDesktopWindowsSurfaceExportModeDisabled) {
+    return false;
+  }
+  surface_export_->RecordFrameRequest();
+  auto* engine = engine_;
+  const FlutterViewId view_id = view_id_;
+  engine->task_runner()->RunNowOrPostTask([engine, view_id] {
+    auto* view = engine->view(view_id);
+    if (!view || !view->surface_export() ||
+        view->surface_export()->mode() ==
+            kFlutterDesktopWindowsSurfaceExportModeDisabled) {
+      return;
+    }
+    view->surface_export()->RecordFrameRequestDispatch();
+    engine->SendWindowMetricsEvent(view->CreateWindowMetricsEvent());
+    view->surface_export()->RecordScheduleFrame();
+    engine->ScheduleFrame();
+  });
+  return true;
+}
+
+bool FlutterWindowsView::GetSurfaceExportState(
+    FlutterDesktopWindowsSurfaceExportState* state_out) const {
+  return surface_export_ && surface_export_->GetState(state_out);
+}
+
+void FlutterWindowsView::SetSurfacePublishedCallback(
+    FlutterDesktopWindowsSurfacePublishedCallback callback,
+    void* user_data) {
+  if (surface_export_) {
+    surface_export_->SetPublishedCallback(callback, user_data);
+  }
+}
+
+bool FlutterWindowsView::AcquireLatestSurface(
+    FlutterDesktopWindowsSurface* surface_out) {
+  return surface_export_ && surface_export_->AcquireLatest(surface_out);
+}
+
+bool FlutterWindowsView::ReleaseSurface(uint64_t lease_id) {
+  return surface_export_ && surface_export_->Release(lease_id);
 }
 
 void FlutterWindowsView::AnnounceAlert(const std::wstring& text) {

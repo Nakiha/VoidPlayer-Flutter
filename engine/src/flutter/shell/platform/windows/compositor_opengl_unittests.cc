@@ -5,6 +5,9 @@
 #include <memory>
 #include <vector>
 
+#include <d3d11_1.h>
+#include <wrl/client.h>
+
 #include "flutter/impeller/renderer/backend/gles/gles.h"
 #include "flutter/shell/platform/windows/compositor_opengl.h"
 #include "flutter/shell/platform/windows/egl/manager.h"
@@ -225,6 +228,217 @@ TEST_F(CompositorOpenGLTest, Present) {
   EXPECT_TRUE(compositor.Present(view(), &layer_ptr, 1));
 
   ASSERT_TRUE(compositor.CollectBackingStore(&backing_store));
+}
+
+TEST_F(CompositorOpenGLTest, ExportFailurePreservesWindowPresentation) {
+  UseEngineWithView();
+  ASSERT_NE(view()->surface_export(), nullptr);
+  view()->surface_export()->SetMode(
+      kFlutterDesktopWindowsSurfaceExportModeCompositorOwned);
+
+  auto compositor =
+      CompositorOpenGL{engine(), kMockResolver, /*enable_impeller=*/false};
+  FlutterBackingStoreConfig config = {};
+  FlutterBackingStore backing_store = {};
+  EXPECT_CALL(*render_context(), MakeCurrent).WillOnce(Return(true));
+  ASSERT_TRUE(compositor.CreateBackingStore(config, &backing_store));
+
+  FlutterLayer layer = {};
+  layer.type = kFlutterLayerContentTypeBackingStore;
+  layer.backing_store = &backing_store;
+  const FlutterLayer* layer_ptr = &layer;
+
+  EXPECT_CALL(*surface(), IsValid).WillRepeatedly(Return(true));
+  EXPECT_CALL(*surface(), MakeCurrent).WillOnce(Return(true));
+  EXPECT_CALL(*surface(), SwapBuffers).WillOnce(Return(true));
+  EXPECT_TRUE(compositor.Present(view(), &layer_ptr, 1));
+
+  ASSERT_TRUE(compositor.CollectBackingStore(&backing_store));
+}
+
+TEST_F(CompositorOpenGLTest, SurfaceExportModeSwitchesAreStable) {
+  UseEngineWithView();
+  auto* surface_export = view()->surface_export();
+  ASSERT_NE(surface_export, nullptr);
+  EXPECT_EQ(surface_export->mode(),
+            kFlutterDesktopWindowsSurfaceExportModeDisabled);
+
+  surface_export->SetMode(kFlutterDesktopWindowsSurfaceExportModeMirror);
+  EXPECT_EQ(surface_export->mode(),
+            kFlutterDesktopWindowsSurfaceExportModeMirror);
+  surface_export->SetMode(
+      kFlutterDesktopWindowsSurfaceExportModeCompositorOwned);
+  EXPECT_EQ(surface_export->mode(),
+            kFlutterDesktopWindowsSurfaceExportModeCompositorOwned);
+  surface_export->SetMode(
+      kFlutterDesktopWindowsSurfaceExportModeDisabled);
+  EXPECT_EQ(surface_export->mode(),
+            kFlutterDesktopWindowsSurfaceExportModeDisabled);
+}
+
+TEST(FlutterWindowsSurfaceExportTest,
+     PreservesAlphaLeasesBackpressureAndResizeGenerations) {
+  auto manager =
+      flutter::egl::Manager::Create(flutter::egl::GpuPreference::NoPreference);
+  ASSERT_NE(manager, nullptr);
+  FlutterWindowsSurfaceExport surface_export(manager.get());
+  surface_export.SetMode(kFlutterDesktopWindowsSurfaceExportModeMirror);
+
+  Microsoft::WRL::ComPtr<ID3D11Device> device;
+  ASSERT_TRUE(manager->GetDevice(device.GetAddressOf()));
+  Microsoft::WRL::ComPtr<ID3D11Device1> device1;
+  ASSERT_TRUE(SUCCEEDED(device.As(&device1)));
+
+  uint64_t callback_generation = 0;
+  surface_export.SetPublishedCallback(
+      [](FlutterDesktopViewRef, uint64_t generation, void* user_data) {
+        *static_cast<uint64_t*>(user_data) = generation;
+      },
+      &callback_generation);
+
+  const auto publish = [&](size_t width, size_t height) {
+    auto writable = surface_export.BeginFrame(width, height);
+    EXPECT_TRUE(writable.has_value());
+    if (!writable.has_value()) {
+      return FlutterDesktopWindowsSurface{};
+    }
+    EXPECT_TRUE(surface_export.PublishFrame(*writable));
+
+    FlutterDesktopWindowsSurface surface = {};
+    surface.struct_size = sizeof(surface);
+    EXPECT_TRUE(surface_export.AcquireLatest(&surface));
+    return surface;
+  };
+  const auto consume = [&](const FlutterDesktopWindowsSurface& surface,
+                           bool verify_alpha) {
+    Microsoft::WRL::ComPtr<ID3D11Texture2D> texture;
+    EXPECT_TRUE(SUCCEEDED(device1->OpenSharedResource1(
+        surface.shared_texture_handle, IID_PPV_ARGS(&texture))));
+    Microsoft::WRL::ComPtr<IDXGIKeyedMutex> keyed_mutex;
+    EXPECT_TRUE(SUCCEEDED(texture.As(&keyed_mutex)));
+    EXPECT_EQ(keyed_mutex->AcquireSync(surface.consumer_acquire_key, 100),
+              S_OK);
+    if (verify_alpha) {
+      D3D11_TEXTURE2D_DESC desc = {};
+      texture->GetDesc(&desc);
+      Microsoft::WRL::ComPtr<ID3D11RenderTargetView> rtv;
+      ASSERT_TRUE(SUCCEEDED(
+          device->CreateRenderTargetView(texture.Get(), nullptr, &rtv)));
+      Microsoft::WRL::ComPtr<ID3D11DeviceContext> context;
+      device->GetImmediateContext(context.GetAddressOf());
+      const FLOAT premultiplied_rgba[] = {0.25f, 0.125f, 0.0625f, 0.5f};
+      context->ClearRenderTargetView(rtv.Get(), premultiplied_rgba);
+      context->Flush();
+
+      desc.Usage = D3D11_USAGE_STAGING;
+      desc.BindFlags = 0;
+      desc.CPUAccessFlags = D3D11_CPU_ACCESS_READ;
+      desc.MiscFlags = 0;
+      Microsoft::WRL::ComPtr<ID3D11Texture2D> staging;
+      ASSERT_TRUE(SUCCEEDED(
+          device->CreateTexture2D(&desc, nullptr, &staging)));
+      context->CopyResource(staging.Get(), texture.Get());
+      D3D11_MAPPED_SUBRESOURCE mapped = {};
+      ASSERT_TRUE(SUCCEEDED(
+          context->Map(staging.Get(), 0, D3D11_MAP_READ, 0, &mapped)));
+      const auto* bgra = static_cast<const uint8_t*>(mapped.pData);
+      EXPECT_NEAR(bgra[0] / 255.0, 0.0625, 0.01);
+      EXPECT_NEAR(bgra[1] / 255.0, 0.125, 0.01);
+      EXPECT_NEAR(bgra[2] / 255.0, 0.25, 0.01);
+      EXPECT_NEAR(bgra[3] / 255.0, 0.5, 0.01);
+      context->Unmap(staging.Get(), 0);
+    }
+    EXPECT_TRUE(SUCCEEDED(
+        keyed_mutex->ReleaseSync(surface.producer_release_key)));
+  };
+
+  auto first = publish(5, 3);
+  ASSERT_NE(first.shared_texture_handle, nullptr);
+  EXPECT_EQ(first.format, DXGI_FORMAT_B8G8R8A8_UNORM);
+  EXPECT_EQ(first.alpha_mode,
+            kFlutterDesktopWindowsSurfaceAlphaModePremultiplied);
+  EXPECT_EQ(callback_generation, first.frame_generation);
+  consume(first, true);
+
+  auto second = publish(5, 3);
+  auto third = publish(5, 3);
+  consume(second, false);
+  consume(third, false);
+  EXPECT_NE(first.slot, second.slot);
+  EXPECT_NE(second.slot, third.slot);
+  EXPECT_FALSE(surface_export.BeginFrame(5, 3).has_value());
+  EXPECT_EQ(surface_export.backpressure_count(), 1u);
+
+  EXPECT_TRUE(surface_export.Release(first.lease_id));
+  auto writable = surface_export.BeginFrame(5, 3);
+  ASSERT_TRUE(writable.has_value());
+  surface_export.CancelFrame(*writable);
+
+  auto resized = publish(7, 5);
+  consume(resized, false);
+  EXPECT_GT(resized.ring_generation, second.ring_generation);
+  EXPECT_EQ(resized.width, 7u);
+  EXPECT_EQ(resized.height, 5u);
+
+  EXPECT_TRUE(surface_export.Release(second.lease_id));
+  EXPECT_TRUE(surface_export.Release(third.lease_id));
+  EXPECT_TRUE(surface_export.Release(resized.lease_id));
+  surface_export.Shutdown();
+  FlutterDesktopWindowsSurface after_shutdown = {};
+  after_shutdown.struct_size = sizeof(after_shutdown);
+  EXPECT_FALSE(surface_export.AcquireLatest(&after_shutdown));
+  EXPECT_FALSE(surface_export.BeginFrame(5, 3).has_value());
+}
+
+TEST(FlutterWindowsSurfaceExportTest, CancelledEmptyFrameIsNotPublished) {
+  auto manager =
+      flutter::egl::Manager::Create(flutter::egl::GpuPreference::NoPreference);
+  ASSERT_NE(manager, nullptr);
+  FlutterWindowsSurfaceExport surface_export(manager.get());
+  surface_export.SetMode(kFlutterDesktopWindowsSurfaceExportModeMirror);
+  auto writable = surface_export.BeginFrame(3, 3);
+  ASSERT_TRUE(writable.has_value());
+  surface_export.CancelFrame(*writable);
+
+  FlutterDesktopWindowsSurface surface = {};
+  surface.struct_size = sizeof(surface);
+  EXPECT_FALSE(surface_export.AcquireLatest(&surface));
+}
+
+TEST(FlutterWindowsSurfaceExportTest, StateTracksRequestsAndPublishedFrames) {
+  auto manager =
+      flutter::egl::Manager::Create(flutter::egl::GpuPreference::NoPreference);
+  ASSERT_NE(manager, nullptr);
+  FlutterWindowsSurfaceExport surface_export(manager.get());
+
+  FlutterDesktopWindowsSurfaceExportState state = {};
+  state.struct_size = sizeof(state);
+  ASSERT_TRUE(surface_export.GetState(&state));
+  EXPECT_EQ(state.mode, kFlutterDesktopWindowsSurfaceExportModeDisabled);
+  EXPECT_FALSE(state.latest_available);
+
+  surface_export.SetMode(kFlutterDesktopWindowsSurfaceExportModeMirror);
+  surface_export.RecordFrameRequest();
+  auto writable = surface_export.BeginFrame(3, 3);
+  ASSERT_TRUE(writable.has_value());
+  ASSERT_TRUE(surface_export.PublishFrame(*writable));
+
+  state = {};
+  state.struct_size = sizeof(state);
+  ASSERT_TRUE(surface_export.GetState(&state));
+  EXPECT_EQ(state.mode, kFlutterDesktopWindowsSurfaceExportModeMirror);
+  EXPECT_EQ(state.request_count, 1u);
+  EXPECT_EQ(state.publish_count, 1u);
+  EXPECT_EQ(state.frame_generation, 1u);
+  EXPECT_EQ(state.ring_generation, 1u);
+  EXPECT_EQ(state.width, 3u);
+  EXPECT_EQ(state.height, 3u);
+  EXPECT_TRUE(state.latest_available);
+  EXPECT_FALSE(surface_export.ConsumeFramePumpToken());
+
+  surface_export.SetMode(kFlutterDesktopWindowsSurfaceExportModeCompositorOwned);
+  surface_export.RecordFrameRequest();
+  EXPECT_TRUE(surface_export.ConsumeFramePumpToken());
 }
 
 TEST_F(CompositorOpenGLTest, PresentEmpty) {
