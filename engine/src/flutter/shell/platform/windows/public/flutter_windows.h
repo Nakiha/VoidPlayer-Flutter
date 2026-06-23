@@ -85,6 +85,8 @@ typedef struct {
   uint64_t export_begin_fail_count;
   uint64_t export_make_current_fail_count;
   uint64_t export_publish_fail_count;
+  uint64_t export_flush_count;
+  uint64_t export_finish_count;
   uint64_t backpressure_count;
   uint64_t pending_frame_pump_frames;
   uint32_t width;
@@ -92,6 +94,25 @@ typedef struct {
   uint32_t latest_slot;
   bool latest_available;
   bool shutdown;
+  uint64_t last_request_time_us;
+  uint64_t last_request_dispatch_time_us;
+  uint64_t last_schedule_frame_time_us;
+  uint64_t last_vsync_time_us;
+  uint64_t last_present_time_us;
+  uint64_t last_begin_time_us;
+  uint64_t last_begin_fail_time_us;
+  uint64_t last_backpressure_time_us;
+  uint64_t last_publish_time_us;
+  uint64_t last_export_sync_time_us;
+  uint64_t last_acquire_time_us;
+  uint64_t last_release_time_us;
+  uint32_t active_lease_count;
+  uint32_t writing_slot_count;
+  uint32_t leased_slot_count;
+  uint32_t retired_ring_count;
+  uint32_t latest_slot_lease_count;
+  uint64_t acquire_count;
+  uint64_t release_count;
 } FlutterDesktopWindowsSurfaceExportState;
 
 // Invoked on Flutter's raster thread after a new exported frame is published.
