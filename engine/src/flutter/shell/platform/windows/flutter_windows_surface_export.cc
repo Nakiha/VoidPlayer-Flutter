@@ -17,6 +17,7 @@ namespace {
 
 constexpr uint64_t kProducerAcquireKey = 0;
 constexpr uint64_t kConsumerAcquireKey = 1;
+constexpr uint32_t kFramePumpFramesPerRequest = 18;
 
 uint64_t NowMicros() {
   return static_cast<uint64_t>(
@@ -54,6 +55,7 @@ void FlutterWindowsSurfaceExport::SetMode(
   if (shutdown_ || mode_ == mode) {
     return;
   }
+  pending_frame_pump_frames_ = 0;
   mode_ = mode;
 }
 
@@ -68,6 +70,8 @@ void FlutterWindowsSurfaceExport::RecordFrameRequest() {
   if (!shutdown_ &&
       mode_ != kFlutterDesktopWindowsSurfaceExportModeDisabled) {
     ++request_count_;
+    pending_frame_pump_frames_ =
+        std::max(pending_frame_pump_frames_, kFramePumpFramesPerRequest);
     last_request_time_us_ = NowMicros();
   }
 }
@@ -129,6 +133,17 @@ void FlutterWindowsSurfaceExport::RecordExportPublishFail() {
   ++export_publish_fail_count_;
 }
 
+bool FlutterWindowsSurfaceExport::ConsumeFramePumpToken() {
+  std::scoped_lock lock(mutex_);
+  if (shutdown_ ||
+      mode_ != kFlutterDesktopWindowsSurfaceExportModeCompositorOwned ||
+      pending_frame_pump_frames_ == 0) {
+    return false;
+  }
+  --pending_frame_pump_frames_;
+  return true;
+}
+
 bool FlutterWindowsSurfaceExport::GetState(
     FlutterDesktopWindowsSurfaceExportState* state_out) const {
   if (state_out == nullptr ||
@@ -155,7 +170,7 @@ bool FlutterWindowsSurfaceExport::GetState(
   state_out->export_flush_count = export_flush_count_;
   state_out->export_finish_count = export_finish_count_;
   state_out->backpressure_count = backpressure_count_;
-  state_out->pending_frame_pump_frames = 0;
+  state_out->pending_frame_pump_frames = pending_frame_pump_frames_;
   state_out->width =
       latest_ring_ ? static_cast<uint32_t>(latest_ring_->width) : 0;
   state_out->height =

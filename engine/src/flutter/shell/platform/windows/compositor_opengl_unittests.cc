@@ -504,6 +504,39 @@ TEST(FlutterWindowsSurfaceExportTest, StateTracksRequestsAndPublishedFrames) {
   state.struct_size = sizeof(state);
   ASSERT_TRUE(surface_export.GetState(&state));
   EXPECT_EQ(state.request_count, 2u);
+  EXPECT_GT(state.pending_frame_pump_frames, 0u);
+}
+
+TEST(FlutterWindowsSurfaceExportTest, FrameRequestsArmBoundedCompositorPump) {
+  FlutterWindowsSurfaceExport surface_export(nullptr);
+  FlutterDesktopWindowsSurfaceExportState state = {};
+  state.struct_size = sizeof(state);
+
+  surface_export.SetMode(kFlutterDesktopWindowsSurfaceExportModeCompositorOwned);
+  surface_export.RecordFrameRequest();
+  ASSERT_TRUE(surface_export.GetState(&state));
+  EXPECT_EQ(state.request_count, 1u);
+  ASSERT_GT(state.pending_frame_pump_frames, 0u);
+
+  const uint64_t initial_pending = state.pending_frame_pump_frames;
+  EXPECT_TRUE(surface_export.ConsumeFramePumpToken());
+  ASSERT_TRUE(surface_export.GetState(&state));
+  EXPECT_EQ(state.pending_frame_pump_frames, initial_pending - 1);
+
+  uint64_t consumed_count = 1;
+  while (surface_export.ConsumeFramePumpToken()) {
+    ++consumed_count;
+  }
+  EXPECT_EQ(consumed_count, initial_pending);
+  ASSERT_TRUE(surface_export.GetState(&state));
+  EXPECT_EQ(state.pending_frame_pump_frames, 0u);
+  EXPECT_FALSE(surface_export.ConsumeFramePumpToken());
+
+  surface_export.RecordFrameRequest();
+  ASSERT_TRUE(surface_export.GetState(&state));
+  EXPECT_GT(state.pending_frame_pump_frames, 0u);
+  surface_export.SetMode(kFlutterDesktopWindowsSurfaceExportModeDisabled);
+  ASSERT_TRUE(surface_export.GetState(&state));
   EXPECT_EQ(state.pending_frame_pump_frames, 0u);
 }
 
