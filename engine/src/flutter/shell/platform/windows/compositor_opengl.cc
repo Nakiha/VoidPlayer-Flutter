@@ -195,7 +195,13 @@ bool CompositorOpenGL::Present(FlutterWindowsView* view,
   }
 
   if (compositor_owned && exported) {
+    const bool pump_next_frame =
+        surface_export && surface_export->ConsumeFramePumpToken();
     view->OnFramePresented();
+    if (pump_next_frame) {
+      surface_export->RecordScheduleFrame();
+      engine_->ScheduleFrame();
+    }
     return true;
   }
 
@@ -359,7 +365,13 @@ bool CompositorOpenGL::Clear(FlutterWindowsView* view) {
         ExportClearFrame(view, surface->width(), surface->height());
   }
   if (compositor_owned && exported) {
+    const bool pump_next_frame =
+        surface_export && surface_export->ConsumeFramePumpToken();
     view->OnFramePresented();
+    if (pump_next_frame) {
+      surface_export->RecordScheduleFrame();
+      engine_->ScheduleFrame();
+    }
     return true;
   }
   if (!surface->MakeCurrent()) {

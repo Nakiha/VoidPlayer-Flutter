@@ -53,6 +53,7 @@ class FlutterWindowsSurfaceExport {
   void RecordExportGpuSync(bool waited_for_completion);
   void RecordExportMakeCurrentFail();
   void RecordExportPublishFail();
+  bool ConsumeFramePumpToken();
   bool GetState(FlutterDesktopWindowsSurfaceExportState* state_out) const;
 
   void SetPublishedCallback(
@@ -136,6 +137,7 @@ class FlutterWindowsSurfaceExport {
   uint64_t export_flush_count_ = 0;
   uint64_t export_finish_count_ = 0;
   uint64_t backpressure_count_ = 0;
+  uint32_t pending_frame_pump_frames_ = 0;
   uint64_t acquire_count_ = 0;
   uint64_t release_count_ = 0;
   uint64_t last_request_time_us_ = 0;
