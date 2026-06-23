@@ -5,6 +5,7 @@
 #include "flutter/shell/platform/windows/flutter_windows_surface_export.h"
 
 #include <algorithm>
+#include <chrono>
 #include <iomanip>
 #include <limits>
 
@@ -16,7 +17,13 @@ namespace {
 
 constexpr uint64_t kProducerAcquireKey = 0;
 constexpr uint64_t kConsumerAcquireKey = 1;
-constexpr uint32_t kFramePumpFramesPerRequest = 18;
+
+uint64_t NowMicros() {
+  return static_cast<uint64_t>(
+      std::chrono::duration_cast<std::chrono::microseconds>(
+          std::chrono::steady_clock::now().time_since_epoch())
+          .count());
+}
 
 }  // namespace
 
@@ -47,7 +54,6 @@ void FlutterWindowsSurfaceExport::SetMode(
   if (shutdown_ || mode_ == mode) {
     return;
   }
-  pending_frame_pump_frames_ = 0;
   mode_ = mode;
 }
 
@@ -62,8 +68,7 @@ void FlutterWindowsSurfaceExport::RecordFrameRequest() {
   if (!shutdown_ &&
       mode_ != kFlutterDesktopWindowsSurfaceExportModeDisabled) {
     ++request_count_;
-    pending_frame_pump_frames_ =
-        std::max(pending_frame_pump_frames_, kFramePumpFramesPerRequest);
+    last_request_time_us_ = NowMicros();
   }
 }
 
@@ -72,6 +77,7 @@ void FlutterWindowsSurfaceExport::RecordFrameRequestDispatch() {
   if (!shutdown_ &&
       mode_ != kFlutterDesktopWindowsSurfaceExportModeDisabled) {
     ++request_dispatch_count_;
+    last_request_dispatch_time_us_ = NowMicros();
   }
 }
 
@@ -80,6 +86,7 @@ void FlutterWindowsSurfaceExport::RecordScheduleFrame() {
   if (!shutdown_ &&
       mode_ != kFlutterDesktopWindowsSurfaceExportModeDisabled) {
     ++schedule_frame_count_;
+    last_schedule_frame_time_us_ = NowMicros();
   }
 }
 
@@ -88,6 +95,7 @@ void FlutterWindowsSurfaceExport::RecordVsync() {
   if (!shutdown_ &&
       mode_ != kFlutterDesktopWindowsSurfaceExportModeDisabled) {
     ++vsync_count_;
+    last_vsync_time_us_ = NowMicros();
   }
 }
 
@@ -96,7 +104,19 @@ void FlutterWindowsSurfaceExport::RecordPresent() {
   if (!shutdown_ &&
       mode_ != kFlutterDesktopWindowsSurfaceExportModeDisabled) {
     ++present_count_;
+    last_present_time_us_ = NowMicros();
   }
+}
+
+void FlutterWindowsSurfaceExport::RecordExportGpuSync(
+    bool waited_for_completion) {
+  std::scoped_lock lock(mutex_);
+  if (waited_for_completion) {
+    ++export_finish_count_;
+  } else {
+    ++export_flush_count_;
+  }
+  last_export_sync_time_us_ = NowMicros();
 }
 
 void FlutterWindowsSurfaceExport::RecordExportMakeCurrentFail() {
@@ -107,17 +127,6 @@ void FlutterWindowsSurfaceExport::RecordExportMakeCurrentFail() {
 void FlutterWindowsSurfaceExport::RecordExportPublishFail() {
   std::scoped_lock lock(mutex_);
   ++export_publish_fail_count_;
-}
-
-bool FlutterWindowsSurfaceExport::ConsumeFramePumpToken() {
-  std::scoped_lock lock(mutex_);
-  if (shutdown_ ||
-      mode_ != kFlutterDesktopWindowsSurfaceExportModeCompositorOwned ||
-      pending_frame_pump_frames_ == 0) {
-    return false;
-  }
-  --pending_frame_pump_frames_;
-  return true;
 }
 
 bool FlutterWindowsSurfaceExport::GetState(
@@ -143,8 +152,10 @@ bool FlutterWindowsSurfaceExport::GetState(
   state_out->export_make_current_fail_count =
       export_make_current_fail_count_;
   state_out->export_publish_fail_count = export_publish_fail_count_;
+  state_out->export_flush_count = export_flush_count_;
+  state_out->export_finish_count = export_finish_count_;
   state_out->backpressure_count = backpressure_count_;
-  state_out->pending_frame_pump_frames = pending_frame_pump_frames_;
+  state_out->pending_frame_pump_frames = 0;
   state_out->width =
       latest_ring_ ? static_cast<uint32_t>(latest_ring_->width) : 0;
   state_out->height =
@@ -154,6 +165,46 @@ bool FlutterWindowsSurfaceExport::GetState(
                                 latest_slot_ != nullptr &&
                                 !latest_slot_->writing;
   state_out->shutdown = shutdown_;
+  state_out->last_request_time_us = last_request_time_us_;
+  state_out->last_request_dispatch_time_us =
+      last_request_dispatch_time_us_;
+  state_out->last_schedule_frame_time_us = last_schedule_frame_time_us_;
+  state_out->last_vsync_time_us = last_vsync_time_us_;
+  state_out->last_present_time_us = last_present_time_us_;
+  state_out->last_begin_time_us = last_begin_time_us_;
+  state_out->last_begin_fail_time_us = last_begin_fail_time_us_;
+  state_out->last_backpressure_time_us = last_backpressure_time_us_;
+  state_out->last_publish_time_us = last_publish_time_us_;
+  state_out->last_export_sync_time_us = last_export_sync_time_us_;
+  state_out->last_acquire_time_us = last_acquire_time_us_;
+  state_out->last_release_time_us = last_release_time_us_;
+  state_out->active_lease_count =
+      static_cast<uint32_t>(std::min<size_t>(
+          leases_.size(), std::numeric_limits<uint32_t>::max()));
+  uint32_t writing_slot_count = 0;
+  uint32_t leased_slot_count = 0;
+  if (active_ring_) {
+    for (const auto& slot : active_ring_->slots) {
+      if (!slot) {
+        continue;
+      }
+      if (slot->writing) {
+        ++writing_slot_count;
+      }
+      if (slot->lease_count != 0) {
+        ++leased_slot_count;
+      }
+    }
+  }
+  state_out->writing_slot_count = writing_slot_count;
+  state_out->leased_slot_count = leased_slot_count;
+  state_out->retired_ring_count =
+      static_cast<uint32_t>(std::min<size_t>(
+          retired_rings_.size(), std::numeric_limits<uint32_t>::max()));
+  state_out->latest_slot_lease_count =
+      latest_slot_ ? latest_slot_->lease_count : 0;
+  state_out->acquire_count = acquire_count_;
+  state_out->release_count = release_count_;
   return true;
 }
 
@@ -254,6 +305,7 @@ FlutterWindowsSurfaceExport::BeginFrame(size_t width, size_t height) {
   if (shutdown_ ||
       mode_ == kFlutterDesktopWindowsSurfaceExportModeDisabled) {
     ++export_begin_fail_count_;
+    last_begin_fail_time_us_ = NowMicros();
     return std::nullopt;
   }
 
@@ -263,6 +315,7 @@ FlutterWindowsSurfaceExport::BeginFrame(size_t width, size_t height) {
     active_ring_ = CreateRing(width, height);
     if (!active_ring_) {
       ++export_begin_fail_count_;
+      last_begin_fail_time_us_ = NowMicros();
       return std::nullopt;
     }
   }
@@ -271,6 +324,8 @@ FlutterWindowsSurfaceExport::BeginFrame(size_t width, size_t height) {
   if (slot == nullptr) {
     ++backpressure_count_;
     ++export_begin_fail_count_;
+    last_begin_fail_time_us_ = NowMicros();
+    last_backpressure_time_us_ = last_begin_fail_time_us_;
     return std::nullopt;
   }
 
@@ -285,9 +340,12 @@ FlutterWindowsSurfaceExport::BeginFrame(size_t width, size_t height) {
   if (result != S_OK) {
     ++backpressure_count_;
     ++export_begin_fail_count_;
+    last_begin_fail_time_us_ = NowMicros();
+    last_backpressure_time_us_ = last_begin_fail_time_us_;
     return std::nullopt;
   }
   ++export_begin_count_;
+  last_begin_time_us_ = NowMicros();
   slot->writing = true;
   WritableSurface writable;
   writable.surface = slot->egl_surface.get();
@@ -313,6 +371,7 @@ bool FlutterWindowsSurfaceExport::PublishFrame(
     slot->writing = false;
     slot->frame_generation = next_frame_generation_++;
     ++publish_count_;
+    last_publish_time_us_ = NowMicros();
     frame_generation = slot->frame_generation;
     latest_ring_ = active_ring_;
     latest_slot_ = slot;
@@ -372,6 +431,8 @@ bool FlutterWindowsSurfaceExport::AcquireLatest(
   lease.slot = latest_slot_;
   ++lease.slot->lease_count;
   leases_.push_back(lease);
+  ++acquire_count_;
+  last_acquire_time_us_ = NowMicros();
 
   surface_out->shared_texture_handle = lease.slot->shared_handle;
   surface_out->width = static_cast<uint32_t>(lease.ring->width);
@@ -399,6 +460,8 @@ bool FlutterWindowsSurfaceExport::Release(uint64_t lease_id) {
   FML_DCHECK(lease->slot->lease_count > 0);
   --lease->slot->lease_count;
   leases_.erase(lease);
+  ++release_count_;
+  last_release_time_us_ = NowMicros();
   CollectRetiredRingsLocked();
   return true;
 }
