@@ -87,9 +87,11 @@ typedef struct {
 } FlutterDesktopWindowsSurfaceAcquireOptions;
 
 // Versioned immutable lease on one exported Flutter frame. D3D11 surfaces use
-// |texture_handle| plus keyed-mutex keys. D3D12 surfaces use |texture_handle|,
-// |fence_handle|, and |fence_value|; the consumer waits for the fence before
-// GPU use and signals/releases ownership through FlutterDesktopViewReleaseSurface.
+// |texture_handle| plus keyed-mutex keys. D3D12-capable consumers may request
+// the same NT shared texture handle as a D3D12 resource; |sync| describes
+// whether the lease is protected by keyed-mutex keys or by |fence_handle| and
+// |fence_value|. Consumers release ownership through
+// FlutterDesktopViewReleaseSurface.
 typedef struct {
   size_t struct_size;
   FlutterDesktopWindowsSurfaceBackend backend;
