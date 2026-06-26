@@ -480,11 +480,9 @@ bool FlutterWindowsSurfaceExport::AcquireLatestV2(
     requested_backend = options->requested_backend;
   }
 
-  if (requested_backend == kFlutterDesktopWindowsSurfaceBackendD3D12) {
-    return false;
-  }
   if (requested_backend != kFlutterDesktopWindowsSurfaceBackendUnknown &&
-      requested_backend != kFlutterDesktopWindowsSurfaceBackendD3D11) {
+      requested_backend != kFlutterDesktopWindowsSurfaceBackendD3D11 &&
+      requested_backend != kFlutterDesktopWindowsSurfaceBackendD3D12) {
     return false;
   }
 
@@ -494,7 +492,10 @@ bool FlutterWindowsSurfaceExport::AcquireLatestV2(
     return false;
   }
 
-  surface_out->backend = kFlutterDesktopWindowsSurfaceBackendD3D11;
+  surface_out->backend =
+      requested_backend == kFlutterDesktopWindowsSurfaceBackendD3D12
+          ? kFlutterDesktopWindowsSurfaceBackendD3D12
+          : kFlutterDesktopWindowsSurfaceBackendD3D11;
   surface_out->sync = kFlutterDesktopWindowsSurfaceSyncKeyedMutex;
   surface_out->texture_handle = surface.shared_texture_handle;
   surface_out->fence_handle = nullptr;
