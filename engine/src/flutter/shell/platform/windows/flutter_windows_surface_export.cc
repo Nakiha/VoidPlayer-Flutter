@@ -464,6 +464,54 @@ bool FlutterWindowsSurfaceExport::AcquireLatest(
   return true;
 }
 
+bool FlutterWindowsSurfaceExport::AcquireLatestV2(
+    const FlutterDesktopWindowsSurfaceAcquireOptions* options,
+    FlutterDesktopWindowsSurfaceV2* surface_out) {
+  if (surface_out == nullptr ||
+      surface_out->struct_size < sizeof(FlutterDesktopWindowsSurfaceV2)) {
+    return false;
+  }
+
+  FlutterDesktopWindowsSurfaceBackend requested_backend =
+      kFlutterDesktopWindowsSurfaceBackendUnknown;
+  if (options != nullptr &&
+      options->struct_size >=
+          sizeof(FlutterDesktopWindowsSurfaceAcquireOptions)) {
+    requested_backend = options->requested_backend;
+  }
+
+  if (requested_backend == kFlutterDesktopWindowsSurfaceBackendD3D12) {
+    return false;
+  }
+  if (requested_backend != kFlutterDesktopWindowsSurfaceBackendUnknown &&
+      requested_backend != kFlutterDesktopWindowsSurfaceBackendD3D11) {
+    return false;
+  }
+
+  FlutterDesktopWindowsSurface surface = {};
+  surface.struct_size = sizeof(FlutterDesktopWindowsSurface);
+  if (!AcquireLatest(&surface)) {
+    return false;
+  }
+
+  surface_out->backend = kFlutterDesktopWindowsSurfaceBackendD3D11;
+  surface_out->sync = kFlutterDesktopWindowsSurfaceSyncKeyedMutex;
+  surface_out->texture_handle = surface.shared_texture_handle;
+  surface_out->fence_handle = nullptr;
+  surface_out->fence_value = 0;
+  surface_out->width = surface.width;
+  surface_out->height = surface.height;
+  surface_out->format = surface.format;
+  surface_out->alpha_mode = surface.alpha_mode;
+  surface_out->ring_generation = surface.ring_generation;
+  surface_out->frame_generation = surface.frame_generation;
+  surface_out->slot = surface.slot;
+  surface_out->consumer_acquire_key = surface.consumer_acquire_key;
+  surface_out->producer_release_key = surface.producer_release_key;
+  surface_out->lease_id = surface.lease_id;
+  return true;
+}
+
 bool FlutterWindowsSurfaceExport::Release(uint64_t lease_id) {
   std::scoped_lock lock(mutex_);
   auto lease = std::find_if(

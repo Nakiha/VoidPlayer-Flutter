@@ -104,6 +104,9 @@ class FlutterWindowsView : public WindowBindingHandlerDelegate {
       FlutterDesktopWindowsSurfacePublishedCallback callback,
       void* user_data);
   bool AcquireLatestSurface(FlutterDesktopWindowsSurface* surface_out);
+  bool AcquireLatestSurfaceV2(
+      const FlutterDesktopWindowsSurfaceAcquireOptions* options,
+      FlutterDesktopWindowsSurfaceV2* surface_out);
   bool ReleaseSurface(uint64_t lease_id);
 
   // Tells the engine to generate a new frame

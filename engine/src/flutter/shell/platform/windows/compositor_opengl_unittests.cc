@@ -451,6 +451,44 @@ TEST(FlutterWindowsSurfaceExportTest,
   EXPECT_FALSE(surface_export.BeginFrame(5, 3).has_value());
 }
 
+TEST(FlutterWindowsSurfaceExportTest, AcquireLatestV2ReportsBackend) {
+  auto manager =
+      flutter::egl::Manager::Create(flutter::egl::GpuPreference::NoPreference);
+  ASSERT_NE(manager, nullptr);
+  FlutterWindowsSurfaceExport surface_export(manager.get());
+  surface_export.SetMode(kFlutterDesktopWindowsSurfaceExportModeMirror);
+
+  auto writable = surface_export.BeginFrame(5, 3);
+  ASSERT_TRUE(writable.has_value());
+  ASSERT_TRUE(surface_export.PublishFrame(*writable));
+
+  FlutterDesktopWindowsSurfaceAcquireOptions d3d12_options = {};
+  d3d12_options.struct_size = sizeof(d3d12_options);
+  d3d12_options.requested_backend =
+      kFlutterDesktopWindowsSurfaceBackendD3D12;
+  FlutterDesktopWindowsSurfaceV2 d3d12_surface = {};
+  d3d12_surface.struct_size = sizeof(d3d12_surface);
+  EXPECT_FALSE(
+      surface_export.AcquireLatestV2(&d3d12_options, &d3d12_surface));
+
+  FlutterDesktopWindowsSurfaceAcquireOptions d3d11_options = {};
+  d3d11_options.struct_size = sizeof(d3d11_options);
+  d3d11_options.requested_backend =
+      kFlutterDesktopWindowsSurfaceBackendD3D11;
+  FlutterDesktopWindowsSurfaceV2 surface = {};
+  surface.struct_size = sizeof(surface);
+  ASSERT_TRUE(surface_export.AcquireLatestV2(&d3d11_options, &surface));
+  EXPECT_EQ(surface.backend, kFlutterDesktopWindowsSurfaceBackendD3D11);
+  EXPECT_EQ(surface.sync, kFlutterDesktopWindowsSurfaceSyncKeyedMutex);
+  EXPECT_NE(surface.texture_handle, nullptr);
+  EXPECT_EQ(surface.fence_handle, nullptr);
+  EXPECT_EQ(surface.fence_value, 0u);
+  EXPECT_EQ(surface.width, 5u);
+  EXPECT_EQ(surface.height, 3u);
+  EXPECT_EQ(surface.format, DXGI_FORMAT_B8G8R8A8_UNORM);
+  EXPECT_TRUE(surface_export.Release(surface.lease_id));
+}
+
 TEST(FlutterWindowsSurfaceExportTest, CancelledEmptyFrameIsNotPublished) {
   auto manager =
       flutter::egl::Manager::Create(flutter::egl::GpuPreference::NoPreference);

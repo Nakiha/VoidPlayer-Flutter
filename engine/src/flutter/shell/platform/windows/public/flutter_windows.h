@@ -5,7 +5,7 @@
 #ifndef FLUTTER_SHELL_PLATFORM_WINDOWS_PUBLIC_FLUTTER_WINDOWS_H_
 #define FLUTTER_SHELL_PLATFORM_WINDOWS_PUBLIC_FLUTTER_WINDOWS_H_
 
-#define FLUTTER_WINDOWS_SURFACE_EXPORT_API 1
+#define FLUTTER_WINDOWS_SURFACE_EXPORT_API 2
 
 #include <dxgi.h>
 #include <stddef.h>
@@ -50,6 +50,18 @@ typedef enum {
   kFlutterDesktopWindowsSurfaceAlphaModePremultiplied = 0,
 } FlutterDesktopWindowsSurfaceAlphaMode;
 
+typedef enum {
+  kFlutterDesktopWindowsSurfaceBackendUnknown = 0,
+  kFlutterDesktopWindowsSurfaceBackendD3D11 = 1,
+  kFlutterDesktopWindowsSurfaceBackendD3D12 = 2,
+} FlutterDesktopWindowsSurfaceBackend;
+
+typedef enum {
+  kFlutterDesktopWindowsSurfaceSyncNone = 0,
+  kFlutterDesktopWindowsSurfaceSyncKeyedMutex = 1,
+  kFlutterDesktopWindowsSurfaceSyncSharedFence = 2,
+} FlutterDesktopWindowsSurfaceSync;
+
 // An immutable lease on one exported Flutter frame. The shared texture uses a
 // keyed mutex. The consumer must acquire |consumer_acquire_key| before GPU use,
 // release |producer_release_key| after GPU completion, and finally call
@@ -68,6 +80,34 @@ typedef struct {
   uint64_t producer_release_key;
   uint64_t lease_id;
 } FlutterDesktopWindowsSurface;
+
+typedef struct {
+  size_t struct_size;
+  FlutterDesktopWindowsSurfaceBackend requested_backend;
+} FlutterDesktopWindowsSurfaceAcquireOptions;
+
+// Versioned immutable lease on one exported Flutter frame. D3D11 surfaces use
+// |texture_handle| plus keyed-mutex keys. D3D12 surfaces use |texture_handle|,
+// |fence_handle|, and |fence_value|; the consumer waits for the fence before
+// GPU use and signals/releases ownership through FlutterDesktopViewReleaseSurface.
+typedef struct {
+  size_t struct_size;
+  FlutterDesktopWindowsSurfaceBackend backend;
+  FlutterDesktopWindowsSurfaceSync sync;
+  HANDLE texture_handle;
+  HANDLE fence_handle;
+  uint64_t fence_value;
+  uint32_t width;
+  uint32_t height;
+  DXGI_FORMAT format;
+  FlutterDesktopWindowsSurfaceAlphaMode alpha_mode;
+  uint64_t ring_generation;
+  uint64_t frame_generation;
+  uint32_t slot;
+  uint64_t consumer_acquire_key;
+  uint64_t producer_release_key;
+  uint64_t lease_id;
+} FlutterDesktopWindowsSurfaceV2;
 
 // Read-only state for the current exported Flutter surface stream.
 typedef struct {
@@ -373,6 +413,14 @@ FLUTTER_EXPORT void FlutterDesktopViewSetSurfacePublishedCallback(
 FLUTTER_EXPORT bool FlutterDesktopViewAcquireLatestSurface(
     FlutterDesktopViewRef view,
     FlutterDesktopWindowsSurface* surface_out);
+
+// Acquires an immutable lease on the latest exported frame using the versioned
+// ABI. Callers may request D3D12; implementations that cannot produce D3D12
+// return false so callers can fall back to D3D11 or fail closed.
+FLUTTER_EXPORT bool FlutterDesktopViewAcquireLatestSurfaceV2(
+    FlutterDesktopViewRef view,
+    const FlutterDesktopWindowsSurfaceAcquireOptions* options,
+    FlutterDesktopWindowsSurfaceV2* surface_out);
 
 // Releases a lease previously returned by AcquireLatestSurface.
 FLUTTER_EXPORT bool FlutterDesktopViewReleaseSurface(

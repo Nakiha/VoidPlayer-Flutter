@@ -69,6 +69,9 @@ class FlutterWindowsSurfaceExport {
   void CancelFrame(const WritableSurface& writable);
 
   bool AcquireLatest(FlutterDesktopWindowsSurface* surface_out);
+  bool AcquireLatestV2(
+      const FlutterDesktopWindowsSurfaceAcquireOptions* options,
+      FlutterDesktopWindowsSurfaceV2* surface_out);
   bool Release(uint64_t lease_id);
 
   uint64_t backpressure_count() const;
