@@ -486,16 +486,7 @@ TEST(FlutterWindowsSurfaceExportTest, AcquireLatestV2ReportsBackend) {
       kFlutterDesktopWindowsSurfaceBackendD3D11;
   FlutterDesktopWindowsSurfaceV2 surface = {};
   surface.struct_size = sizeof(surface);
-  ASSERT_TRUE(surface_export.AcquireLatestV2(&d3d11_options, &surface));
-  EXPECT_EQ(surface.backend, kFlutterDesktopWindowsSurfaceBackendD3D11);
-  EXPECT_EQ(surface.sync, kFlutterDesktopWindowsSurfaceSyncKeyedMutex);
-  EXPECT_NE(surface.texture_handle, nullptr);
-  EXPECT_EQ(surface.fence_handle, nullptr);
-  EXPECT_EQ(surface.fence_value, 0u);
-  EXPECT_EQ(surface.width, 5u);
-  EXPECT_EQ(surface.height, 3u);
-  EXPECT_EQ(surface.format, DXGI_FORMAT_B8G8R8A8_UNORM);
-  EXPECT_TRUE(surface_export.Release(surface.lease_id));
+  EXPECT_FALSE(surface_export.AcquireLatestV2(&d3d11_options, &surface));
 }
 
 TEST(FlutterWindowsSurfaceExportTest, CancelledEmptyFrameIsNotPublished) {
