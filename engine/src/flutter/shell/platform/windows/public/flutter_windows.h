@@ -86,12 +86,11 @@ typedef struct {
   FlutterDesktopWindowsSurfaceBackend requested_backend;
 } FlutterDesktopWindowsSurfaceAcquireOptions;
 
-// Versioned immutable lease on one exported Flutter frame. D3D11 surfaces use
-// |texture_handle| plus keyed-mutex keys. D3D12-capable consumers may request
-// the same NT shared texture handle as a D3D12 resource; |sync| describes
-// whether the lease is protected by keyed-mutex keys or by |fence_handle| and
-// |fence_value|. Consumers release ownership through
-// FlutterDesktopViewReleaseSurface.
+// Versioned immutable lease on one exported Flutter frame. V2 is a D3D12
+// consumer contract: callers must request D3D12 and open |texture_handle| on
+// their D3D12 device. |sync| describes whether the lease is protected by
+// keyed-mutex keys or by |fence_handle| and |fence_value|. Consumers release
+// ownership through FlutterDesktopViewReleaseSurface.
 typedef struct {
   size_t struct_size;
   FlutterDesktopWindowsSurfaceBackend backend;
@@ -417,8 +416,8 @@ FLUTTER_EXPORT bool FlutterDesktopViewAcquireLatestSurface(
     FlutterDesktopWindowsSurface* surface_out);
 
 // Acquires an immutable lease on the latest exported frame using the versioned
-// ABI. Callers may request D3D12; implementations that cannot produce D3D12
-// return false so callers can fall back to D3D11 or fail closed.
+// ABI. Callers must request D3D12; implementations that cannot produce D3D12
+// return false so callers can fail closed.
 FLUTTER_EXPORT bool FlutterDesktopViewAcquireLatestSurfaceV2(
     FlutterDesktopViewRef view,
     const FlutterDesktopWindowsSurfaceAcquireOptions* options,
