@@ -289,6 +289,14 @@ bool FlutterDesktopViewAcquireLatestSurface(
          ViewFromHandle(view)->AcquireLatestSurface(surface_out);
 }
 
+bool FlutterDesktopViewAcquireLatestSurfaceV2(
+    FlutterDesktopViewRef view,
+    const FlutterDesktopWindowsSurfaceAcquireOptions* options,
+    FlutterDesktopWindowsSurfaceV2* surface_out) {
+  return view != nullptr &&
+         ViewFromHandle(view)->AcquireLatestSurfaceV2(options, surface_out);
+}
+
 bool FlutterDesktopViewReleaseSurface(FlutterDesktopViewRef view,
                                       uint64_t lease_id) {
   return view != nullptr && ViewFromHandle(view)->ReleaseSurface(lease_id);
