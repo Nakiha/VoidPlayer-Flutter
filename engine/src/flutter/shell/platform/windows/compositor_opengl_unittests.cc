@@ -235,6 +235,7 @@ TEST_F(CompositorOpenGLTest, ExportFailurePreservesWindowPresentation) {
   ASSERT_NE(view()->surface_export(), nullptr);
   view()->surface_export()->SetMode(
       kFlutterDesktopWindowsSurfaceExportModeCompositorOwned);
+  view()->surface_export()->RecordFrameRequest();
 
   auto compositor =
       CompositorOpenGL{engine(), kMockResolver, /*enable_impeller=*/false};
@@ -254,6 +255,66 @@ TEST_F(CompositorOpenGLTest, ExportFailurePreservesWindowPresentation) {
   EXPECT_TRUE(compositor.Present(view(), &layer_ptr, 1));
 
   ASSERT_TRUE(compositor.CollectBackingStore(&backing_store));
+}
+
+TEST_F(CompositorOpenGLTest,
+       CompositorOwnedAttemptsFlutterFrameExportWithoutFramePumpToken) {
+  UseEngineWithView();
+  ASSERT_NE(view()->surface_export(), nullptr);
+  view()->surface_export()->SetMode(
+      kFlutterDesktopWindowsSurfaceExportModeCompositorOwned);
+
+  auto compositor =
+      CompositorOpenGL{engine(), kMockResolver, /*enable_impeller=*/false};
+  FlutterBackingStoreConfig config = {};
+  FlutterBackingStore backing_store = {};
+  EXPECT_CALL(*render_context(), MakeCurrent).WillOnce(Return(true));
+  ASSERT_TRUE(compositor.CreateBackingStore(config, &backing_store));
+
+  FlutterLayer layer = {};
+  layer.type = kFlutterLayerContentTypeBackingStore;
+  layer.backing_store = &backing_store;
+  const FlutterLayer* layer_ptr = &layer;
+
+  EXPECT_CALL(*surface(), IsValid).WillRepeatedly(Return(true));
+  EXPECT_CALL(*surface(), MakeCurrent).WillOnce(Return(true));
+  EXPECT_CALL(*surface(), SwapBuffers).WillOnce(Return(true));
+  EXPECT_TRUE(compositor.Present(view(), &layer_ptr, 1));
+
+  FlutterDesktopWindowsSurfaceExportState state = {};
+  state.struct_size = sizeof(state);
+  ASSERT_TRUE(view()->surface_export()->GetState(&state));
+  EXPECT_EQ(state.present_count, 1u);
+  EXPECT_EQ(state.export_begin_fail_count, 1u);
+  EXPECT_EQ(state.publish_count, 0u);
+  EXPECT_EQ(state.pending_frame_pump_frames, 0u);
+
+  ASSERT_TRUE(compositor.CollectBackingStore(&backing_store));
+}
+
+TEST_F(CompositorOpenGLTest,
+       CompositorOwnedAttemptsEmptyFrameExportWithoutFramePumpToken) {
+  UseEngineWithView();
+  ASSERT_NE(view()->surface_export(), nullptr);
+  view()->surface_export()->SetMode(
+      kFlutterDesktopWindowsSurfaceExportModeCompositorOwned);
+
+  auto compositor =
+      CompositorOpenGL{engine(), kMockResolver, /*enable_impeller=*/false};
+
+  EXPECT_CALL(*render_context(), MakeCurrent).WillOnce(Return(true));
+  EXPECT_CALL(*surface(), IsValid).WillRepeatedly(Return(true));
+  EXPECT_CALL(*surface(), MakeCurrent).WillOnce(Return(true));
+  EXPECT_CALL(*surface(), SwapBuffers).WillOnce(Return(true));
+  EXPECT_TRUE(compositor.Present(view(), nullptr, 0));
+
+  FlutterDesktopWindowsSurfaceExportState state = {};
+  state.struct_size = sizeof(state);
+  ASSERT_TRUE(view()->surface_export()->GetState(&state));
+  EXPECT_EQ(state.present_count, 1u);
+  EXPECT_EQ(state.export_begin_fail_count, 1u);
+  EXPECT_EQ(state.publish_count, 0u);
+  EXPECT_EQ(state.pending_frame_pump_frames, 0u);
 }
 
 TEST_F(CompositorOpenGLTest, SurfaceExportModeSwitchesAreStable) {
@@ -390,6 +451,44 @@ TEST(FlutterWindowsSurfaceExportTest,
   EXPECT_FALSE(surface_export.BeginFrame(5, 3).has_value());
 }
 
+TEST(FlutterWindowsSurfaceExportTest, AcquireLatestV2ReportsBackend) {
+  auto manager =
+      flutter::egl::Manager::Create(flutter::egl::GpuPreference::NoPreference);
+  ASSERT_NE(manager, nullptr);
+  FlutterWindowsSurfaceExport surface_export(manager.get());
+  surface_export.SetMode(kFlutterDesktopWindowsSurfaceExportModeMirror);
+
+  auto writable = surface_export.BeginFrame(5, 3);
+  ASSERT_TRUE(writable.has_value());
+  ASSERT_TRUE(surface_export.PublishFrame(*writable));
+
+  FlutterDesktopWindowsSurfaceAcquireOptions d3d12_options = {};
+  d3d12_options.struct_size = sizeof(d3d12_options);
+  d3d12_options.requested_backend =
+      kFlutterDesktopWindowsSurfaceBackendD3D12;
+  FlutterDesktopWindowsSurfaceV2 d3d12_surface = {};
+  d3d12_surface.struct_size = sizeof(d3d12_surface);
+  ASSERT_TRUE(
+      surface_export.AcquireLatestV2(&d3d12_options, &d3d12_surface));
+  EXPECT_EQ(d3d12_surface.backend, kFlutterDesktopWindowsSurfaceBackendD3D12);
+  EXPECT_EQ(d3d12_surface.sync, kFlutterDesktopWindowsSurfaceSyncKeyedMutex);
+  EXPECT_NE(d3d12_surface.texture_handle, nullptr);
+  EXPECT_EQ(d3d12_surface.fence_handle, nullptr);
+  EXPECT_EQ(d3d12_surface.fence_value, 0u);
+  EXPECT_EQ(d3d12_surface.width, 5u);
+  EXPECT_EQ(d3d12_surface.height, 3u);
+  EXPECT_EQ(d3d12_surface.format, DXGI_FORMAT_B8G8R8A8_UNORM);
+  EXPECT_TRUE(surface_export.Release(d3d12_surface.lease_id));
+
+  FlutterDesktopWindowsSurfaceAcquireOptions d3d11_options = {};
+  d3d11_options.struct_size = sizeof(d3d11_options);
+  d3d11_options.requested_backend =
+      kFlutterDesktopWindowsSurfaceBackendD3D11;
+  FlutterDesktopWindowsSurfaceV2 surface = {};
+  surface.struct_size = sizeof(surface);
+  EXPECT_FALSE(surface_export.AcquireLatestV2(&d3d11_options, &surface));
+}
+
 TEST(FlutterWindowsSurfaceExportTest, CancelledEmptyFrameIsNotPublished) {
   auto manager =
       flutter::egl::Manager::Create(flutter::egl::GpuPreference::NoPreference);
@@ -419,6 +518,7 @@ TEST(FlutterWindowsSurfaceExportTest, StateTracksRequestsAndPublishedFrames) {
 
   surface_export.SetMode(kFlutterDesktopWindowsSurfaceExportModeMirror);
   surface_export.RecordFrameRequest();
+  surface_export.RecordExportGpuSync(false);
   auto writable = surface_export.BeginFrame(3, 3);
   ASSERT_TRUE(writable.has_value());
   ASSERT_TRUE(surface_export.PublishFrame(*writable));
@@ -429,16 +529,53 @@ TEST(FlutterWindowsSurfaceExportTest, StateTracksRequestsAndPublishedFrames) {
   EXPECT_EQ(state.mode, kFlutterDesktopWindowsSurfaceExportModeMirror);
   EXPECT_EQ(state.request_count, 1u);
   EXPECT_EQ(state.publish_count, 1u);
+  EXPECT_EQ(state.export_flush_count, 1u);
+  EXPECT_EQ(state.export_finish_count, 0u);
   EXPECT_EQ(state.frame_generation, 1u);
   EXPECT_EQ(state.ring_generation, 1u);
   EXPECT_EQ(state.width, 3u);
   EXPECT_EQ(state.height, 3u);
   EXPECT_TRUE(state.latest_available);
-  EXPECT_FALSE(surface_export.ConsumeFramePumpToken());
+  surface_export.SetMode(kFlutterDesktopWindowsSurfaceExportModeCompositorOwned);
+  surface_export.RecordFrameRequest();
+  state = {};
+  state.struct_size = sizeof(state);
+  ASSERT_TRUE(surface_export.GetState(&state));
+  EXPECT_EQ(state.request_count, 2u);
+  EXPECT_GT(state.pending_frame_pump_frames, 0u);
+}
+
+TEST(FlutterWindowsSurfaceExportTest, FrameRequestsArmBoundedCompositorPump) {
+  FlutterWindowsSurfaceExport surface_export(nullptr);
+  FlutterDesktopWindowsSurfaceExportState state = {};
+  state.struct_size = sizeof(state);
 
   surface_export.SetMode(kFlutterDesktopWindowsSurfaceExportModeCompositorOwned);
   surface_export.RecordFrameRequest();
+  ASSERT_TRUE(surface_export.GetState(&state));
+  EXPECT_EQ(state.request_count, 1u);
+  ASSERT_GT(state.pending_frame_pump_frames, 0u);
+
+  const uint64_t initial_pending = state.pending_frame_pump_frames;
   EXPECT_TRUE(surface_export.ConsumeFramePumpToken());
+  ASSERT_TRUE(surface_export.GetState(&state));
+  EXPECT_EQ(state.pending_frame_pump_frames, initial_pending - 1);
+
+  uint64_t consumed_count = 1;
+  while (surface_export.ConsumeFramePumpToken()) {
+    ++consumed_count;
+  }
+  EXPECT_EQ(consumed_count, initial_pending);
+  ASSERT_TRUE(surface_export.GetState(&state));
+  EXPECT_EQ(state.pending_frame_pump_frames, 0u);
+  EXPECT_FALSE(surface_export.ConsumeFramePumpToken());
+
+  surface_export.RecordFrameRequest();
+  ASSERT_TRUE(surface_export.GetState(&state));
+  EXPECT_GT(state.pending_frame_pump_frames, 0u);
+  surface_export.SetMode(kFlutterDesktopWindowsSurfaceExportModeDisabled);
+  ASSERT_TRUE(surface_export.GetState(&state));
+  EXPECT_EQ(state.pending_frame_pump_frames, 0u);
 }
 
 TEST_F(CompositorOpenGLTest, PresentEmpty) {

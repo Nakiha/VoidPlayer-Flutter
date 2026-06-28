@@ -9,6 +9,9 @@
 #include "flutter/shell/platform/windows/flutter_windows_engine.h"
 #include "flutter/shell/platform/windows/flutter_windows_view.h"
 
+#include <cstdlib>
+#include <cstring>
+
 namespace flutter {
 
 namespace {
@@ -33,6 +36,20 @@ const BlitFramebufferProc& GetBlitFramebufferProc(
 
   // CompositorOpenGL::Initialize verifies that a blit procedure is available.
   FML_UNREACHABLE();
+}
+
+bool ShouldFinishSurfaceExportCommands() {
+  const char* sync_mode = std::getenv("FLUTTER_WINDOWS_SURFACE_EXPORT_SYNC");
+  return sync_mode != nullptr && std::strcmp(sync_mode, "finish") == 0;
+}
+
+bool SynchronizeSurfaceExportCommands(const impeller::ProcTableGLES& gl) {
+  if (ShouldFinishSurfaceExportCommands()) {
+    gl.Finish();
+    return true;
+  }
+  gl.Flush();
+  return false;
 }
 
 }  // namespace
@@ -163,25 +180,26 @@ bool CompositorOpenGL::Present(FlutterWindowsView* view,
 
   egl::WindowSurface* surface = view->surface();
   auto source_id = layers[0]->backing_store->open_gl.framebuffer.name;
-  auto export_mode = view->surface_export()
-                         ? view->surface_export()->mode()
+  auto* surface_export = view->surface_export();
+  auto export_mode = surface_export
+                         ? surface_export->mode()
                          : kFlutterDesktopWindowsSurfaceExportModeDisabled;
+  const bool compositor_owned =
+      export_mode == kFlutterDesktopWindowsSurfaceExportModeCompositorOwned;
   bool exported = false;
   if (export_mode != kFlutterDesktopWindowsSurfaceExportModeDisabled) {
-    if (view->surface_export()) {
-      view->surface_export()->RecordPresent();
+    if (surface_export) {
+      surface_export->RecordPresent();
     }
     exported = ExportFrame(view, source_id, width, height);
   }
 
-  if (export_mode ==
-          kFlutterDesktopWindowsSurfaceExportModeCompositorOwned &&
-      exported) {
+  if (compositor_owned && exported) {
     const bool pump_next_frame =
-        view->surface_export() &&
-        view->surface_export()->ConsumeFramePumpToken();
+        surface_export && surface_export->ConsumeFramePumpToken();
     view->OnFramePresented();
     if (pump_next_frame) {
+      surface_export->RecordScheduleFrame();
       engine_->ScheduleFrame();
     }
     return true;
@@ -244,7 +262,8 @@ bool CompositorOpenGL::ExportFrame(FlutterWindowsView* view,
       0, 0, static_cast<GLint>(width), static_cast<GLint>(height), 0, 0,
       static_cast<GLint>(width), static_cast<GLint>(height),
       GL_COLOR_BUFFER_BIT, GL_NEAREST);
-  gl_->Finish();
+  surface_export->RecordExportGpuSync(
+      SynchronizeSurfaceExportCommands(*gl_));
   if (!surface_export->PublishFrame(*writable)) {
     surface_export->RecordExportPublishFail();
     surface_export->CancelFrame(*writable);
@@ -272,7 +291,8 @@ bool CompositorOpenGL::ExportClearFrame(FlutterWindowsView* view,
   gl_->BindFramebuffer(GL_FRAMEBUFFER, kWindowFrameBufferId);
   gl_->ClearColor(0.0f, 0.0f, 0.0f, 0.0f);
   gl_->Clear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
-  gl_->Finish();
+  surface_export->RecordExportGpuSync(
+      SynchronizeSurfaceExportCommands(*gl_));
   if (!surface_export->PublishFrame(*writable)) {
     surface_export->RecordExportPublishFail();
     surface_export->CancelFrame(*writable);
@@ -330,25 +350,26 @@ bool CompositorOpenGL::Clear(FlutterWindowsView* view) {
   FML_DCHECK(view->surface()->IsValid());
 
   egl::WindowSurface* surface = view->surface();
-  auto export_mode = view->surface_export()
-                         ? view->surface_export()->mode()
+  auto* surface_export = view->surface_export();
+  auto export_mode = surface_export
+                         ? surface_export->mode()
                          : kFlutterDesktopWindowsSurfaceExportModeDisabled;
+  const bool compositor_owned =
+      export_mode == kFlutterDesktopWindowsSurfaceExportModeCompositorOwned;
   bool exported = false;
   if (export_mode != kFlutterDesktopWindowsSurfaceExportModeDisabled) {
-    if (view->surface_export()) {
-      view->surface_export()->RecordPresent();
+    if (surface_export) {
+      surface_export->RecordPresent();
     }
     exported =
         ExportClearFrame(view, surface->width(), surface->height());
   }
-  if (export_mode ==
-          kFlutterDesktopWindowsSurfaceExportModeCompositorOwned &&
-      exported) {
+  if (compositor_owned && exported) {
     const bool pump_next_frame =
-        view->surface_export() &&
-        view->surface_export()->ConsumeFramePumpToken();
+        surface_export && surface_export->ConsumeFramePumpToken();
     view->OnFramePresented();
     if (pump_next_frame) {
+      surface_export->RecordScheduleFrame();
       engine_->ScheduleFrame();
     }
     return true;

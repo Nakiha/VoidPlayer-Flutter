@@ -6,6 +6,9 @@
 
 #include "flutter/lib/ui/painting/image_encoding.h"
 #include "flutter/lib/ui/painting/image_encoding_impl.h"
+#if !SLIMPELLER
+#include "flutter/lib/ui/painting/image_encoding_skia.h"
+#endif  // !SLIMPELLER
 
 #include "flutter/common/task_runners.h"
 #include "flutter/fml/synchronization/waitable_event.h"
@@ -53,6 +56,21 @@ class MockSyncSwitch {
   MOCK_METHOD(void, SetSwitch, (bool value));
 };
 }  // namespace
+
+#if !SLIMPELLER
+TEST(ImageEncodingSkiaTest, ConvertNullDlImageReturnsNull) {
+  bool called = false;
+  ConvertImageToRasterSkia(
+      nullptr,
+      [&called](sk_sp<SkImage> image) {
+        called = true;
+        EXPECT_EQ(image, nullptr);
+      },
+      nullptr, nullptr, fml::WeakPtr<GrDirectContext>(),
+      fml::TaskRunnerAffineWeakPtr<SnapshotDelegate>(), nullptr);
+  EXPECT_TRUE(called);
+}
+#endif  // !SLIMPELLER
 
 TEST_F(ShellTest, EncodeImageGivesExternalTypedData) {
   auto native_encode_image = [&](Dart_NativeArguments args) {

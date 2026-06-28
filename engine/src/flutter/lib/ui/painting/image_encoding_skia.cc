@@ -19,6 +19,12 @@ void ConvertImageToRasterSkia(
     const fml::WeakPtr<GrDirectContext>& resource_context,
     const fml::TaskRunnerAffineWeakPtr<SnapshotDelegate>& snapshot_delegate,
     const std::shared_ptr<const fml::SyncSwitch>& is_gpu_disabled_sync_switch) {
+  if (!dl_image) {
+    FML_LOG(ERROR) << "Image backing was null.";
+    encode_task(nullptr);
+    return;
+  }
+
   // If the owning_context is kRaster, we can't access it on this task runner.
   if (dl_image->owning_context() != DlImage::OwningContext::kRaster) {
     auto image = dl_image->skia_image();

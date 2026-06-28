@@ -945,6 +945,13 @@ bool FlutterWindowsView::AcquireLatestSurface(
   return surface_export_ && surface_export_->AcquireLatest(surface_out);
 }
 
+bool FlutterWindowsView::AcquireLatestSurfaceV2(
+    const FlutterDesktopWindowsSurfaceAcquireOptions* options,
+    FlutterDesktopWindowsSurfaceV2* surface_out) {
+  return surface_export_ &&
+         surface_export_->AcquireLatestV2(options, surface_out);
+}
+
 bool FlutterWindowsView::ReleaseSurface(uint64_t lease_id) {
   return surface_export_ && surface_export_->Release(lease_id);
 }

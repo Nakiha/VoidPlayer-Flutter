@@ -11,6 +11,7 @@
 #include <wrl/client.h>
 
 #include <array>
+#include <chrono>
 #include <cstdint>
 #include <memory>
 #include <mutex>
@@ -49,6 +50,7 @@ class FlutterWindowsSurfaceExport {
   void RecordScheduleFrame();
   void RecordVsync();
   void RecordPresent();
+  void RecordExportGpuSync(bool waited_for_completion);
   void RecordExportMakeCurrentFail();
   void RecordExportPublishFail();
   bool ConsumeFramePumpToken();
@@ -67,6 +69,9 @@ class FlutterWindowsSurfaceExport {
   void CancelFrame(const WritableSurface& writable);
 
   bool AcquireLatest(FlutterDesktopWindowsSurface* surface_out);
+  bool AcquireLatestV2(
+      const FlutterDesktopWindowsSurfaceAcquireOptions* options,
+      FlutterDesktopWindowsSurfaceV2* surface_out);
   bool Release(uint64_t lease_id);
 
   uint64_t backpressure_count() const;
@@ -132,8 +137,24 @@ class FlutterWindowsSurfaceExport {
   uint64_t export_begin_fail_count_ = 0;
   uint64_t export_make_current_fail_count_ = 0;
   uint64_t export_publish_fail_count_ = 0;
+  uint64_t export_flush_count_ = 0;
+  uint64_t export_finish_count_ = 0;
   uint64_t backpressure_count_ = 0;
   uint32_t pending_frame_pump_frames_ = 0;
+  uint64_t acquire_count_ = 0;
+  uint64_t release_count_ = 0;
+  uint64_t last_request_time_us_ = 0;
+  uint64_t last_request_dispatch_time_us_ = 0;
+  uint64_t last_schedule_frame_time_us_ = 0;
+  uint64_t last_vsync_time_us_ = 0;
+  uint64_t last_present_time_us_ = 0;
+  uint64_t last_begin_time_us_ = 0;
+  uint64_t last_begin_fail_time_us_ = 0;
+  uint64_t last_backpressure_time_us_ = 0;
+  uint64_t last_publish_time_us_ = 0;
+  uint64_t last_export_sync_time_us_ = 0;
+  uint64_t last_acquire_time_us_ = 0;
+  uint64_t last_release_time_us_ = 0;
   bool shutdown_ = false;
 
   FML_DISALLOW_COPY_AND_ASSIGN(FlutterWindowsSurfaceExport);
