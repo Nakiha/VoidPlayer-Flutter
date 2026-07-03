@@ -24,10 +24,9 @@ constexpr uint64_t kFrameStreamIdleTimeoutNs = 150ull * 1000ull * 1000ull;
 constexpr uint64_t kFrameStreamSafetyFrameLimit = 600;
 
 uint64_t NowNs() {
-  return static_cast<uint64_t>(
-      std::chrono::duration_cast<std::chrono::nanoseconds>(
-          std::chrono::steady_clock::now().time_since_epoch())
-          .count());
+  return static_cast<uint64_t>(std::chrono::duration_cast<std::chrono::nanoseconds>(
+                                   std::chrono::steady_clock::now().time_since_epoch())
+                                   .count());
 }
 
 NSString* FlutterMacOSSurfaceExportPixelFormatString(MTLPixelFormat pixelFormat) {
@@ -69,8 +68,7 @@ NSString* FlutterMacOSSurfaceExportPixelFormatString(MTLPixelFormat pixelFormat)
                         width:(NSUInteger)width
                        height:(NSUInteger)height
                        device:(id<MTLDevice>)device {
-  if (width == 0 || height == 0 ||
-      width > std::numeric_limits<int32_t>::max() ||
+  if (width == 0 || height == 0 || width > std::numeric_limits<int32_t>::max() ||
       height > std::numeric_limits<int32_t>::max()) {
     return nil;
   }
@@ -80,8 +78,7 @@ NSString* FlutterMacOSSurfaceExportPixelFormatString(MTLPixelFormat pixelFormat)
   }
   _index = index;
   const size_t bytesPerElement = 4;
-  const size_t bytesPerRow =
-      IOSurfaceAlignProperty(kIOSurfaceBytesPerRow, width * bytesPerElement);
+  const size_t bytesPerRow = IOSurfaceAlignProperty(kIOSurfaceBytesPerRow, width * bytesPerElement);
   const size_t totalBytes = IOSurfaceAlignProperty(kIOSurfaceAllocSize, height * bytesPerRow);
   NSDictionary* options = @{
     (id)kIOSurfaceWidth : @(width),
@@ -233,7 +230,8 @@ NSString* FlutterMacOSSurfaceExportPixelFormatString(MTLPixelFormat pixelFormat)
   NSString* _lastError;
 }
 
-- (instancetype)initWithDevice:(id<MTLDevice>)device commandQueue:(id<MTLCommandQueue>)commandQueue {
+- (instancetype)initWithDevice:(id<MTLDevice>)device
+                  commandQueue:(id<MTLCommandQueue>)commandQueue {
   self = [super init];
   if (self) {
     _device = device;
@@ -432,8 +430,7 @@ NSString* FlutterMacOSSurfaceExportPixelFormatString(MTLPixelFormat pixelFormat)
     info[@"texture"] = lease.slot.texture;
     info[@"ioSurface"] = (__bridge id)ioSurface;
     info[@"ioSurfaceId"] = @(IOSurfaceGetID(ioSurface));
-    info[@"texturePointer"] =
-        @((uint64_t)(uintptr_t)(__bridge void*)lease.slot.texture);
+    info[@"texturePointer"] = @((uint64_t)(uintptr_t)(__bridge void*)lease.slot.texture);
     info[@"texturePixelFormat"] =
         FlutterMacOSSurfaceExportPixelFormatString(lease.slot.texture.pixelFormat);
     info[@"textureWidth"] = @(lease.slot.texture.width);

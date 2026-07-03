@@ -333,8 +333,8 @@ TEST(FlutterSurfaceManager, MacOSSurfaceExportSkipsWhenLatestIsUnacquired) {
 
   auto surface2 = [surfaceManager surfaceForSize:CGSizeMake(100, 100)];
   [surfaceManager presentSurfaces:@[ CreatePresentInfo(surface2) ] atTime:0 notify:nil];
-  EXPECT_NE(dispatch_semaphore_wait(published, dispatch_time(DISPATCH_TIME_NOW, 20 * NSEC_PER_MSEC)),
-            0);
+  EXPECT_NE(
+      dispatch_semaphore_wait(published, dispatch_time(DISPATCH_TIME_NOW, 20 * NSEC_PER_MSEC)), 0);
   [[NSNotificationCenter defaultCenter] removeObserver:observer];
 
   NSDictionary<NSString*, id>* state = [surfaceExport stateDictionary];
@@ -373,8 +373,8 @@ TEST(FlutterSurfaceManager, MacOSSurfaceExportBackpressuresWhenAllSlotsLeased) {
 
   auto surface = [surfaceManager surfaceForSize:CGSizeMake(100, 100)];
   [surfaceManager presentSurfaces:@[ CreatePresentInfo(surface) ] atTime:0 notify:nil];
-  EXPECT_NE(dispatch_semaphore_wait(published, dispatch_time(DISPATCH_TIME_NOW, 20 * NSEC_PER_MSEC)),
-            0);
+  EXPECT_NE(
+      dispatch_semaphore_wait(published, dispatch_time(DISPATCH_TIME_NOW, 20 * NSEC_PER_MSEC)), 0);
   [[NSNotificationCenter defaultCenter] removeObserver:observer];
 
   NSDictionary<NSString*, id>* state = [surfaceExport stateDictionary];
