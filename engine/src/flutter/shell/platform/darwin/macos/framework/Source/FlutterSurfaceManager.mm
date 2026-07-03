@@ -27,6 +27,7 @@ static NSString* const kVoidPlayerHDRSpikeEnvironmentKey = @"VOIDPLAYER_FLUTTER_
   // Available (cached) back buffer surfaces. These will be cleared during
   // present and replaced by current frong surfaces.
   FlutterBackBufferCache* _backBufferCache;
+  FlutterMacOSSurfaceExport* _macOSSurfaceExport;
 
   // Surfaces currently used to back visible layers.
   NSMutableArray<FlutterSurface*>* _frontSurfaces;
@@ -147,6 +148,8 @@ static void UpdateContentSubLayers(CALayer* layer,
     _delegate = delegate;
     _wideGamut = wideGamut;
     _backBufferCache = [[FlutterBackBufferCache alloc] init];
+    _macOSSurfaceExport = [[FlutterMacOSSurfaceExport alloc] initWithDevice:device
+                                                               commandQueue:commandQueue];
     _frontSurfaces = [NSMutableArray array];
     _layers = [NSMutableArray array];
     ConfigureLayerForWideGamutContent(_containingLayer, _wideGamut);
@@ -193,6 +196,10 @@ static void UpdateContentSubLayers(CALayer* layer,
   @synchronized(self) {
     return [_frontSurfaces copy];
   }
+}
+
+- (FlutterMacOSSurfaceExport*)macOSSurfaceExport {
+  return _macOSSurfaceExport;
 }
 
 - (NSArray*)layers {
@@ -289,6 +296,11 @@ static void UpdateContentSubLayers(CALayer* layer,
       _infoLayer.zPosition = 100000;
     }
     _infoLayer.string = [NSString stringWithFormat:@"Surface count: %li", _layers.count];
+  }
+
+  [_macOSSurfaceExport recordPresent];
+  if (_frontSurfaces.count > 0) {
+    [_macOSSurfaceExport publishSurfaceIfNeeded:_frontSurfaces.firstObject];
   }
 }
 

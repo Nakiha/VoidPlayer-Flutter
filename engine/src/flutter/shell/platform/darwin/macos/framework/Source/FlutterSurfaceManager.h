@@ -10,6 +10,7 @@
 
 #include <vector>
 
+#import "flutter/shell/platform/darwin/macos/framework/Source/FlutterMacOSSurfaceExport.h"
 #import "flutter/shell/platform/darwin/macos/framework/Source/FlutterSurface.h"
 
 /**
@@ -122,6 +123,7 @@
 // Returns an immutable snapshot. VoidPlayer's native compositor may enumerate
 // this off the platform thread while Flutter presents the next frame.
 @property(readonly, nonatomic, nonnull) NSArray<FlutterSurface*>* frontSurfaces;
+@property(readonly, nonatomic, nonnull) FlutterMacOSSurfaceExport* macOSSurfaceExport;
 @property(readonly, nonatomic, nonnull) NSArray<CALayer*>* layers;
 
 @end
