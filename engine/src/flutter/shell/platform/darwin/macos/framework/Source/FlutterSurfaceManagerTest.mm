@@ -254,6 +254,9 @@ TEST(FlutterSurfaceManager, MacOSSurfaceExportAutoPublishesPresentedFrames) {
   auto surface1 = [surfaceManager surfaceForSize:CGSizeMake(100, 100)];
   [surfaceManager presentSurfaces:@[ CreatePresentInfo(surface1) ] atTime:0 notify:nil];
   EXPECT_EQ(dispatch_semaphore_wait(published, dispatch_time(DISPATCH_TIME_NOW, NSEC_PER_SEC)), 0);
+  NSDictionary<NSString*, id>* first = [surfaceExport acquireLatestSurface];
+  ASSERT_NE(first, nil);
+  EXPECT_TRUE([surfaceExport releaseLease:[first[@"leaseId"] unsignedLongLongValue]]);
 
   auto surface2 = [surfaceManager surfaceForSize:CGSizeMake(100, 100)];
   [surfaceManager presentSurfaces:@[ CreatePresentInfo(surface2) ] atTime:0 notify:nil];
@@ -264,6 +267,7 @@ TEST(FlutterSurfaceManager, MacOSSurfaceExportAutoPublishesPresentedFrames) {
   EXPECT_TRUE([state[@"mode"] isEqualToString:@"export-ring-auto"]);
   EXPECT_EQ([state[@"publishCount"] unsignedLongLongValue], 2ull);
   EXPECT_EQ([state[@"autoPublishCount"] unsignedLongLongValue], 2ull);
+  EXPECT_EQ([state[@"autoPublishSkippedNoAcquireCount"] unsignedLongLongValue], 0ull);
   EXPECT_EQ([state[@"requestCount"] unsignedLongLongValue], 0ull);
   EXPECT_EQ([state[@"wakeupRequestCount"] unsignedLongLongValue], 0ull);
   EXPECT_EQ([state[@"frameStreamFramesSinceRequest"] unsignedLongLongValue], 0ull);
@@ -289,6 +293,9 @@ TEST(FlutterSurfaceManager, MacOSSurfaceExportRequestFrameOnlyRecordsWakeup) {
   auto surface1 = [surfaceManager surfaceForSize:CGSizeMake(100, 100)];
   [surfaceManager presentSurfaces:@[ CreatePresentInfo(surface1) ] atTime:0 notify:nil];
   EXPECT_EQ(dispatch_semaphore_wait(published, dispatch_time(DISPATCH_TIME_NOW, NSEC_PER_SEC)), 0);
+  NSDictionary<NSString*, id>* first = [surfaceExport acquireLatestSurface];
+  ASSERT_NE(first, nil);
+  EXPECT_TRUE([surfaceExport releaseLease:[first[@"leaseId"] unsignedLongLongValue]]);
 
   auto surface2 = [surfaceManager surfaceForSize:CGSizeMake(100, 100)];
   [surfaceManager presentSurfaces:@[ CreatePresentInfo(surface2) ] atTime:0 notify:nil];
@@ -298,10 +305,89 @@ TEST(FlutterSurfaceManager, MacOSSurfaceExportRequestFrameOnlyRecordsWakeup) {
   NSDictionary<NSString*, id>* state = [surfaceExport stateDictionary];
   EXPECT_EQ([state[@"publishCount"] unsignedLongLongValue], 2ull);
   EXPECT_EQ([state[@"autoPublishCount"] unsignedLongLongValue], 2ull);
+  EXPECT_EQ([state[@"autoPublishSkippedNoAcquireCount"] unsignedLongLongValue], 0ull);
   EXPECT_EQ([state[@"requestCount"] unsignedLongLongValue], 1ull);
   EXPECT_EQ([state[@"wakeupRequestCount"] unsignedLongLongValue], 1ull);
   EXPECT_EQ([state[@"pendingFramePumpFrames"] unsignedIntValue], 0u);
   EXPECT_FALSE([state[@"frameStreamArmed"] boolValue]);
+}
+
+TEST(FlutterSurfaceManager, MacOSSurfaceExportSkipsWhenLatestIsUnacquired) {
+  TestView* testView = [[TestView alloc] init];
+  FlutterSurfaceManager* surfaceManager = CreateSurfaceManager(testView);
+  FlutterMacOSSurfaceExport* surfaceExport = surfaceManager.macOSSurfaceExport;
+  [surfaceExport setEnabled:YES];
+
+  dispatch_semaphore_t published = dispatch_semaphore_create(0);
+  id observer = [[NSNotificationCenter defaultCenter]
+      addObserverForName:FlutterMacOSSurfaceExportPublishedNotification
+                  object:nil
+                   queue:nil
+              usingBlock:^(NSNotification* notification) {
+                dispatch_semaphore_signal(published);
+              }];
+
+  auto surface1 = [surfaceManager surfaceForSize:CGSizeMake(100, 100)];
+  [surfaceManager presentSurfaces:@[ CreatePresentInfo(surface1) ] atTime:0 notify:nil];
+  EXPECT_EQ(dispatch_semaphore_wait(published, dispatch_time(DISPATCH_TIME_NOW, NSEC_PER_SEC)), 0);
+
+  auto surface2 = [surfaceManager surfaceForSize:CGSizeMake(100, 100)];
+  [surfaceManager presentSurfaces:@[ CreatePresentInfo(surface2) ] atTime:0 notify:nil];
+  EXPECT_NE(dispatch_semaphore_wait(published, dispatch_time(DISPATCH_TIME_NOW, 20 * NSEC_PER_MSEC)),
+            0);
+  [[NSNotificationCenter defaultCenter] removeObserver:observer];
+
+  NSDictionary<NSString*, id>* state = [surfaceExport stateDictionary];
+  EXPECT_EQ([state[@"publishCount"] unsignedLongLongValue], 1ull);
+  EXPECT_EQ([state[@"autoPublishCount"] unsignedLongLongValue], 1ull);
+  EXPECT_EQ([state[@"autoPublishSkippedNoAcquireCount"] unsignedLongLongValue], 1ull);
+  EXPECT_TRUE([state[@"lastError"] isEqualToString:@"latest-not-acquired"]);
+}
+
+TEST(FlutterSurfaceManager, MacOSSurfaceExportBackpressuresWhenAllSlotsLeased) {
+  TestView* testView = [[TestView alloc] init];
+  FlutterSurfaceManager* surfaceManager = CreateSurfaceManager(testView);
+  FlutterMacOSSurfaceExport* surfaceExport = surfaceManager.macOSSurfaceExport;
+  [surfaceExport setEnabled:YES];
+
+  dispatch_semaphore_t published = dispatch_semaphore_create(0);
+  id observer = [[NSNotificationCenter defaultCenter]
+      addObserverForName:FlutterMacOSSurfaceExportPublishedNotification
+                  object:nil
+                   queue:nil
+              usingBlock:^(NSNotification* notification) {
+                dispatch_semaphore_signal(published);
+              }];
+
+  NSMutableArray<NSNumber*>* leaseIds = [NSMutableArray array];
+  for (NSUInteger i = 0; i < 3; ++i) {
+    auto surface = [surfaceManager surfaceForSize:CGSizeMake(100, 100)];
+    [surfaceManager presentSurfaces:@[ CreatePresentInfo(surface) ] atTime:0 notify:nil];
+    EXPECT_EQ(dispatch_semaphore_wait(published, dispatch_time(DISPATCH_TIME_NOW, NSEC_PER_SEC)),
+              0);
+    NSDictionary<NSString*, id>* acquired = [surfaceExport acquireLatestSurface];
+    ASSERT_NE(acquired, nil);
+    EXPECT_EQ([acquired[@"slot"] unsignedIntValue], static_cast<unsigned int>(i));
+    [leaseIds addObject:acquired[@"leaseId"]];
+  }
+
+  auto surface = [surfaceManager surfaceForSize:CGSizeMake(100, 100)];
+  [surfaceManager presentSurfaces:@[ CreatePresentInfo(surface) ] atTime:0 notify:nil];
+  EXPECT_NE(dispatch_semaphore_wait(published, dispatch_time(DISPATCH_TIME_NOW, 20 * NSEC_PER_MSEC)),
+            0);
+  [[NSNotificationCenter defaultCenter] removeObserver:observer];
+
+  NSDictionary<NSString*, id>* state = [surfaceExport stateDictionary];
+  EXPECT_EQ([state[@"publishCount"] unsignedLongLongValue], 3ull);
+  EXPECT_EQ([state[@"autoPublishCount"] unsignedLongLongValue], 3ull);
+  EXPECT_EQ([state[@"backpressureCount"] unsignedLongLongValue], 1ull);
+  EXPECT_EQ([state[@"exportBeginFailCount"] unsignedLongLongValue], 1ull);
+  EXPECT_EQ([state[@"leaseCount"] unsignedLongLongValue], 3ull);
+  EXPECT_TRUE([state[@"lastError"] isEqualToString:@"backpressure"]);
+
+  for (NSNumber* leaseId in leaseIds) {
+    EXPECT_TRUE([surfaceExport releaseLease:[leaseId unsignedLongLongValue]]);
+  }
 }
 
 TEST(FlutterSurfaceManager, BackingStoreCacheSurfaceStuckInUse) {

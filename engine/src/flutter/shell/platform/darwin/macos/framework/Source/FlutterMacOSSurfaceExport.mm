@@ -19,7 +19,7 @@ NSNotificationName const FlutterMacOSSurfaceExportPublishedNotification =
 
 namespace {
 
-constexpr NSUInteger kRingSize = 6;
+constexpr NSUInteger kRingSize = 3;
 constexpr uint64_t kFrameStreamIdleTimeoutNs = 150ull * 1000ull * 1000ull;
 constexpr uint64_t kFrameStreamSafetyFrameLimit = 600;
 
@@ -219,6 +219,7 @@ NSString* FlutterMacOSSurfaceExportPixelFormatString(MTLPixelFormat pixelFormat)
   uint64_t _acquireCount;
   uint64_t _releaseCount;
   uint64_t _autoPublishCount;
+  uint64_t _autoPublishSkippedNoAcquireCount;
   uint64_t _wakeupRequestCount;
   uint64_t _frameStreamArmCount;
   uint64_t _frameStreamIdleDisarmCount;
@@ -228,6 +229,7 @@ NSString* FlutterMacOSSurfaceExportPixelFormatString(MTLPixelFormat pixelFormat)
   uint64_t _previousPresentNs;
   uint32_t _pendingFramePumpFrames;
   BOOL _frameStreamArmed;
+  BOOL _latestAcquiredSincePublish;
   NSString* _lastError;
 }
 
@@ -241,6 +243,7 @@ NSString* FlutterMacOSSurfaceExportPixelFormatString(MTLPixelFormat pixelFormat)
     _nextRingGeneration = 1;
     _nextFrameGeneration = 1;
     _nextLeaseId = 1;
+    _latestAcquiredSincePublish = YES;
     _lastError = @"none";
   }
   return self;
@@ -261,6 +264,7 @@ NSString* FlutterMacOSSurfaceExportPixelFormatString(MTLPixelFormat pixelFormat)
     _pendingFramePumpFrames = 0;
     _frameStreamArmed = NO;
     _frameStreamFramesSinceRequest = 0;
+    _latestAcquiredSincePublish = YES;
     if (!enabled) {
       _activeRing = nil;
       _latestRing = nil;
@@ -329,6 +333,11 @@ NSString* FlutterMacOSSurfaceExportPixelFormatString(MTLPixelFormat pixelFormat)
   uint64_t ringGeneration = 0;
   @synchronized(self) {
     if (![self shouldPublishForCurrentPresentLocked]) {
+      return;
+    }
+    if (_latestSlot && !_latestAcquiredSincePublish) {
+      ++_autoPublishSkippedNoAcquireCount;
+      _lastError = @"latest-not-acquired";
       return;
     }
     if (!_activeRing || _activeRing.width != width || _activeRing.height != height) {
@@ -416,6 +425,7 @@ NSString* FlutterMacOSSurfaceExportPixelFormatString(MTLPixelFormat pixelFormat)
     ++lease.slot.leaseCount;
     [_leases addObject:lease];
     ++_acquireCount;
+    _latestAcquiredSincePublish = YES;
 
     IOSurfaceRef ioSurface = lease.slot.ioSurface;
     NSMutableDictionary<NSString*, id>* info = [NSMutableDictionary dictionary];
@@ -482,6 +492,7 @@ NSString* FlutterMacOSSurfaceExportPixelFormatString(MTLPixelFormat pixelFormat)
       @"publishCount" : @(_publishCount),
       @"autoPublishEnabled" : @(_enabled),
       @"autoPublishCount" : @(_autoPublishCount),
+      @"autoPublishSkippedNoAcquireCount" : @(_autoPublishSkippedNoAcquireCount),
       @"wakeupRequestCount" : @(_wakeupRequestCount),
       @"requestCount" : @(_requestCount),
       @"requestDispatchCount" : @(_requestDispatchCount),
@@ -634,6 +645,7 @@ NSString* FlutterMacOSSurfaceExportPixelFormatString(MTLPixelFormat pixelFormat)
     slot.frameGeneration = _nextFrameGeneration++;
     _latestRing = ring;
     _latestSlot = slot;
+    _latestAcquiredSincePublish = NO;
     ++_publishCount;
     if (_frameStreamArmed) {
       ++_frameStreamFramesSinceRequest;
