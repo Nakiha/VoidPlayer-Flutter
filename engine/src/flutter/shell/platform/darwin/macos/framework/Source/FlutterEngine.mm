@@ -1498,6 +1498,64 @@ static NSArray<NSDictionary<NSString*, id>*>* VoidPlayerHDRBuildFlutterSurfaceIn
   return VoidPlayerHDRBuildFlutterSurfaceInfos(viewController);
 }
 
+- (NSNumber*)voidPlayerMacOSSurfaceExportSetEnabled:(NSNumber*)enabled {
+  FlutterViewController* viewController = [self viewControllerForIdentifier:kFlutterImplicitViewId];
+  if (!viewController) {
+    return @NO;
+  }
+  [viewController.flutterView.surfaceManager.macOSSurfaceExport setEnabled:enabled.boolValue];
+  return @YES;
+}
+
+- (NSNumber*)voidPlayerMacOSSurfaceExportRequestFrame {
+  FlutterViewController* viewController = [self viewControllerForIdentifier:kFlutterImplicitViewId];
+  if (!viewController || !_engine) {
+    return @NO;
+  }
+  FlutterMacOSSurfaceExport* surfaceExport =
+      viewController.flutterView.surfaceManager.macOSSurfaceExport;
+  if (![surfaceExport requestFrame]) {
+    return @NO;
+  }
+  [surfaceExport recordRequestDispatch];
+  [self updateWindowMetricsForViewController:viewController];
+  FlutterEngineResult result = _embedderAPI.ScheduleFrame(_engine);
+  if (result == kSuccess) {
+    [surfaceExport recordScheduleFrame];
+    return @YES;
+  }
+  return @NO;
+}
+
+- (NSDictionary<NSString*, id>*)voidPlayerMacOSSurfaceExportAcquireLatest {
+  FlutterViewController* viewController = [self viewControllerForIdentifier:kFlutterImplicitViewId];
+  if (!viewController) {
+    return nil;
+  }
+  return [viewController.flutterView.surfaceManager.macOSSurfaceExport acquireLatestSurface];
+}
+
+- (NSNumber*)voidPlayerMacOSSurfaceExportReleaseLease:(NSNumber*)leaseId {
+  FlutterViewController* viewController = [self viewControllerForIdentifier:kFlutterImplicitViewId];
+  if (!viewController) {
+    return @NO;
+  }
+  return @([viewController.flutterView.surfaceManager.macOSSurfaceExport
+      releaseLease:leaseId.unsignedLongLongValue]);
+}
+
+- (NSDictionary<NSString*, id>*)voidPlayerMacOSSurfaceExportState {
+  FlutterViewController* viewController = [self viewControllerForIdentifier:kFlutterImplicitViewId];
+  if (!viewController) {
+    return @{
+      @"mode" : @"unavailable",
+      @"enabled" : @NO,
+      @"lastError" : @"no-view-controller",
+    };
+  }
+  return [viewController.flutterView.surfaceManager.macOSSurfaceExport stateDictionary];
+}
+
 - (void)addInternalPlugins {
   __weak FlutterEngine* weakSelf = self;
   [FlutterMouseCursorPlugin registerWithRegistrar:[self registrarForPlugin:@"mousecursor"]
