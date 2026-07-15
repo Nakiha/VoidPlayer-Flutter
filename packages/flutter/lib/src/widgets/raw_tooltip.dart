@@ -808,8 +808,11 @@ class RawTooltipState extends State<RawTooltip> with SingleTickerProviderStateMi
       layoutInfo.childSize.center(Offset.zero),
     );
 
-    // Keep the tooltip visible while the overlay child is hovered.
-    final Widget tooltip = IgnorePointer(
+    // Keep the tooltip visible while the overlay child is hovered. The visual
+    // overlay must follow [semanticsTooltip]: when it is null, exposing the
+    // builder's Text (or other semantic descendants) would reintroduce the
+    // tooltip into the semantics tree even though the target opted out.
+    Widget tooltip = IgnorePointer(
       ignoring: widget.ignorePointer,
       child: _ExclusiveMouseRegion(
         onEnter: _handleMouseEnter,
@@ -817,6 +820,9 @@ class RawTooltipState extends State<RawTooltip> with SingleTickerProviderStateMi
         child: widget.tooltipBuilder(context, _overlayAnimation),
       ),
     );
+    if (widget.semanticsTooltip == null || widget.semanticsTooltip!.isEmpty) {
+      tooltip = ExcludeSemantics(child: tooltip);
+    }
 
     final Widget overlayChild = Positioned.fill(
       bottom: MediaQuery.maybeViewInsetsOf(context)?.bottom ?? 0.0,

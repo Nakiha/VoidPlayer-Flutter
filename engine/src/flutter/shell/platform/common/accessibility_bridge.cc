@@ -5,6 +5,7 @@
 #include "accessibility_bridge.h"
 
 #include <functional>
+#include <unordered_set>
 #include <utility>
 
 #include "flutter/third_party/accessibility/ax/ax_tree_manager_map.h"
@@ -48,6 +49,58 @@ void AccessibilityBridge::AddFlutterSemanticsCustomActionUpdate(
 }
 
 void AccessibilityBridge::CommitUpdates() {
+  // Framework overlays can create and remove traversal-only semantics nodes
+  // before an embedder batch is committed. Such a node is present in the
+  // update map but is not referenced by the established tree or by any
+  // reachable pending parent. AXTree rejects the entire batch if it receives
+  // that detached node, which also drops unrelated valid updates in the same
+  // frame.
+  //
+  // Preserve every update rooted in an existing AX node and every new
+  // descendant reachable from those updates. The first tree population is
+  // intentionally left untouched because it has no established root yet.
+  if (GetRootAsAXNode()->id() != ui::AXNode::kInvalidAXID) {
+    std::unordered_set<int32_t> reachable_ids;
+    std::vector<int32_t> pending_ids;
+    for (const auto& [id, node] : pending_semantics_node_updates_) {
+      if (tree_->GetFromId(id)) {
+        reachable_ids.insert(id);
+        pending_ids.push_back(id);
+      }
+    }
+
+    while (!pending_ids.empty()) {
+      const int32_t id = pending_ids.back();
+      pending_ids.pop_back();
+      const auto node = pending_semantics_node_updates_.find(id);
+      if (node == pending_semantics_node_updates_.end()) {
+        continue;
+      }
+      for (const int32_t child_id :
+           node->second.children_in_traversal_order) {
+        if (pending_semantics_node_updates_.find(child_id) !=
+                pending_semantics_node_updates_.end() &&
+            reachable_ids.insert(child_id).second) {
+          pending_ids.push_back(child_id);
+        }
+      }
+    }
+
+    for (auto update = pending_semantics_node_updates_.begin();
+         update != pending_semantics_node_updates_.end();) {
+      if (reachable_ids.find(update->first) == reachable_ids.end()) {
+        update = pending_semantics_node_updates_.erase(update);
+      } else {
+        ++update;
+      }
+    }
+  }
+
+  if (pending_semantics_node_updates_.empty()) {
+    pending_semantics_custom_action_updates_.clear();
+    return;
+  }
+
   // AXTree cannot move a node in a single update.
   // This must be split across two updates:
   //
