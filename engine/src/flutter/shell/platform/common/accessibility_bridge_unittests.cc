@@ -164,6 +164,45 @@ TEST(AccessibilityBridgeTest, AddOrder) {
   EXPECT_EQ(child4_node->GetName(), "child 4");
 }
 
+TEST(AccessibilityBridgeTest,
+     DiscardsDetachedIncrementalNodesWithoutDroppingValidUpdates) {
+  std::shared_ptr<TestAccessibilityBridge> bridge =
+      std::make_shared<TestAccessibilityBridge>();
+
+  std::vector<int32_t> initial_children{1};
+  FlutterSemanticsNode2 initial_root =
+      CreateSemanticsNode(0, "root", &initial_children);
+  FlutterSemanticsNode2 initial_child =
+      CreateSemanticsNode(1, "initial child");
+  bridge->AddFlutterSemanticsNodeUpdate(initial_root);
+  bridge->AddFlutterSemanticsNodeUpdate(initial_child);
+  bridge->CommitUpdates();
+
+  std::vector<int32_t> updated_children{1, 2};
+  FlutterSemanticsNode2 updated_root =
+      CreateSemanticsNode(0, "root", &updated_children);
+  FlutterSemanticsNode2 added_child = CreateSemanticsNode(2, "added child");
+  FlutterSemanticsNode2 detached_node =
+      CreateSemanticsNode(99, "detached overlay traversal node");
+  bridge->AddFlutterSemanticsNodeUpdate(detached_node);
+  bridge->AddFlutterSemanticsNodeUpdate(added_child);
+  bridge->AddFlutterSemanticsNodeUpdate(updated_root);
+  bridge->CommitUpdates();
+
+  auto root_node = bridge->GetFlutterPlatformNodeDelegateFromID(0).lock();
+  auto added_child_node =
+      bridge->GetFlutterPlatformNodeDelegateFromID(2).lock();
+  auto detached_node_delegate =
+      bridge->GetFlutterPlatformNodeDelegateFromID(99).lock();
+  ASSERT_TRUE(root_node);
+  ASSERT_TRUE(added_child_node);
+  EXPECT_EQ(root_node->GetChildCount(), 2);
+  EXPECT_EQ(root_node->GetData().child_ids[0], 1);
+  EXPECT_EQ(root_node->GetData().child_ids[1], 2);
+  EXPECT_EQ(added_child_node->GetName(), "added child");
+  EXPECT_FALSE(detached_node_delegate);
+}
+
 TEST(AccessibilityBridgeTest, CanFireChildrenChangedCorrectly) {
   std::shared_ptr<TestAccessibilityBridge> bridge =
       std::make_shared<TestAccessibilityBridge>();

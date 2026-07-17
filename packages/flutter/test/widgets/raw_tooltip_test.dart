@@ -1631,7 +1631,7 @@ void main() {
             semanticsTooltip: null,
             tooltipBuilder: (BuildContext context, Animation<double> animation) =>
                 const Text('Foo'),
-            child: const Text('Bar'),
+            child: const SizedBox(width: 100, height: 100, child: Text('Bar')),
           ),
         ),
       ),
@@ -1658,6 +1658,12 @@ void main() {
         ignoreTransform: true,
       ),
     );
+
+    final TestGesture mouse = await tester.createGesture(kind: PointerDeviceKind.mouse);
+    await mouse.addPointer(location: tester.getCenter(find.byType(RawTooltip)));
+    await tester.pumpAndSettle();
+    expect(find.text('Foo'), findsOneWidget);
+    expect(semantics.nodesWith(label: 'Foo'), isEmpty);
 
     semantics.dispose();
   });
