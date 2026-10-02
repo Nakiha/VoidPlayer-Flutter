@@ -102,6 +102,18 @@ FLUTTER_DARWIN_EXPORT
 - (nonnull NSArray<NSDictionary<NSString*, id>*>*)voidPlayerHDRCurrentFlutterSurfaceInfos;
 
 /**
+ * VoidPlayer macOS surface export ring hooks. These are fork-private APIs used by VoidPlayer's
+ * retained native compositor. `AcquireLatest` returns native-only `texture` and `ioSurface`
+ * entries plus serializable generation/lease metadata. The caller must release each acquired
+ * lease through `voidPlayerMacOSSurfaceExportReleaseLease:`.
+ */
+- (nonnull NSNumber*)voidPlayerMacOSSurfaceExportSetEnabled:(nonnull NSNumber*)enabled;
+- (nonnull NSNumber*)voidPlayerMacOSSurfaceExportRequestFrame;
+- (nullable NSDictionary<NSString*, id>*)voidPlayerMacOSSurfaceExportAcquireLatest;
+- (nonnull NSNumber*)voidPlayerMacOSSurfaceExportReleaseLease:(nonnull NSNumber*)leaseId;
+- (nonnull NSDictionary<NSString*, id>*)voidPlayerMacOSSurfaceExportState;
+
+/**
  * Shuts the Flutter engine if it is running. The FlutterEngine instance must always be shutdown
  * before it may be collected. Not shutting down the FlutterEngine instance before releasing it will
  * result in the leak of that engine instance.
